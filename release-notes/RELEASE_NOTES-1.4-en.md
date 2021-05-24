@@ -6,8 +6,12 @@
 - When creating a new vehicle trial appointment we now auto-generate the task label. You can still change it which will cancel auto-generation process.
 - You can now send an email to a customer from it's detail page. This requires an email client to be defined on your operating system.
 - Visibility of the button that allows to assign a reference to a product without one on a basket has an increased visibility.
-
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.4.0/basket-button.png" width="200" class="mx-2"/>
+  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.4.0/basket-button.png" width="200" class="mx-2"/>
+- On the _waiting for order_ screen, the configuration of the pinned columns are now kept when you return to the page.
+- Added a button to refresh the list and the status of the _waiting for order_ lines.
+- It is now possible to cancel a line of _product's order_. When you cancel a line, all unreceived quantities are marked as _canceled_. If necessary, you can edit the quantity from the detailed orders screen to put it back in _ordered_ status.
+- Added a button to refresh the status of an order on the details screen.
+- It is now possible to access the order, linked to the line, from the _Product's order_ view.
 
 ## Calls and ringover integration
 
