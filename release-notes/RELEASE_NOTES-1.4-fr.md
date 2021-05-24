@@ -3,9 +3,11 @@
 - Sur la page de détail d'un produit, un graphique indique le prix d'achat du produit pour chaque réception ainsi que le prix moyen pondéré (ce qu'a coûté chaque produit en moyenne) et le cours moyen auquel les produits ont été achetés (prix moyen non pondéré).
 - La selection de fournisseur lors de la création d'un dossier véhicule ou d'un produit a été améliorée.
 - Il est désormais possible de choisir quelle adresse du client est utilisée lors de l'édition d'une facture de ticket de caisse.
-- Le bouton permettant d'assigner une référence produit à un objet sans référence dans le panier est désormais plus visible.
 - Lors de la création d'un nouvel essai véhicule, le libellé de la tâche est désormais auto-généré. Il peut toujours être modifié ce qui annulera l'auto-génération.
 - Vous pouvez désormais envoyer un email directement depuis la fiche d'un client. Cela nécessite qu'un client email soit bien défini dans votre système d'exploitation.
+- Le bouton permettant d'assigner une référence produit à un objet sans référence dans le panier est désormais plus visible.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.4.0/basket-button" width="200" class="mx-2"/>
 
 ## Appels et intégration ringover
 
@@ -17,9 +19,38 @@
 
 Nous avons revu l'organisation de la bare de navigation principale en regroupant les différents éléments de manière plus logique.
 
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.4.0/navbar.png" width="100%"/>
+
+Vous trouvez désormais à gauche votre contexte de travail:
+
+- La concession sur laquelle vous êtes connecté
+- Et l'entrepôt dans lequel vous travaillez
+
+Vient ensuite les racourcis vous permettant de créer rapidement:
+
+- Un panier vide pour une vente rapide à un client de passage par exemple / Le panier est créé sans client mais vous pouvez toujours le ré-associer par la suite.
+- Un essai véhicule
+- Un rendez vous atelier
+
+Ainsi que la barre de recherche qui vous permet d'accéder à un client ou véhicule.
+
+Enfin, la dernière section se focalise sur votre historique:
+
+- Votre historique d'activité sur l'application bureau
+- Votre historique d'activité sur l'application mobile / qui vous permet de rapidement passer de l'un à l'autre
+- Votre historique d'appels téléphoniques si vous bénéficiez de l'intégration ringover
+
+Et comme avant le bouton permettant d'afficher ou non les marges et prix d'achat dans l'application.
+
 ## Amélioration de la navigation du stock
 
 Nous avons revu l'ordre et l'accès par défaut aux vues de stock afin d'améliorer votre productivité.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.4.0/stock-tabs.png" width="100%"/>
+
+Lorsque vous accédez à l'onglet stock, vous êtes désormais directement redirigés vers l'onglet 'En attente de commande'.
+
+De plus l'ordre des onglets a été modifié pour mieux refletter l'ordre logique d'un flux stock.
 
 ## Correction de bugs
 
