@@ -17,9 +17,15 @@
 
 - Nous avons ajouté des indicateurs sur les icônes des activités téléphone pour une meilleure compréhension de ceux-ci
 - Vous pouvez désormais commenter une activité téléphonique afin d'y ajouter un résumé de l'appel.
-- La liste de vos derniers appels est désormais accessible directement depuis la bare de navigation principale.
 
-## Barre de navigation
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.4.0/call-comment.png" width="300" class="mx-2"/>
+
+- La liste de vos derniers appels est désormais accéssible directement depuis la bare de navigation principale.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.4.0/missed-call-pill.png" width="300" class="mx-2"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.4.0/recent-call-list.png" width="300" class="mx-2"/>
+
+## Bare de navigation
 
 Nous avons revu l'organisation de la bare de navigation principale en regroupant les différents éléments de manière plus logique.
 

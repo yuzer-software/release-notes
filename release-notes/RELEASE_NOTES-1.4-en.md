@@ -17,7 +17,13 @@
 
 - We added tooltips to better understand the icons on a call activity.
 - You can now comment on a call activity to provide a quick summary of the call.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.4.0/call-comment.png" width="300" class="mx-2"/>
+
 - List of your last calls can now be accessed directly from the top navigation bar.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.4.0/missed-call-pill.png" width="300" class="mx-2"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.4.0/recent-call-list.png" width="300" class="mx-2"/>
 
 ## Top navigation bar review
 
