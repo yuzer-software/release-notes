@@ -7,7 +7,7 @@
 - Vous pouvez désormais envoyer un email directement depuis la fiche d'un client. Cela nécessite qu'un client email soit bien défini dans votre système d'exploitation.
 - Le bouton permettant d'assigner une référence produit à un objet sans référence dans le panier est désormais plus visible.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.4.0/basket-button" width="200" class="mx-2"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.4.0/basket-button.png" width="200" class="mx-2"/>
 
 ## Appels et intégration ringover
 

@@ -7,7 +7,7 @@
 - You can now send an email to a customer from it's detail page. This requires an email client to be defined on your operating system.
 - Visibility of the button that allows to assign a reference to a product without one on a basket has an increased visibility.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.4.0/basket-button" width="200" class="mx-2"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.4.0/basket-button.png" width="200" class="mx-2"/>
 
 ## Calls and ringover integration
 
