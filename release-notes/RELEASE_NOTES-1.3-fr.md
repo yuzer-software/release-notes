@@ -181,7 +181,3 @@ Lorsqu'aucun produit n'est sélectionné, vous pouvez cliquer sur le bouton <img
 Note : si vous avez besoin de prélever le produit depuis plusieurs emplacements différents, vous devez ajuster manuellement la quantité réellement prélevée depuis l'emplacement indiqué, _préparer_ la ligne, puis recommencer l'opération avec un autre emplacement de stockage. (Au final, vous devriez avoir fait un prélèvement pour chaque emplacement de stockage.)
 
 Toute autre action reste possible.
-
-<div class="d-flex justify-content-end">
-  <div>[Version pécédente 1.2](https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/RELEASE_NOTES-1.2-fr.md)</div>
-</div>

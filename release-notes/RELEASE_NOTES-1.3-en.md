@@ -152,7 +152,3 @@ When no product is set, you may click on a basket line's pick button <img src="h
 Note: if you need to pick your product from multiple locations, you will have to manually **decrease the quantity** to fit the quantity you really picked from the selected location, then _prepare_ the line, and then repeat the operation with another storage location. (At last, you should have done one picking per storage location.)
 
 Note: any other action is still possible.
-
-<div class="d-flex justify-content-end">
-  <div>[Previous version 1.2](https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/RELEASE_NOTES-1.2-fr.md)</div>
-</div>

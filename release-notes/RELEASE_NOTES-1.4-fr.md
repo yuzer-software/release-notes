@@ -31,7 +31,3 @@ Nous avons revu l'ordre et l'accès par défaut aux vues de stock afin d'amélio
 - Les règles de réassort ne fonctionnaient pas sur certains produits aux références exotiques.
 - Corrige l'affichage du widget de chiffre d'affaire qui ne se chargait pas dans de rares situations (données du catalogue initial incorrectes)
 - Corrige un problème empêchant le démarrage d'un prêt lorsque le niveau de carburant du véhicule n'était pas défini dans le dossier ni mis à jour avant le prêt.
-
-<div class="d-flex justify-content-end">
-  <div>[Version pécédente 1.3](https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/RELEASE_NOTES-1.3-fr.md)</div>
-</div>

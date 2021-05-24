@@ -9,7 +9,3 @@
 - Improvements of reception when a single reservation was added twice.
 - Order export is now fixed when no configuration is defined.
 - Reserve button of the basket stock management modal is now disabled once the stock has been processed.
-
-<div class="d-flex justify-content-end">
-  <div>[Previous version 1.1](https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/RELEASE_NOTES-1.1-fr.md)</div>
-</div>
