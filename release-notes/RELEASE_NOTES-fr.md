@@ -47,15 +47,15 @@ Nous avons revu l'ordre et l'accès par défaut aux vues de stock afin d'amélio
 
 Vous pouvez désormais configurer de multiples identités visuelles en plus du logo standard de la société à l'aide d'une gallerie d'images sur la configuration des informations de la concession.
 
-<img src="./assets/release-notes/1.3.0/identity-cfg.png" width="100%" class="mb-3"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.3.0/identity-cfg.png" width="100%" class="mb-3"/>
 
 Ces identités visuelles sont proposées lors de l'édition d'un document
 
-<img src="./assets/release-notes/1.3.0/identity-select.png" width="300" class="mb-3"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.3.0/identity-select.png" width="300" class="mb-3"/>
 
 Afin que vos documents reflettent mieux l'identité de la marque ou de votre concession
 
-<img src="./assets/release-notes/1.3.0/identity-document.png" width="300" class="mb-3"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.3.0/identity-document.png" width="300" class="mb-3"/>
 
 ## Intégration avec Ringover
 
@@ -65,7 +65,7 @@ Cette nouvelle version introduit la connection entre Yuzer et votre compte de se
 
 Afin de configurer l'intégration, rendez-vous dans la section téléphonie du paneau d'administration et suivez les étapes décrites.
 
-<img src="./assets/release-notes/1.3.0/ringover-cfg.png" width="100%" class="mb-3"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.3.0/ringover-cfg.png" width="100%" class="mb-3"/>
 
 Notez que suite à votre authentification sur ringover, la redirection vers le lien désiré est perdue et vous arriverez sur la page principale de votre panneau de configuration ringover. Vous pouvez re-cliquer sur le lien de l'étape 1 afin d'être redirigé vers le bon emplacement.
 
@@ -73,19 +73,19 @@ Notez que suite à votre authentification sur ringover, la redirection vers le l
 
 Une fois le lien avec Ringover établi vous devez configurer dans Yuzer le numéro de téléphone associé à vos employés.
 
-<img src="./assets/release-notes/1.3.0/ringover-user.png" width="100%" class="mb-3"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.3.0/ringover-user.png" width="100%" class="mb-3"/>
 
 ### Notifications sur appels
 
 Lorsque vous recevez un appel téléphonique Yuzer va afficher une notification qui vous permettra d'accéder à la fiche du client vous appelant.
 
-<img src="./assets/release-notes/1.3.0/ringover-notification.png" width="300" class="mb-3"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.3.0/ringover-notification.png" width="300" class="mb-3"/>
 
 ### Activité client
 
 Les activités des appels ou SMS reçus par Ringover sont affichés directement sur la page de contact.
 
-<img src="./assets/release-notes/1.3.0/ringover-activity.png" width="600" class="mb-3"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.3.0/ringover-activity.png" width="600" class="mb-3"/>
 
 ## Traitement de stock pour les préparation de véhicules
 
@@ -101,19 +101,19 @@ Concrètement, lors de l'édition de la facture de cession, la modale de gestion
 
 Vous pouvez alors choisir de ne pas impacter le stock au lieu d'effectuer le prélèvement :
 
-<img src="./assets/release-notes/1.3.0/stock-process-pick-or-ignore.png" width="400" class="mb-3"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.3.0/stock-process-pick-or-ignore.png" width="400" class="mb-3"/>
 
 Dans ce cas la ligne s'affichera comme tel :
 
-<img src="./assets/release-notes/1.3.0/stock-process-ignore-display.png" width="400" class="mb-3"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.3.0/stock-process-ignore-display.png" width="400" class="mb-3"/>
 
 Si vous effectuez un prélèvement vous aurez le choix de monter la pièce sur le véhicule (par défaut) ou bien de le déstocker (par exemple si la vente de véhicule aurait déjà impacté le stock) :
 
-<img src="./assets/release-notes/1.3.0/stock-process-choose-out-or-move.png" width="600" class="mb-3"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.3.0/stock-process-choose-out-or-move.png" width="600" class="mb-3"/>
 
 De nouveaux icônes ont été ajoutés à côté du nombre de quantité traitées pour indiquer comment le stock a été impacter.
 
-<img src="./assets/release-notes/1.3.0/stock-process-icons.png" width="600" class="mb-3"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.3.0/stock-process-icons.png" width="600" class="mb-3"/>
 
 ## Picking de panier par l'application mobile
 
@@ -125,23 +125,23 @@ Il y a trois façons d'accéder au panier.
 
 - Depuis les _Travaux récents sur l'application de bureau_ (menu latéral) : si vous avez travaillé sur un panier depuis l'application de bureau, vous le retrouverez sur l'application mobile, et inversement.
 
-  <img src="./assets/release-notes/1.2.0/last-works.png" width="200" class="mb-3"/>
+  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.2.0/last-works.png" width="200" class="mb-3"/>
 
 - Depuis vos tâches, en cliquant sur l'icône de panier en bas à gauche.
 
-  <img src="./assets/release-notes/1.2.0/open-basket-from-task.png" width="200" class="mb-3"/>
+  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.2.0/open-basket-from-task.png" width="200" class="mb-3"/>
 
 - En scannant le QR-code de la modale de gestion de stock (cliquez sur le qr-code pour l'agrandir).
 
-  <img src="./assets/release-notes/1.2.0/open-basket-stock.png" height="50" class="mb-3"/>
+  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.2.0/open-basket-stock.png" height="50" class="mb-3"/>
 
-  <img src="./assets/release-notes/1.2.0/open-basket-stock-qr-code.png" height="50" class="mb-3"/>
+  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.2.0/open-basket-stock-qr-code.png" height="50" class="mb-3"/>
 
 ### Vue du panier
 
 La vue du panier dans l'application mobile est allégée et adaptée à la préparation du panier. Pour chaque ligne de produit, un compteur indique la quantité déjà préparée et la quantité à préparer.
 
-  <img src="./assets/release-notes/1.2.0/basket-detail.png" width="200" class="mb-4"/>
+  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.2.0/basket-detail.png" width="200" class="mb-4"/>
 
 ### Préparation du panier
 
@@ -154,7 +154,7 @@ Pour ajouter un produit au panier, quatre informations sont nécessaires :
 
 #### Prélever un produit quelconque
 
-Vous pouvez cliquer sur le bouton <img src="./assets/release-notes/1.2.0/pick-button.png" height="20"/> pour prélever un produit quelconque, en utilisant _le scanner_ ou _la saisie manuelle_.
+Vous pouvez cliquer sur le bouton <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.2.0/pick-button.png" height="20"/> pour prélever un produit quelconque, en utilisant _le scanner_ ou _la saisie manuelle_.
 
 - Lorsque **le produit** est renseigné, seules les lignes de panier correspondantes à ce produit restent visibles.
 - Lorsque **le produit _et_ l'emplacement** sont renseignés, la quantité _totale_ du produit à préparer pour ce panier est calculée.
@@ -162,16 +162,16 @@ Vous pouvez cliquer sur le bouton <img src="./assets/release-notes/1.2.0/pick-bu
 <table class="mb-4">
   <tr>
     <td>
-      <img src="./assets/release-notes/1.2.0/basket-detail.png" width="200" class="mx-2"/>
+      <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.2.0/basket-detail.png" width="200" class="mx-2"/>
     </td>
     <td>
-      <img src="./assets/release-notes/1.2.0/scan-item.png" width="200" class="mx-2"/>
+      <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.2.0/scan-item.png" width="200" class="mx-2"/>
     </td>
     <td>
-      <img src="./assets/release-notes/1.2.0/scan-location.png" width="200" class="mx-2"/>
+      <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.2.0/scan-location.png" width="200" class="mx-2"/>
     </td>
     <td>
-      <img src="./assets/release-notes/1.2.0/filtered-basket.png" width="200" class="mx-2"/>
+      <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.2.0/filtered-basket.png" width="200" class="mx-2"/>
     </td>
   </tr>
   <tr class="text-center">
@@ -192,25 +192,25 @@ Vous pouvez cliquer sur le bouton <img src="./assets/release-notes/1.2.0/pick-bu
 
 Plusieurs actions sont alors possibles :
 
-- cliquer sur le bouton <img src="./assets/release-notes/1.2.0/pick-line-item.png" height="20"/> d'une _ligne_ de panier prépare _cette ligne_ (et uniquement cette ligne) avec la quantité de produit indiquée sur le bouton (ici : 20). La quantité restante est mise à jour.
+- cliquer sur le bouton <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.2.0/pick-line-item.png" height="20"/> d'une _ligne_ de panier prépare _cette ligne_ (et uniquement cette ligne) avec la quantité de produit indiquée sur le bouton (ici : 20). La quantité restante est mise à jour.
 
-  <img src="./assets/release-notes/1.2.0/pick-line-item-lg.png" width="200" class="mb-3"/>
+  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.2.0/pick-line-item-lg.png" width="200" class="mb-3"/>
 
-- cliquer sur le bouton <img src="./assets/release-notes/1.2.0/pick-group.png" height="20"/> d'un _groupe de tâche_ ou d'un _groupe de facturation_ crée une nouvelle ligne dans le groupe correspondant avec la quantité indiquée (ici : 22) et prépare immédiatement cette ligne.
+- cliquer sur le bouton <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.2.0/pick-group.png" height="20"/> d'un _groupe de tâche_ ou d'un _groupe de facturation_ crée une nouvelle ligne dans le groupe correspondant avec la quantité indiquée (ici : 22) et prépare immédiatement cette ligne.
 
-  <img src="./assets/release-notes/1.2.0/pick-group-lg.png" width="200" class="mb-3"/>
+  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.2.0/pick-group-lg.png" width="200" class="mb-3"/>
 
 - cliquer sur le bouton "Répartir automatiquement" (juste en dessous de la quantité) répartit la quantité sur toutes les lignes existantes du panier. Si la quantité à préparer excède la quantité totale à préparer, vous devrez vous-même créer une ligne de panier comme indiqué ci-dessus.
 
-  <img src="./assets/release-notes/1.2.0/auto-pick.png" width="200" class="mb-3"/>
+  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.2.0/auto-pick.png" width="200" class="mb-3"/>
 
 Tant que la quantité n'est pas nulle, ces actions sont toujours disponibles.
 
 #### Prélever un produit pour une ligne de panier particulière
 
-Lorsqu'aucun produit n'est sélectionné, vous pouvez cliquer sur le bouton <img src="./assets/release-notes/1.2.0/pick-line-no-item.png" height="20"/> d'une ligne du panier : le produit et la quantité sont alors sélectionnés pour la préparation de cette ligne. Vous n'avez plus qu'à choisir l'emplacement de prélèvement. La saisie manuelle vous est proposée par défaut car les emplacements de votre entrepôt contenant le produit sont affichés.
+Lorsqu'aucun produit n'est sélectionné, vous pouvez cliquer sur le bouton <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.2.0/pick-line-no-item.png" height="20"/> d'une ligne du panier : le produit et la quantité sont alors sélectionnés pour la préparation de cette ligne. Vous n'avez plus qu'à choisir l'emplacement de prélèvement. La saisie manuelle vous est proposée par défaut car les emplacements de votre entrepôt contenant le produit sont affichés.
 
-  <img src="./assets/release-notes/1.2.0/pick-line-no-item-lg.png" width="200" class="mb-3"/>
+  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.2.0/pick-line-no-item-lg.png" width="200" class="mb-3"/>
 
 Note : si vous avez besoin de prélever le produit depuis plusieurs emplacements différents, vous devez ajuster manuellement la quantité réellement prélevée depuis l'emplacement indiqué, _préparer_ la ligne, puis recommencer l'opération avec un autre emplacement de stockage. (Au final, vous devriez avoir fait un prélèvement pour chaque emplacement de stockage.)
 
@@ -248,7 +248,7 @@ Cette version introduit une réécriture majeure de la gestion des réservations
 
 Yuzer arbore désormais son logo définitif. Nous espérons que vous l'aimerez autant que nous!
 
-<img src="./assets/release-notes/1.1.0/icon.png" width="100"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.1.0/icon.png" width="100"/>
 
 # Nouveautés
 
@@ -256,7 +256,7 @@ Lorsqu'une nouvelle version de l'application démarre, la page nouveauté s'ouvr
 
 Vous pouvez également ré-ouvrir cette page à tout moment en cliquant sur le numéro de version de Yuzer dans le coin en bas à gauche de l'application.
 
-<img src="./assets/release-notes/1.1.0/version-click.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.1.0/version-click.png" width="100%"/>
 
 ## Nouveau flux de gestion du stock du panier à la réception
 
@@ -277,11 +277,11 @@ Juste avant de créer un bon de commande ou un order de réparation nous effectu
 - Chaque élément en stock devient _Réservé_ dans le stock
 - Chaque élément qui n'est pas en stock est automatiquement _Réservé sur les commandes_ et nous créons une ligne _En attente de commande_ dans la gestion des commandes fournisseur.
 
-<img src="./assets/release-notes/1.1.0/auto-reservation-fr.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.1.0/auto-reservation-fr.png" width="100%"/>
 
 Vous pouvez bien entendu toujours déclencher la réservation depuis la boite de dialogue de gestion du stock du panier.
 
-<img src="./assets/release-notes/1.1.0/manual-reservation-fr.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.1.0/manual-reservation-fr.png" width="100%"/>
 
 Comme vous pouvez le constater la gestion de la réservation a été simplifiée et vous pouvez désormais déclencher la réservation pour un groupe de facturation donné ou directement pour l'ensemble du panier.
 
@@ -293,8 +293,8 @@ Notre recommandation est que vous gardiez un emplacement spécifique dans votre 
 
 Afin de préparer le stock d'un panier, vous devez accéder à la boite de dialogue d'un panier, soit via le bouton _stock/cmd_ du panier, soit depuis une tâche atelier/réception-livraison directement.
 
-<img src="./assets/release-notes/1.1.0/basket-stock-btn.png" width="160"/>
-<img src="./assets/release-notes/1.1.0/task-pick-btn.png" width="160"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.1.0/basket-stock-btn.png" width="160"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.1.0/task-pick-btn.png" width="160"/>
 
 Depuis cette boite de dialogue vous pouvez cliquer sur les boutons de picking (en vert) de chaque ligne que vous souhaitez préparer. Yuzer va alors essayer de trouver automatiquement le meilleure emplacement depuis lequel prendre le produit. Si cet emplacement n'est pas celui d'ou vous souhaitez prendre le produit vous pouvez alors l'éditer ou ajouter d'autres emplacements si vous prenez les produits depuis plusieurs endroits.
 
@@ -337,7 +337,7 @@ L'affichage des commandes est désormais automatiquement filtré sur le fourniss
 Nous avons simplifié le composant de sélection d'un fournisseur dans certain écrans de l'application, vous permettant de chercher plus efficacement le fournisseur que vous recherchez.
 
 <div class="d-flex justify-content-center">
-  <img src="./assets/release-notes/1.1.0/new-supplier-select-fr.png" height="150"/>
+  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.1.0/new-supplier-select-fr.png" height="150"/>
 </div>
 
 Nous allons déployer ce sélecteur sur l'ensemble des écrans permettant la sélection de fournisseurs dans les versions à venir.
