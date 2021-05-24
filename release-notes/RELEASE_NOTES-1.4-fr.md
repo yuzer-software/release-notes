@@ -33,5 +33,5 @@ Nous avons revu l'ordre et l'accès par défaut aux vues de stock afin d'amélio
 - Corrige un problème empêchant le démarrage d'un prêt lorsque le niveau de carburant du véhicule n'était pas défini dans le dossier ni mis à jour avant le prêt.
 
 <div class="d-flex justify-content-end">
-  <div>[https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/RELEASE_NOTES-1.3-fr.md](Version pécédente 1.3)</div>
+  <div>[Version pécédente 1.3](https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/RELEASE_NOTES-1.3-fr.md)</div>
 </div>

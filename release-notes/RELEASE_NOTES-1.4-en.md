@@ -33,5 +33,5 @@ We have changed the order and default view of the stock tab for a better logic a
 - Fix an issue that prevented starting a vehicle loan when the fuel level was not defined in the dealer file and not set on the start modal.
 
 <div class="d-flex justify-content-end">
-  <div>[https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/RELEASE_NOTES-1.3-en.md](Previous version 1.3)</div>
+  <div>[Previous version 1.3](https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/RELEASE_NOTES-1.3-en.md)</div>
 </div>

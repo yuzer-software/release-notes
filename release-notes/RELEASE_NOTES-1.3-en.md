@@ -154,5 +154,5 @@ Note: if you need to pick your product from multiple locations, you will have to
 Note: any other action is still possible.
 
 <div class="d-flex justify-content-end">
-  <div>[https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/RELEASE_NOTES-1.2-fr.md](Previous version 1.2)</div>
+  <div>[Previous version 1.2](https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/RELEASE_NOTES-1.2-fr.md)</div>
 </div>

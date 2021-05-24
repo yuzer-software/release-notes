@@ -11,5 +11,5 @@
 - Le bouton réservé n'est plus cliquable lorsque le stock d'un panier a été traité.
 
 <div class="d-flex justify-content-end">
-  <div>[https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/RELEASE_NOTES-1.1-fr.md](Version pécédente 1.1)</div>
+  <div>[Version pécédente 1.1](https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/RELEASE_NOTES-1.1-fr.md)</div>
 </div>

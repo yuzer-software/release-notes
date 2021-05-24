@@ -183,5 +183,5 @@ Note : si vous avez besoin de prélever le produit depuis plusieurs emplacement
 Toute autre action reste possible.
 
 <div class="d-flex justify-content-end">
-  <div>[https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/RELEASE_NOTES-1.2-fr.md](Version pécédente 1.2)</div>
+  <div>[Version pécédente 1.2](https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/RELEASE_NOTES-1.2-fr.md)</div>
 </div>
