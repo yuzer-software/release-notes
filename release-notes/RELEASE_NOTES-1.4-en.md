@@ -12,6 +12,8 @@
 - It is now possible to cancel a line of _product's order_. When you cancel a line, all unreceived quantities are marked as _canceled_. If necessary, you can edit the quantity from the detailed orders screen to put it back in _ordered_ status.
 - Added a button to refresh the status of an order on the details screen.
 - It is now possible to access the order, linked to the line, from the _Product's order_ view.
+- When invoicing, administrators can now choose not to impact the stock for any basket type. To do this, simply click on the _Extended options_ button in the _Basket stock management_ window. Note that the possibility of ignoring the stock impact already exists for vehicle preparation baskets and remains available to entitled users.
+  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.4.0/admin-ignore-stock-impact.png" width="200" class="mx-2"/>
 
 ## Calls and ringover integration
 

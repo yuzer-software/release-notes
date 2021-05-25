@@ -12,6 +12,8 @@
 - Il est maintenant possible d’annuler une ligne de _produits en commande_. Quand vous annulez une ligne, toutes les quantités non reçues sont marquées comme _annulée_. Si besoin, vous pouvez éditer cette quantité à partir de l’écran détaillés des commandes pour la remettre en statut _commandée_.
 - Ajout d’un bouton pour rafraichir le statut d'une commande sur l'écran de détails.
 - Il est maintenant possible d'accéder à la commande, en lien avec une ligne, à partir de la vue _Produits en commande_.
+- Lors de la facturation, les administrateurs peuvent maintenant choisir de ne pas impacter le stock pour tout type de panier. Pour ce faire, il suffit de cliquer sur le bouton _Options étendues_ dans la fenêtre _Gestion de stock du panier_. A noter que la possibilité d'ignorer l'impact stock était déjà présent dans le cadre d'une préparation de véhicule et reste disponible aux utilisateurs ayants droit.
+  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.4.0/admin-ignore-stock-impact.png" width="200" class="mx-2"/>
 
 ## Appels et intégration ringover
 
