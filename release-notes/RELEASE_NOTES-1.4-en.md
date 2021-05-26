@@ -14,6 +14,7 @@
 - It is now possible to access the order, linked to the line, from the _Product's order_ view.
 - When invoicing, administrators can now choose not to impact the stock for any basket type. To do this, simply click on the _Extended options_ button in the _Basket stock management_ window. Note that the possibility of ignoring the stock impact already exists for vehicle preparation baskets and remains available to entitled users.
   <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.4.0/admin-ignore-stock-impact.png" width="200" class="mx-2"/>
+- Receipts now only display the first name followed by the first letter of the user's last name
 
 ## Calls and ringover integration
 
