@@ -1,7 +1,12 @@
 # June 2021 - Version 1.5.0
 
+- Yuzer mobile application is now available on the App Store for iOS and Play Store for Android.
 - We have improved the synchronization between the basket and the vehicle file when a vehicle has been updated. Also it is now also possible to force the update from the context menu of the vehicle in the basket.
   <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.5.0/sync-basket-dealer-file.png" width="200" class="mx-2"/>
+- We now display weighted average purchase price for stock value. In previous versions we used FIFO based stock value which is less efficient for some scenarios (like finding an missing item in an inventory).
+- We added a shortcut to create a new vehicle sale from the top navbar.
+- Spellchecker suggestions can now be applied through a right click.
+- Vehicle stock lisibilité has been improved.
 
 ## Update of the automatic reservation algorithm
 
@@ -28,3 +33,5 @@ Note that it is still possible to force the quantity to reserve for a basket lin
 ## Bug fixes
 
 - Fixes an issue preventing a receipt from being closed with a line to prepare 2 different lines on a basket for the same product.
+- Updating a contact could loose the link to it's document gallery. This is now fixed.
+- Fix an accountancy issue when a quantity had a huge quantity of decimals (0.333333333 for example)

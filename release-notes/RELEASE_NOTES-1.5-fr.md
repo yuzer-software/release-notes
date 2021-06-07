@@ -1,7 +1,12 @@
 # Juin 2021 - Version 1.5.0
 
+- L'application mobile Yuzer est désormais disponible sur l'App Store pour iOS et sur le Play Store pour Android.
 - Nous avons amélioré la synchronisation des informations entre le panier et le dossier véhicule lorsqu'un véhicule à été mise à jour. Il est aussi maintenant possible de forcer la mis à jour à partir du menu contextuel du véhicule du panier.
   <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.5.0/sync-basket-dealer-file.png" width="200" class="mx-2"/>
+- Nous affichons désormais le prix d'achat moyen pondéré d'un produit. Dans les versions précédentes les prix d'achats utilisaient la méthode FIFO qui est moins efficace dans certains scénarios (comme une pièce retrouvée lors d'un inventaire).
+- Nous avons ajouté un racourcis permettant de créer une vente véhicule depuis la barre de navigation principale.
+- Les suggestions de corrections orthographiques peuvent désormais être appliquées via un click droit.
+- Nous avons amélioré la lisibilité du stock véhicule.
 
 ## Mise à jour de l'algorithme de réservation automatique
 
@@ -28,3 +33,5 @@ A noter qu'il est toujours possible de forcer la quantité à réserver pour une
 ## Correction de bugs
 
 - Corrige un problème empêchant de fermer une réception avec une ligne pour préparer 2 lignes différentes sur un panier pour le même produit.
+- La modification d'une fiche contact pouvait supprimer l'association avec sa gallerie de documents. C'est désormais corrigé.
+- Corrige un problème de comptabilité lorsqu'une quantité avait un nombre de décimales très important (0.333333333 par exemple)
