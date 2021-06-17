@@ -2,6 +2,44 @@
 
 - Possibility to update the label of a product in a basket.
 - The margin rate is now displayed in the _Summary_ box of the vehicle sales basket when the filter to display purchase prices and margins is deactivated.
+- You can now filter on supplier on the _Product's order_ page.
+- We added a page break on generated pdf documents to split the terms and conditions so that you can easely skip printing them if you wish not to.
+- Accountancy journal page has a faster rendering when many lines are loaded.
+- Contact activities now displays the author; we also improved icons on the list.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/contact-activities.png" width="200" class="mx-2"/>
+
+- You can now easely add products to re-order from the _Waiting for order_ page.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/waiting-order-quick-add.png" width="100%"/>
+
+## Avoiding contact duplications
+
+When you create a new contact, we now automatically search for potential duplicates so that you avoid creating a duplicate when not needed.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/contact-duplicates.png" width="100%"/>
+
+We use multiple fields of the contacts to find then so you should not create duplicates again.
+
+If the contact you search is in the potential duplicates list just click on him to access it's contact page.
+
+## Accountancy auto-validation and export
+
+We added options to enable auto-validation of invoices, trade-in and cessions in accountancy.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/accountancy-auto-validation.png" width="200" class="mx-2"/>
+
+If the options are enabled, then we automatically process an edited document to create lines in the pending journal.
+If automatic pending writings is enalbed then the lines are writen directly to the journal. In case of an error (wrong account mapping etc.) writings are still writen in the pending journal rather than the journal so that you can fix the issue.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/accountancy-to-validate.png" width="100%"/>
+
+You also can configure a daily export of the journal to your own FTPS server.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/accountancy-ftp-config.png" width="200" class="mx-2"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/accountancy-to-validate.png" width="200" class="mx-2"/>
+
+The file will be generated every night with the content of journal lines written since the last export.
 
 ## New features on repcetions
 
@@ -39,8 +77,12 @@ For the example, we choose to add the cancellation of 2 quantities on the _Empla
 Note that the number of items and the total price including discounts are computed ignoring the canceled lines.
 <img src="next-version/reception-infos.png" width="384"/>
 
-### Filtrage des lignes
+### Lines filtering
 
 Filters have been added to be able to hide processed and canceled lines.
 This should facilitate readability in particular when modifying a relatively large reception which have been re-opened.
 <img src="next-version/reception-new-filters.png" width="896"/>
+
+## Correction de bugs
+
+- We removed the grouping on _Product's order_ that prevented the creating date sort to work correctly.
