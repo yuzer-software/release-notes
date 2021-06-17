@@ -86,3 +86,4 @@ Cela devrait facilité la lisibilité en particulier sur la modification d'une r
 ## Correction de bugs
 
 - Sur la page _Produits en commande_ le groupement par fournisseur empêchait un tri par date effectif.
+- Correction du retour sur la navigation dans un onglet positionné sur une vue du stock.

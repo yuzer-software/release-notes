@@ -86,3 +86,4 @@ This should facilitate readability in particular when modifying a relatively lar
 ## Correction de bugs
 
 - We removed the grouping on _Product's order_ that prevented the creating date sort to work correctly.
+- Fix tab navigation under the stock tab
