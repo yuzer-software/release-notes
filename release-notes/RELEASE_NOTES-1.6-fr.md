@@ -4,8 +4,9 @@
 - Le taux de marge est maintenant affiché dans l'encadré _Résumé_ du panier de vente véhicule lorsque le filtre d'affichage des prix d'achats et marges est désactivé.
 - Il est désormais possible de filtrer par fournisseur sur la page _Produits en commande_
 - Nous avons ajouté un saut de page sur les documents pdf générés afin de séparer les conditions de ventes et vous permettre de ne pas les imprimer si vous le souhaitez.
-- La liste des activités des contacts affiche désormais l'auteur, nous avons également légèrement amélioré les icônes de celle-ci.
 - Améliorations de la performance de l'affichage du journal comptable lorsque de nombreuses lignes sont chargées.
+- Les ajouts de produits dans une réception lorsque le filtre de zone est défini sont fait dans cette zone si ils ne sont pas liés à un client (ils restent associé au panier client dans le cas contraire);
+- La liste des activités des contacts affiche désormais l'auteur, nous avons également légèrement amélioré les icônes de celle-ci.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/contact-activities.png" width="200" class="mx-2"/>
 

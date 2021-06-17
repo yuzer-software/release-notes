@@ -5,6 +5,7 @@
 - You can now filter on supplier on the _Product's order_ page.
 - We added a page break on generated pdf documents to split the terms and conditions so that you can easely skip printing them if you wish not to.
 - Accountancy journal page has a faster rendering when many lines are loaded.
+- Products added to a reception are now added to the filtered location if one is specified and when not linked to a customer (they are still associated with the customer's basket if so).
 - Contact activities now displays the author; we also improved icons on the list.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/contact-activities.png" width="200" class="mx-2"/>
