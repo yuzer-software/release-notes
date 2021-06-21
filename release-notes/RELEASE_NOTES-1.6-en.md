@@ -6,9 +6,13 @@
 - We added a page break on generated pdf documents to split the terms and conditions so that you can easely skip printing them if you wish not to.
 - Accountancy journal page has a faster rendering when many lines are loaded.
 - Products added to a reception are now added to the filtered location if one is specified and when not linked to a customer (they are still associated with the customer's basket if so).
+- You can now filter baskets by closing dates. A basket is considered closed if it is invoiced and its balance is nil or if it is canceled.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/baskets-filtering-closed-date.png" width="400" class="mx-2"/>
+
 - Contact activities now displays the author; we also improved icons on the list.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/contact-activities.png" width="200" class="mx-2"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/contact-activities.png" width="400" class="mx-2"/>
 
 - You can now easely add products to re-order from the _Waiting for order_ page.
 
@@ -52,9 +56,11 @@ The processed lines cannot be modified.
 ### Annulation
 
 Canceling a reception is now possible. You can choose to cancel only a few lines or all lines of a reception.
+
 <img src="next-version/reception-new-menu.png" width="320"/>
 
 A canceled line is displayed with grayed out text with the <img src="next-version/reception-ban-icon.png" width="16" /> icon, as below.
+
 <img src="next-version/reception-canceled-line.png" width="1024"/>
 
 When canceling, the following different actions are performed for each of the lines to try to return to the state before closing:
@@ -68,20 +74,25 @@ The storage locations specified on reception may have been updated between the c
 If the quantity is too low (_quantity of the storage location < quantity received_), a window open asking you to resolve and specify the storage locations to be impacted for the cancellation.
 
 The following image shows the validation window.
+
 <img src="next-version/reception-cancellation-modal-1.png" width="1024"/>
+
 We find that a line had been closed with 4 quantities received, all stored at the storage location: _Showroom/Étagère 1/ Planche 1/ Paquet 1_.
 However, it contains only 2 units of the product.
 
 For the example, we choose to add the cancellation of 2 quantities on the _Emplacement inconnu_ (unknown location).
+
 <img src="next-version/reception-cancellation-modal-2.png" width="1024"/>
 
 Note that the number of items and the total price including discounts are computed ignoring the canceled lines.
+
 <img src="next-version/reception-infos.png" width="384"/>
 
 ### Lines filtering
 
 Filters have been added to be able to hide processed and canceled lines.
 This should facilitate readability in particular when modifying a relatively large reception which have been re-opened.
+
 <img src="next-version/reception-new-filters.png" width="896"/>
 
 ## Correction de bugs
