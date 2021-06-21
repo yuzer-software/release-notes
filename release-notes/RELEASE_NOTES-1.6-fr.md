@@ -95,6 +95,43 @@ Cela devrait facilité la lisibilité en particulier sur la modification d'une r
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/reception-new-filters.png" width="896"/>
 
+## Coûts opérationnels et primes
+
+Nous avons fait évoluer la gestion des primes sur un dossier véhicule en l'aggrémentant d'une gestion des coûts opérationnels.
+Si les primes réduisent le prix d'achat d'un véhicule, les coûts opérationnels l'augmentent et vont ainsi réduire la marge liée au véhicule.
+
+### Coûts opérationnels généraux
+
+Si les coûts opérationnels sont gérés par dossier vous pouvez définir une configuration globale qui est utilisée pour initialiser ceux-ci lorsqu'un nouveau dossier est créé. Cette configuration n'est pas synchronisée sur les dossiers existant mais ne sera appliquée que lors de la création d'un nouveau dossier.
+
+Afin de configurer ceux-ci rendez vous à l'onglet configurer de la section véhicules. Vous pouvez ici configurer un ensemble de coûts opérationnels:
+
+- Les coûts opérationnels sur véhicules neufs qui sont ajoutés pour toute création d'un dossier de véhicule neuf
+- Les coûts opérationnels sur véhicules neufs spécifiques à certains fournisseurs (qui sont ajoutés lors d'une création de dossier de véhicule neuf lorsque le fournisseur selectionné correspond).
+- Les coûts opérationnels sur véhicules d'occasion qui sont ajoutés lors de la création d'un dossier de véhicule d'occasion, à l'exception pour le moment d'une reprise.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/operational-costs-config.png" width="100%"/>
+
+Lors de la création d'un dossier ces coûts sont ajoutés:
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/dealer-file-create-operational-costs.png" width="100%"/>
+
+Vous remarquerez que nous avons également amélioré l'affichage de l'ajout de dossier afin de rendre tout cela plus clair.
+
+### Coûts opérationnels, primes et dossier véhicule
+
+La visualisation d'un dossier véhicule a été revue pour plus de clarté. Elle apporte également un ensemble d'améliorations significatives sur la gestion des primes et donc des coûts opérationnels.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/dealer-file-detail.png" width="100%"/>
+
+Comme vous pouvez le constater chaque prime possède désormais un libellé ainsi que son montant calculé (une fois appliqué au prix d'achat lors de pourcentages sur celui-ci par exemple).
+
+Il est également possible de visualiser le prix d'achat incluant l'ensemble des primes et coûts opérationnels (à l'exception des primes à la vente non sélectionnées; voir ci-après) ainsi que de la marge les prenant en compte.
+
+L'édition des primes et coûts opérationnels peut se faire comme avant mais ajoute donc le libellé ainsi qu'une option permettant d'inclure ou non les primes à la vente dans le calcul du prix d'achat incluant primes et de la marge associée.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/dealer-file-costs-bonus-edit.png" width="100%"/>
+
 ## Correction de bugs
 
 - Sur la page _Produits en commande_ le groupement par fournisseur empêchait un tri par date effectif.

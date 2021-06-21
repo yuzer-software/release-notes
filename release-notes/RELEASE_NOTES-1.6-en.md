@@ -95,7 +95,44 @@ This should facilitate readability in particular when modifying a relatively lar
 
 <img src="next-version/reception-new-filters.png" width="896"/>
 
-## Correction de bugs
+## Operational costs and bonuses
+
+We have evolved the management of bonuses on a dealer file by adding also the management of operational costs.
+When bonuses reduce the vehicle purchase price, operational costs increase it and are therefore going to reduce the margin on the vehicle.
+
+### Generic operational costs
+
+Operational costs are managed per file, however you can define a global configuration that is used to initialize them when a new file is created. This configuration is not synchronized on existing file and is only applied on new files.
+
+To configure them please go to the setup tab of the vehicles section. You can here configure various operational costs:
+
+- New vehicle operational costs are added to any created dealer file for a new vehicle.
+- Supplier specific's new vehicle operational costs are added to new dealer files that have a matching supplier defined.
+- Used vehicle operational costs are added to any created dealer file for a used vehicle except for now on trade ins.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/operational-costs-config.png" width="100%"/>
+
+When creating a new dealer file theses costs are added:
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/dealer-file-create-operational-costs.png" width="100%"/>
+
+As you can see the rendering of the new dealer file creation has also been improved for a better lisibility.
+
+### Operational costs, bonuses and the dealer file
+
+Rendering of a dealer file has also been improved and is now easier to understand and visualize. It brings many improvments also on bonuses and the new operational costs support.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/dealer-file-detail.png" width="100%"/>
+
+As you can see each bonus now has a label as well as the computed amount (once applied for example to the vehicle purchase price for related percent bonuses).
+
+You can also now have a direct visualization on the purchase price including all the bonuses and operational costs (except sales bonuses that are not included; see below) as well as margin including them.
+
+You can edit operation costs just as you did with bonuses. As you can see we of course added the edition of the label as well as a checkbox to allow you to include or not sales bonuses in the purchase price and margin computation.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/dealer-file-costs-bonus-edit.png" width="100%"/>
+
+## Bug fixes
 
 - We removed the grouping on _Product's order_ that prevented the creating date sort to work correctly.
 - Fix tab navigation under the stock tab
