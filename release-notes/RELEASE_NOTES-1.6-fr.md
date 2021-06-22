@@ -51,11 +51,11 @@ Le fichier sera généré chaque nuit avec le contenu des nouvelles lignes de jo
 ### Ré-ouverture
 
 Il est maintenant possible de ré-ouvrir une réception clôturée pour y ajouter de nouvelles lignes.
-Les lignes traitées ne sont pas modifiable.
+Les lignes traitées ne sont pas modifiables.
 
 ### Annulation
 
-L'annulation d'une réception est maintenant possible. Vous pouvez choisir d'annuler seulement quelque ligne ou toutes les lignes de la réception.
+L'annulation d'une réception est maintenant possible. Vous pouvez choisir d'annuler seulement quelques lignes ou toutes les lignes de la réception.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/reception-new-menu.png" width="320"/>
 
@@ -90,8 +90,8 @@ A noter que le nombre d'articles et le total du prix incluant remises sont calcu
 
 ### Filtrage des lignes
 
-Des filtres ont été ajouter pour pouvoir cacher les lignes traitées ou annulées.
-Cela devrait facilité la lisibilité en particulier sur la modification d'une relative grosse réception qui aurait été ré-ouverte.
+Des filtres ont été ajoutés pour pouvoir cacher les lignes traitées ou annulées.
+Cela devrait faciliter la lisibilité en particulier sur la modification d'une relative grosse réception qui aurait été ré-ouverte.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/reception-new-filters.png" width="896"/>
 
