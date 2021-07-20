@@ -5,11 +5,39 @@
 - Nous avons améliorés quelques confirmations d'annulations qui proposaient les choix _annuler_ pour annuler l'opération et _annuler_ pour confirmer l'annulation.
 - La performance de plusieurs écrans tels que les écrans de justificatifs comptables ansi que certaines opérations de panier a été améliorée.
 
+## Les acomptes
+
+Dans Comptabilité -> Configurer, il est maintenant possible de configurer des acomptes par défaut, pour les différents types d'opérations.
+
+Il est possible de choisir soit un montant fixe, soit un pourcentage du prix, arrondi selon la stratégie selectionnée.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/deposit-config.png"/>
+
 ## Moyens de paiement
 
 ### Assossiation aux types de panier
 
 Les moyens de paiements sont maintenant associés aux types de panier : lors de l'encaissement d'un paiement, seuls les moyens de paiements correspondant au type du panier seront disponibles.
+
+### Association des moyens de paiements aux caisses
+
+Dans Comptabilité -> Configurer, les caisses sont maintenant créées et configurées depuis un nouvel onglet.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/cashdesk-config.png"/>
+
+La grande nouveauté est qu'il faut maintenant associer les moyens de paiements aux caisses afin d'avoir des choix plus pertinent lors du paiement. Il est à noté qu'une caisse ne peut avoir qu'un seul moyen de paiement de type "Espèce".
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/cashdesk-modal.gif"/>
+
+### Les paiements rapides
+
+Afin de fluidifier la saisie des lors des paiements, l'écran de saisie à été amélioré. Il est dorénavant possible de remplir les montants avec un seul click.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/payment-modal.gif"/>
+
+Dans le cas ou un acompte par défaut aurait été configuré, il est possible de choisir "Acompte" afin de remplir automatiquement les champs avec le montant de l'acompte.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/payment-deposit-modal.gif"/>
 
 ## Configuration des entités — analyse automatique de mails
 

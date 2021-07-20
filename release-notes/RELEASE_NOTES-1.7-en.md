@@ -4,11 +4,38 @@
 - We improved some choices in cancellation modal that proposed _cancel_ to cancel the operation and _cancel_ to confirm the cancellation.
 - We improved the performance of some screens including the accountancy documents list screens, and some elements of the basket screen.
 
+## Deposits
+
+In Accountancy -> Configuration, you can now configurate default deposit amounts for different kind of operations.
+
+You can choose a fixed amount or or percentage with a rounding strategy.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/deposit-config.png"/>
+
 ## Payment means
 
 ### Associated to basket types
 
 Payment means may be associated to a subset of basket types: when registering a payment, only the payment types associated to the corresponding basket type will be available.
+
+### Associated to cashdesks
+
+In Accountancy -> Configuration, cashdesks are now created and configured in a new tab.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/cashdesk-config.png"/>
+
+The main evolution here is that you now have to associate means of payment to cashdesk in order to have more relevant choices during payments. You can only select one "cash" mean of payment per cashdesk.
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/cashdesk-modal.gif" width="100%"/>
+
+### Quick payments
+
+In order to enhance the payment experience, the payment window has been tweaked. You can now automaticaly fill the amount field with a single click.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/cashdesk-modal.gif"/>
+
+In case of a configured default deposit, you can choose the "deposit" section to automatically fill the fields with the deposit amount.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/payment-deposit-modal.gif"/>
 
 ## Entity configuration -- automatic mail processing
 
