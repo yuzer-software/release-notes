@@ -39,10 +39,6 @@ In case of a configured default deposit, you can choose the "deposit" section to
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/payment-deposit-modal.gif"/>
 
-## Entity configuration -- automatic mail processing
-
-It's now possible to opt in to automatic mail processing. As this option requires your consent, it is not enabled by default and you need to set it on the mail entity configuration page.
-
 ## Repair order booking
 
 We have added multiple improvements to the repair order booking in order to make the process smoother.
@@ -69,3 +65,35 @@ Once all information are complete you can
 - Workshop workload was not updated when switching date on the day view.
 - Date selection on the accountancy journal was broken.
 - Vehicle load repayment cannot be reserved in stock anymore.
+
+## Beta - Task creation on email
+
+It's now possible to opt in to automatic mail processing. As this option requires your consent, it is not enabled by default and you need to set it on the mail entity configuration page.
+
+<div class="alert alert-info">
+This feature is released as Beta. It can be used right now and will be improved in next versions. Feel free to provide feedbacks.
+</div>
+
+<div class="alert alert-warning">
+Warning, in beta, feature disable may take quite a while. If you activated then opt out of the feature please contact our support team if you whish Yuzer to stop fetching your emails.
+</div>
+
+Yuzer can now create automatically tasks based on some pre-formatted email reception.
+
+To enable the feature please go to the email configuration to enable the feature by checking _Subscribe to automatic email analytics_.
+Make sure that you entered your credentials again to save the configuration.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/emailfetch-setup.gif" width="100%"/>
+
+Once enabled you must initialize the mailbox from the _Inbox_ tab. Once started it may take a while for Yuzer to fetch emails.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/emailfetch-init.gif" width="100%"/>
+
+Last step is to configure templates for Yuzer to create tasks.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/emailfetch-setup.gif" width="100%"/>
+
+You will then find tasks in the various list or calendar of the targetted workspace.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/emailfetch-task.png" width="100%"/>
+>>>>>>> 08ac8ae... Add email beta feature to release notes.

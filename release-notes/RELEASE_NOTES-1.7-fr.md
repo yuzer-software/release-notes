@@ -40,10 +40,6 @@ Dans le cas ou un acompte par défaut aurait été configuré, il est possible d
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/payment-deposit-modal.gif"/>
 
-## Configuration des entités — analyse automatique de mails
-
-Il est désormais possible d'activer l'analyse automatique de vos mails. Cette option requiert votre consentement et n'est pas activée par défaut. Vous devez l'activer sur la page de configuration du mail de votre entité.
-
 ## Prise de rendez-vous
 
 Nous avons apporté plusieurs améliorations à la prise de rendez-vous afin d'améliorer sa fluidité.
@@ -70,3 +66,35 @@ Une fois que les information sont complétées vous pouvez:
 - La charge atelier sur la vue jour du calendrier n'était pas bien mise à jour lors du changement de date.
 - La sélection de dates sur la vue du journal en comptabilité ne fonctionnait plus.
 - Les rachats de crédits ne peuvent plus être réservés en stock.
+
+## Auto-création de tâches sur email - Beta
+
+Il est désormais possible d'activer l'analyse automatique de vos mails. Cette option requiert votre consentement et n'est pas activée par défaut. Vous devez l'activer sur la page de configuration du mail de votre entité.
+
+<div class="alert alert-info">
+Cette fonctionalité est disponible en beta elle peut-être utilisée dès maintenant et sera améliorée dans les versions futures. N'hésitez pas à nous apporter vos retours.
+</div>
+
+<div class="alert alert-warning">
+Attention, en bêta, la désactivation de la fonctionalité peut mettre du temps à être effective. Merci de contacter notre support si vous l'avez activé puis souhaitez que Yuzer stoppe la récupération des emails.
+</div>
+
+Vous pouvez désormais créer automatiquement des tâches sur réception de certains emails pré-formattés.
+
+Pour cela rendez-vous dans la configuration des emails pour activer la fonctionalité en cochant la case _Souscrire à l'analyse automatique des emails_.
+Notez que vous devez entrer vos mots de passes à nouveau afin de sauvegarder la configuration.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/emailfetch-setup.gif" width="100%"/>
+
+Une fois activé vous devez initialiser votre boite email depuis l'écran _boite de réception_. Notez qu'une fois lancée il vous faudra attendre quelques minutes pour que Yuzer complète la récupération de vos emails.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/emailfetch-init.gif" width="100%"/>
+
+La dernière étape consiste à créer vos templates d'email pour que le robot puisse extraire et créer les tâches en fonction de vos emails reçus.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/emailfetch-setup.gif" width="100%"/>
+
+Vous retrouverez alors vos tâches dans la liste des tâches du groupe associé.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/emailfetch-task.png" width="100%"/>
+>>>>>>> 08ac8ae... Add email beta feature to release notes.
