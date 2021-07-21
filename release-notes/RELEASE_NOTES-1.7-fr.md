@@ -47,7 +47,7 @@ Il est désormais possible d'activer l'analyse automatique de vos mails. Cette o
 
 Nous avons apporté plusieurs améliorations à la prise de rendez-vous afin d'améliorer sa fluidité.
 
-- Si vous avez configuré des vues pour différencier les temps mécanicien entre réparations et préparation véhicule la vue de réparation est sélectionnée par défaut.
+- Si vous avez configuré des vues pour différencier la disponibilité des mécaniciens entre temps de réparation et préparation véhicule, la vue de réparation est sélectionnée par défaut.
 
 Une fois le client, le véhicule et le travail défini (soit par template soit en précisant un détail et une durée) vous sélectionnez l'emplacement de la tâche atelier.
 
