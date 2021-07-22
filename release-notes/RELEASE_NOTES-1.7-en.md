@@ -1,8 +1,10 @@
 # July 2021 - Version 1.7.0
 
 - Contact stock reservations and orders are now displayed on it's contact page. You can enlarge the section as others by clicking on it's title.
+- We replaced the _#_ by _Ref._ to indicate the product references in several screens of the application.
 - We improved some choices in cancellation modal that proposed _cancel_ to cancel the operation and _cancel_ to confirm the cancellation.
 - We improved the performance of some screens including the accountancy documents list screens, and some elements of the basket screen.
+- The id number of the vehicle dealer file is no longer displayed in the product list of documents (invoice, order form, etc.).
 
 ## Deposits
 
@@ -64,5 +66,6 @@ Once all information are complete you can
 
 ## Correction de bugs
 
-- Workshop workload was not updated when switching date on the day view
+- Workshop workload was not updated when switching date on the day view.
 - Date selection on the accountancy journal was broken.
+- Vehicle load repayment cannot be reserved in stock anymore.

@@ -4,6 +4,7 @@
 - Nous avons remplacé les _#_ par _Ref._ pour indiquer les références produit dans plusieurs écrans de l'application.
 - Nous avons améliorés quelques confirmations d'annulations qui proposaient les choix _annuler_ pour annuler l'opération et _annuler_ pour confirmer l'annulation.
 - La performance de plusieurs écrans tels que les écrans de justificatifs comptables ansi que certaines opérations de panier a été améliorée.
+- Le numéro du dossier de véhicule n'est plus affiché au niveau de la liste de produits sur les documents (factures, bon de commande, etc.).
 
 ## Les acomptes
 
@@ -68,3 +69,4 @@ Une fois que les information sont complétées vous pouvez:
 
 - La charge atelier sur la vue jour du calendrier n'était pas bien mise à jour lors du changement de date.
 - La sélection de dates sur la vue du journal en comptabilité ne fonctionnait plus.
+- Les rachats de crédits ne peuvent plus être réservés en stock.
