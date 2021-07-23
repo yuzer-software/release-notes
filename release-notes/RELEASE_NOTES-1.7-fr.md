@@ -40,6 +40,8 @@ Dans le cas ou un acompte par défaut aurait été configuré, il est possible d
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/payment-deposit-modal.gif"/>
 
+Comme vous pouvez le constater, dans le cas d'un paiement espèce Yuzer vous permet de rentrer le montant reçu du client et vous indique le montant à lui rendre.
+
 ## Prise de rendez-vous
 
 Nous avons apporté plusieurs améliorations à la prise de rendez-vous afin d'améliorer sa fluidité.

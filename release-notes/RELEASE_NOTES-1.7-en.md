@@ -1,7 +1,6 @@
 # July 2021 - Version 1.7.0
 
 - Contact stock reservations and orders are now displayed on it's contact page. You can enlarge the section as others by clicking on it's title.
-- We replaced the _#_ by _Ref._ to indicate the product references in several screens of the application.
 - We improved some choices in cancellation modal that proposed _cancel_ to cancel the operation and _cancel_ to confirm the cancellation.
 - We improved the performance of some screens including the accountancy documents list screens, and some elements of the basket screen.
 - The id number of the vehicle dealer file is no longer displayed in the product list of documents (invoice, order form, etc.).
@@ -38,6 +37,8 @@ In order to enhance the payment experience, the payment window has been tweaked.
 In case of a configured default deposit, you can choose the "deposit" section to automatically fill the fields with the deposit amount.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/payment-deposit-modal.gif"/>
+
+As you can see, when choosing a cash payment type Yuzer now allows you to enter the amount received from the customer in addition to the desired payed amount and displays amount to give back to the customer.
 
 ## Repair order booking
 
