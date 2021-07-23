@@ -106,4 +106,3 @@ La dernière étape consiste à créer vos templates d'email pour que le robot p
 Vous retrouverez alors vos tâches dans la liste des tâches du groupe associé.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/emailfetch-task.png" width="100%"/>
->>>>>>> 08ac8ae... Add email beta feature to release notes.
