@@ -4,6 +4,9 @@
 - We improved some choices in cancellation modal that proposed _cancel_ to cancel the operation and _cancel_ to confirm the cancellation.
 - We improved the performance of some screens including the accountancy documents list screens, and some elements of the basket screen.
 - The id number of the vehicle dealer file is no longer displayed in the product list of documents (invoice, order form, etc.).
+- You can now filter canceled tasks on calendar views.
+- Contact detail page has been improved for better readability.
+- Vehicle file number is not displayed anymore on the document's line.
 
 ## Deposits
 
@@ -64,8 +67,12 @@ Once all information are complete you can
 ## Correction de bugs
 
 - Workshop workload was not updated when switching date on the day view.
+- Workshop workload was including canceled tasks.
 - Date selection on the accountancy journal was broken.
 - Vehicle load repayment cannot be reserved in stock anymore.
+- Non admin users may had issues with Ringover notifications. It also caused an error message at applicaiton startup.
+- In some situations the modal opened on a vehicle order coupon generation could be opened twice.
+- Credit buy lines for trade-in where managed in stock. This is fixed.
 
 ## Beta - Task creation on email
 
@@ -97,4 +104,3 @@ Last step is to configure templates for Yuzer to create tasks.
 You will then find tasks in the various list or calendar of the targetted workspace.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/emailfetch-task.png" width="100%"/>
->>>>>>> 08ac8ae... Add email beta feature to release notes.

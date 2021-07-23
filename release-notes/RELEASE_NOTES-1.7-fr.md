@@ -5,6 +5,9 @@
 - Nous avons améliorés quelques confirmations d'annulations qui proposaient les choix _annuler_ pour annuler l'opération et _annuler_ pour confirmer l'annulation.
 - La performance de plusieurs écrans tels que les écrans de justificatifs comptables ansi que certaines opérations de panier a été améliorée.
 - Le numéro du dossier de véhicule n'est plus affiché au niveau de la liste de produits sur les documents (factures, bon de commande, etc.).
+- Vous pouvez désormais filtrer les tâches annulées dans les vues de calendrier.
+- La lisibilité de l'écran contact a été améliorée.
+- Le numéro de dossier du véhicule n'apparâit plus sur la ligne dans les documents (factures etc.)
 
 ## Les acomptes
 
@@ -63,11 +66,15 @@ Une fois que les information sont complétées vous pouvez:
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/booking-modal.gif" width="100%"/>
 
-## Correction de bugs
+## C'est corrigé!
 
 - La charge atelier sur la vue jour du calendrier n'était pas bien mise à jour lors du changement de date.
+- La charge atelier incluait les tâches annulées.
 - La sélection de dates sur la vue du journal en comptabilité ne fonctionnait plus.
 - Les rachats de crédits ne peuvent plus être réservés en stock.
+- Les utilisateurs non-administrateurs pouvaient rencontrer un problème avec les notifications Ringover. Cela causait aussi l'apparition d'un message d'erreur au lancement de Yuzer.
+- Dans certains cas, lors de l'édition d'un bon de commande de véhicule, la boite de dialogue demandant les informations pouvait être affichée deux fois.
+- Les lignes de rachat de crédit étaient réservées en stock. Cela n'avait pas lieu d'être et elles sont bien ignorées dans la gestion de stock désormais.
 
 ## Auto-création de tâches sur email - Beta
 
