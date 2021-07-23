@@ -64,7 +64,7 @@ Once all information are complete you can
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/booking-modal.gif" width="100%"/>
 
-## Correction de bugs
+## It's fixed!
 
 - Workshop workload was not updated when switching date on the day view.
 - Workshop workload was including canceled tasks.
@@ -99,7 +99,7 @@ Once enabled you must initialize the mailbox from the _Inbox_ tab. Once started 
 
 Last step is to configure templates for Yuzer to create tasks.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/emailfetch-setup.gif" width="100%"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/emailfetch-create-template.gif" width="100%"/>
 
 You will then find tasks in the various list or calendar of the targetted workspace.
 

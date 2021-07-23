@@ -101,7 +101,7 @@ Une fois activé vous devez initialiser votre boite email depuis l'écran _boite
 
 La dernière étape consiste à créer vos templates d'email pour que le robot puisse extraire et créer les tâches en fonction de vos emails reçus.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/emailfetch-setup.gif" width="100%"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/emailfetch-create-template.gif" width="100%"/>
 
 Vous retrouverez alors vos tâches dans la liste des tâches du groupe associé.
 
