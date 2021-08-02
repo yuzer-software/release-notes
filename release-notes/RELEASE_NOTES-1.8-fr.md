@@ -15,6 +15,17 @@
 ## Configuration de valeurs par défaut pour les prêts
 
 - Dans la partie administration il y a maintenant un nouvel onglet "Configuration des prêts de véhicules" qui permet de configurer des valeurs par défaut
-pour les différents types de prêts.
+  pour les différents types de prêts.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.8.0/loans-config.png"/>
+
+## Ajouts des coûts de préparation et maintenance dans le calcul de marge d'un véhicule
+
+Lorsqu'une cession de préparation ou maintenance est facturée, le montant impacte désormais la marge du véhicule. La liste de cessions est visible sur la fiche du dossier de véhicule.
+A noter que les cessions qui ne sont pas facturées ne sont pas pris en compte et une icone d'alerte est affichée à la place du montant.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.8.0/dealer-file-cessions.png"/>
+
+Aussi, lors de l'édition d'un document sur une vente véhicule, un message d'alerte sera affiché si Yuzer détecte qu'une cession lié au dossier véhicule n'a pas été facturé.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.8.0/billing-document-warning.png"/>
