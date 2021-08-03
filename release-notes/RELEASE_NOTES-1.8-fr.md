@@ -4,6 +4,7 @@
 - Vous pouvez désormais envoyer la préparation d'une vente véhicule à l'atelier avec un modèle de véhicule (sans VIN associé).
 - Vous pouvez désormais utiliser la molette de la souris pour modifier les quantités.
 - Vous pouvez changer le status des tâches directement de _à faire_ à _fait_ sur les listes de tâches.
+- Le numéro de dossier du véhicule n'est plus affiché sur la ligne du véhicule dans une facture.
 
 ## Paniers
 
@@ -40,9 +41,7 @@ Lorsque vous démarrez un prêt, Yuzer pré-rempli les champs ajoutés à l'aide
 
 Les informations sont alors ajoutées à votre document de prêt.
 
-<div class="d-flex justify-content-center">
-    <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.8.0/loan-start-modal.png"/>
-</div>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.8.0/loan-document.png" width="100%"/>
 
 ## Ajouts des coûts de préparation et maintenance dans le calcul de marge d'un véhicule
 
@@ -64,6 +63,12 @@ Les groupes de facturation sont désormais placés dans des onglets pour une mei
 Vous pouvez toujours effectuer le déplacement des lignes du panier à travers les groupes par un drag-and-drop. Dans le cas ou plusieurs groupes de facturation cible sont présent il vous faudra dans un premier temps pré-selectionner le groupe cible.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.8.0/basket-tabs-multi.gif" width="100%"/>
+
+## Annulation de panier
+
+Lorsque vous annulez un panier, Yuzer annulera automatiquement l'ensemble des réservations de pièces pour les clients ainsi que les tâches de réception/livraison/prêt véhicule et atelier.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.8.0/basket-cancel.gif" width="100%"/>
 
 # C'est corrigé
 

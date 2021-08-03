@@ -43,9 +43,7 @@ When you start a loan Yuzer pre-fills the added fields with the configured defau
 
 The informations are then added to the document.
 
-<div class="d-flex justify-content-center">
-    <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.8.0/loan-start-modal.png"/>
-</div>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.8.0/loan-document.png" width="100%"/>
 
 ## Added preparation and maintenance costs in the computation of a vehicle's margin
 
