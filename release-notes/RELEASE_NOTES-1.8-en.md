@@ -66,6 +66,12 @@ You can still drag and drop lines between groups. When multiple target groups ex
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.8.0/basket-tabs-multi.gif" width="100%"/>
 
+## Basket cancellation
+
+When you cancel a basket, Yuzer now cancel automatically for you all customer reservations as well as reception/delivery/loan and workshop tasks.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.8.0/basket-cancel.gif" width="100%"/>
+
 # That's fixed
 
 - Yuzer did not prevent a user to generate two trade-in documents for the same vehicle from two different baskets.
