@@ -3,17 +3,17 @@
 - Amélioration du support de certaines plaques d'immatriculations de type A-00-A.
 - Vous pouvez désormais envoyer la préparation d'une vente véhicule à l'atelier avec un modèle de véhicule (sans VIN associé).
 - Vous pouvez désormais utiliser la molette de la souris pour modifier les quantités.
-- Vous pouvez changer le status des tâches directement de _à faire_ à _fait_ sur les listes de tâches.
+- Vous pouvez changer le statut des tâches directement de _à faire_ à _fait_ sur les listes de tâches.
 - Le numéro de dossier du véhicule n'est plus affiché sur la ligne du véhicule dans une facture.
 
 ## Paniers
 
 - Vous pouvez désormais envoyer un panier véhicule à l'atelier même si le véhicule n'a pas de VIN associé (par exemple parce qu'il est en commande).
 
-## Sélection d'un client (tâches, panier, etc.)
+## Sélection d'un client (tâches, paniers, etc.)
 
 - Lors de la sélection d'un client, les véhicules de celui-ci sont désormais affichés.
-- Dans certains cas, il est nécessaire de sélectionner à la fois client et un de ses véhicules. C'est pourquoi il est dorénavant possible de sélectionner le véhicule en même temps que le client.
+- Dans certains cas, il est nécessaire de sélectionner à la fois le client et un de ses véhicules. C'est pourquoi il est dorénavant possible de sélectionner le véhicule en même temps que le client.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.8.0/select-user-modal.png" width="100%"/>
 
@@ -35,7 +35,7 @@ Nous avons ajouté de nouvelles informations dans le document de prêt de véhic
 
 ### Démarrage du prêt
 
-Lorsque vous démarrez un prêt, Yuzer pré-rempli les champs ajoutés à l'aide des informations configurées par défaut. Vous pouvez alors les ajuster de manière spécifiques pour votre client.
+Lorsque vous démarrez un prêt, Yuzer pré-remplit les champs ajoutés à l'aide des informations configurées par défaut. Vous pouvez alors les ajuster de manière spécifiques pour votre client.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.8.0/loan-start-modal.png" width="100%"/>
 
@@ -50,7 +50,7 @@ A noter que les cessions qui ne sont pas facturées ne sont pas pris en compte e
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.8.0/dealer-file-cessions.png"/>
 
-Aussi, lors de l'édition d'un document sur une vente véhicule, un message d'alerte sera affiché si Yuzer détecte qu'une cession lié au dossier véhicule n'a pas été facturé.
+Aussi, lors de l'édition d'un document sur une vente véhicule, un message d'alerte sera affiché si Yuzer détecte qu'une cession liée au dossier véhicule n'a pas été facturée.
 
 <div class="d-flex justify-content-center">
   <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.8.0/billing-document-warning.png"/>
@@ -60,7 +60,7 @@ Aussi, lors de l'édition d'un document sur une vente véhicule, un message d'al
 
 Les groupes de facturation sont désormais placés dans des onglets pour une meilleure lisibilité.
 
-Vous pouvez toujours effectuer le déplacement des lignes du panier à travers les groupes par un drag-and-drop. Dans le cas ou plusieurs groupes de facturation cible sont présent il vous faudra dans un premier temps pré-selectionner le groupe cible.
+Vous pouvez toujours effectuer le déplacement des lignes du panier à travers les groupes par un drag-and-drop. Dans le cas ou plusieurs groupes de facturation cible sont présents il vous faudra dans un premier temps pré-selectionner le groupe cible.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.8.0/basket-tabs-multi.gif" width="100%"/>
 
