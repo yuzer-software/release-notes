@@ -25,3 +25,9 @@ We have renamed the _other_services_and_taxes_ category to _other_services_ in a
 - The registration number of the vehicles of a contact are now displayed.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/vehicle-registration.png" height="140"/>
+
+## Negative stock
+
+In Stock -> Stock tab, there is now a new button "Negative Stock" that will lead to a new page displaying any products having a negative stock in at least one location.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/negative-stock.png" height="160"/>

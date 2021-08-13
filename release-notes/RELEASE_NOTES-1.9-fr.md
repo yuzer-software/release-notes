@@ -25,3 +25,9 @@ Nous avons renommé la catégorie _Autres services et taxes_ en _Autres services
 - Le numéro d'immatriculation des véhicules du client sont désormais affichés.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/vehicle-registration.png" height="140"/>
+
+## Stock négatif
+
+Dans Stock -> Onglet Stock, il a maintenant un nouveau bouton "Stock négatif" permettant d'afficher tout les produits ayant un stock négatif dans au moins un lieu.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/negative-stock.png" height="160"/>
