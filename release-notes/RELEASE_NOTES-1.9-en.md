@@ -31,3 +31,9 @@ We have renamed the _other_services_and_taxes_ category to _other_services_ in a
 In Stock -> Stock tab, there is now a new button "Negative Stock" that will lead to a new page displaying any products having a negative stock in at least one location.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/negative-stock.png" height="160"/>
+
+## Overriding prices
+
+It's possible to override vehicle's price, when it doesn't own to concession
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/override-prices.gif" height="160"/>

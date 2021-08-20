@@ -31,3 +31,9 @@ Nous avons renommé la catégorie _Autres services et taxes_ en _Autres services
 Dans Stock -> Onglet Stock, il a maintenant un nouveau bouton "Stock négatif" permettant d'afficher tout les produits ayant un stock négatif dans au moins un lieu.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/negative-stock.png" height="160"/>
+
+## Surcharge de prix
+
+Il est possible de surcharger le prix d'un vehicule, lorsqu'il n'appartient pas à une concession.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/override-prices.gif" height="160"/>
