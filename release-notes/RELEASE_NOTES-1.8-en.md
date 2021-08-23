@@ -75,3 +75,5 @@ When you cancel a basket, Yuzer now cancel automatically for you all customer re
 # That's fixed
 
 - Yuzer did not prevent a user to generate two trade-in documents for the same vehicle from two different baskets.
+- The term "Workforce" was not set in when a workforce line was added to the basket with no label.
+- Various fixes when linking a vehicle dealer file to a basket.

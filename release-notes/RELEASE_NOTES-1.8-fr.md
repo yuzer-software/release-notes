@@ -73,3 +73,5 @@ Lorsque vous annulez un panier, Yuzer annulera automatiquement l'ensemble des r�
 # C'est corrigé
 
 - Yuzer n'empêchait pas l'utilisateur de générer deux documents de reprise pour le même véhicule à partir de deux paniers de reprise différents.
+- Le terme "Main-d'œuvre" n'était pas renseigné lorsqu'une ligne de main-d'œuvre était ajoutée dans le panier sans libellé.
+- Divers correctifs lorsqu'on lie un dossier de véhicule à un panier.
