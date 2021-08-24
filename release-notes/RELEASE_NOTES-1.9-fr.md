@@ -37,3 +37,9 @@ Dans Stock -> Onglet Stock, il a maintenant un nouveau bouton "Stock négatif" p
 Il est possible de surcharger le prix d'un vehicule, lorsqu'il n'appartient pas à une concession.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/override-prices.gif" height="160"/>
+
+## Date de facture d'achat
+
+Dans la fiche de véhicule, vous pouvez dorénavant retrouver et modifier la date de facture d'achat.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/purchase-invoice-date.png" height="160"/>
