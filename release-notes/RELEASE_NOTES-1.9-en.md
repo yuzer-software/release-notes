@@ -36,7 +36,7 @@ In Stock -> Stock tab, there is now a new button "Negative Stock" that will lead
 
 It's possible to override vehicle's price, when it doesn't own to concession
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/override-prices.gif" height="160"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/override_prices.gif" height="160"/>
 
 ## Purchase invoice date
 
