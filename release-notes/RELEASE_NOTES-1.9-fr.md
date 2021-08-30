@@ -2,6 +2,7 @@
 
 - Lorsque vous créez un nouveau rendez-vous à l'aide de la fonction de prise de rendez vous rapide le titre du panier créé est désormais celui du modèle choisi, ou, dans le cas d'une description libre, la première ligne de cette description.
 - Le nom de modèle d'un véhicule est maintenant éditable.
+- Il est désormais possible de générer un export avec les produits du stock dans un fichier csv, excel ou txt.
 
 ## Modification des catégories de produit
 

@@ -2,6 +2,7 @@
 
 - When taking a new appointment through the quick workshop appointement feature the title of the created basket is now the one of the selected template, or, when you edit a custom description the first line of the description.
 - The model name of a vehicle is now editable.
+- It is now possible to generate an export with the products in stock into a csv, excel or txt file.
 
 ## Product category changes
 
