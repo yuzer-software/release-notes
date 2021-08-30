@@ -63,3 +63,8 @@ Vous pouvez désormais utiliser le bouton _Imprimer_ sur une réception cloturé
 La navigation dans les listes de produit et véhicules a été améliorée; Vous pouvez cliquer à n'importe quel endroit de la ligne pour accéder au détail. La selection de texte (description, référence) reste possible soit par double click soit en sélectionnant une sous-partie de celui-ci avec la souris.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/line-select.gif" width="100%"/>
+
+## Application mobile
+
+- Certains codes barres sont préfixés ou suffixés par des espaces. Ils sont désormais automatiquement supprimés lors d'un scan.
+- Les tâches sont colorisées comme sur l'application de bureau.

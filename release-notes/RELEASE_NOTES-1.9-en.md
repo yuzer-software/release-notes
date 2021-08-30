@@ -63,3 +63,8 @@ You can now use the print button on a closed reception to print the list.
 We improved the navigation on vehicle and products lists; you can now click anywhere on the line to access the detail. Note that you can still select a text (reference, description) by double clicking on it or by dragging the mouse pointer to select a part of the text.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/line-select.gif" width="100%"/>
+
+## Mobile application
+
+- Some barcodes are prefixed or suffixed by spaces. These spaces are now automatically removed.
+- Tasks are colorized as in the dekstop application.
