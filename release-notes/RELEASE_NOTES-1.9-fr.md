@@ -1,5 +1,7 @@
 # Août 2021 - Version 1.9.0
 
+- Lorsque vous créez un nouveau rendez-vous à l'aide de la fonction de prise de rendez vous rapide le titre du panier créé est désormais celui du modèle choisi, ou, dans le cas d'une description libre, la première ligne de cette description.
+
 ## Modification des catégories de produit
 
 Nous avons séparé la catégorie "Autres services et taxes" en "Autres services" d'une part et "Autres taxes" d'autre part afin d'automatiser, dans le futur, l'application de la TVA à ces catégories. Toutefois, le processus de renommage ne peut pas être totalement automatisé et requiert votre attention.

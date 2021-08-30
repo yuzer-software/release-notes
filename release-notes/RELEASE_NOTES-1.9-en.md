@@ -1,5 +1,7 @@
 # August 2021 - Version 1.9.0
 
+- When taking a new appointment through the quick workshop appointement feature the title of the created basket is now the one of the selected template, or, when you edit a custom description the first line of the description.
+
 ## Product category changes
 
 We have split the "other_services_and_taxes" into "other_services" and "other_taxes" in order to provide more VAT automation in the future. However, this process cannot be fully automated and requires your attention.
