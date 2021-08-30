@@ -64,6 +64,27 @@ La navigation dans les listes de produit et véhicules a été améliorée; Vous
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/line-select.gif" width="100%"/>
 
+## Top search improvements
+
+La recherche globale a été améliorée pour plus de comfort. La recherche est désormais effecutée à travers:
+
+- Les dossiers véhicules
+- Les contacts
+- Les produits
+
+Nous avons également apporté les améliorations ergonomiques suivantes:
+
+- Le résultat le plus probable est affiché en haut de liste et est surligné; il peut-être immédiatement accédé en appuyant sur la touche _entrée_ du clavier.
+- Vous pouvez naviguer entre les résultats à l'aide des touches de navigation du clavier (et utiliser la touche _entrée_ pour accéder le résultat en surbrillance).
+- Vous pouvez accéder l'écran de recherche des dossiers/contacts/produits incluant la recherche entrée en utilisant les fonctions _Recherche avancée_ et bénéficier ainsi de fonctions de recherche plus avancées.
+
+Notez que la recherche d'un véhicule dans les systèmes constructeurs ou par plaque d'immatriculation n'est activée qu'avec un minimum de 6 charactères mais:
+
+- Seul Triumph supporte actuellement la recherche de VIN avec les 6 derniers charactères.
+- Une immatriculation ou un VIN pour les autres constructeurs doivent être obligatoirement entrés en entier.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/top-search.gif" width="100%"/>
+
 ## Application mobile
 
 - Certains codes barres sont préfixés ou suffixés par des espaces. Ils sont désormais automatiquement supprimés lors d'un scan.

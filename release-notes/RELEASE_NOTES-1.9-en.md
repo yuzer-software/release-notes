@@ -64,6 +64,27 @@ We improved the navigation on vehicle and products lists; you can now click anyw
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/line-select.gif" width="100%"/>
 
+## Top search improvements
+
+Global search has been improved for more comfort. Search is now performed on
+
+- Dealer files
+- Contacts
+- Products
+
+User experience has also been improved:
+
+- The best-matching result is now displayed on top of the list and is pre-selected; it can be immediatly accessed by pressing the _enter_ key.
+- Navigation in results is enabled by using the arrow keys of your keyboard (selection is done by pressing the _enter_ key).
+- You can access the the search screen of dealer files/contacts/products including the current search by using the _Advanced search_ option.
+
+Please note that searching a vehicle in supplier systems or by registration is enabled only with a minimum of 6 characters but:
+
+- Triumph is the only manufacturer that currently enables searching a VIN with the last 6 characters.
+- A registration or VIN for other manufacturers must be entered completly.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/top-search.gif" width="100%"/>
+
 ## Mobile application
 
 - Some barcodes are prefixed or suffixed by spaces. These spaces are now automatically removed.
