@@ -94,6 +94,8 @@ Please note that searching a vehicle in supplier systems or by registration is e
 
 ## Renaming of label 'Waiting for delivery'
 
-- Label 'Waiting for delivery' was renamed by the label 'Waiting for supplier'
+- Label 'Waiting for delivery' was renamed by the label 'Waiting for supplier' respectively in calendar view, with 'kanban' selected and in task edition.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/capture_wating_en.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/kanban_en.png" width="100%"/>
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/status_en.png" width="100%"/>

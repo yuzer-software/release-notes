@@ -94,6 +94,8 @@ Notez que la recherche d'un véhicule dans les systèmes constructeurs ou par pl
 
 ## Renommage du label 'En attente de livraison'
 
-- Le label 'En attente de livraison' a été renommé par le label 'En attente du fouirnisseur'
+- Le label 'En attente de livraison' a été renommé par le label 'En attente du fouirnisseur' respectivement dans l'ecran d'affichage du calendrier en vue kanban et dans la modal d'édition d'une tâche.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/capture_wating_fr.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/kanban_fr.png" width="100%"/>
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/status_fr.png" width="100%"/>
