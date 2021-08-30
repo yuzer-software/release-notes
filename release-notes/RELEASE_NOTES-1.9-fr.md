@@ -1,6 +1,7 @@
 # Août 2021 - Version 1.9.0
 
 - Lorsque vous créez un nouveau rendez-vous à l'aide de la fonction de prise de rendez vous rapide le titre du panier créé est désormais celui du modèle choisi, ou, dans le cas d'une description libre, la première ligne de cette description.
+- Le nom de modèle d'un véhicule est maintenant éditable.
 
 ## Modification des catégories de produit
 
@@ -66,7 +67,7 @@ La navigation dans les listes de produit et véhicules a été améliorée; Vous
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/line-select.gif" width="100%"/>
 
-## Top search improvements
+## Améliorations sur la barre de recherche globale
 
 La recherche globale a été améliorée pour plus de comfort. La recherche est désormais effecutée à travers:
 
@@ -87,14 +88,9 @@ Notez que la recherche d'un véhicule dans les systèmes constructeurs ou par pl
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/top-search.gif" width="100%"/>
 
-## Application mobile
-
-- Certains codes barres sont préfixés ou suffixés par des espaces. Ils sont désormais automatiquement supprimés lors d'un scan.
-- Les tâches sont colorisées comme sur l'application de bureau.
-
 ## Renommage du label 'En attente de livraison'
 
-- Le label 'En attente de livraison' a été renommé par le label 'En attente du fouirnisseur' respectivement dans l'ecran d'affichage du calendrier en vue kanban et dans la modal d'édition d'une tâche.
+- Le label 'En attente de livraison' a été renommé par le label 'En attente du fournisseur' respectivement dans l'ecran d'affichage du calendrier en vue kanban et dans la modal d'édition d'une tâche.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/kanban_fr.png" width="100%"/>
 
@@ -111,3 +107,8 @@ Notez que la recherche d'un véhicule dans les systèmes constructeurs ou par pl
 - La TVA est maintenant correctement mis à jour lors qu'on déplace une produit non-stokable dans ou en dehors d'un groupe de cession.
 - Correction de la page indéfiniment en attente lors qu'on essaie d'éditer un bon d'achat à partir d'un dossier de véhicule.
 - Impossible d'ajouter une ligne à un panier de type O.R. converti en PG&A avec une tâche d'atelier annulée.
+
+# Application mobile
+
+- Certains codes barres sont préfixés ou suffixés par des espaces. Ils sont désormais automatiquement supprimés lors d'un scan.
+- Les tâches sont colorisées comme sur l'application de bureau.

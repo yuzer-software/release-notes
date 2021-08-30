@@ -1,6 +1,7 @@
 # August 2021 - Version 1.9.0
 
 - When taking a new appointment through the quick workshop appointement feature the title of the created basket is now the one of the selected template, or, when you edit a custom description the first line of the description.
+- The model name of a vehicle is now editable.
 
 ## Product category changes
 
@@ -87,11 +88,6 @@ Please note that searching a vehicle in supplier systems or by registration is e
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/top-search.gif" width="100%"/>
 
-## Mobile application
-
-- Some barcodes are prefixed or suffixed by spaces. These spaces are now automatically removed.
-- Tasks are colorized as in the dekstop application.
-
 ## Renaming of label 'Waiting for delivery'
 
 - Label 'Waiting for delivery' was renamed by the label 'Waiting for supplier' respectively in calendar view, with 'kanban' selected and in task edition.
@@ -111,3 +107,8 @@ Please note that searching a vehicle in supplier systems or by registration is e
 - The VAT is now correctly updated when moving a non-stokable product into or out of a cession group.
 - Fixed indefinitely pending page when trying to edit a purchase from a vehicle dealer file.
 - Cannot add line to a basket converted from Repair Order to PGNA with a canceled workshop task.
+
+# Mobile application
+
+- Some barcodes are prefixed or suffixed by spaces. These spaces are now automatically removed.
+- Tasks are colorized as in the dekstop application.
