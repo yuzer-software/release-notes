@@ -10,7 +10,7 @@ We have renamed the _other_services_and_taxes_ category to _other_services_ in a
   <ul>
     <li>
       Please do check your accountancy rules (Accountancy > Accounts configuration)<br/>
-      <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/accountancy-rule.png"/>
+      <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/accountancy-rule.png" width="100%"/>
     </li>
     <li>Please do check product categories in existing opened baskets</li>
     <li>
@@ -21,12 +21,15 @@ We have renamed the _other_services_and_taxes_ category to _other_services_ in a
 </div>
 
 ## Contacts
+
 ### Vehicle registration numbers
+
 - The registration number of the vehicles of a contact are now displayed.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/vehicle-registration.png" height="140"/>
 
 ### VAT Exonerated
+
 When creating or updating a client, you can now check "VAT exonerated" if you have a role among "ACCOUNTANT"
 , "ADMIN" or "SALES_MANAGER".
 A client with VTA exonerated will have his VAT set to 0% by default when adding items to a basket.
@@ -48,3 +51,9 @@ It's possible to override vehicle's price, when it doesn't own to concession
 In the vehicle display, you can now find and modify the purchase invoice date.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/purchase-invoice-date.png" height="160"/>
+
+## Reception printing
+
+You can now use the print button on a closed reception to print the list.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/reception-print.png" width="100%"/>

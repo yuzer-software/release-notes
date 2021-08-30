@@ -10,7 +10,7 @@ Nous avons renommé la catégorie _Autres services et taxes_ en _Autres services
   <ul>
     <li>
       de bien vérifier vos règles de comptabilité (Comptabilité > Configuration des comptes)<br/>
-      <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/accountancy-rule.png"/>
+      <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/accountancy-rule.png" width="100%"/>
     </li>
     <li>de bien vérifier que les catégories des produits dans les paniers ouverts existants sont correctes</li>
     <li>
@@ -23,11 +23,13 @@ Nous avons renommé la catégorie _Autres services et taxes_ en _Autres services
 ## Contacts
 
 ### Numéro d'immatriculation des véhicules
+
 - Le numéro d'immatriculation des véhicules du client sont désormais affichés.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/vehicle-registration.png" height="140"/>
 
 ### Exoneration de TVA
+
 Lors e la création ou modification d'un client, il est maintenant possible de sélectionner "Exonéré de TVA" si vous avez un role de type "ACCOUNTANT"
 , "ADMIN" ou "SALES_MANAGER".
 Un client éxonéré d TVA aura sa TVA mise à 0% par défaut lors de l'ajout d'élément à un panier.
@@ -49,3 +51,9 @@ Il est possible de surcharger le prix d'un vehicule, lorsqu'il n'appartient pas 
 Dans la fiche de véhicule, vous pouvez dorénavant retrouver et modifier la date de facture d'achat.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/purchase-invoice-date.png" height="160"/>
+
+## Impression de réceptions
+
+Vous pouvez désormais utiliser le bouton _Imprimer_ sur une réception cloturée afin d'en imprimer le listing.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/reception-print.png" width="100%"/>
