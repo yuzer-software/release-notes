@@ -57,3 +57,9 @@ Dans la fiche de véhicule, vous pouvez dorénavant retrouver et modifier la dat
 Vous pouvez désormais utiliser le bouton _Imprimer_ sur une réception cloturée afin d'en imprimer le listing.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/reception-print.png" width="100%"/>
+
+## Sélection dans les listes de produit et véhicule
+
+La navigation dans les listes de produit et véhicules a été améliorée; Vous pouvez cliquer à n'importe quel endroit de la ligne pour accéder au détail. La selection de texte (description, référence) reste possible soit par double click soit en sélectionnant une sous-partie de celui-ci avec la souris.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/line-select.gif" width="100%"/>
