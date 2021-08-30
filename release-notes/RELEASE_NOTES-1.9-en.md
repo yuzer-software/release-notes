@@ -68,3 +68,9 @@ We improved the navigation on vehicle and products lists; you can now click anyw
 
 - Some barcodes are prefixed or suffixed by spaces. These spaces are now automatically removed.
 - Tasks are colorized as in the dekstop application.
+
+## Renaming of label 'Waiting for delivery'
+
+- Label 'Waiting for delivery' was renamed by the label 'Waiting for supplier'
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/capture_wating_en.png" width="100%"/>

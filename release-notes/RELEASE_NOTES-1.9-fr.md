@@ -68,3 +68,9 @@ La navigation dans les listes de produit et véhicules a été améliorée; Vous
 
 - Certains codes barres sont préfixés ou suffixés par des espaces. Ils sont désormais automatiquement supprimés lors d'un scan.
 - Les tâches sont colorisées comme sur l'application de bureau.
+
+## Renommage du label 'En attente de livraison'
+
+- Le label 'En attente de livraison' a été renommé par le label 'En attente du fouirnisseur'
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/capture_wating_fr.png" width="100%"/>
