@@ -49,6 +49,12 @@ It's possible to override vehicle's price, when it doesn't own to concession
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/override_prices.gif" height="160"/>
 
+## Reserved vehicle filter
+
+It is now possible to filter reserved vehicles.
+
+<img src="./1.9.0/dealer-file-reserved-filter.png" width="475"/>
+
 ## Purchase invoice date
 
 In the vehicle display, you can now find and modify the purchase invoice date.
