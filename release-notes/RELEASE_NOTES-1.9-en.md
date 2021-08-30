@@ -99,3 +99,15 @@ Please note that searching a vehicle in supplier systems or by registration is e
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/kanban_en.png" width="100%"/>
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/status_en.png" width="100%"/>
+
+# That's fixed
+
+- Fixed a focus issue when editing the label of a basket line.
+- Fixed an issue when one duplicates a rule on the account configuration.
+- Fixed search filter of product categories not always returning the right results.
+- Fixed an error when creating a billing group when there is none in the basket.
+- Added a missing translation for the error message of editing a cession document with discounts.
+- Various fixes when deleting or canceling a billing group.
+- The VAT is now correctly updated when moving a non-stokable product into or out of a cession group.
+- Fixed indefinitely pending page when trying to edit a purchase from a vehicle dealer file.
+- Cannot add line to a basket converted from Repair Order to PGNA with a canceled workshop task.

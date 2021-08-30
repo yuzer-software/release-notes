@@ -99,3 +99,15 @@ Notez que la recherche d'un véhicule dans les systèmes constructeurs ou par pl
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/kanban_fr.png" width="100%"/>
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/status_fr.png" width="100%"/>
+
+# C'est corrigé
+
+- Correction d'un problème de focus lors de l'édition d'un libellé sur une ligne du panier.
+- Correction d'un problème lorsqu'on duplique une règle dans la configuration des comptes.
+- Correction du filtre de recherche sur les catégories de produit qui ne retournait pas toujours les bons résultats.
+- Correction d'une erreur lorsqu'on crée un groupe de facturation lorsqu'il n'y en a aucun dans le panier.
+- Ajout d'une traduction manquante pour le message d'erreur de l'édition d'une facture de cession avec des remises.
+- Diverses corrections lors de la suppression ou annulation d'un groupe de facturation.
+- La TVA est maintenant correctement mis à jour lors qu'on déplace une produit non-stokable dans ou en dehors d'un groupe de cession.
+- Correction de la page indéfiniment en attente lors qu'on essaie d'éditer un bon d'achat à partir d'un dossier de véhicule.
+- Impossible d'ajouter une ligne à un panier de type O.R. converti en PG&A avec une tâche d'atelier annulée.
