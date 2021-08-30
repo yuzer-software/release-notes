@@ -21,10 +21,15 @@ We have renamed the _other_services_and_taxes_ category to _other_services_ in a
 </div>
 
 ## Contacts
-
+### Vehicle registration numbers
 - The registration number of the vehicles of a contact are now displayed.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/vehicle-registration.png" height="140"/>
+
+### VAT Exonerated
+When creating or updating a client, you can now check "VAT exonerated" if you have a role among "ACCOUNTANT"
+, "ADMIN" or "SALES_MANAGER".
+A client with VTA exonerated will have his VAT set to 0% by default when adding items to a basket.
 
 ## Negative stock
 

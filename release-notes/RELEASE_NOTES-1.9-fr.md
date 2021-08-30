@@ -22,9 +22,15 @@ Nous avons renommé la catégorie _Autres services et taxes_ en _Autres services
 
 ## Contacts
 
+### Numéro d'immatriculation des véhicules
 - Le numéro d'immatriculation des véhicules du client sont désormais affichés.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/vehicle-registration.png" height="140"/>
+
+### Exoneration de TVA
+Lors e la création ou modification d'un client, il est maintenant possible de sélectionner "Exonéré de TVA" si vous avez un role de type "ACCOUNTANT"
+, "ADMIN" ou "SALES_MANAGER".
+Un client éxonéré d TVA aura sa TVA mise à 0% par défaut lors de l'ajout d'élément à un panier.
 
 ## Stock négatif
 
