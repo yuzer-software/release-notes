@@ -1,8 +1,8 @@
 # Août 2021 - Version 1.9.0
 
-- Lorsque vous créez un nouveau rendez-vous à l'aide de la fonction de prise de rendez vous rapide le titre du panier créé est désormais celui du modèle choisi, ou, dans le cas d'une description libre, la première ligne de cette description.
+- Lorsque vous créez un nouveau rendez-vous à l'aide de la fonction de _prise de rendez-vous rapide_, le titre du panier créé est désormais celui du modèle choisi, ou, dans le cas d'une description libre, la première ligne de cette description.
 - Le nom de modèle d'un véhicule est maintenant éditable.
-- Il est désormais possible de générer un export avec les produits du stock dans un fichier csv, excel ou txt.
+- Il est désormais possible de générer un export avec les produits du stock dans un fichier **csv**, **excel** ou **txt**.
 
 ## Modification des catégories de produit
 
@@ -16,8 +16,7 @@ Nous avons renommé la catégorie _Autres services et taxes_ en _Autres services
       de bien vérifier vos règles de comptabilité (Comptabilité > Configuration des comptes)<br/>
       Dans le cas ou vous aviez spécifié une règle spécifique telle que celle-ci:
       <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/accountancy-rule.png" width="100%"/>
-      Si toute les factures et tickets de caisses n'ont pas encore été passé en comptabilité nous vous suggérons de garder la règle obsolète.
-      Et d'ajouter au dessus les règles correspondant aux nouvelles catégories de services et de taxes. N'hésitez pas à contacter notre support si vous avez besoin d'assistance.
+      Si toute les factures et tickets de caisses n'ont pas encore été passés en comptabilité nous vous suggérons de garder la règle obsolète et d'ajouter au dessus les règles correspondant aux nouvelles catégories de services et de taxes. N'hésitez pas à contacter notre support si vous avez besoin d'assistance.
     </li>
     <li>de bien vérifier que les catégories des produits dans les paniers ouverts existants sont correctes</li>
     <li>
@@ -35,21 +34,20 @@ Nous avons renommé la catégorie _Autres services et taxes_ en _Autres services
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/vehicle-registration.png" height="140"/>
 
-### Exoneration de TVA
+### Exonération de TVA
 
-Lors e la création ou modification d'un client, il est maintenant possible de sélectionner "Exonéré de TVA" si vous avez un role de type "ACCOUNTANT"
-, "ADMIN" ou "SALES_MANAGER".
-Un client éxonéré d TVA aura sa TVA mise à 0% par défaut lors de l'ajout d'élément à un panier.
+Lors de la création ou modification d'un client, il est maintenant possible de sélectionner "Exonéré de TVA" si vous avez un rôle de type "ACCOUNTANT", "ADMIN" ou "SALES_MANAGER".
+Un client exonéré de TVA aura sa TVA mise à 0% par défaut lors de l'ajout d'élément à un panier.
 
 ## Stock négatif
 
-Dans Stock -> Onglet Stock, il a maintenant un nouveau bouton "Stock négatif" permettant d'afficher tout les produits ayant un stock négatif dans au moins un lieu.
+Dans Stock -> Onglet Stock, il a maintenant un nouveau bouton "Stock négatif" permettant d'afficher tous les produits ayant un stock négatif dans au moins un lieu.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/negative-stock.png" height="160"/>
 
 ## Surcharge de prix
 
-Il est possible de surcharger le prix d'un vehicule, lorsqu'il n'appartient pas à une concession.
+Il est possible de surcharger le prix d'un véhicule, lorsqu'il n'appartient pas à une concession.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/override_prices.gif" width="100%"/>
 
@@ -67,19 +65,19 @@ Dans la fiche de véhicule, vous pouvez dorénavant retrouver et modifier la dat
 
 ## Impression de réceptions
 
-Vous pouvez désormais utiliser le bouton _Imprimer_ sur une réception cloturée afin d'en imprimer le listing.
+Vous pouvez désormais utiliser le bouton _Imprimer_ sur une réception clôturée afin d'en imprimer le listing.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/reception-print.png" width="100%"/>
 
-## Sélection dans les listes de produit et véhicule
+## Sélection dans les listes de produits et véhicules
 
-La navigation dans les listes de produit et véhicules a été améliorée; Vous pouvez cliquer à n'importe quel endroit de la ligne pour accéder au détail. La selection de texte (description, référence) reste possible soit par double click soit en sélectionnant une sous-partie de celui-ci avec la souris.
+La navigation dans les listes de produits et véhicules a été améliorée: vous pouvez cliquer à n'importe quel endroit de la ligne pour accéder au détail. La sélection de texte (description, référence) reste possible soit par double clic soit en sélectionnant une sous-partie de celui-ci avec la souris.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/line-select.gif" width="100%"/>
 
 ## Améliorations sur la barre de recherche globale
 
-La recherche globale a été améliorée pour plus de comfort. La recherche est désormais effecutée à travers:
+La recherche globale a été améliorée pour plus de confort. La recherche est désormais effectuée à travers:
 
 - Les dossiers véhicules
 - Les contacts
@@ -87,20 +85,20 @@ La recherche globale a été améliorée pour plus de comfort. La recherche est 
 
 Nous avons également apporté les améliorations ergonomiques suivantes:
 
-- Le résultat le plus probable est affiché en haut de liste et est surligné; il peut-être immédiatement accédé en appuyant sur la touche _entrée_ du clavier.
-- Vous pouvez naviguer entre les résultats à l'aide des touches de navigation du clavier (et utiliser la touche _entrée_ pour accéder le résultat en surbrillance).
-- Vous pouvez accéder l'écran de recherche des dossiers/contacts/produits incluant la recherche entrée en utilisant les fonctions _Recherche avancée_ et bénéficier ainsi de fonctions de recherche plus avancées.
+- Le résultat le plus probable est affiché en haut de liste et est surligné; vous pouvez y accéder immédiatement en appuyant sur la touche _entrée_ du clavier.
+- Vous pouvez naviguer entre les résultats à l'aide des touches de navigation du clavier (et utiliser la touche _entrée_ pour accéder au résultat en surbrillance).
+- Vous pouvez accéder à l'écran de recherche des dossiers/contacts/produits incluant la recherche entrée en utilisant les fonctions _Recherche avancée_ et bénéficier ainsi de fonctions de recherche plus avancées.
 
-Notez que la recherche d'un véhicule dans les systèmes constructeurs ou par plaque d'immatriculation n'est activée qu'avec un minimum de 6 charactères mais:
+Notez que la recherche d'un véhicule dans les systèmes des constructeurs ou par plaque d'immatriculation n'est activée qu'avec un minimum de 6 caractères mais:
 
-- Seul Triumph supporte actuellement la recherche de VIN avec les 6 derniers charactères.
+- Seul Triumph supporte actuellement la recherche de VIN avec les 6 derniers caractères.
 - Une immatriculation ou un VIN pour les autres constructeurs doivent être obligatoirement entrés en entier.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/top-search.gif" width="100%"/>
 
 ## Renommage du label 'En attente de livraison'
 
-- Le label 'En attente de livraison' a été renommé par le label 'En attente du fournisseur' respectivement dans l'ecran d'affichage du calendrier en vue kanban et dans la modal d'édition d'une tâche.
+- Le label 'En attente de livraison' a été renommé par le label 'En attente du fournisseur' dans l'écran d'affichage du calendrier en vue kanban et dans la modale d'édition d'une tâche.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/kanban_fr.png" width="100%"/>
 
@@ -108,7 +106,7 @@ Notez que la recherche d'un véhicule dans les systèmes constructeurs ou par pl
 
 ## Configuration des couleurs des tâches
 
-Les couleurs des tâches peuvent désormais être modifiées selon vos souhaits. Elles peuvent-être configurées pour la société/entité (ou héritées de la société parente si aucune configuration n'est définie sur une société fille), ou surchargée par utilisateur.
+Les couleurs des tâches peuvent désormais être modifiées selon vos souhaits. Elles peuvent-être configurées pour la société/entité (ou héritées de la société parente si aucune configuration n'est définie sur une société fille), ou surchargées par utilisateur.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/task-color-config.gif" width="100%"/>
 
@@ -120,10 +118,10 @@ Les couleurs des tâches peuvent désormais être modifiées selon vos souhaits.
 - Correction d'une erreur lorsqu'on crée un groupe de facturation lorsqu'il n'y en a aucun dans le panier.
 - Ajout d'une traduction manquante pour le message d'erreur de l'édition d'une facture de cession avec des remises.
 - Diverses corrections lors de la suppression ou annulation d'un groupe de facturation.
-- La TVA est maintenant correctement mis à jour lors qu'on déplace une produit non-stokable dans ou en dehors d'un groupe de cession.
-- Correction de la page indéfiniment en attente lors qu'on essaie d'éditer un bon d'achat à partir d'un dossier de véhicule.
+- La TVA est maintenant correctement mise à jour lors qu'on déplace un produit non stockable dans ou en dehors d'un groupe de cession.
+- Correction de la page indéfiniment en attente lorsqu'on essaie d'éditer un bon d'achat à partir d'un dossier de véhicule.
 - Erreur lors de l'ajout d'une ligne à un panier de type O.R. converti en PG&A avec une tâche d'atelier annulée.
-- Correction de problèmes de drag and drop à l'intérieur d'un sous groupe et à travers certains groupes de facturation.
+- Correction de problèmes de *drag and drop* à l'intérieur d'un sous-groupe et à travers certains groupes de facturation.
 - Résolution de l'affichage du statut de stock à l'ajout d'une nouvelle ligne dans un panier.
 
 Note: _La plupart de ces corrections ont été incluses dans les versions 1.8.3 et 1.8.4_

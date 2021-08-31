@@ -1,8 +1,8 @@
 # August 2021 - Version 1.9.0
 
-- When taking a new appointment through the quick workshop appointement feature the title of the created basket is now the one of the selected template, or, when you edit a custom description the first line of the description.
+- When taking a new appointment through the quick workshop appointment feature the title of the created basket is now the one of the selected template, or, when you edit a custom description the first line of the description.
 - The model name of a vehicle is now editable.
-- It is now possible to generate an export with the products in stock into a csv, excel or txt file.
+- It is now possible to generate an export with the products in stock into a **csv**, **excel** or **txt** file.
 
 ## Product category changes
 
@@ -84,14 +84,14 @@ Global search has been improved for more comfort. Search is now performed on
 
 User experience has also been improved:
 
-- The best-matching result is now displayed on top of the list and is pre-selected; it can be immediatly accessed by pressing the _enter_ key.
+- The best-matching result is now displayed on top of the list and is pre-selected; it can be immediately accessed by pressing the _enter_ key.
 - Navigation in results is enabled by using the arrow keys of your keyboard (selection is done by pressing the _enter_ key).
 - You can access the the search screen of dealer files/contacts/products including the current search by using the _Advanced search_ option.
 
 Please note that searching a vehicle in supplier systems or by registration is enabled only with a minimum of 6 characters but:
 
 - Triumph is the only manufacturer that currently enables searching a VIN with the last 6 characters.
-- A registration or VIN for other manufacturers must be entered completly.
+- A registration or VIN for other manufacturers must be entered completely.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/top-search.gif" width="100%"/>
 
@@ -105,7 +105,7 @@ Please note that searching a vehicle in supplier systems or by registration is e
 
 ## Tasks colors configuration
 
-Default tasks colors can now be customized to fit your need. It can be configured entity/company wide (and will use the parent entity configuration if none is defined on a child entity) or overriden per user.
+Default tasks colors can now be customized to fit your need. It can be configured entity/company wide (and will use the parent entity configuration if none is defined on a child entity) or overridden per user.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/task-color-config.gif" width="100%"/>
 
@@ -117,7 +117,7 @@ Default tasks colors can now be customized to fit your need. It can be configure
 - Fixed an error when creating a billing group when there is none in the basket.
 - Added a missing translation for the error message of editing a cession document with discounts.
 - Various fixes when deleting or canceling a billing group.
-- The VAT is now correctly updated when moving a non-stokable product into or out of a cession group.
+- The VAT is now correctly updated when moving a non-stockable product into or out of a cession group.
 - Fixed indefinitely pending page when trying to edit a purchase from a vehicle dealer file.
 - Cannot add line to a basket converted from Repair Order to PGNA with a canceled workshop task.
 - Drag and drop issues inside a sub-group and between billing groups have been solved.
@@ -128,4 +128,4 @@ Note: _Most fixes where included in 1.8.3 and 1.8.4 releases_
 # Mobile application
 
 - Some barcodes are prefixed or suffixed by spaces. These spaces are now automatically removed.
-- Tasks are colorized as in the dekstop application.
+- Tasks are colorized as in the desktop application.
