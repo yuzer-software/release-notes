@@ -103,6 +103,12 @@ Please note that searching a vehicle in supplier systems or by registration is e
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/status_en.png" width="100%"/>
 
+## Tasks colors configuration
+
+Default tasks colors can now be customized to fit your need. It can be configured entity/company wide (and will use the parent entity configuration if none is defined on a child entity) or overriden per user.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/task-color-config.gif" width="100%"/>
+
 # That's fixed
 
 - Fixed a focus issue when editing the label of a basket line.

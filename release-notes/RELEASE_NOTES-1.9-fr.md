@@ -106,6 +106,12 @@ Notez que la recherche d'un véhicule dans les systèmes constructeurs ou par pl
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/status_fr.png" width="100%"/>
 
+## Configuration des couleurs des tâches
+
+Les couleurs des tâches peuvent désormais être modifiées selon vos souhaits. Elles peuvent-être configurées pour la société/entité (ou héritées de la société parente si aucune configuration n'est définie sur une société fille), ou surchargée par utilisateur.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/task-color-config.gif" width="100%"/>
+
 # C'est corrigé
 
 - Correction d'un problème de focus lors de l'édition d'un libellé sur une ligne du panier.
@@ -117,7 +123,7 @@ Notez que la recherche d'un véhicule dans les systèmes constructeurs ou par pl
 - La TVA est maintenant correctement mis à jour lors qu'on déplace une produit non-stokable dans ou en dehors d'un groupe de cession.
 - Correction de la page indéfiniment en attente lors qu'on essaie d'éditer un bon d'achat à partir d'un dossier de véhicule.
 - Erreur lors de l'ajout d'une ligne à un panier de type O.R. converti en PG&A avec une tâche d'atelier annulée.
-- Correction de problèmes de drag and drop à l'intérieur d'un sous groupe et à travers certains groupes de facturation
+- Correction de problèmes de drag and drop à l'intérieur d'un sous groupe et à travers certains groupes de facturation.
 - Résolution de l'affichage du statut de stock à l'ajout d'une nouvelle ligne dans un panier.
 
 Note: _La plupart de ces corrections ont été incluses dans les versions 1.8.3 et 1.8.4_
