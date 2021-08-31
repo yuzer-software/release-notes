@@ -14,7 +14,10 @@ Nous avons renommé la catégorie _Autres services et taxes_ en _Autres services
   <ul>
     <li>
       de bien vérifier vos règles de comptabilité (Comptabilité > Configuration des comptes)<br/>
+      Dans le cas ou vous aviez spécifié une règle spécifique telle que celle-ci:
       <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/accountancy-rule.png" width="100%"/>
+      Si toute les factures et tickets de caisses n'ont pas encore été passé en comptabilité nous vous suggérons de garder la règle obsolète.
+      Et d'ajouter au dessus les règles correspondant aux nouvelles catégories de services et de taxes. N'hésitez pas à contacter notre support si vous avez besoin d'assistance.
     </li>
     <li>de bien vérifier que les catégories des produits dans les paniers ouverts existants sont correctes</li>
     <li>
