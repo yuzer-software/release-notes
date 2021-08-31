@@ -114,6 +114,10 @@ Please note that searching a vehicle in supplier systems or by registration is e
 - The VAT is now correctly updated when moving a non-stokable product into or out of a cession group.
 - Fixed indefinitely pending page when trying to edit a purchase from a vehicle dealer file.
 - Cannot add line to a basket converted from Repair Order to PGNA with a canceled workshop task.
+- Drag and drop issues inside a sub-group and between billing groups have been solved.
+- Display of stock status on a new basket line has been fixed.
+
+Note: _Most fixes where included in 1.8.3 and 1.8.4 releases_
 
 # Mobile application
 

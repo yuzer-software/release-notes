@@ -51,7 +51,7 @@ Dans Stock -> Onglet Stock, il a maintenant un nouveau bouton "Stock négatif" p
 
 Il est possible de surcharger le prix d'un vehicule, lorsqu'il n'appartient pas à une concession.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/override_prices.gif" height="160"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/override_prices.gif" width="100%"/>
 
 ## Filtrer les véhicules réservés
 
@@ -116,7 +116,11 @@ Notez que la recherche d'un véhicule dans les systèmes constructeurs ou par pl
 - Diverses corrections lors de la suppression ou annulation d'un groupe de facturation.
 - La TVA est maintenant correctement mis à jour lors qu'on déplace une produit non-stokable dans ou en dehors d'un groupe de cession.
 - Correction de la page indéfiniment en attente lors qu'on essaie d'éditer un bon d'achat à partir d'un dossier de véhicule.
-- Impossible d'ajouter une ligne à un panier de type O.R. converti en PG&A avec une tâche d'atelier annulée.
+- Erreur lors de l'ajout d'une ligne à un panier de type O.R. converti en PG&A avec une tâche d'atelier annulée.
+- Correction de problèmes de drag and drop à l'intérieur d'un sous groupe et à travers certains groupes de facturation
+- Résolution de l'affichage du statut de stock à l'ajout d'une nouvelle ligne dans un panier.
+
+Note: _La plupart de ces corrections ont été incluses dans les versions 1.8.3 et 1.8.4_
 
 # Application mobile
 
