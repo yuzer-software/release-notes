@@ -44,9 +44,9 @@ In Stock -> Stock tab, there is now a new button "Negative Stock" that will lead
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/negative-stock.png" height="160"/>
 
-## Overriding prices
+## Overriding catalog vehicle prices
 
-It's possible to override vehicle's price, when it doesn't own to concession
+It is now possible to override the price of a vehicle in the catalog, even when the catalog is not managed by the dealership.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/override_prices.gif" height="160"/>
 
