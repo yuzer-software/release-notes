@@ -130,3 +130,5 @@ Note: _La plupart de ces corrections ont été incluses dans les versions 1.8.3 
 
 - Certains codes barres sont préfixés ou suffixés par des espaces. Ils sont désormais automatiquement supprimés lors d'un scan.
 - Les tâches sont colorisées comme sur l'application de bureau.
+- Après la création d'une réception ou d'un transfert, l'application navigue automatiquement vers l'ajout de nouveaux produits.
+- Lors de l'ouverture d'une réception ou d'un transfert vide, l'application navigue automatiquement vers l'ajout de nouveaux produits.

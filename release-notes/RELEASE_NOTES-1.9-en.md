@@ -129,3 +129,5 @@ Note: _Most fixes where included in 1.8.3 and 1.8.4 releases_
 
 - Some barcodes are prefixed or suffixed by spaces. These spaces are now automatically removed.
 - Tasks are colorized as in the desktop application.
+- After reception or transfer creation, the application automatically navigates to the add products page.
+- When opening an empty reception or transfer, the application automatically navigates to the add products page.
