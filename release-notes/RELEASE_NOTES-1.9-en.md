@@ -40,7 +40,7 @@ A client with VTA exonerated will have his VAT set to 0% by default when adding 
 
 ## Negative stock
 
-In Stock -> Stock tab, there is now a new button "Negative Stock" that will lead to a new page displaying any products having a negative stock in at least one location.
+In Stock -> Stock tab, there is now a new button "Negative Stock" that will lead to a new page displaying any products having a negative stock in at least one of its location. Note that you can print the displayed page with the list of products.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/negative-stock.png" height="160"/>
 

@@ -41,7 +41,7 @@ Un client exonéré de TVA aura sa TVA mise à 0% par défaut lors de l'ajout d'
 
 ## Stock négatif
 
-Dans Stock -> Onglet Stock, il a maintenant un nouveau bouton "Stock négatif" permettant d'afficher tous les produits ayant un stock négatif dans au moins un lieu.
+Dans Stock -> Onglet Stock, il y a maintenant un nouveau bouton "Stock négatif" permettant d'afficher tous les produits ayant un stock négatif dans au moins un de ses emplacements. A noter que vous pouvez imprimer la page affichée avec la liste des produits.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/negative-stock.png" height="160"/>
 
