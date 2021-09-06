@@ -131,6 +131,7 @@ A noter que chaque utilisateur peut avoir sa propre configuration de couleurs en
 - Erreur lors de l'ajout d'une ligne à un panier de type O.R. converti en PG&A avec une tâche d'atelier annulée.
 - Correction de problèmes de _drag and drop_ à l'intérieur d'un sous-groupe et à travers certains groupes de facturation.
 - Résolution de l'affichage du statut de stock à l'ajout d'une nouvelle ligne dans un panier.
+- Le passage en comptabilité des cessions avec auto-écriture en cas de succès s'inscrivait bien dans le journal mais restait en statut envoyé et non validé.
 
 Note: _La plupart de ces corrections ont été incluses dans les versions 1.8.3 et 1.8.4_
 

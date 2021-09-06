@@ -130,6 +130,7 @@ Note that each user can have their own color configuration. It can be set from _
 - Cannot add line to a basket converted from Repair Order to PGNA with a canceled workshop task.
 - Drag and drop issues inside a sub-group and between billing groups have been solved.
 - Display of stock status on a new basket line has been fixed.
+- Accountancy status of cessions with auto-writing to journal when successful was correctly process but state was left as dispatched rather than validated.
 
 Note: _Most fixes where included in 1.8.3 and 1.8.4 releases_
 
