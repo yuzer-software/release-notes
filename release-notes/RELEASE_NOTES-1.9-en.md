@@ -3,6 +3,9 @@
 - When taking a new appointment through the quick workshop appointment feature the title of the created basket is now the one of the selected template, or, when you edit a custom description the first line of the description.
 - The model name of a vehicle is now editable.
 - It is now possible to generate an export with the products in stock into a **csv**, **excel** or **txt** file.
+- It is now possible to convert balance into credit event if it creates a negative balance.
+- An administrator can now choose to ignore to impact the stock of products for all types of basket while invoicing (initially only possible for baskets of _vehicle preparation_ type).
+- It is now possible to collect a payment with an amount greater than the basket one.
 
 ## Product category changes
 
@@ -37,6 +40,9 @@ We have renamed the _other_services_and_taxes_ category to _other_services_ in a
 When creating or updating a client, you can now check "VAT exonerated" if you have a role among "ACCOUNTANT"
 , "ADMIN" or "SALES_MANAGER".
 A client with VTA exonerated will have his VAT set to 0% by default when adding items to a basket.
+
+Note that the creation of a template from a basket belonging to a contact who is exonerated from VAT has been temporarily disabled.
+Indeed, when we create a basket template, we currently save the price of the products as it was set on the source basket. Therefore, when the template is reapplied on a new basket, it is possible that the prices are without VAT. We plan to review the feature to avoid this kind of problem in the future.
 
 ## Negative stock
 
@@ -109,6 +115,8 @@ Default tasks colors can now be customized to fit your need. It can be configure
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/task-color-config.gif" width="100%"/>
 
+Note that each user can have their own color configuration. It can be set from _Account information > Workspaces_
+
 # That's fixed
 
 - Fixed a focus issue when editing the label of a basket line.
@@ -131,3 +139,6 @@ Note: _Most fixes where included in 1.8.3 and 1.8.4 releases_
 - Tasks are colorized as in the desktop application.
 - After reception or transfer creation, the application automatically navigates to the add products page.
 - When opening an empty reception or transfer, the application automatically navigates to the add products page.
+- When a vehicle type is updated, the catalog search list is now refreshed to display an up-to-date result.
+- Fixed a refresh issue with the basket cancellation window.
+- Fixed the _total_ and _account_ buttons in the payment window that were not displayed for the PG&A and O.R baskets.

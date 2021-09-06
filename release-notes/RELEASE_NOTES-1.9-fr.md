@@ -3,6 +3,9 @@
 - Lorsque vous créez un nouveau rendez-vous à l'aide de la fonction de _prise de rendez-vous rapide_, le titre du panier créé est désormais celui du modèle choisi, ou, dans le cas d'une description libre, la première ligne de cette description.
 - Le nom de modèle d'un véhicule est maintenant éditable.
 - Il est désormais possible de générer un export avec les produits du stock dans un fichier **csv**, **excel** ou **txt**.
+- Il est maintenant possible de convertir de la balance en crédit même quand cela engendre une balance négative.
+- Un administrateur peut maintenant choisir d’ignorer d’impacter le stock des produits pour tous les types de panier lors de la facturation (initialement possible uniquement pour les paniers de type _préparation de véhicule_).
+- Il est désormais possible d'encaisser un paiement avec un montant supérieur à celui du panier.
 
 ## Modification des catégories de produit
 
@@ -38,6 +41,9 @@ Nous avons renommé la catégorie _Autres services et taxes_ en _Autres services
 
 Lors de la création ou modification d'un client, il est maintenant possible de sélectionner "Exonéré de TVA" si vous avez un rôle de type "ACCOUNTANT", "ADMIN" ou "SALES_MANAGER".
 Un client exonéré de TVA aura sa TVA mise à 0% par défaut lors de l'ajout d'élément à un panier.
+
+A noter que la création de modèles à partir d'un panier appartenant à un contact étant exonéré de TVA a temporairement été désactivé.
+En effet, lorsque nous créons un modèle de panier, nous sauvegardons actuellement le prix des produits tel qu'il a été renseigné dans le panier source. De ce fait, lorsque le modèle est ré-appliqué sur un nouveau panier, il est possible que les prix se retrouvent sans TVA. Nous avons prévu de revoir le fonctionnement pour éviter ce genre de problème dans le futur.
 
 ## Stock négatif
 
@@ -110,6 +116,8 @@ Les couleurs des tâches peuvent désormais être modifiées selon vos souhaits.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/task-color-config.gif" width="100%"/>
 
+A noter que chaque utilisateur peut avoir sa propre configuration de couleurs en le configurant dans _Informations du compte > Espaces de travail_
+
 # C'est corrigé
 
 - Correction d'un problème de focus lors de l'édition d'un libellé sur une ligne du panier.
@@ -132,3 +140,6 @@ Note: _La plupart de ces corrections ont été incluses dans les versions 1.8.3 
 - Les tâches sont colorisées comme sur l'application de bureau.
 - Après la création d'une réception ou d'un transfert, l'application navigue automatiquement vers l'ajout de nouveaux produits.
 - Lors de l'ouverture d'une réception ou d'un transfert vide, l'application navigue automatiquement vers l'ajout de nouveaux produits.
+- Lorsqu’un modèle de véhicule est mis à jour, le résultat de la recherche sur le catalogue est maintenant mise à jour afin d’afficher des résultats à jour.
+- Correction d’un problème de rafraichissement avec la fenêtre d’annulation de panier.
+- Correction des boutons _total_ et _acompte_ de la fenêtre de paiement qui n’étaient pas affichés pour les paniers PG&A et O.R.
