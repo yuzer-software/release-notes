@@ -14,3 +14,5 @@ Lorsque plusieurs espaces de travails sont affichés:
 # Configuration commerciales
 
 # C'est corrigé
+
+- Lors de l'édition du prix d'achat un véhicule sur une machine windows en Français entrer un "." plutôt qu'une virgule causait un comportement erroné (complétion curieuse des décimales).
