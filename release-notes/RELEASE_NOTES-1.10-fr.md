@@ -11,7 +11,29 @@ Lorsque plusieurs espaces de travails sont affichés:
 - La charge est affichée comme inconnue étant donnée qu'elle ne peut prendre en compte que les tâches atelier et n'a pas de sens dans ce contexte.
 - Les couleurs des tâches sont chargées depuis la configuration "espaces de travail multiples".
 
-# Configuration commerciales
+# Configuration commerciale
+Un nouveau menu "Gestion commerciale" est disponible dans l'onglet "admnistration".
+L'on pourra y retrouver les menus suivants:
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/commercial_config.png"/>
+
+La configuration des messages et CGV ainsi que la configuration des prêts de véhicules y ont donc été déplacés.
+
+##Configuration commerciale
+Un nouveau menu permet d'accéder à de nouvelles options de configuration.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/commercial_config_tab.png"/>
+
+### Durée de validité par défaut des documents
+Ce nouveau paramètre permet de définir une durée de validité par défaut des documents, en jours.
+
+Les propositions commerciales sont valides u nnombre défini de jours. La date  de fin de validité peut être choisie lors de chaque éditions. 
+Choisir une valeur par défaut permet donc de remplir automatiquement une date de fin de validité.
+
+### Obligation d'estimation des prix de vente et de réparation lors d'un reprise.
+Cette nouvelle option permet de définir si, au moment de la reprise d'un véhicule, l'estimatation du prix de revente ainsi que 
+l'estimation du coût des réparations est obligatoire et devra bloquer l'édition des documents et donc la finalisation de la reprise.
+Si l'on coche "Non", les valeurs pourront être renseignées, mais ne bloqueront pas la finalisation de la reprise.
 
 # C'est corrigé
 
