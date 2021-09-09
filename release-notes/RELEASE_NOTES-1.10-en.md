@@ -8,7 +8,7 @@ You can now display multiple workspaces in a single calendar.
 
 When multiple workspaces are displayed:
 
-- The load is displayed as unkown as it can only take the workshop tasks in account.
+- The load is displayed as unknown as it can only take the workshop tasks in account.
 - Tasks colors uses the multiple workspaces configuration.
 
 # Commercial management
@@ -27,8 +27,7 @@ You will also find a brand new menu that will allow you to access a new set of p
 
 ### Default document validity duration
 
-This new parameter allow you to define, in days, the default validity duration for commercial proposal documents in the application
-so this parameter will be automatically filled when you'll generate a commercial proposal.
+This new parameter allow you to define, in days, the default validity duration for commercial proposal documents in the application. The validity date will be automatically pre-filled when you'll generate a commercial proposal.
 
 ### Force trade in estimation.
 
