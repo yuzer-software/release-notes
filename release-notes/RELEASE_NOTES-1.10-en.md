@@ -1,5 +1,7 @@
 # September 2021 - Version 1.10.0
 
+- We improved products in stock filtering which should provide better results.
+
 # Calendar
 
 You can now display multiple workspaces in a single calendar.

@@ -1,5 +1,7 @@
 # Septembre 2021 - Version 1.10.0
 
+- Nous avons amélioré la fonction de filtrage des produits en stock. Cela devrait vous fournir de meilleurs résultats.
+
 # Calendrier
 
 Vous pouvez désormais afficher plusieurs espaces de travail sur le même calendrier.
