@@ -13,7 +13,17 @@ Lorsque plusieurs espaces de travails sont affichés:
 - La charge est affichée comme inconnue étant donnée qu'elle ne peut prendre en compte que les tâches atelier et n'aurait pas de sens avec d'autres espaces de travail.
 - Les couleurs des tâches sont chargées depuis la configuration "espaces de travail multiples".
 
-# Configuration commerciale
+# Estimation des reprises.
+
+Lorsque vous effecutez une reprise vous pouvez désormais indiquer les prix estimés de revente et coûts de réparation estimés.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/trade-in-estimate.png"/>
+
+Ces champs sont optionnels par défaut mais peuvent être rendus obligatoire par l'administrateur dans la section _Configuration commerciale_ (voir ci-dessous).
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/trade-in-estimate-mandatory.png"/>
+
+# Gestion commerciale
 
 Un nouveau menu "Gestion commerciale" est disponible dans l'onglet "administration".
 L'on pourra y retrouver les menus suivants:
@@ -38,6 +48,7 @@ Choisir une valeur par défaut permet donc de pré-remplir la date de fin de val
 ### Obligation d'estimation des prix de vente et de réparation lors d'une reprise.
 
 Cette nouvelle option permet de définir si, au moment de la reprise d'un véhicule, l'estimation du prix de revente ainsi que l'estimation du coût des réparations est obligatoire et devra bloquer l'édition des documents et donc la finalisation de la reprise.
+
 Si l'on coche "Non", les valeurs pourront être renseignées, mais ne bloqueront pas la finalisation de la reprise.
 
 # C'est corrigé
