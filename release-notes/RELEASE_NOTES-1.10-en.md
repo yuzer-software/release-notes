@@ -46,3 +46,5 @@ This new parameter allow you to define, in days, the default validity duration f
 If "yes" is selected the estimate sell price and repair cost are mandatory (see _Trade-in estimation_), if not are remain optional.
 
 # That's fixed
+
+- When dispatching cash desk closing without event and with a configuration that requires manual validation the state was left as _dispatched_ rather than _validated_ and could not be validated in the UI.
