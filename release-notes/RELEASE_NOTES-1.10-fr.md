@@ -2,6 +2,12 @@
 
 - Nous avons amélioré la fonction de filtrage des produits en stock. Cela devrait vous fournir de meilleurs résultats.
 
+# Tableau de bord
+
+La configuration du _widget_ "Chiffre d'affaires" a été rendue plus évidente et dispose d'une nouvelle fonctionnalité: filter ou grouper par type de panier.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/turnover.png" height="320"/>
+
 # Calendrier
 
 Vous pouvez désormais afficher plusieurs espaces de travail sur le même calendrier.
@@ -15,7 +21,7 @@ Lorsque plusieurs espaces de travails sont affichés:
 
 # Estimation des reprises.
 
-Lorsque vous effecutez une reprise vous pouvez désormais indiquer les prix estimés de revente et coûts de réparation estimés.
+Lorsque vous effectuez une reprise vous pouvez désormais indiquer les prix estimés de revente et coûts de réparation estimés.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/trade-in-estimate.png"/>
 

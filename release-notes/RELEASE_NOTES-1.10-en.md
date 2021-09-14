@@ -2,6 +2,12 @@
 
 - We improved products in stock filtering which should provide better results.
 
+# Dashboard
+
+The "Turnover" widget configuration has been clarified and has a new feature: filtering or grouping by basket type.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/turnover.png" height="320"/>
+
 # Calendar
 
 You can now display multiple workspaces in a single calendar.
