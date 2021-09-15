@@ -85,6 +85,45 @@ Si l'on coche "Non", les valeurs pourront être renseignées, mais ne bloqueront
 
 Vous pouvez également définir la marge recommandée qui permet d'afficher un prix de reprise recommandé basé sur l'estimation du prix de revente et des réparations.
 
+# Programmes de fidélité
+
+Vous pouvez maintenant gérer des programmes de fidélité dans Yuzer.
+
+## Configuration des programmes de fidélité
+
+Les programmes de fidélité sont définis dans le menu "Administration", à la section "Programmes de fidélité". Vous pouvez définir autant de programmes de fidélité que vous le désirez. Dans l'exemple ci-dessous, vous pouvez voir deux programmes: Yuzer Premium et Yuzer Ultimate.
+
+- Yuzer Premium offre une réduction immédiate de 10% sur tous les vêtements et une réduction immédiate de 5% sur tous les produits Blackbird fourni par Bihr.
+- Yuzer Ultimate offre une réduction immédiate de 20% sur tout ce qui est sujet à être impacté par les programmes de fidélité.
+
+Actuellement, quelques limitations demeurent: il n'est pas possible d'offrir des remises sur les véhicules ou les services de la catégorie "services et taxes" (évidemment, les taxes ne peuvent pas être réduites).
+
+Notez que la marque doit être exactement renseignée avec la bonne casse. Une marque vide s'applique à toutes les marques.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/loyalty-config.png"/>
+
+## Souscrire à un programme de fidélité
+
+Vous pouvez inscrire un de vos contact à un programme de fidélité depuis sa page de contact ou directement depuis le panier. Ci-dessous, vous pourrez voir comment :
+
+- Inscrire un contact à un programme de fidélité depuis un panier,
+- Ajouter au groupe de facturation l'inscription relative à votre contact (remarque qu'un groupe de facturation ne peut être lié qu'à un seul programme de fidélité). Nous en décrirons les effets à la section "Appliquer un programme de fidélité".
+- Supprimer un programme de fidélité d'un groupe de facturation.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/loyalty-subscription.gif"/>
+
+## Appliquer un programme de fidélité
+
+Vous pouvez voir ci-dessous le résultat d'avoir appliqué le programme "Yuzer Premium" décrit ci-dessus à un groupe de facturation de trois lignes. Le nom du programme appliqué est affiché en haut du groupe de facturation et de nouvelles lignes ont été ajoutées. Celles-ci résument comment le programme impacte le panier.
+
+En fait, nous avons une ligne par valeur de TVA. Dans notre exemple, tous les produits ont 20% de TVA donc nous n'avons qu'une ligne de remise de fidélité. Cette ligne a un total TTC qui somme toutes les remises appliquées et décrit chaque remise :
+
+- BIH-0040038 n'est ni un vêtement, ni un produit Blackbird : aucune remise n'est appliquée.
+- BIH-01-142 est un vêtement: la première ligne du programme est appliquée, offrant 10% de remise.
+de remise.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/loyalty-basket.png"/>
+
 # C'est corrigé
 
 - Lors de l'édition du prix d'achat un véhicule sur une machine windows en Français, entrer un "." plutôt qu'une virgule causait un comportement erroné (complétion curieuse des décimales).
