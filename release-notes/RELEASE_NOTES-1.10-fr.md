@@ -23,6 +23,16 @@ Lorsque plusieurs espaces de travails sont affichés:
 - La charge est affichée comme inconnue étant donnée qu'elle ne peut prendre en compte que les tâches atelier et n'aurait pas de sens avec d'autres espaces de travail.
 - Les couleurs des tâches sont chargées depuis la configuration "espaces de travail multiples".
 
+# Création de tâches pour valider les cessions non-finalisées
+
+Lorsqu'un panier est facturé alors que des cessions (préparations / réparations) n'ont pas été finalisées, une tâche est créée automatiquement dans le calendrier de gestion commerciale afin de rappeler la nécessité de clôturer celles-ci.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/incomplete-cession-warn.png" height="140"/>
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/incomplete-cession-create.png" height="140"/>
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/incomplete-cession-task-cal" height="140"/>
+
 # Estimation des reprises.
 
 Lorsque vous effectuez une reprise vous pouvez désormais indiquer les prix estimés de revente et coûts de réparation estimés.

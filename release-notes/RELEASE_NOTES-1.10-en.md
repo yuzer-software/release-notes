@@ -23,6 +23,16 @@ When multiple workspaces are displayed:
 - The load is displayed as unknown as it can only take the workshop tasks in account.
 - Tasks colors uses the multiple workspaces configuration.
 
+# Task creation when invoicing with pending cessions
+
+When a basket is invoiced and some of the cessions (prepair / repair) have not been finalized, a task is automatically created in the commercial management calendar.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/incomplete-cession-warn.png" height="140"/>
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/incomplete-cession-create.png" height="140"/>
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/incomplete-cession-task-cal" height="140"/>
+
 # Trade-in estimation
 
 In the event of a trade in, you can now fill some new fields to estimate the selling cost of the trade in vehicle and the cost of the repairs.
