@@ -31,6 +31,16 @@ Ces champs sont optionnels par défaut mais peuvent être rendus obligatoire par
 
 Si une marge recommandée a été configurée dans les paramètres de gestion commerciale (voir ci-dessous) Yuzer affiche aussi une valeur de prix d'achat recommandée basée sur les prix de vente et coûts de réparations estimés ainsi que sur la marge recommandée.
 
+# Export du stock
+
+Des options ont été ajoutées à l'export de stock afin de pouvoir exporter le stock complet et non uniquement celui de l'entrepôt selectionné.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/stock-export.png"/>
+
+Vous pouvez également chosir d'exporter l'intégralité du stock ou d'ignorer les valeurs positives ou négatives.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/stock-export-opts.png"/>
+
 # Gestion commerciale
 
 Un nouveau menu "Gestion commerciale" est disponible dans l'onglet "administration".
