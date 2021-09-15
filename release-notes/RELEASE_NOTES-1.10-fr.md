@@ -4,9 +4,13 @@
 
 # Tableau de bord
 
-La configuration du _widget_ "Chiffre d'affaires" a été rendue plus évidente et dispose d'une nouvelle fonctionnalité: filter ou grouper par type de panier.
+La configuration du _widget_ "Chiffre d'affaires" a été rendue plus claire et dispose d'une nouvelle fonctionnalité: filter ou grouper par type de panier.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/turnover.png" height="320"/>
+
+Un nouveau _widget_ "Main-d'œuvre" a été ajouté et vous permet d'afficher le temps ou le chiffre d'affaire **facturé** de l'atelier.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/workforce-widget.png" height="320"/>
 
 # Calendrier
 
