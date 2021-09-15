@@ -29,6 +29,8 @@ These fields are optional by default but can be made mandatory by the admin in t
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/trade-in-estimate-mandatory.png"/>
 
+If you defined a _recommended margin_ in the commercial management configuration (see below) the estimated sale price and repairs are used to compute a recommended purchase price.
+
 # Commercial management
 
 A new option "Commercial management" is now available in the "Settings" and will allow you to access these tabs:
@@ -47,9 +49,10 @@ You will also find a brand new menu that will allow you to access a new set of p
 
 This new parameter allow you to define, in days, the default validity duration for commercial proposal documents in the application. The validity date will be automatically pre-filled when you'll generate a commercial proposal.
 
-### Force trade in estimation
+### Trade in estimate and recommended margin
 
 If "yes" is selected the estimate sell price and repair cost are mandatory (see _Trade-in estimation_), if not are remain optional.
+In addition you can configure an optional recommended margin that is used to compute the recommended purchase price on the trade in.
 
 # That's fixed
 

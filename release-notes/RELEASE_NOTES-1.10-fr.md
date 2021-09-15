@@ -29,6 +29,8 @@ Ces champs sont optionnels par défaut mais peuvent être rendus obligatoire par
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/trade-in-estimate-mandatory.png"/>
 
+Si une marge recommandée a été configurée dans les paramètres de gestion commerciale (voir ci-dessous) Yuzer affiche aussi une valeur de prix d'achat recommandée basée sur les prix de vente et coûts de réparations estimés ainsi que sur la marge recommandée.
+
 # Gestion commerciale
 
 Un nouveau menu "Gestion commerciale" est disponible dans l'onglet "administration".
@@ -51,11 +53,13 @@ Ce nouveau paramètre permet de définir une durée de validité par défaut des
 Les propositions commerciales ont une échéance. La date de fin de validité peut être choisie lors de chaque édition.
 Choisir une valeur par défaut permet donc de pré-remplir la date de fin de validité.
 
-### Obligation d'estimation des prix de vente et de réparation lors d'une reprise.
+### Paramètres d'estimation des reprises
 
-Cette nouvelle option permet de définir si, au moment de la reprise d'un véhicule, l'estimation du prix de revente ainsi que l'estimation du coût des réparations est obligatoire et devra bloquer l'édition des documents et donc la finalisation de la reprise.
+L'option _Obligation d'estimation des prix de vente et de réparation lors d'une reprise_ vous permet de définir si, au moment de la reprise d'un véhicule, l'estimation du prix de revente ainsi que l'estimation du coût des réparations est obligatoire et devra bloquer l'édition des documents et donc la finalisation de la reprise.
 
 Si l'on coche "Non", les valeurs pourront être renseignées, mais ne bloqueront pas la finalisation de la reprise.
+
+Vous pouvez également définir la marge recommandée qui permet d'afficher un prix de reprise recommandé basé sur l'estimation du prix de revente et des réparations.
 
 # C'est corrigé
 
