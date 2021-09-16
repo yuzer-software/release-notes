@@ -128,3 +128,4 @@ de remise.
 
 - Lors de l'édition du prix d'achat un véhicule sur une machine windows en Français, entrer un "." plutôt qu'une virgule causait un comportement erroné (complétion curieuse des décimales).
 - Lorsque vous passez en comptabilité une cloture de caisse sans évènement et que votre configuration requiers une validation manuelle le statut de comptabilité restait en _Traité_ et non _Validé_ (il ne pouvait l'être dans l'interface).
+- Il est possible d'enregistrer des paiements négatifs (remboursement).

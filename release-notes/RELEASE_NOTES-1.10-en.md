@@ -110,3 +110,4 @@ In fact, we have one line per VAT value. In our example, all discounted lines ha
 # That's fixed
 
 - When dispatching cash desk closing without event and with a configuration that requires manual validation the state was left as _dispatched_ rather than _validated_ and could not be validated in the UI.
+- It is possible to take negative payments (refund).
