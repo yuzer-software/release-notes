@@ -77,11 +77,11 @@ You can now manage loyalty programs directly in Yuzer.
 Loyalty programs are defined in the "Administration" menu, section "Loyalty programs". You may define as many loyalty programs as you want. Here you can see two programs: Yuzer Premium and Yuzer Ultimate.
 
 - Yuzer Premium gives to the subscriber 10% of immediate discount on all clothes and 5% of immediate discount on all Blackbird products supplied by Bihr.
-- Yuzer Ultimate gives to the subscriber 20% on everything that may be discounted by a loyalty program.
+- Yuzer Ultimate gives to the subscriber 20% on everything but services and taxes.
 
-Currently, we have some limitations: vehicles cannot be discounted by a loyalty program, as well as services under the "services and taxes" category (of course, taxes cannot be discounted).
+Currently, we have some limitations: vehicles cannot be discounted by a loyalty program, as well as services under the "services and taxes" category (legally taxes cannot be discounted).
 
-Note that the brand must be the exact, case sensitive name of the brand. An empty brand matches all brands.
+Note that the brand must be the exact, case sensitive name of the brand. An empty value matches all brands.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/loyalty-config.png"/>
 
@@ -89,17 +89,17 @@ Note that the brand must be the exact, case sensitive name of the brand. An empt
 
 You may register a contact loyalty program subscription from the contact page edition or directly from the basket. Below is how to:
 
-- Add a subscription from a basket
-- Add a loyalty membership to the billing group (Note that you cannot have more than one loyalty membership applied to a billing group). We will describe in Section "Apply contact's loyalty membership" the effect on the basket.
+- Subscribe the customer to a loyalty program from a basket
+- Add a loyalty membership to the billing group (note that you cannot have more than one loyalty membership applied to a billing group). Effects on the basket are described in Section "Apply contact's loyalty membership".
 - Remove a loyalty membership from a billing group.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/loyalty-subscription.gif"/>
 
 ## Apply contact's loyalty membership
 
-Below is the result of applying the "Yuzer Premium" loyalty program described above to a billing group containing tree lines. The applied loyalty program is displayed on the top of the billing group, and new billing group lines are added to summarize how the loyalty program impact the basket.
+Below is the result of applying the "Yuzer Premium" loyalty program to a billing group containing tree lines. The applied loyalty program is displayed on the top of the billing group, and new billing group lines are added to sum up impacts on the basket.
 
-In fact, we have one line per VAT value. In our example, all discounted lines have 20% VAT value so we only have one line of loyalty discount. This line has a total TTC that sums all discount applied and contains the description of each discounts:
+Loyalty discounts are gathered by VAT. In our exampe, all lines have 20% VAT, so we end up with only one loyalty discount line that sums all applied discounts and provides a description per discounted product:
 
 - BIH-0040038 is neither a garment, neither a Blackbird product so no discount is applied.
 - BIH-01-142 is a garment: it matches the first rule of the program and thus this rule applies, resulting in a 10% discount.
