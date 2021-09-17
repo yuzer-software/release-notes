@@ -14,6 +14,14 @@ Un nouveau _widget_ "Main-d'œuvre" a été ajouté et vous permet d'afficher le
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/workforce-widget.png" height="320"/>
 
+# Catalogue
+
+SIMA, qui fournit des catalogues pour les marques Mash, Royal Enfield et Hyosung, avaient certains catalogues en double : les uns définis au niveau du groupe SIMA, les autres au niveau des marques distribuées par SIMA. Ces doublons posaient quelques problèmes car les produits concernés avaient deux références : l'utilisateur était parfois invité à choisir une des deux références sans comprendre l'utilité de ce choix.
+
+Les catalogues définis au niveau du groupe SIMA ont été supprimés. Ceux définis au niveau des marques distribuées par SIMA ont été conservés. Ceci corrige les références doublons. Toutes les références de panier et de stock ont été mises à jour. Nous vous invitons à vérifier vos politiques tarifaires (marge, remises, règles d'arrondi) propres à SIMA.
+
+Remarque. Lors d'une réception de produits Mash, Royal Enfield ou Hyosung, il faut toujours choisir le groupe SIMA. Car SIMA est le fournisseur, celui qui a émis la facture. D'un point de vu comptable, rien ne change.
+
 # Calendrier
 
 Vous pouvez désormais afficher plusieurs espaces de travail sur le même calendrier.

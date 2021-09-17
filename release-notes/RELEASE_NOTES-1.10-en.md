@@ -14,6 +14,14 @@ A new _Workforce_ widget has been added and allows to to display the **Invoiced*
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/workforce-widget.png" height="320"/>
 
+# Catalog
+
+Sima, which supplies catalogs for the Mash, Royal Enfield and Hyosung brands, had some duplicated catalogs: some defined at the level of the Sima group, others at the level of brands distributed by Sima. These duplicates caused issues because the concerned products had two references: the user may be prompted to choose one of the two references with no clue about the usefulness of this choice.
+
+The catalogs defined at the level of the Sima group have been deleted. Those defined for the brands distributed by Sima have been retained. This corrects duplicated references. All basket and stock references have been updated accordingly. We invite you to check your configuration specific to SIMA: margin or price overrides and pricing policies (discounts, rounding rules).
+
+Note. When receiving Mash, Royal Enfield or Hyosung products, you still have to choose SIMA group wich is the supplier who emited the bill. From an accounting point of view, nothing changes. SIMA is still correctly used as a supplier.
+
 # Calendar
 
 You can now display multiple workspaces in a single calendar.
