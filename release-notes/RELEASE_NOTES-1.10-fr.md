@@ -120,7 +120,7 @@ En fait, nous avons une ligne par valeur de TVA. Dans notre exemple, tous les pr
 
 - BIH-0040038 n'est ni un vêtement, ni un produit Blackbird : aucune remise n'est appliquée.
 - BIH-01-142 est un vêtement: la première ligne du programme est appliquée, offrant 10% de remise.
-de remise.
+  de remise.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/loyalty-basket.png"/>
 
@@ -129,3 +129,4 @@ de remise.
 - Lors de l'édition du prix d'achat un véhicule sur une machine windows en Français, entrer un "." plutôt qu'une virgule causait un comportement erroné (complétion curieuse des décimales).
 - Lorsque vous passez en comptabilité une cloture de caisse sans évènement et que votre configuration requiers une validation manuelle le statut de comptabilité restait en _Traité_ et non _Validé_ (il ne pouvait l'être dans l'interface).
 - Il est possible d'enregistrer des paiements négatifs (remboursement).
+- Correction des problèmes de droits qui empêchait de pouvoir modifier et sauvegarder les identifiants de connexion fournisseur.
