@@ -1,6 +1,8 @@
 # September 2021 - Version 1.10.0
 
 - We improved products in stock filtering which should provide better results.
+- In the basket context bar, the _cart_ icon has been changed to the basket type icon.
+  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/basket-type-icon.png" height="50"/>
 
 # Dashboard
 
@@ -112,3 +114,5 @@ Loyalty discounts are gathered by VAT. In our exampe, all lines have 20% VAT, so
 - When dispatching cash desk closing without event and with a configuration that requires manual validation the state was left as _dispatched_ rather than _validated_ and could not be validated in the UI.
 - It is possible to take negative payments (refund).
 - Fixed rights issues preventing from being able to modify and save supplier login credentials.
+- It is no longer possible to change the contact of a _Preparation cession_ basket type.
+- It is no longer possible to choose _Used Vehicle Preparation_ when changing the billing group type of a basket that is not a _Vehicle preparation_ type.

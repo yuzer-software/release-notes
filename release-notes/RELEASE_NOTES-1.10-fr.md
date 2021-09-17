@@ -1,6 +1,8 @@
 # Septembre 2021 - Version 1.10.0
 
 - Nous avons amélioré la fonction de filtrage des produits en stock. Cela devrait vous fournir de meilleurs résultats.
+- Dans la barre de context du panier, l’icône du _Caddie_ a été changé au profit de l’icône du type de panier.
+  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/basket-type-icon.png" height="50"/>
 
 # Tableau de bord
 
@@ -130,3 +132,5 @@ Les remises de fidélité sont regroupées par TVA. Dans notre exemple, tous les
 - Lorsque vous passez en comptabilité une clôture de caisse sans évènement et que votre configuration requiert une validation manuelle le statut de comptabilité restait en _Traité_ et non _Validé_ (il ne pouvait pas l'être dans l'interface).
 - Il est possible d'enregistrer des paiements négatifs (remboursement).
 - Correction de problèmes de droits qui empêchaient la modification des identifiants de connexion fournisseur.
+- Il n'est plus possible de changer le contact sur un panier de type _Préparation cession_.
+- Il n'est plus possible de choisir _Préparation VO_ lors la modification de type de groupe de facturation quand le panier n'est pas de type _Préparation de véhicule_
