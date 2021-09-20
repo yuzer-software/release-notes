@@ -33,7 +33,7 @@ Lorsqu'un panier est facturé alors que des cessions (préparations / réparatio
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/incomplete-cession-create.png" height="140"/>
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/incomplete-cession-task-cal" height="140"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/incomplete-cession-task-cal.png" height="140"/>
 
 # Estimation des reprises.
 
