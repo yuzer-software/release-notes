@@ -47,11 +47,11 @@ When a basket is invoiced and some of the cessions (prepair / repair) have not b
 
 In the event of a trade in, you can now fill some new fields to estimate the selling cost of the trade in vehicle and the cost of the repairs.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/trade-in-estimate.png"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/trade-in-estimate.png" height="120"/>
 
 These fields are optional by default but can be made mandatory by the admin in the _Commercial management tab_ (see below).
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/trade-in-estimate-mandatory.png"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/trade-in-estimate-mandatory.png" height="120"/>
 
 If you defined a _recommended margin_ in the commercial management configuration (see below) the estimated sale price and repairs are used to compute a recommended purchase price.
 

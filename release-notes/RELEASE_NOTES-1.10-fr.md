@@ -8,7 +8,7 @@
 
 La configuration du _widget_ "Chiffre d'affaires" a été rendue plus claire et dispose d'une nouvelle fonctionnalité: filter ou grouper par type de panier.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/turnover.png" height="320"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/turnover.png" height="300"/>
 
 Un nouveau _widget_ "Main-d'œuvre" a été ajouté et vous permet d'afficher le temps ou le chiffre d'affaire **facturé** de l'atelier.
 
@@ -47,11 +47,11 @@ Lorsqu'un panier est facturé alors que des cessions (préparations / réparatio
 
 Lorsque vous effectuez une reprise vous pouvez désormais indiquer les prix estimés de revente et coûts de réparation estimés.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/trade-in-estimate.png"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/trade-in-estimate.png" height="80"/>
 
 Ces champs sont optionnels par défaut mais peuvent être rendus obligatoire par l'administrateur dans la section _Configuration commerciale_ (voir ci-dessous).
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/trade-in-estimate-mandatory.png"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/trade-in-estimate-mandatory.png" height="110"/>
 
 Si une marge recommandée a été configurée dans les paramètres de gestion commerciale (voir ci-dessous) Yuzer affiche aussi une valeur de prix d'achat recommandée basée sur les prix de vente et coûts de réparations estimés ainsi que sur la marge recommandée.
 
@@ -59,11 +59,11 @@ Si une marge recommandée a été configurée dans les paramètres de gestion co
 
 Des options ont été ajoutées à l'export de stock afin de pouvoir exporter le stock complet et non uniquement celui de l'entrepôt selectionné.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/stock-export.png"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/stock-export.png" height="320"/>
 
 Vous pouvez également chosir d'exporter l'intégralité du stock ou d'ignorer les valeurs positives ou négatives.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/stock-export-opts.png"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/stock-export-opts.png" height="100"/>
 
 # Gestion commerciale
 
@@ -78,7 +78,7 @@ La configuration des messages et CGV ainsi que la configuration des prêts de v�
 
 Un nouveau menu permet d'accéder à de nouvelles options de configuration.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/commercial_config_tab.png"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/commercial_config_tab.png" height="180"/>
 
 ### Durée de validité par défaut des documents
 
@@ -110,7 +110,7 @@ Actuellement, quelques limitations demeurent: il n'est pas possible d'offrir des
 
 Notez que la marque doit être renseignée avec exactitude (majuscule, etc). Une valeur vide signifie que le programme de fidélité s'applique à toutes les marques.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/loyalty-config.png"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/loyalty-config.png" width="100%"/>
 
 ## Souscrire à un programme de fidélité
 
@@ -132,7 +132,7 @@ Les remises de fidélité sont regroupées par TVA. Dans notre exemple, tous les
 - BIH-01-142 est un vêtement : la première règle du programme de fidélité s'applique, ce qui donne 10% de remise.
 - BIH-1003038 n'est pas un vêtement, mais c'est un produit Blackbird fourni par Bihr : la deuxième règle du programme de fidélité s'applique, ce qui donne 5% de remise.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/loyalty-basket.png"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/loyalty-basket.png" width="100%"/>
 
 # C'est corrigé
 
