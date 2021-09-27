@@ -124,3 +124,4 @@ Loyalty discounts are gathered by VAT. In our exampe, all lines have 20% VAT, so
 - Fixed rights issues preventing from being able to modify and save supplier login credentials.
 - It is no longer possible to change the contact of a _Preparation cession_ basket type.
 - It is no longer possible to choose _Used Vehicle Preparation_ when changing the billing group type of a basket that is not a _Vehicle preparation_ type.
+- Fixed the 'vehicle-sales' widget, the numbers were not refreshed when we changed the entity.

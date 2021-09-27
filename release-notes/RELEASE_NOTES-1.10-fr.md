@@ -142,3 +142,4 @@ Les remises de fidélité sont regroupées par TVA. Dans notre exemple, tous les
 - Correction de problèmes de droits qui empêchaient la modification des identifiants de connexion fournisseur.
 - Il n'est plus possible de changer le contact sur un panier de type _Préparation cession_.
 - Il n'est plus possible de choisir _Préparation VO_ lors la modification de type de groupe de facturation quand le panier n'est pas de type _Préparation de véhicule_
+- Correction d'un problème dans le widget "ventes de véhicule", les nombres n'étaient pas mis-à-jour lorsqu'on changeait de boutique.
