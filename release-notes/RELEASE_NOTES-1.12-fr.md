@@ -21,9 +21,60 @@ Vous pouvez toujours spécifier un nombre de produits à ajouter mais un bouton 
 
   <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/item-quick-add-order.png" height="64"/>
 
+# Gestion des documents d'identité d'un contact
+
+<div class="row">
+  <div class="col">
+Vous pouvez désormais ajouter à un contact les pièces d'identité suivantes:
+
+- Permis de conduire
+- Pièce d'identité nationale
+- Passeport
+
+Il est également possible désormais d'associer directement une image de la galerie aux recto et verso de la carte.
+
+</div>
+  <div class="col">
+    <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/identity-docs.png" height="320"/>
+  </div>
+</div>
+
 # Gestion des marges recommandées à la vente
 
-Il est désormais possible de configurer et d'appliquer la validation des marges recommandées à la vente d'un produit.
+La gestion des marges de vente minimales a été ajoutée dans l'onglet **Gestion commerciale**/**configuration commerciale** du paneau d'administration.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/recommended_margins.png" height="380"/>
+
+Vous pouvez ici définir des règles sur la gestion des marges à la vente. Il est possible d'être informatif ou restrictif (sachant qu'un utilisateur administrateur pourra toujours effectuer une vente malgré la configuration spécifée).
+
+<div class="alert alert-info mb-1 mt-1">
+Ces configurations ne sont appliquées que pour les paniers de véhicules et de produits identifiés. Les ordres de réparations et vente de pièces ne sont pas concernées.
+</div>
+
+Une fois configurées, nous affichons un avertissement sur la mage du panier ou véhicule si celle-ci ne respecte pas la règle.
+
+Lors de l'édition du panier:
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/basket-margin-warn.png" width="100%"/>
+
+Ainsi qu'avant l'édition des divers documents:
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/basket-margin-warn-invoice.png" height="380"/>
+
+Dans le cas ou l'option permettant d'empêcher la facturation d'un panier dont la marge est inférieure à celle souhaitée yuzer affiche l'alerte lors de l'édition en rouge et empêche l'édition de documents:
+
+<div class="d-flex justify-content-center">
+  <div class="mr-2">
+  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/basket-margin-error.png" height="48"/>
+  </div>
+  <div class="ml-2">
+  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/basket-margin-block.png" height="140"/>
+  </div>
+</div>
+
+<div class="alert alert-warning mb-1 mt-1">
+Les règles basées sur l'âge du stock nécessitent que le dossier renseignent une date de réception pour être appliquées.
+</div>
 
 # Amélioration de la gestion des attributs des produits
 
