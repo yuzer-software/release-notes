@@ -31,8 +31,6 @@ Vous pouvez désormais ajouter à un contact les pièces d'identité suivantes:
 - Pièce d'identité nationale
 - Passeport
 
-Il est également possible désormais d'associer directement une image de la galerie aux recto et verso de la carte.
-
 </div>
   <div class="col">
     <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/identity-docs.png" height="320"/>
