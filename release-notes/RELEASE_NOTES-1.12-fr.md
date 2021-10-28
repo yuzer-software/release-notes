@@ -39,11 +39,11 @@ Vous pouvez désormais ajouter à un contact les pièces d'identité suivantes:
 
 # Gestion des marges recommandées à la vente
 
-La gestion des marges de vente minimales a été ajoutée dans l'onglet **Gestion commerciale**/**configuration commerciale** du paneau d'administration.
+La gestion des marges de vente minimales a été ajoutée dans l'onglet **Gestion commerciale**/**configuration commerciale** du panneau d'administration.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/recommended_margins.png" height="380"/>
 
-Vous pouvez ici définir des règles sur la gestion des marges à la vente. Il est possible d'être informatif ou restrictif (sachant qu'un utilisateur administrateur pourra toujours effectuer une vente malgré la configuration spécifée).
+Vous pouvez ici définir des règles sur la gestion des marges à la vente. Il est possible d'être informatif ou restrictif (sachant qu'un utilisateur administrateur pourra toujours effectuer une vente malgré la configuration spécifiée).
 
 <div class="alert alert-info mb-1 mt-1">
 Ces configurations ne sont appliquées que pour les paniers de véhicules et de produits identifiés. Les ordres de réparations et vente de pièces ne sont pas concernées.
@@ -59,7 +59,7 @@ Ainsi qu'avant l'édition des divers documents:
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/basket-margin-warn-invoice.png" height="380"/>
 
-Dans le cas ou l'option permettant d'empêcher la facturation d'un panier dont la marge est inférieure à celle souhaitée yuzer affiche l'alerte lors de l'édition en rouge et empêche l'édition de documents:
+Dans le cas où l'option permettant d'empêcher la facturation d'un panier dont la marge est inférieure à celle souhaitée, Yuzer affiche l'alerte lors de l'édition en rouge et empêche l'édition de documents:
 
 <div class="d-flex justify-content-center">
   <div class="mr-2">
@@ -73,6 +73,13 @@ Dans le cas ou l'option permettant d'empêcher la facturation d'un panier dont l
 <div class="alert alert-warning mb-1 mt-1">
 Les règles basées sur l'âge du stock nécessitent que le dossier renseignent une date de réception pour être appliquées.
 </div>
+
+# Facturation d'un panier avec cessions non finalisées
+
+Vous pouvez configurer votre entité pour empêcher ou non la facturation d'un panier qui aurait des cessions non finalisées. L'option est accessible depuis l'onglet **Gestion commerciale**/**configuration commerciale** du panneau d'administration.
+
+<img src="./1.12.0/config-unfinalized-cessions.png" height="100"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/config-unfinalized-cessions.png" height="100"/>
 
 # Amélioration de la gestion des attributs des produits
 
@@ -92,7 +99,7 @@ Les contraintes de cette gestion sont les suivantes:
 
 - Chaque produit doit-être identifié de manière unique (on ne peut pas utiliser de numéro de série commun à plusieurs produits mais il faut bien un numéro totalement unique).
 - Les catégories qui auraient été désignée comme devant-être identifiées ne doivent plus être gérée dans le stock classique mais à travers un dossier (comme pour les véhicules)
-- Il est possible de faire une préparation de ces dossier de "produits identifiés" qui peuvent alors contenir d'autres produtis comme étant "montés sur sur le produit identifié"
+- Il est possible de faire une préparation de ces dossier de "produits identifiés" qui peuvent alors contenir d'autres produits comme étant "montés sur sur le produit identifié"
 - Lors d'une vente il faut sélectionner le dossier que l'on veut lier à la vente afin de pouvoir la réaliser (il n'y a plus de notion de picking classique du stock)
 - Il est possible d'associer de tels produits à un client et d'effectuer une reprise de ces produits (qui auront alors leur dossier d'occasion)
 - Il faut bien entendu ne pas entrer dans le stock classique de tels produits (les réceptions de ces produits doivent être effectuées à travers la création d'un dossier et non via une réception dans l'onglet de stock)
@@ -108,7 +115,7 @@ Vous y retrouvez la possibilité d'activer ou non la gestion des véhicules (qu'
 
 Vous pouvez créer une nouvelle catégorie identifiable à l'aide du bouton **+** qui ouvre alors la boite de dialogue suivante vous permettant de configurer les champs suivants:
 
-- Préfixe: Une chaine de catactère utilisée dans le cadre de la numérotation des dossiers; chaque catégorie identifiable doit avoir son propre préfixe et aura une numérotation différente.
+- Préfixe: Une chaine de caractère utilisée dans le cadre de la numérotation des dossiers; chaque catégorie identifiable doit avoir son propre préfixe et aura une numérotation différente.
 - Libellé: Le nom de la catégorie telle qu'elle sera affichée dans l'application
 - Catégorie: La catégorie Yuzer cible de la gestion par identification et dossier
 - Fournisseurs: Une liste optionnelle de fournisseurs cible de l'identification; si spécifiée seul les produits de ces fournisseurs seront traités par identification dans cette catégorie. Les produits des autres fournisseurs seront alors gérés en stock de manière classique. Laissez cette option vide pour traiter toute la catégorie de manière unifiée.
