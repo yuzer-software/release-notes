@@ -12,8 +12,7 @@ Vous pouvez toujours spécifier un nombre de produits à ajouter mais un bouton 
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/item-quick-add-nbr.png" height="64"/>
 
-- L'icône change en fonction du contexte que ce soit
-  pour l'ajout dans un panier:
+- L'icône change en fonction du contexte que ce soit pour l'ajout dans un panier:
 
   <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/item-quick-add-basket.png" height="64"/>
 
@@ -43,13 +42,13 @@ La gestion des marges de vente minimales a été ajoutée dans l'onglet **Gestio
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/recommended_margins.png" height="380"/>
 
-Vous pouvez ici définir des règles sur la gestion des marges à la vente. Il est possible d'être informatif ou restrictif (sachant qu'un utilisateur administrateur pourra toujours effectuer une vente malgré la configuration spécifiée).
+Vous pouvez ici définir des règles sur la gestion des marges à la vente. Il est possible d'être informatif ou restrictif.
 
 <div class="alert alert-info mb-1 mt-1">
 Ces configurations ne sont appliquées que pour les paniers de véhicules et de produits identifiés. Les ordres de réparations et vente de pièces ne sont pas concernées.
 </div>
 
-Une fois configurées, nous affichons un avertissement sur la mage du panier ou véhicule si celle-ci ne respecte pas la règle.
+Une fois configurées, nous affichons un avertissement sur la marge du panier ou du véhicule si celle-ci ne respecte pas la règle.
 
 Lors de l'édition du panier:
 
@@ -59,7 +58,7 @@ Ainsi qu'avant l'édition des divers documents:
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/basket-margin-warn-invoice.png" height="380"/>
 
-Dans le cas où l'option permettant d'empêcher la facturation d'un panier dont la marge est inférieure à celle souhaitée, Yuzer affiche l'alerte lors de l'édition en rouge et empêche l'édition de documents:
+Dans le cas de règles restrictives, si un panier ou un véhicule a une marge inférieure à celle configurée alors, en plus des messages d'alerte en rouge, l'édition de documents sera empêchée (sachant qu'un utilisateur ayant le rôle ADMIN pourra toujours effectuer une vente quelque soit la configuration).
 
 <div class="d-flex justify-content-center">
   <div class="mr-2">
@@ -76,7 +75,7 @@ Les règles basées sur l'âge du stock nécessitent que le dossier renseignent 
 
 # Facturation d'un panier avec cessions non finalisées
 
-Vous pouvez configurer votre entité pour empêcher ou non la facturation d'un panier qui aurait des cessions non finalisées. L'option est accessible depuis l'onglet **Gestion commerciale**/**configuration commerciale** du panneau d'administration.
+Votre entité peut-être configurée pour empêcher la facturation d'un panier qui aurait des cessions non finalisées. L'option est accessible depuis l'onglet **Gestion commerciale**/**configuration commerciale** du panneau d'administration.
 
 <img src="./1.12.0/config-unfinalized-cessions.png" height="100"/>
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/config-unfinalized-cessions.png" height="100"/>
@@ -86,14 +85,14 @@ Vous pouvez configurer votre entité pour empêcher ou non la facturation d'un p
 Nous avons modifié et amélioré la gestion des attributs des produits. Ceux-ci ont été revus en fonction des différentes catégories.
 
 <div class="alert alert-info mt-1 mb-1">
-Nous allons effectuer des mises à jour dans les mois à venir pour améliorer leur remplissage et utilisation dans les catalogues. Ils sont également une première pierre dans l'amélioration de la gestion du catalogue produit et la future gestion des produits parents.
+Nous allons effectuer des mises à jour dans les mois à venir pour améliorer leur valorisation dans les catalogues. Ils sont également une première pierre dans l'amélioration de la gestion du catalogue produit et la future gestion des produits parents.
 </div>
 
 # Extension de la vente par dossier à toute catégories
 
 Le système de gestion de stock et vente par dossier, qui était réservé jusqu'à présent aux véhicules est désormais étendu à n'importe quelle catégorie suivant la configuration de Yuzer.
 
-Dans ce système, chaque produit est identifié de manière unique. Il est bien entendu particulièrement adapté aux véhicules, ou le VIN est l'identifiant de référence, mais trouve également écho dans le monde du vélo. Et pourrait-être étendu à d'autres cas.
+Dans ce système, chaque produit est identifié de manière unique. Il est bien entendu particulièrement adapté aux véhicules, ou le VIN est l'identifiant de référence. Mais il trouve également écho dans le monde du vélo et il pourrait être étendu à d'autres cas.
 
 Les contraintes de cette gestion sont les suivantes:
 
