@@ -58,6 +58,7 @@ Vous pouvez effectuer une demande de récupération de TVA trop payée sur vos p
 - Il est désormais possible de trouver les vélos et autres produits identifiables à l'aide de la recherche principale.
 - La création d'un nouvel inventaire complet pouvait dans certains cas afficher une erreur.
 - L'arrondi effectué dans la conversion des unités sur les lignes de main d'oeuvre pouvait entrainer des montants ne correspondant pas au souhait de l'utilisateur. Nous avons augmenté la précision afin d'éviter ces problèmes.
+- Lors de l'utilisation d'une douchette sur un panier, si le champ de reférence était sélectionné, ce qui est le cas par défaut, le produit était ajouté deux fois au panier.
 
 # Améliorations et corrections des versions 1.12.x
 
