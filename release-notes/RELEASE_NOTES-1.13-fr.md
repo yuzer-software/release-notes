@@ -81,3 +81,4 @@ Vous pouvez effectuer une demande de récupération de TVA trop payée sur vos p
 ### C'est corrigé
 
 - La vue d'une tâche était mal affichée sur certaines tablettes.
+- Lorsqu'on déplaçait un produit monté sur un produit identifié dans un groupe de cession pour démontage, la quantité n'était pas mis à jour avec sa valeur négative. Ce qui empêchait de le remettre en stock lors de la facturation.
