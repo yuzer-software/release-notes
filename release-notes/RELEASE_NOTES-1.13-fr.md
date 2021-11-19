@@ -15,6 +15,51 @@ On peut éditer une facture **proforma** depuis un panier de vente, en cliquant 
 
 L'édition d'une facture **proforma** n'a aucun impact sur les numérotations des factures, ni sur la comptabilité de l'entreprise.
 
+# Carte cadeau
+
+Il est désormais possible de gérer des cartes cadeaux dans Yuzer. Assurez vous au préalable de bien avoir configuré dans votre plan comptable un compte pour les cartes cadeaux (_46700000_ en général).
+
+## Configuration d'une carte cadeau
+
+La première étape pour accepter les cartes cadeaux est de configurer un moyen de paiement de type carte cadeau.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/gift-card-cfg.png" height="140"/>
+
+Vous pouvez choisir de laisser yuzer générer les numéros de séquences des cartes, ou utiliser des cartes cadeaux existantes dont les numéros ne sont pas générés par yuzer.
+
+Si vous n'avez pas de cartes existantes ou afin de renouveller votre stock de cartes il est recommandé de laisser Yuzer générer les numéros.
+Notez que vous pouvez avoir plusieurs moyen de paiement de type carte cadeau, il est donc possible de définir un moyen de paiement permettant d'écouler votre stock de cartes existant puis de définir un nouveau moyen de paiement afin de générer de nouvelles cartes.
+
+## Création d'un batch de cartes cadeau
+
+Lorsque les numéros de cartes sont créés par Yuzer vous devrez créer un lot de cartes (opération qui peut-être effecutée plusieurs fois).
+
+Dans l'onglet _administration_ le menu _Cartes fidélités_ est désormais _Cartes cadeaux et fidélités_ et dispose de deux sous-menus vous permettant de gérer chaque type de carte. Rendez vous donc dans le sous menu _Cartes cadeaux_.
+
+Vous retrouvez ici la liste des cartes cadeaux configurées en moyen de paiement:
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/gift-card-list.png" width="100%"/>
+
+Sélectionnez la carte cadeau pour laquelle générer un lot de cartes et cliquez sur le bouton **+** à droite.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/gift-card-batches.png" width="100%"/>
+
+Vous devez préciser le nombre de carte cadeau à générer ainsi qu'un montant optionnel sur la carte cadeau. Dans le cas ou le montant n'est pas précisé, celui sera affecté au moment de la vente de la carte avec le montant de celle-ci.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/gift-card-new-batch.png" height="140"/>
+
+La liste des cartes cadeaux générées est alors affichée. Vous pouvez l'exporter en csv ou xlsx afin de pouvoir, si vous le souhaitez, la transmettre à un service d'impression de cartes PVC.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/gift-card-batch-cards.png" width="100%"/>
+
+Comme vous pouvez le constater les cartes générées ne sont pas activées et il est impossible de les utiliser comme moyen de paiement.
+
+## Vente et activation d'une carte cadeau
+
+## Utilisation d'une carte cadeau comme moyen de paiement
+
+## Consultation du solde d'une carte cadeau
+
 # Champs requis pour un contact
 
 En tant qu'administrateur vous pouvez désormais configurer un ensemble de champs obligatoires lors de la création d'un contact.
