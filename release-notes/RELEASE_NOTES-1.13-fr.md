@@ -6,6 +6,7 @@ Améliorations diverses:
 - Vous pouvez désormais rechercher un produit dans la liste de produits à l'aide d'un code barre.
 - Vous pouvez désormais ajouter une photo expertise à un panier de produits identifiés/vélos.
 - Nous avons ajouté une nouvelle catégorie "vélo enfants (jouets)" pour les vélos enfant bas-age ne nécessitant pas d'identification (APIC).
+- Dans un détail de réception, lorsqu'un produit est affecté à un client il est possible d'accéder rapidement à la fiche contact de celui-ci (icone personne).
 
 # Facture Proforma
 
@@ -104,6 +105,9 @@ Vous pouvez effectuer une demande de récupération de TVA trop payée sur vos p
 - La création d'un nouvel inventaire complet pouvait dans certains cas afficher une erreur.
 - L'arrondi effectué dans la conversion des unités sur les lignes de main d'oeuvre pouvait entrainer des montants ne correspondant pas au souhait de l'utilisateur. Nous avons augmenté la précision afin d'éviter ces problèmes.
 - Lors de l'utilisation d'une douchette sur un panier, si le champ de reférence était sélectionné, ce qui est le cas par défaut, le produit était ajouté deux fois au panier.
+- Lorsqu'on déplaçait un produit monté sur un produit identifié dans un groupe de cession pour démontage, la quantité n'était pas mis à jour avec sa valeur négative. Ce qui empêchait de le remettre en stock lors de la facturation.
+- Lors de la création d'un contact depuis la boite de dialogue (lors d'un nouvel O.R. par exemple) un problème de dépassement rendait le formulaire illisible.
+- Les coûts opérationnels par marque et la sélection du fournisseur sur les produits identifiés ne fonctionaient pas correctement.
 
 # Améliorations et corrections des versions 1.12.x
 
@@ -115,6 +119,7 @@ Vous pouvez effectuer une demande de récupération de TVA trop payée sur vos p
 - Amélioration de l'impression des codes barres qui utilisent désormais une taille fixe quelque soit le contenu du code.
 - Amélioration de l'impression des codes barres qui peuvent désormais se fonder sur le champ code barre et non uniquement id du produit.
 - Amélioration de l'impression des codes barres qui peuvent ne pas être centrés sur l'étiquette corrigeant un problème de compatibilité avec les imprimantes Zebra.
+- Il est désormais possible de prendre un paiement pour un panier de passage déjà facturé (ticket de caisse) mais dont un paiement aurait été annulé. Ceci permettant d'effectuer une opération corrective sur le paiement sans annuler la vente.
 
 ### C'est corrigé
 
@@ -126,4 +131,3 @@ Vous pouvez effectuer une demande de récupération de TVA trop payée sur vos p
 ### C'est corrigé
 
 - La vue d'une tâche était mal affichée sur certaines tablettes.
-- Lorsqu'on déplaçait un produit monté sur un produit identifié dans un groupe de cession pour démontage, la quantité n'était pas mis à jour avec sa valeur négative. Ce qui empêchait de le remettre en stock lors de la facturation.
