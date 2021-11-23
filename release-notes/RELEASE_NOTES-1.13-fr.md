@@ -24,7 +24,7 @@ Il est désormais possible de gérer des cartes cadeaux dans Yuzer. Assurez vous
 
 La première étape pour accepter les cartes cadeaux est de configurer un moyen de paiement de type carte cadeau.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/gift-card-cfg.png" height="140"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/gift-card-cfg.png" height="140"/>
 
 Vous pouvez choisir de laisser yuzer générer les numéros de séquences des cartes, ou utiliser des cartes cadeaux existantes dont les numéros ne sont pas générés par yuzer.
 
@@ -39,19 +39,19 @@ Dans l'onglet _administration_ le menu _Cartes fidélités_ est désormais _Cart
 
 Vous retrouvez ici la liste des cartes cadeaux configurées en moyen de paiement:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/gift-card-list.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/gift-card-list.png" width="100%"/>
 
 Sélectionnez la carte cadeau pour laquelle générer un lot de cartes et cliquez sur le bouton **+** à droite.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/gift-card-batches.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/gift-card-batches.png" width="100%"/>
 
 Vous devez préciser le nombre de carte cadeau à générer ainsi qu'un montant optionnel sur la carte cadeau. Dans le cas ou le montant n'est pas précisé, celui sera affecté au moment de la vente de la carte avec le montant de celle-ci.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/gift-card-new-batch.png" height="140"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/gift-card-new-batch.png" height="140"/>
 
 La liste des cartes cadeaux générées est alors affichée. Vous pouvez l'exporter en csv ou xlsx afin de pouvoir, si vous le souhaitez, la transmettre à un service d'impression de cartes PVC.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/gift-card-batch-cards.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/gift-card-batch-cards.png" width="100%"/>
 
 Comme vous pouvez le constater les cartes générées ne sont pas activées et il est impossible de les utiliser comme moyen de paiement.
 
@@ -70,6 +70,10 @@ En tant qu'administrateur vous pouvez désormais configurer un ensemble de champ
 Dans les versions précédentes Yuzer ne remettait pas à jour les produits "montés" sur un dossier. Ceci pouvait poser problème nottament dans le cadre de cessions finalisées en décallage par rapport à une vente.
 
 Yuzer va désormais re-synchroniser ces produits vous permettant de les placer dans le groupe de facturation du client ou dans le groupe de facturation "à démonter".
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/basket-synch.png" width="100%"/>
+
+De la même façon, un produit démonté lors d'une session, verra son statut "Monté sur produit" mis à jour.
 
 ## Cas d'un panier clôturé
 
