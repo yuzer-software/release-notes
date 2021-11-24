@@ -2,11 +2,14 @@
 
 Améliorations diverses:
 
+- Lors de l'édition d'une facture la date de livraison est automatiquement configurée sur la date du jour.
 - Dans les écrans de configuration de l'entité, amélioration de la configuration des **CVG** et des autres **messages** inclus dans les documents (factures, propositions commerciales, etc.)
 - Vous pouvez désormais rechercher un produit dans la liste de produits à l'aide d'un code barre.
 - Vous pouvez désormais ajouter une photo expertise à un panier de produits identifiés/vélos.
 - Nous avons ajouté une nouvelle catégorie "vélo enfants (jouets)" pour les vélos enfant bas-age ne nécessitant pas d'identification (APIC).
 - Dans un détail de réception, lorsqu'un produit est affecté à un client il est possible d'accéder rapidement à la fiche contact de celui-ci (icone personne).
+- Nous avons ajouté la possiblité de renseigner l'IBAN ainsi que l'origine (moteur de recherche, salon etc.) sur une fiche contact.
+- Il est désormais possible de sélectionner une période sur le widget de main d'oeuvre comme il était possible de le faire sur le widget de chiffre d'affaire.
 
 # Facture Proforma
 
@@ -112,6 +115,7 @@ Vous pouvez effectuer une demande de récupération de TVA trop payée sur vos p
 - Lorsqu'on déplaçait un produit monté sur un produit identifié dans un groupe de cession pour démontage, la quantité n'était pas mis à jour avec sa valeur négative. Ce qui empêchait de le remettre en stock lors de la facturation.
 - Lors de la création d'un contact depuis la boite de dialogue (lors d'un nouvel O.R. par exemple) un problème de dépassement rendait le formulaire illisible.
 - Les coûts opérationnels par marque et la sélection du fournisseur sur les produits identifiés ne fonctionaient pas correctement.
+- La description des tâches dans le contexte de produits identifiés pouvait être incorrecte lorsque crée depuis un panier.
 
 # Améliorations et corrections des versions 1.12.x
 
