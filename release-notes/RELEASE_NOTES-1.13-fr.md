@@ -19,6 +19,10 @@ On peut éditer une facture **proforma** depuis un panier de vente, en cliquant 
 
 L'édition d'une facture **proforma** n'a aucun impact sur les numérotations des factures, ni sur la comptabilité de l'entreprise.
 
+<div class="alert alert-warning">
+Pensez à bien configurer les CGV et messages pour les factures proforma dans vos paramètres. Seul l'administrateur de la plateforme peut effectuer cette configuration.
+</div>
+
 # Carte cadeau
 
 Il est désormais possible de gérer des cartes cadeaux dans Yuzer. Assurez vous au préalable de bien avoir configuré dans votre plan comptable un compte pour les cartes cadeaux (_46700000_ en général).
@@ -27,12 +31,24 @@ Il est désormais possible de gérer des cartes cadeaux dans Yuzer. Assurez vous
 
 La première étape pour accepter les cartes cadeaux est de configurer un moyen de paiement de type carte cadeau.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/gift-card-cfg.png" height="140"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/gift-card-cfg.png" height="400"/>
 
 Vous pouvez choisir de laisser yuzer générer les numéros de séquences des cartes, ou utiliser des cartes cadeaux existantes dont les numéros ne sont pas générés par yuzer.
 
 Si vous n'avez pas de cartes existantes ou afin de renouveller votre stock de cartes il est recommandé de laisser Yuzer générer les numéros.
 Notez que vous pouvez avoir plusieurs moyen de paiement de type carte cadeau, il est donc possible de définir un moyen de paiement permettant d'écouler votre stock de cartes existant puis de définir un nouveau moyen de paiement afin de générer de nouvelles cartes.
+
+## Création d'un produit de carte cadeau
+
+La vente de carte cadeau se fait à travers l'ajout d'un produit dont la catégorie est "Services et Taxes / Carte cadeau". La première étape consiste donc à créer ce produit dans le catalogue local de votre société depuis l'onglet magasin.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/add-product.png" height="140"/>
+
+Lors de la création du produit les prix peuvent-être laissés à zero car la valeur de la carte cadeau sera quoi qu'il arrive définie lors de l'ajout de celle-ci au panier.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/new-gift-card-product.png" height="140"/>
+
+La création d'un produit de carte cadeau vous permet de mettre en magasin des pochettes de cartes cadeaux qui ne contiendraient pas la carte, ou ne laisseraient pas le code barre de la carte visible. Seule le code barre du produit étant visible sur celle-ci.
 
 ## Création d'un batch de cartes cadeau
 
@@ -50,7 +66,7 @@ Sélectionnez la carte cadeau pour laquelle générer un lot de cartes et clique
 
 Vous devez préciser le nombre de carte cadeau à générer ainsi qu'un montant optionnel sur la carte cadeau. Dans le cas ou le montant n'est pas précisé, celui sera affecté au moment de la vente de la carte avec le montant de celle-ci.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/gift-card-new-batch.png" height="140"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/gift-card-new-batch.png" height="160"/>
 
 La liste des cartes cadeaux générées est alors affichée. Vous pouvez l'exporter en csv ou xlsx afin de pouvoir, si vous le souhaitez, la transmettre à un service d'impression de cartes PVC.
 
@@ -60,9 +76,42 @@ Comme vous pouvez le constater les cartes générées ne sont pas activées et i
 
 ## Vente et activation d'une carte cadeau
 
+Lors de la vente du produit carte cadeau (qui peut-être ajouté au panier par identifiant, en scannant son code barre, ou par le catalogue) une boite de dialogue s'ouvre afin que vous définissiez la carte cadeau à associer à la vente.
+Les cartes cadeaux sont en effet désactivées lors de leur création et activées unitairement lors de la vente de celles-ci.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/add-giftcard-to-basket-modal.png" height="240"/>
+
+La première étape, dans le cas ou vous avez configuré plusieurs types de cartes cadeau dans les moyens de paiement, est de sélectionner celle que vous souhaitez. Ce cas et rare et cet selection n'est pas nécessaire dans la plupart des cas.
+
+Vous pouvez ici scanner, ou entrer le numéro de la carte cadeau que vous souhaitez vendre, si celle-ci est sur un support physique. Dans l'optique d'une impression de la carte suite à la vente vous pouvez également demander à Yuzer d'automatiquement sélectionner le numéro d'une carte non-activée et non-invalidée à l'aide du bouton rafraichir.
+
+Une fois la carte sélectionnée vous devez sélectionner le montant à lui affecter (si aucun montant initial n'a été configuré pour celle-ci).
+
+Il est finalement possible de définir un client bénéficiaire de la carte cadeau si celle-ci est dès maintenant destinée à une personne en particulier. Ce champ est bien entendu disponible.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/add-giftcard-to-basket-modal-2.png" height="300"/>
+
+Contrairement aux autres lignes, la modification d'une carte cadeau (pour la changer ou modifier le montant) se fait au niveau du bouton _éditer_ se trouvant sur la ligne (au niveau de la colonne stock).
+
+Lors de l'édition de la facture ou du ticket de caisse la carte cadeau est activée.
+
 ## Utilisation d'une carte cadeau comme moyen de paiement
 
-## Consultation du solde d'une carte cadeau
+Pour utiliser une carte cadeau lors d'un paiement il suffit dans la boite de dialogue de paiement de sélectionner le moyen de paiement auquel est lié la carte cadeau, puis de scanner le code barre de la carte ou l'entrer manuellement.
+
+Il est possible dans cet écran d'afficher le détail des opérations précédamment effectuées sur la carte.
+
+Le reste du paiement suit le flux habituel.
+
+## Annulation d'un paiement effectué avec une carte cadeau
+
+L'annulation d'un paiement effectué avec une carte cadeau est effectué en assignant le montant en crédit client. Il est impossible de re-créditer une carte cadeau.
+
+Si le paiement a été assigné au mauvais client il faudra qu'un administrateur ou qu'une personne ayant le droit de comptabilité effectue la correction sur les deux fiches client.
+
+## Consultation des évènements (activation, paiement, etc.) d'une carte cadeau
+
+Vous pouvez, à tout moment consulter l'ensemble des évènements de cadeau depuis l'écran d'administration des cartes cadeaux en sélectionnant la carte en question.
 
 # Champs requis pour un contact
 
@@ -74,7 +123,7 @@ Dans les versions précédentes Yuzer ne remettait pas à jour les produits "mon
 
 Yuzer va désormais re-synchroniser ces produits vous permettant de les placer dans le groupe de facturation du client ou dans le groupe de facturation "à démonter".
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/basket-synch.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/basket-synch.png" height="340"/>
 
 De la même façon, un produit démonté lors d'une session, verra son statut "Monté sur produit" mis à jour.
 
@@ -116,6 +165,7 @@ Vous pouvez effectuer une demande de récupération de TVA trop payée sur vos p
 - Lors de la création d'un contact depuis la boite de dialogue (lors d'un nouvel O.R. par exemple) un problème de dépassement rendait le formulaire illisible.
 - Les coûts opérationnels par marque et la sélection du fournisseur sur les produits identifiés ne fonctionaient pas correctement.
 - La description des tâches dans le contexte de produits identifiés pouvait être incorrecte lorsque crée depuis un panier.
+- La catégorie d'une ligne hors catalogue n'était pas correctement mise à jour lors de la sélection du produit.
 
 # Améliorations et corrections des versions 1.12.x
 
