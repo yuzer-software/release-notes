@@ -60,7 +60,7 @@ It is now possible to override the price of a vehicle in the catalog, even when 
 
 It is now possible to filter reserved vehicles.
 
-<img src="./1.9.0/dealer-file-reserved-filter.png" width="475"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/dealer-file-reserved-filter.png" width="475"/>
 
 ## Purchase invoice date
 

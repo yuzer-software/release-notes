@@ -77,7 +77,6 @@ Les règles basées sur l'âge du stock nécessitent que le dossier renseignent 
 
 Votre entité peut-être configurée pour empêcher la facturation d'un panier qui aurait des cessions non finalisées. L'option est accessible depuis l'onglet **Gestion commerciale**/**configuration commerciale** du panneau d'administration.
 
-<img src="./1.12.0/config-unfinalized-cessions.png" height="100"/>
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/config-unfinalized-cessions.png" height="100"/>
 
 # Amélioration de la gestion des attributs des produits
