@@ -166,6 +166,7 @@ Vous pouvez effectuer une demande de récupération de TVA trop payée sur vos p
 - Les coûts opérationnels par marque et la sélection du fournisseur sur les produits identifiés ne fonctionaient pas correctement.
 - La description des tâches dans le contexte de produits identifiés pouvait être incorrecte lorsque crée depuis un panier.
 - La catégorie d'une ligne hors catalogue n'était pas correctement mise à jour lors de la sélection du produit.
+- L'affichage du statut d'un panier n'était à jour suite à un paiement ou à l'édition d'un document (factures, etc.).
 
 # Améliorations et corrections des versions 1.12.x
 
