@@ -38,6 +38,8 @@ Vous pouvez choisir de laisser yuzer générer les numéros de séquences des ca
 Si vous n'avez pas de cartes existantes ou afin de renouveller votre stock de cartes il est recommandé de laisser Yuzer générer les numéros.
 Notez que vous pouvez avoir plusieurs moyen de paiement de type carte cadeau, il est donc possible de définir un moyen de paiement permettant d'écouler votre stock de cartes existant puis de définir un nouveau moyen de paiement afin de générer de nouvelles cartes.
 
+<div class="alert alert-warning">N'oubliez pas de mettre le nouveau moyen de paiement dans les caisses qui peuvent l'accepter, en éditant les caisses dans le sous onglet caisses de la configuration.</div>
+
 ## Création d'un produit de carte cadeau
 
 La vente de carte cadeau se fait à travers l'ajout d'un produit dont la catégorie est "Services et Taxes / Carte cadeau". La première étape consiste donc à créer ce produit dans le catalogue local de votre société depuis l'onglet magasin.
