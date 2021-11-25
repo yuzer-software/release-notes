@@ -81,7 +81,7 @@ Les cartes cadeaux sont en effet désactivées lors de leur création et activé
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/add-giftcard-to-basket-modal.png" height="240"/>
 
-La première étape, dans le cas ou vous avez configuré plusieurs types de cartes cadeau dans les moyens de paiement, est de sélectionner celle que vous souhaitez. Ce cas et rare et cet selection n'est pas nécessaire dans la plupart des cas.
+La première étape, dans le cas ou vous avez configuré plusieurs types de cartes cadeau dans les moyens de paiement, est de sélectionner celle que vous souhaitez. Ce cas est rare et cette selection n'est pas nécessaire dans la plupart des cas.
 
 Vous pouvez ici scanner, ou entrer le numéro de la carte cadeau que vous souhaitez vendre, si celle-ci est sur un support physique. Dans l'optique d'une impression de la carte suite à la vente vous pouvez également demander à Yuzer d'automatiquement sélectionner le numéro d'une carte non-activée et non-invalidée à l'aide du bouton rafraichir.
 
