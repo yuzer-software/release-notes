@@ -140,7 +140,7 @@ Il vous faut dans ce cas effectuer un inventaire pour supprimer le produit en qu
 
 # Calcul de la TVA sur marge
 
-Nous avons amélioré/corrigé le calcul de la TVA sur marge. Dans les version précédentes Yuzer appliquait une TVA sur l'ensemble de la marge de la vente, la déduisait du compte de produit et ajoutait une ligne de TVA correspondant à ce montant. Désormais Yuzer considère la marge de la vente comme étant une somme de la marge du concessionaire et de la TVA collectée.
+Nous avons amélioré/corrigé le calcul de la TVA sur marge. Dans les versions précédentes Yuzer appliquait une TVA sur l'ensemble de la marge de la vente, la déduisait du compte de produit et ajoutait une ligne de TVA correspondant à ce montant. Désormais Yuzer considère la marge de la vente comme étant une somme de la marge du concessionaire et de la TVA collectée.
 
 Les lignes comptables reflètent ceci d'une meilleur façon. De plus, il est possible de configurer un compte différent pour la valeur de produit correspondant à la marge et celle correspondant au montant de l'achat (non-assujetti à TVA).
 
