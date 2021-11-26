@@ -10,6 +10,7 @@ Améliorations diverses:
 - Dans un détail de réception, lorsqu'un produit est affecté à un client il est possible d'accéder rapidement à la fiche contact de celui-ci (icône personne).
 - Nous avons ajouté la possibilité de renseigner l'IBAN ainsi que l'origine (moteur de recherche, salon etc.) sur une fiche contact.
 - Il est désormais possible de sélectionner une période sur le widget de main d'oeuvre comme il était possible de le faire sur le widget de chiffre d'affaire.
+- Désormais un icône de téléphone s'affiche en rouge lorsque la session Ring Over s'est déconnectée. Ce qui arrive quand un utilisateur s'est connecté sur plusieurs postes à la fois. Il est possible de réactiver la session de Ring Over sur un poste donné, ce qui désactivera Ring Over sur les autres.
 
 # Facture Proforma
 
