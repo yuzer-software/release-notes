@@ -11,6 +11,7 @@ Améliorations diverses:
 - Nous avons ajouté la possibilité de renseigner l'IBAN ainsi que l'origine (moteur de recherche, salon etc.) sur une fiche contact.
 - Il est désormais possible de sélectionner une période sur le widget de main d'oeuvre comme il était possible de le faire sur le widget de chiffre d'affaire.
 - Désormais un icône de téléphone s'affiche en rouge lorsque la session Ring Over s'est déconnectée. Ce qui arrive quand un utilisateur s'est connecté sur plusieurs postes à la fois. Il est possible de réactiver la session de Ring Over sur un poste donné, ce qui désactivera Ring Over sur les autres.
+- Le widget de vente peut désormais afficher les ventes de vélo.
 
 # Facture Proforma
 
@@ -206,6 +207,7 @@ Quelques améliorations de performances ont été réalisées.
 - L'affichage du statut d'un panier n'était à jour suite à un paiement ou à l'édition d'un document (factures, etc.).
 - La création d'inventaires trop gros pouvait échouer et il n'était pas clair que sa création avait échouée. La cause de l'échec a été résolue et le cas d'échec a été renforcé: il n'est possible d'éditer un inventaire que si sa création a totalement réussi.
 - Certains emplacements de stock pouvaient ne pas être correctement triés.
+- Les véhicules de démo et courtoisies vendus n'apparaissaient pas dans les statistiques du widget de vente.
 
 # Améliorations et corrections des versions 1.12.x
 
