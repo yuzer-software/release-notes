@@ -131,7 +131,7 @@ Yuzer va désormais re-synchroniser ces produits vous permettant de les placer d
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/basket-synch.png" height="340"/>
 
-De la même façon, un produit démonté lors d'une session, verra son statut "Monté sur produit" mis à jour.
+De la même façon, un produit démonté lors d'une cession, verra son statut "Monté sur produit" mis à jour.
 
 ## Cas d'un panier clôturé
 
@@ -194,7 +194,7 @@ Quelques améliorations de performances ont été réalisées.
 
 - Lorsque vous aviez des filtres sur la vue de liste de panier, alliez sur la liste de produits (magasin) reveniez les filtres étaient remis à zero.
 - La lisibilité des propositions de duplicatas de contacts n'étaient pas lisibles en thème sombre.
-- Lors de la suppression du champ modèle de la liste des champ sur la table de dossier véhicule, il était impossible de le remettre.
+- Lors de la suppression du champ modèle de la liste des champs sur la table de dossier véhicule, il était impossible de le remettre.
 - Il est désormais possible de trouver les vélos et autres produits identifiables à l'aide de la recherche principale.
 - La création d'un nouvel inventaire complet pouvait dans certains cas afficher une erreur.
 - L'arrondi effectué dans la conversion des unités sur les lignes de main d'oeuvre pouvait entrainer des montants ne correspondant pas au souhait de l'utilisateur. Nous avons augmenté la précision afin d'éviter ces problèmes.
@@ -205,9 +205,9 @@ Quelques améliorations de performances ont été réalisées.
 - La description des tâches dans le contexte de produits identifiés pouvait être incorrecte lorsque crée depuis un panier.
 - La catégorie d'une ligne hors catalogue n'était pas correctement mise à jour lors de la sélection du produit.
 - L'affichage du statut d'un panier n'était à jour suite à un paiement ou à l'édition d'un document (factures, etc.).
-- La création d'inventaires trop gros pouvait échouer et il n'était pas clair que sa création avait échouée. La cause de l'échec a été résolue et le cas d'échec a été renforcé: il n'est possible d'éditer un inventaire que si sa création a totalement réussi.
+- La création d'inventaire trop gros pouvait échouer et il n'était pas clair que sa création avait échouée. La cause de l'échec a été résolue et le cas d'échec a été renforcé: il n'est possible d'éditer un inventaire que si sa création a totalement réussi.
 - Certains emplacements de stock pouvaient ne pas être correctement triés.
-- Les véhicules de démo et courtoisies vendus n'apparaissaient pas dans les statistiques du widget de vente.
+- Les véhicules de démo et courtoisie vendus n'apparaissaient pas dans les statistiques du widget de vente.
 
 # Améliorations et corrections des versions 1.12.x
 
