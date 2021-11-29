@@ -48,11 +48,11 @@ Notez que vous pouvez avoir plusieurs moyen de paiement de type carte cadeau, il
 
 La vente d'une carte cadeau se fait à travers l'ajout d'un produit dont la catégorie est "Services et Taxes / Carte cadeau". La première étape consiste donc à créer ce produit dans le catalogue local de votre société depuis l'onglet magasin.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/add-product.png" height="140"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/add-product.png" height="180"/>
 
 Lors de la création du produit les prix peuvent-être laissés à zero car la valeur de la carte cadeau sera quoi qu'il arrive définie lors de l'ajout de celle-ci au panier.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/new-gift-card-product.png" height="140"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/new-gift-card-product.png" width="100%"/>
 
 La création d'un produit de carte cadeau vous permet de mettre en magasin des pochettes de cartes cadeaux qui ne contiendraient pas la carte, ou ne laisseraient pas le code barre de la carte visible. Seule le code barre du produit étant visible sur celle-ci.
 
