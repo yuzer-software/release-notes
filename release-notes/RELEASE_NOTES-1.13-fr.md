@@ -1,4 +1,8 @@
-# Novembre 2021 - Version 1.13.0
+# Novembre 2021 - Version 1.13.4
+
+- Correction d'une régression empêchant la sélection d'un modèle d'un véhicule (moto) dans un panier.
+
+# Novembre 2021 - Version 1.13.3
 
 Améliorations diverses:
 
@@ -12,6 +16,7 @@ Améliorations diverses:
 - Il est désormais possible de sélectionner une période sur le widget de main d'oeuvre comme il était possible de le faire sur le widget de chiffre d'affaire.
 - Désormais un icône de téléphone s'affiche en rouge lorsque la session Ring Over s'est déconnectée. Ce qui arrive quand un utilisateur s'est connecté sur plusieurs postes à la fois. Il est possible de réactiver la session de Ring Over sur un poste donné, ce qui désactivera Ring Over sur les autres.
 - Le widget de vente peut désormais afficher les ventes de vélo.
+- Il est désormais possible d'ajouter rapidement un vélo à un contact sans que la création d'un produit catalogue soit nécessaire.
 
 # Facture Proforma
 
