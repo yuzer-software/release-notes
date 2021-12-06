@@ -45,7 +45,7 @@ Vous pouvez choisir de laisser Yuzer générer les numéros de séquences des ca
 Si vous n'avez pas de cartes existantes ou afin de renouveler votre stock de cartes il est recommandé de laisser Yuzer générer les numéros.
 Notez que vous pouvez avoir plusieurs moyen de paiement de type carte cadeau, il est donc possible de définir un moyen de paiement permettant d'écouler votre stock de cartes existant puis de définir un nouveau moyen de paiement afin de générer de nouvelles cartes.
 
-<div class="alert alert-warning">La fonctionalité de ré-utilisation d'ancienne cartes cadeaux n'est pas finalisée et disponible. Vous pouvez pré-configurer le moyen de paiement mais la gestion des cartes externes sera ajouté dans une prochaine version.</div>
+<div class="alert alert-warning">La fonctionnalité de ré-utilisation d'ancienne cartes cadeaux n'est pas finalisée et disponible. Vous pouvez pré-configurer le moyen de paiement mais la gestion des cartes externes sera ajouté dans une prochaine version.</div>
 
 <div class="alert alert-info">N'oubliez pas de mettre le nouveau moyen de paiement dans les caisses qui peuvent l'accepter, en éditant les caisses dans le sous onglet caisses de la configuration.</div>
 
