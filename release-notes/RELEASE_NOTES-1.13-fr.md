@@ -1,3 +1,8 @@
+# Décembre 2021 - Version 1.13.5
+
+- Correction sur l'impression des cartes cadeaux lorsque plusieurs cartes étaient ajoutées dans un même panier (le numéro était alors toujours le même).
+- Correction sur la liste des cartes cadeaux ou la date d'expiration pouvait être mal affichée causant un problème global sur la page.
+
 # Novembre 2021 - Version 1.13.4
 
 - Correction d'une régression empêchant la sélection d'un modèle d'un véhicule (moto) dans un panier.
