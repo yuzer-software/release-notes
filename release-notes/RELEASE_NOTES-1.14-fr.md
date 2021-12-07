@@ -9,12 +9,12 @@ Diverses améliorations ont été apportées sur la gestion des caisses.
 ### Caisse par défaut
 
 Dorénavant, lors de la navigation entre les différents écrans de configuration des caisses, 
-ainsi que dans la modal de paiement, la dernière caisse utilisée est sauvegardée et affichée par défaut.
+ainsi que dans la fenêtre de paiement, la dernière caisse utilisée est sauvegardée et affichée par défaut.
 Cette sauvegarde est valable pour un utilisateur donné, sur un poste physique donné.
 
 ### Alerte sur l'écran de paiement lors de l'utilisation d'une caisse fermée
 
-Dans l'écran de paiement, une alerte apparait maintenant si la caisse sélectionnée est fermée et les boutons sont invalidés.
+Dans l'écran de paiement, une alerte apparait maintenant si la caisse sélectionnée est fermée et les boutons sont désactivés.
 
 ### Mémoire des billets rentrés lors de la fermeture d'une caisse
 
@@ -23,15 +23,15 @@ Ainsi, si vous êtes amené à changer d'écran pendant le comptage, les billets
 
 ### Nouvelle configuration "Ouverture d'une caisse avec les billets de la veille"
 
-Une nouvelle configuration est maintenant possible dans le paramètrage des caisses.
+Une nouvelle configuration est maintenant possible dans le paramétrage des caisses.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.14.0/cashdesk-openWithClosingAmount.png" height="100"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.14.0/cashdesk-openWithClosingAmount.png" height="400"/>
 
-Cette nouvelle option permet d'avoir comme montant et billets à l'ouverture de la caisse, les valeurs à la clôture précédente. 
-Cette option remplace donc le "Montant d'ouverture souhaité".
+Cette nouvelle option permet d'avoir le même montant et les mêmes billets à l'ouverture qu'à la clôture précédente.
+Cette option, si elle est activée, remplace donc le "Montant d'ouverture souhaité".
 
-Il est à noté que dans cette configuration, il n'est plus possible d'ouvrir une nouvelle caisse avant d'avoir finalisé la clôture de la caisse courante, 
-le compte de billet étant nécessaire pour connaitre le contenu de la nouvelle caisse.
+Il est à noter que, dans cette configuration, il n'est plus possible d'ouvrir une nouvelle caisse avant d'avoir finalisé la clôture de la caisse courante,
+le comptage des billets étant nécessaire pour connaitre le contenu de la nouvelle caisse.
 
 ### Remaniement du processus de clôture de caisse
 
@@ -56,21 +56,15 @@ Lorsqu'une tâche est liée à un produit, les détails de ce produit apparaisse
 
 Dans le cas d'un véhicule immatriculé, la plaque d'immatriculation est affichée entre parenthèses.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.14.0/task-with-motorcycle.png" height="100"/>
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.14.0/task-with-bike.png" height="100"/>
-
-<img src="./1.14.0/task-with-motorcycle.png" height="400"/>
-<img src="./1.14.0/task-with-bike.png" height="400"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.14.0/task-with-motorcycle.PNG" height="400"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.14.0/task-with-bike.PNG" height="400"/>
 
 ## Détails d'un produit
 
 La page des détails de véhicules et produit a été révisée et étoffée. De nombreuses informations y ont été ajoutées et vous pouvez désormais consulter toutes les photos expertises liées à ce produit et en créer de nouvelles.
 
-<img src="./1.14.0/motorcycle-details.png" height="400"/>
-<img src="./1.14.0/bike-details.png" height="400"/>
-
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.14.0/motorcycle-details.png" height="100"/>
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.14.0/bike-details.png" height="100"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.14.0/motorcycle-details.PNG" height="400"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.14.0/bike-details.PNG" height="400"/>
 
 ## C'est corrigé
 
