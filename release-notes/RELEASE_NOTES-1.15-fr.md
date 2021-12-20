@@ -1,8 +1,12 @@
-# Décembre 2021 - Version 1.15.0
+# Décembre 2021 - Version 1.15.4
 
-Améliorations diverses:
+## Sélection centralisée de la caisse
 
--
+La sélection de la caisse active s'effectue désormais directement depuis la barre de navigation principale à côté de la sélection de l'entrepôt:
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/top-navbar.png" />
+
+Cette sélection permet de mieux comprendre sur quelle caisse l'utilisateur travaille et remplace la sélection dans la pop-up de paiement ou dans la clôture de caisse.
 
 ## Impression rapide des étiquettes de produit
 
@@ -50,6 +54,93 @@ Description des options:
   Si le seuil défini est atteint, seulement une seule étiquette sera imprimé.
   _Cette option est utile afin d'éviter d'imprimer 200 étiquettes pour un bidon d'huile avec une quantité de 200L._
 
-# C'est corrigé
+## Améliorations du widget de main d'oeuvre
 
--
+Les options de configuration du widget de main d'oeuvre ont été améliorées et permettent:
+
+- d'afficher le temps disponible en plus du temps facturé.
+- d'afficher le graphique ligne en cumulatif ou non (l'affichage était toujours cumulatif dans la version précédente pour ce type de graphique)
+- de filtrer sur une période de l'année donnée.
+
+Mais aussi d'afficher une nouvelle visualisation sous forme de jauge:
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/workforce-gauge.png" />
+
+## Améliorations du widget de chiffre d'affaires
+
+- Il est désormais possible d'éditer le titre du widget.
+- l'affichage du graphique ligne peut-être cumulatif ou non
+
+## Exposition d'API externe
+
+Vous pouvez désormais exposer votre liste de stock véhicules à un exploitant externe tel que Winteam. Il faut pour cela créer une clé d'API depuis la nouvelle section de votre espace administration.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/api-key-menu.png" />
+
+Clickez sur _Ajouter_ puis configurez les différents paramètres de la clé d'API.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/api-key-new.png" />
+
+Vous pouvez alors communiquer à votre exploitant les instructions qui s'affichent:
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/api-key-instructions.png" />
+
+## Gestion des factures d'achat
+
+Il est désormais possible d'enregistrer ses factures d'achat dans Yuzer et d'associer les réceptions et dossiers de produit identifiés à celles-ci.
+
+<div class="alert alert-info">Le support du lien des dossiers véhicules au factures d'achat est prévu pour le premier trimestre 2022 suite à une harmonisation de leur gestion avec celles des autres produits identifiables.</div>
+
+### Paramètres de comptabilité lié aux achats
+
+De nouveaux paramètres de comptabilité ont été ajoutés afin de pouvoir gérer vos factures d'achat.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/accountancy-settings-menu.png" />
+
+Ces nouveaux paramètres vous permettent de configurer les numéros de comptes fournisseurs ainsi que les comptes TVA liés aux achats.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/accountancy-settings-new-params.png" />
+
+Vous devrez également définir les règles d'association de votre comptabilité à l'achat et pour les remises à l'achat.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/accountancy-mapping-purchase.png" />
+
+### Liste des factures d'achat
+
+Les factures d'achat sont disponibles depuis l'onglet comptabilité
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/purchase-invoice-list.png" />
+
+### Ajout d'une nouvelle facture d'achat
+
+L'ajout d'une nouvelle facture d'achat se fait à l'aide du bouton depuis la liste.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/new-purchase-invoice.png" />
+
+Notez que l'ajout d'une facture d'achat pour un fournisseur nécessite au préalable d'avoir associé un contact avec un numéro fournisseur à celui-ci. Le numéro de fournisseur est en effet utilisé comme numéro du tiers en comptabilité.
+
+Yuzer vous permet de définir
+
+- une facture avec TVA, vous devrez alors enregistrer vous même les prix HT et TTC de chaque ligne (en effet les règles d'arrondi pouvant être propre à votre fournisseurs c'est bien à vous de valider ceux-ci).
+- une facture sans TVA apparente mais avec gestion de la TVA intra-communautaire, vous devez alors entrer ou valider pour chaque ligne le taux de TVA qui sera appliqué par Yuzer afin de calculer et enregistrer comptablement les TVA due et déductible intra-communautaires.
+- une facture sans TVA apparente et sans gestion de TVA intra-communautaire. Peu recommandé mais possible, aucune TVA ne sera enregistré en comptabilité sur une telle facture.
+
+Vous devez également spécifier le total de la facture. Yuzer effectuera une vérification lors du passage en comptabilité.
+
+La plupart des informations peuvent être modifiés sur l'écran de détails.
+
+### Edition d'une facture d'achat
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/purchase-invoice-edit.png" />
+
+## Integration with Suzuki
+
+Les concessionaires suzuki peuvent désormais utiliser le service lié pour rechercher des véhicules de la marque.
+
+## Integration SADEM
+
+Si vous êtes un adhérent SADEM vous pouvez désormais consulter les catalogues associés.
+
+## C'est corrigé
+
+- Plusieurs navigations ont été corrigées, il est par exemple désormais possible de revenir à la liste des réceptions lorsque l'on est sur le détail d'une d'entre elle en cliquant directement dans le menu.
