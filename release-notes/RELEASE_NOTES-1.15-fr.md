@@ -1,4 +1,10 @@
-# Décembre 2021 - Version 1.15.4
+# Janvier 2022 - Version 1.15.9
+
+## C'est corrigé
+
+- Dans certaines situations la selection de caisse dans la barre de navigation principale pouvait ne pas se charger correctement.
+
+# Janvier 2022 - Version 1.15.8
 
 ## Sélection centralisée de la caisse
 
@@ -54,11 +60,18 @@ Description des options:
   Si le seuil défini est atteint, seulement une étiquette sera imprimée.
   _Cette option est utile afin d'éviter d'imprimer 200 étiquettes pour un bidon d'huile avec une quantité de 200L._
 
+## Bêta de gestion du TPE
+
+Cette version introduit un support en bêta de la connexion TPE. Il est développé chez nous à l'aide d'un Ingenico Move 5000.
+
+Cette fonctionalité n'est pas considérée comme stable. Elle peut-être utilisée épisodiquement à vos risque et périls afin de tester le support de votre terminal.
+Notez qu'il n'est pas actuellement possible d'enregistrer deux paiements cartes dans la même session de paiement (même boite de dialogue paiement) avec la connexion TPE.
+
 ## Améliorations du widget de main-d'œuvre
 
 Les options de configuration du widget de main-d'œuvre ont été améliorées et permettent:
 
-- d'afficher le temps disponible en plus du temps facturé.
+- d'afficher le temps disponible en plus du temps facturé (attention cette valeur est une estimation basée sur la capacité actuelle de l'atelier - ce point sera amélioré dans le futur).
 - d'afficher le graphique ligne en cumulatif ou non (l'affichage était toujours cumulatif dans la version précédente pour ce type de graphique)
 - de filtrer sur une période de l'année donnée.
 
@@ -105,6 +118,10 @@ Vous devrez également définir les règles d'association de votre comptabilité
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/accountancy-mapping-purchase.png" height="200" />
 
+<div class="alert alert-info">
+Plusieurs améliorations seront développées sur ce sujet courant janvier, incluant la possibilité de créer une configuration à l'achat spécifique pour les achats intra-communautaires.
+</div>
+
 ### Liste des factures d'achat
 
 Les factures d'achat sont disponibles depuis l'onglet comptabilité
@@ -141,6 +158,11 @@ Les concessionaires Suzuki peuvent désormais utiliser le service lié pour rech
 
 Si vous êtes un adhérent SADEM vous pouvez désormais consulter les catalogues associés.
 
+<div class="alert alert-info">
+Pour configurer l'export de vos stock SADEM merci de nous contacter.
+</div>
+
 ## C'est corrigé
 
 - Plusieurs navigations ont été corrigées, il est par exemple désormais possible de revenir à la liste des réceptions lorsque l'on est sur le détail d'une d'entre elle en cliquant directement dans le menu.
+- Le taux de TVA exporté en comptabilité n'est plus calculée sur la valeur totale (et donc impactée par la somme des arrondis) mais est bien celle des lignes aggrégées au taux.
