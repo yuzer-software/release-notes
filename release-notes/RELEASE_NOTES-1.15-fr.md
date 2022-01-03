@@ -150,6 +150,16 @@ La plupart des informations peuvent être modifiées sur l'écran de détails.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/purchase-invoice-edit.png" height="100"/>
 
+### Lien avec un dossier
+
+Pour une ligne de facture d'achat associée à un produit identifié, vous pouvez lier celle ci au dossier du/des produit(s) en utilisant l'icône d'ajout de dossier.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/purchase-invoice-dealerfile-link.png" height="100"/>
+
+Il est aussi possible de générer une ligne à partir du dossier produit en cliquant sur le bouton ci-dessous:
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/create-purchase-line-from-dealerfile.png" height="100"/>
+
 ## Integration with Suzuki
 
 Les concessionaires Suzuki peuvent désormais utiliser le service lié pour rechercher des véhicules de la marque.
