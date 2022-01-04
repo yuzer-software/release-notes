@@ -1,3 +1,22 @@
+# Janvier 2022 - Version 1.15.10
+
+## Amélioration sur l'inventaire
+
+- Ajout d'un bouton pour pouvoir filtrer et ne voir que les lignes d'inventaire qui ont une balance de stock incorrecte.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/inventory-balance-filter.png" height="150"/>
+
+- Ajout d'un bouton pour ajouter rapidement un produit par référence. A noter que vous devez activer le filtre par emplacement pour que le bouton apparaisse.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/inventory-quick-add.png" height="80"/>
+
+- Les zones de préparation de panier et emplacement véhicules ont été ajouté dans le filtre par emplacement.
+
+## C'est corrigé
+
+- Il est maintenant possible de naviguer entre les pages de l'inventaire lorsque le filtre par emplacement est activé.
+- Il est désormais possible facturer un panier véhicule alors que la cession associée au dossier du véhicule est facturée avec un montant de 0.
+
 # Janvier 2022 - Version 1.15.9
 
 ## C'est corrigé
