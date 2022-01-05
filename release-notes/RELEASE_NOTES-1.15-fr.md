@@ -1,3 +1,17 @@
+# Janvier 2022 - Version 1.15.11
+
+Nous avons ajouté sur les lignes d'inventaire:
+
+- l'avatar de l'utilisateur qui l'a modifié en dernier
+- le prix moyen pondéré du produit
+- et une case à cocher pour aider à la validation et à la vérification de l'inventaire. A noter que ces valeurs sont stockées localement sur votre machine pour l'instant.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/inventory-lines-more-columns.png" height="150"/>
+
+## C'est corrigé
+
+- Sur les lignes d'inventaire, l'icône de balance de stock pouvait s'afficher avec un status incorrect lorsque la quantité est indéfinie.
+
 # Janvier 2022 - Version 1.15.10
 
 ## Amélioration sur l'inventaire
