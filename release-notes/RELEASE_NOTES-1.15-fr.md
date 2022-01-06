@@ -1,3 +1,13 @@
+# Janvier 2022 - Version 1.15.12
+
+- Ajoute d'un sélecteur pour allez directement sur une page d'inventaire donnée.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/inventory-page-selector.png" height="150"/>
+
+## C'est corrigé
+
+- Dans un inventaire, la vue ne se réinitiale plus sur la première page lorsqu'on active/désactive la vue catalogue ou qu'on ajoute ou supprime une ligne.
+
 # Janvier 2022 - Version 1.15.11
 
 Nous avons ajouté sur les lignes d'inventaire:
