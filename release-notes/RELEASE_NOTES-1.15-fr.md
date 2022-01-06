@@ -1,3 +1,9 @@
+# Janvier 2022 - Version 1.15.13
+
+Il est possible de définir un préfixe pour les numéros de documents édités (factures, bons de commandes, etc). Cette fonctionnalité est particulièrement important si vous avez des entités logiques (sous-entité d'une même entité légale) pour éviter des conflits entre vos numéros de factures, chaque entité ayant sa propre séquence.
+
+<img src="./1.15.0/document_id_prefix_conf.png" height="400"/>
+
 # Janvier 2022 - Version 1.15.12
 
 - Ajoute d'un sélecteur pour allez directement sur une page d'inventaire donnée.
@@ -6,7 +12,7 @@
 
 ## C'est corrigé
 
-- Dans un inventaire, la vue ne se réinitiale plus sur la première page lorsqu'on active/désactive la vue catalogue ou qu'on ajoute ou supprime une ligne.
+- Dans un inventaire, la vue ne se réinitialise plus sur la première page lorsqu'on active/désactive la vue catalogue ou qu'on ajoute ou supprime une ligne.
 
 # Janvier 2022 - Version 1.15.11
 
@@ -107,7 +113,7 @@ Description des options:
 
 Cette version introduit un support en bêta de la connexion TPE. Il est développé chez nous à l'aide d'un Ingenico Move 5000.
 
-Cette fonctionalité n'est pas considérée comme stable. Elle peut-être utilisée épisodiquement à vos risque et périls afin de tester le support de votre terminal.
+Cette fonctionnalité n'est pas considérée comme stable. Elle peut-être utilisée épisodiquement à vos risque et périls afin de tester le support de votre terminal.
 Notez qu'il n'est pas actuellement possible d'enregistrer deux paiements cartes dans la même session de paiement (même boite de dialogue paiement) avec la connexion TPE.
 
 ## Améliorations du widget de main-d'œuvre
@@ -218,4 +224,4 @@ Pour configurer l'export de vos stock SADEM merci de nous contacter.
 ## C'est corrigé
 
 - Plusieurs navigations ont été corrigées, il est par exemple désormais possible de revenir à la liste des réceptions lorsque l'on est sur le détail d'une d'entre elle en cliquant directement dans le menu.
-- Le taux de TVA exporté en comptabilité n'est plus calculée sur la valeur totale (et donc impactée par la somme des arrondis) mais est bien celle des lignes aggrégées au taux.
+- Le taux de TVA exporté en comptabilité n'est plus calculé sur la valeur totale (et donc impacté par la somme des arrondis) mais est bien celui des lignes agrégées au taux.
