@@ -2,7 +2,7 @@
 
 Il est possible de définir un préfixe pour les numéros de documents édités (factures, bons de commandes, etc). Cette fonctionnalité est particulièrement important si vous avez des entités logiques (sous-entité d'une même entité légale) pour éviter des conflits entre vos numéros de factures, chaque entité ayant sa propre séquence.
 
-<img src="./1.15.0/document_id_prefix_conf.png" height="400"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/document_id_prefix_conf.png" height="400"/>
 
 # Janvier 2022 - Version 1.15.12
 
