@@ -1,3 +1,27 @@
+# Janvier 2022 - Version 1.15.14
+
+# Inventaires
+
+## Inventorier les zones réservées
+
+Il est désormais possible de créer un inventaire partiel pour les zones réservées (préparation panier, produits identifiés, etc.).
+
+## Scinder un inventaire
+
+De même qu'il était possible de déplacer les lignes avec des références inconnues dans un nouvel inventaire reliquat, il est maintenant possible de déplacer des lignes par emplacement de stockage dans un nouvel inventaire reliquat.
+
+Le bouton "Extraire les produits inconnus dans un nouvel inventaire reliquat" devient "Scinder l'inventaire".
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/split-inventory-button.png" height="90"/>
+
+Il ouvre une fenêtre où vous pouvez choisir entre :
+* déplacer les lignes de produits inconnus dans un nouvel inventaire (ancienne fonctionnalité),
+* déplacer les lignes de certaines zones dans un nouvel inventaire (nouvelle fonctionnalité).
+
+La description du nouvel inventaire est pré-remplie dans les deux cas mais peut être personnalisée.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/split-inventory-modal.png" height="500"/>
+
 # Janvier 2022 - Version 1.15.13
 
 Il est possible de définir un préfixe pour les numéros de documents édités (factures, bons de commandes, etc). Cette fonctionnalité est particulièrement important si vous avez des entités logiques (sous-entité d'une même entité légale) pour éviter des conflits entre vos numéros de factures, chaque entité ayant sa propre séquence.
