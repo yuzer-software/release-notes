@@ -1,12 +1,25 @@
+# Janvier 2022 - Version 1.15.15
+
+## Produits en attente de commande par marque
+
+Nous avons ajouté une colonne _marque_ à la liste des produits en attente de commande. Il est donc possible, comme illustré ci-dessous, de grouper par fournisseur puis marque. Cette fonctionnalité est particulièrement utile lorsqu'un fournisseur de catalogue possède plusieurs marques et que les commandes doivent être passées directement aux marques en question.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/waiting-order-by-brand.png" height="350"/>
+
+## C'est corrigé
+
+- Dans le cas d'un panier vide (ou d'un panier _véhicule_ sans autre ligne de panier), lors de l'ajout d'une remise fixe, la TVA n'était pas automatiquement remplie: le remplissage du prix TTC n'impactait pas le prix HT et il en résultat une ligne avec 0€ HT, 0% TVA mais le prix TTC rentré. La facture éditée était donc fausse. Il est maintenant impossible de rentrer un prix sans TVA.
+- Il est à nouveau possible de sauvegarder les modèles commentaires.
+
 # Janvier 2022 - Version 1.15.14
 
-# Inventaires
+## Inventaires
 
-## Inventorier les zones réservées
+### Inventorier les zones réservées
 
 Il est désormais possible de créer un inventaire partiel pour les zones réservées (préparation panier, produits identifiés, etc.).
 
-## Scinder un inventaire
+### Scinder un inventaire
 
 De même qu'il était possible de déplacer les lignes avec des références inconnues dans un nouvel inventaire reliquat, il est maintenant possible de déplacer des lignes par emplacement de stockage dans un nouvel inventaire reliquat.
 
