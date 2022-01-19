@@ -1,3 +1,7 @@
+# Janvier 2022 - Version 1.15.16
+
+La chargement des paniers et de certaines pages a été amélioré.
+
 # Janvier 2022 - Version 1.15.15
 
 ## Produits en attente de commande par marque
@@ -28,8 +32,9 @@ Le bouton "Extraire les produits inconnus dans un nouvel inventaire reliquat" de
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/split-inventory-button.png" height="90"/>
 
 Il ouvre une fenêtre où vous pouvez choisir entre :
-* déplacer les lignes de produits inconnus dans un nouvel inventaire (ancienne fonctionnalité),
-* déplacer les lignes de certaines zones dans un nouvel inventaire (nouvelle fonctionnalité).
+
+- déplacer les lignes de produits inconnus dans un nouvel inventaire (ancienne fonctionnalité),
+- déplacer les lignes de certaines zones dans un nouvel inventaire (nouvelle fonctionnalité).
 
 La description du nouvel inventaire est pré-remplie dans les deux cas mais peut être personnalisée.
 
