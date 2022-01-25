@@ -1,4 +1,4 @@
-# Janvier 2022 - Version 1.16.0
+# Janvier 2022 - Version 1.16.2
 
 # Améliorations diverses
 
@@ -7,7 +7,6 @@
 - Il est désormais impossible d'imprimer les étiquettes de stock si la configuration n'est pas sauvegardée au préalable.
 - Nous avons ajouté le support des identifiants maritimes pour les moto-marines.
 - Nous avons ajouté un ensemble d'attributs pour les moto-marines.
-- Si vous êtes clients SADEM votre stock sera bien exporté pour mise à jour des quantités sur leur market-place.
 
 # Configuration du type d'entité
 
@@ -20,19 +19,21 @@ En préambule d'améliorations sur le transfert de pièces inter-entité, Yuzer 
 
 L'objectif est de permettre à terme un transfert de stock sans génération de documents entre entité logiques, ou à l'aide de génération de rétrocessions entre établissements. L'échange de pièces entre sociétés nécessite l'établissement d'une facturation et devra être fait via une vente classique.
 
-# Afficharge des éditeurs d'un contact
+# Affichage des éditeurs d'un contact
 
 La personne ayant créé une fiche contact et la dernière personne l'ayant modifiée sont désormais affichés sur le détail de celle-ci.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.16.0/contact-creator.png" height="90"/>
 
-# Amélioration du Widget CA
+# Amélioration des widgets
 
 Il est désormais possible de sélectionner plusieurs catégories dans le widget de chiffre d'affaire.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.16.0/turnover-widget-cat-selector.png" height="90"/>
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.16.0/turnover-widget-cat-select.png" height="90"/>
+
+Le widget de ventes permet quand à lui de cumuler les ventes de plusieurs types de dossiers (véhicules et vélos par exemple).
 
 # Améliorations sur comptabilité:
 
@@ -46,6 +47,8 @@ Lors de la création d'une facture d'achat, ou à l'édition de celle-ci, vous p
 
 L'écran de configuration a été légèrement modifié et la sélection du type de règle s'effectue désormais à l'aide d'un selecteur.
 
+Il est désormais possible de définir des règles spécifiques pour les achats intra-communautaires.
+
 ## Amélioration de l'export automatique comptable
 
 Vous pouvez désormais exporter vos fichiers de tiers en sus de vos fichiers d'écriture comptable par ftp. De plus nous avons ajouté le libellé du moyen de paiement en tant que colonne sélectionnable dans les fichiers d'exports.
@@ -54,3 +57,4 @@ Vous pouvez désormais exporter vos fichiers de tiers en sus de vos fichiers d'�
 
 - Sur les petits widget la configuration pouvait être tronquée. Le défilement a été correctement mis en place pour éviter le problème.
 - Les paniers étaient mal re-synchronisé lorsqu'un VIN était affecté à un véhicule _à commandé_ ou _en commande_ causant une erreur lors du traitement du stock du panier.
+- Les prix lors de l'ajout d'un dossier vélo ou autres produits identifiés dans un panier utilisent bien ceux du dossier et non du produit catalogue.
