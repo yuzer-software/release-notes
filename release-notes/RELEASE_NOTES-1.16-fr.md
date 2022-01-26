@@ -1,4 +1,12 @@
-# Janvier 2022 - Version 1.16.2
+# Janvier 2022 - Version 1.16.4
+
+## C'est corrigé
+
+- La mise à jour des informations de permis de conduire dans le cadre d'un nouveau prêt de véhicule échouait lors de la première saisie.
+- L'ajout d'un nouveau widget de ventes dossier véhicules ou produit n'affichait pas correctement le widget depuis la possibilité d'ajouter de multiples types de dossier sur celui-ci.
+- Quelques scénarios de validation de coherence dans les prix du paniers étaient trop stricts (la validation du prix incluant TVA validait uniquement le cas ou celle-ci était calculée depuis le prix HT ce qui pouvait dans certains cas d'arrondi poser un problème lorsque le prix HT était calculé depuis le prix TTC). Nous considérons donc valide les deux options désormais.
+
+# Janvier 2022 - Version 1.16.3
 
 # Améliorations diverses
 
