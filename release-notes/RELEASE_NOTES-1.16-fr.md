@@ -1,3 +1,15 @@
+# Janvier 2022 - Version 1.16.6
+
+# Amélioration des exports de commandes
+
+- Les configuration d'export de commandes ont été améliorées permettant de supporter les formats txt des commandes Triumph et Kawazaki et csv de KTM/Husqvarna/GasGas entre autres.
+- Les commandes automatiques Honda sont désormais supportées par Yuzer et la création d'une commande dans Yuzer aura pour effet de créer la commande dans le système Honda.
+
+## C'est corrigé
+
+- Lorsqu'une réception définissait la préparation d'un produit client mais que celui-ci était annulé ou facturé avant la clôture de cette réception le produit apparaissait quand même comme préparé. C'est désormais corrigé et la réception sera en erreur sur la clôture nécessitant la suppression du lien avec la réservation client (celle-ci n'ayant plus lieux d'être).
+- La coloration des ventes d'occasion dans le widget de ventes de dossiers ainsi que la répartition des mois de l'année n-1 a été corrigée.
+
 # Janvier 2022 - Version 1.16.4
 
 ## C'est corrigé
