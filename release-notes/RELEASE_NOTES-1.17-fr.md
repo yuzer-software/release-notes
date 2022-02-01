@@ -1,0 +1,37 @@
+# Février 2022 - Version 1.17.2
+
+## Améliorations sur comptabilité
+
+### Comptabilité de la TVA
+
+Il est désormais possible de définir un compte différent pour chaque taux de TVA collecté. Nous avons effectué une migration des données qui utilise le compte que vous aviez défini pour chaque taux. Pensez à modifier cette configuration si vous souhaitez modifier ce comportement.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.16.0/vat-accounts.png" height="90"/>
+
+### Aggrégation
+
+Yuzer aujourd'hui expose en comptabilité le détail de la facturation en écrivant pour chaque ligne de la facture le détail. Certains d'entre vous ne désirent pas de détail en comptabilité mais souhaitaient voir s'aggréger les différents enregistrements sur les ventes et achats.
+
+C'est désormais possible en choisissant l'option ci-dessous dans vos paramètres de comptabilité.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.16.0/accountancy-aggregation.png" height="90"/>
+
+Attention cette option n'impactera pas les enregistrement existant pour des raisons évidentes de légalité et une fois activée les enregistrements passés seront agrégés et ne pourront être détaillés à nouveau.
+
+## Disponibilité du stock dans les autres sociétés
+
+Il est désormais possible de consulter la disponibilité du stock dans les autres sociétés du groupe en cliquant sur le petit icone qui c'est ajouté sur les informations stock. Ceci est disponible depuis l'ensemble des vues proposant cette visualisation (panier, liste des produits, détail produit).
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.16.0/stock-availability-btn.png" height="90"/>
+
+S'affiche alors la liste des autres entités du groupe ayant le produit en stock ainsi que le nombre en stock (avec éventuellement les réservations liées).
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.16.0/stock-availability-modal.png" height="90"/>
+
+## Gestion des produits identifiés commandés (vélos, moto-marines etc.)
+
+La gestion de l'évolution des status de commandes d'un produit identifié a été
+
+## C'est corrigé
+
+-
