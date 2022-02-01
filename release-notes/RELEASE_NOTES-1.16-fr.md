@@ -1,3 +1,9 @@
+# Janvier 2022 - Version 1.16.7
+
+## C'est corrigé
+
+- Les modifications sur l'export des commandes de la version précédente causaient une regression sur l'export excel et sur l'export d'un fichier texte sans header fixe.
+
 # Janvier 2022 - Version 1.16.6
 
 # Amélioration des exports de commandes
