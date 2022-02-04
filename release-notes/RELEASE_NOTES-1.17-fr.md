@@ -1,4 +1,8 @@
-# Février 2022 - Version 1.17.2
+# Février 2022 - Version 1.17.3
+
+## Améliorations diverses
+
+- Vous pouvez désormais changer la taille du texte et la police dans les commentaires et CGV.
 
 ## Améliorations sur comptabilité
 
@@ -20,7 +24,7 @@ Attention cette option n'impactera pas les enregistrement existant pour des rais
 
 ## Disponibilité du stock dans les autres sociétés
 
-Il est désormais possible de consulter la disponibilité du stock dans les autres sociétés du groupe en cliquant sur le petit icone qui c'est ajouté sur les informations stock. Ceci est disponible depuis l'ensemble des vues proposant cette visualisation (panier, liste des produits, détail produit).
+Il est désormais possible de consulter la disponibilité du stock dans les autres sociétés du groupe en cliquant sur le petit icone ajouté sur les informations stock. Ceci est disponible depuis l'ensemble des vues proposant cette visualisation (panier, liste des produits, détail produit).
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.17.0/stock-availability-btn.png" height="90"/>
 
@@ -30,7 +34,7 @@ S'affiche alors la liste des autres entités du groupe ayant le produit en stock
 
 ## Gestion des produits identifiés commandés (vélos, moto-marines etc.)
 
-La gestion de l'évolution des status de commandes d'un produit identifié a été complétée afin de bien pouvoir passer un dossier de _A commander_ en _Commandé_ puis de _Commandé_ en _Neuf_
+La gestion de l'évolution des statuts de commandes d'un produit identifié a été complétée afin de bien pouvoir passer un dossier de _A commander_ en _Commandé_ puis de _Commandé_ en _Neuf_
 
 ### Mise en commande d'un dossier _A commander_
 

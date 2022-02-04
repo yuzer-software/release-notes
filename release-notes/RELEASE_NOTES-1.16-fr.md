@@ -1,3 +1,12 @@
+# Janvier 2022 - Version 1.16.8
+
+## Améliorations diverses
+
+- Vous pouvez désormais lors d'un export de stock exporter les emplacements, les catégories du produit ainsi que la date de dernière entrée en stock.
+
+Sont considérées comme entrées en stock les réceptions, et, si le produit n'a pas de réceptions la date la plus ancienne d'inventaire ou initialisation.
+Les retours (par panier négatif) n'impactent pas cette date.
+
 # Janvier 2022 - Version 1.16.7
 
 ## C'est corrigé
@@ -6,7 +15,7 @@
 
 # Janvier 2022 - Version 1.16.6
 
-# Amélioration des exports de commandes
+## Amélioration des exports de commandes
 
 - Les configuration d'export de commandes ont été améliorées permettant de supporter les formats txt des commandes Triumph et Kawazaki et csv de KTM/Husqvarna/GasGas entre autres.
 - Les commandes automatiques Honda sont désormais supportées par Yuzer et la création d'une commande dans Yuzer aura pour effet de créer la commande dans le système Honda.
@@ -26,7 +35,7 @@
 
 # Janvier 2022 - Version 1.16.3
 
-# Améliorations diverses
+## Améliorations diverses
 
 - Nous avons amélioré et unifié l'expérience utilisateur sur plusieurs écrans d'imports de données.
 - La recherche de client par numéro de client est désormais possible.
@@ -34,7 +43,7 @@
 - Nous avons ajouté le support des identifiants maritimes pour les moto-marines.
 - Nous avons ajouté un ensemble d'attributs pour les moto-marines.
 
-# Configuration du type d'entité
+## Configuration du type d'entité
 
 En préambule d'améliorations sur le transfert de pièces inter-entité, Yuzer vous permet de définir sur chacune des entités définies son type:
 
@@ -45,13 +54,13 @@ En préambule d'améliorations sur le transfert de pièces inter-entité, Yuzer 
 
 L'objectif est de permettre à terme un transfert de stock sans génération de documents entre entité logiques, ou à l'aide de génération de rétrocessions entre établissements. L'échange de pièces entre sociétés nécessite l'établissement d'une facturation et devra être fait via une vente classique.
 
-# Affichage des éditeurs d'un contact
+## Affichage des éditeurs d'un contact
 
 La personne ayant créé une fiche contact et la dernière personne l'ayant modifiée sont désormais affichés sur le détail de celle-ci.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.16.0/contact-creator.png" height="90"/>
 
-# Amélioration des widgets
+## Amélioration des widgets
 
 Il est désormais possible de sélectionner plusieurs catégories dans le widget de chiffre d'affaire.
 
@@ -61,21 +70,21 @@ Il est désormais possible de sélectionner plusieurs catégories dans le widget
 
 Le widget de ventes permet quand à lui de cumuler les ventes de plusieurs types de dossiers (véhicules et vélos par exemple).
 
-# Améliorations sur comptabilité:
+## Améliorations sur comptabilité:
 
-## Gestion des dates d'échéance par fournisseur
+### Gestion des dates d'échéance par fournisseur
 
 Vous pouvez désormais configurer des configuration de dates d'échéances par fournisseur.
 
 Lors de la création d'une facture d'achat, ou à l'édition de celle-ci, vous pouvez alors séléctionner une des configurations pré-définie.
 
-## Nous avons ajouté des règles de comptabilité spécifiques pour les factures d'achat.
+### Nous avons ajouté des règles de comptabilité spécifiques pour les factures d'achat.
 
 L'écran de configuration a été légèrement modifié et la sélection du type de règle s'effectue désormais à l'aide d'un selecteur.
 
 Il est désormais possible de définir des règles spécifiques pour les achats intra-communautaires.
 
-## Amélioration de l'export automatique comptable
+### Amélioration de l'export automatique comptable
 
 Vous pouvez désormais exporter vos fichiers de tiers en sus de vos fichiers d'écriture comptable par ftp. De plus nous avons ajouté le libellé du moyen de paiement en tant que colonne sélectionnable dans les fichiers d'exports.
 
