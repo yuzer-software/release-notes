@@ -2,6 +2,8 @@
 
 # Améliorations diverses
 
+- Vous pouvez désormais modifier les tags d'un contact.
+
 # Améliorations sur comptabilité:
 
 ## Gestion des dates d'échéance par fournisseur
