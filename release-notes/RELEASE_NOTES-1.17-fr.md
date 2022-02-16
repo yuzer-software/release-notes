@@ -10,7 +10,7 @@
 
 Il est désormais possible de définir un compte différent pour chaque taux de TVA collecté. Nous avons effectué une migration des données qui utilise le compte que vous aviez défini pour chaque taux. Pensez à modifier cette configuration si vous souhaitez modifier ce comportement.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.17.0/vat-accounts.png" height="90"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.17.0/vat-accounts.png" height="180"/>
 
 ### Aggrégation
 
@@ -18,7 +18,7 @@ Yuzer aujourd'hui expose en comptabilité le détail de la facturation en écriv
 
 C'est désormais possible en choisissant l'option ci-dessous dans vos paramètres de comptabilité.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.17.0/accountancy-aggregation.png" height="90"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.17.0/accountancy-aggregation.png" height="180"/>
 
 Attention cette option n'impactera pas les enregistrement existant pour des raisons évidentes de légalité et une fois activée les enregistrements passés seront agrégés et ne pourront être détaillés à nouveau.
 
@@ -40,20 +40,20 @@ La gestion de l'évolution des statuts de commandes d'un produit identifié a é
 
 Pour celà il suffit désormais d'utiliser le bouton _Commander_
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.17.0/mark-order.png" height="90"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.17.0/mark-order.png" height="180"/>
 
 Puis de compléter les informations de commande
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.17.0/mark-order-modal.png" height="90"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.17.0/mark-order-modal.png" height="260"/>
 
 ### Réception du dossier _Commandé_
 
 Pour celà il suffit désormais d'utiliser le bouton _Réceptionner_
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.17.0/mark-new.png" height="90"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.17.0/mark-new.png" height="180"/>
 
 Puis de compléter les informations de réception et d'ajouter l'(es) identifiant(s) du produit.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.17.0/mark-new-modal.png" height="90"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.17.0/mark-new-modal.png" height="260"/>
 
 ## C'est corrigé
