@@ -10,7 +10,7 @@
 
 Il est désormais possible de définir un compte différent pour chaque taux de TVA collecté. Nous avons effectué une migration des données qui utilise le compte que vous aviez défini pour chaque taux. Pensez à modifier cette configuration si vous souhaitez modifier ce comportement.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.17.0/vat-accounts.png" height="180"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.17.0/vat-accounts.png" height="260"/>
 
 ### Aggrégation
 
