@@ -1,8 +1,11 @@
-# Février 2022 - Version 1.18.0
+# Février 2022 - Version 1.18.3
 
 # Améliorations diverses
 
 - Vous pouvez désormais modifier les tags d'un contact.
+- Lors de la création d'un nouveau dossier vous êtes désormais redirigés vers le détail de celui-ci.
+- Lorsqu'une commande est passée pour un fournisseur, vous êtes désormais redirigés vers la page de détail de la commande.
+- Lorsqu'une tâche est marquée comme "Fait" toutes ses sous-tâches le sont également. Ceci n'était effectué qu'à la clotûre dans les versions précédentes.
 
 # Transferts inter-entité
 
@@ -40,6 +43,20 @@ Vous pouvez désormais ajouter un ensemble de filtres lors de la recherche d'un 
 - Par tags
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.18.0/contact-filter.png" height="650"/>
+
+# Amélioration de l'affichage des CGV
+
+Complétant les améliorations apportées sur la version précédente vous permettant de définir une police et une taille spécifique nous avons ajouté la possibilité de disposer vos CGV en colonnes.
+
+Rendez vous dans la section _Administration / Gestion commerciale / Messages et CGV_ puis cliquez sur le bouton d'édition se situant en haut à droite de la page.
+
+Sélectionnez les CGV que vous souhaitez éditer et definissez le nombre de colonnes. Nous avons constaté que la configuration suivante permet un bon résultat:
+
+- Nombre de colonnes: 3
+- Police: Arial Narrow
+- Taille: 2
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.18.0/cgv_nb_cols.png" height="80"/>
 
 # Marges dans les paniers
 
@@ -117,6 +134,16 @@ Vous pouvez néanmoins dès à présent exporter les données des tableaux gén�
 
 La personne qui a ajouté une ligne dans le panier (_Ajouté par_) est désormais différenciée de celle qui a facturé (_Facturé par_). Cette donnée, qui sera ajoutée dans le futur au widget de chiffre d'affaire, est dès à présent disponible dans la nouvelle fonctionalité d'analyse.
 
-## C'est corrigé
+# Amélioration de l'affichage des indisponiblités sur le planning
 
+Les personnes qui sont totalement indisponible sur une journée données ont un affichage désormais plus visible qu'un simple taux d'utilisation à 100%. Le contraste de période de fermeture du midi a également été augmenté.
+
+Cette première amélioration ne prends pas encore en compte les indisponibilité du matin ou de l'après midi uniquement. Seule les personnes absentent la journée entière sont affectées. De même si l'affichage est modifié nous n'empêchons pas encore la plannification de tâches à l'employé absent.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.18.0/unavailability-planning.png" height="320"/>
+
+# C'est corrigé
+
+- Les coûts opérationnels ajoutés lors de la création d'un nouveau dossier sont désormais bien calculés et ne nécessitent plus d'édition de ceux-ci sur la page de détail.
+- La fonctionalité s'adapter à l'écran devrait bien s'appliquer lorsque la vue calendrier est quittée et réouverte. Attention cependant, si vous avez accès aux pages calendier commercial et atelier la sauvegarde du paramètre est indépendante pour chacune de ces vues.
 - L'ajout de modèles dans une cession ne recopie plus les prix avec marges et TVA et va de plus bien récupérer le prix d'achat moyen pondéré du stock.
