@@ -5,7 +5,7 @@
 - Vous pouvez désormais modifier les tags d'un contact.
 - Lors de la création d'un nouveau dossier vous êtes désormais redirigés vers le détail de celui-ci.
 - Lorsqu'une commande est passée pour un fournisseur, vous êtes désormais redirigés vers la page de détail de la commande.
-- Lorsqu'une tâche est marquée comme "Fait" toutes ses sous-tâches le sont également. Ceci n'était effectué qu'à la clotûre dans les versions précédentes.
+- Lorsqu'une tâche est marquée comme "Fait" toutes ses sous-tâches le sont également. Ceci n'était effectué qu'à la clôture dans les versions précédentes.
 
 # Transferts inter-entité
 
@@ -31,7 +31,7 @@ La liste des transferts recense les transferts depuis ou vers cette entité (y i
 
 Il est désormais possible d'établir un bon de livraison avant la facturation. Le bon de livraison implique la sortie immédiate du produit du stock et peut-être remis à votre client.
 
-Il permet nottament de permettre de conserver un panier ouvert pour permettre des livraisons régulière puis une facturation mensuelle de l'ensemble des éléments livrés.
+Il permet notamment de permettre de conserver un panier ouvert pour permettre des livraisons régulière puis une facturation mensuelle de l'ensemble des éléments livrés.
 
 # Recherche des contacts
 
@@ -50,7 +50,7 @@ Complétant les améliorations apportées sur la version précédente vous perme
 
 Rendez vous dans la section _Administration / Gestion commerciale / Messages et CGV_ puis cliquez sur le bouton d'édition se situant en haut à droite de la page.
 
-Sélectionnez les CGV que vous souhaitez éditer et definissez le nombre de colonnes. Nous avons constaté que la configuration suivante permet un bon résultat:
+Sélectionnez les CGV que vous souhaitez éditer et définissez le nombre de colonnes. Nous avons constaté que la configuration suivante permet un bon résultat:
 
 - Nombre de colonnes: 3
 - Police: Arial Narrow
@@ -94,25 +94,25 @@ Vous pouvez glisser une colonne afin de grouper les données
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.18.0/workforce-widget-table-groupped.png" height="380"/>
 
-Notez que le grouppement n'est pour l'instant pas sauvegardé et doit-être effectué directement sur le widget. Ceci fera l'objet d'une amélioration dans le futur.
+Notez que le groupement n'est pour l'instant pas sauvegardé et doit-être effectué directement sur le widget. Ceci fera l'objet d'une amélioration dans le futur.
 
-Enfin il est possible d'exporter en csv les données de la table, soit l'ensemble des lignes sans gouppement, soit seulement les lignes regrouppées.
+Enfin il est possible d'exporter en CSV les données de la table, soit l'ensemble des lignes sans regroupement, soit seulement les lignes regroupées.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.18.0/workforce-widget-export.png" height="160"/>
 
 # Analyses des ventes
 
-Nous avons ajouté une fonctionalité d'analyse des ventes qui vous permet de définir sur une période donnée un ensemble de filtres et aggrégations vous permettant de mieux analyser l'activité vente de votre magasin.
+Nous avons ajouté une fonctionnalité d'analyse des ventes qui vous permet de définir sur une période donnée un ensemble de filtres et agrégations vous permettant de mieux analyser l'activité vente de votre magasin.
 
-La fonctionalité est disponible en bêta et nous allons apporter de régulières améliorations à celle-ci.
+La fonctionnalité est disponible en bêta et nous allons apporter de régulières améliorations à celle-ci.
 
-Parmis les limitations actuelles, les filtres personnalisés et tableaux de bords sauvegardés sont disponibles sur une entité et l'ensemble de ses entités filles à moins que l'entité fille définisse ses propres filtres ou ses propres tableaux de bords. Dans ce cas les tableaux de bors de l'entité fille remplacent celle de son parent plutôt que de s'ajouter à ceux-ci.
+Parmi les limitations actuelles, les filtres personnalisés et tableaux de bords sauvegardés sont disponibles sur une entité et l'ensemble de ses entités filles à moins que l'entité fille définisse ses propres filtres ou ses propres tableaux de bords. Dans ce cas les tableaux de bords de l'entité fille remplacent celle de son parent plutôt que de s'ajouter à ceux-ci.
 
 Si vous souhaitez ne configurer les éléments qu'une seule fois il vous faudra donc effectuer les étapes de configuration sur votre entité parente.
 
-## Filtres personalisés des produits
+## Filtres personnalisés des produits
 
-La création de filtres personalisés vous permet de définir des filtres de produits complexes pouvant être réutilisés dans les analyses pour filtrer les données.
+La création de filtres personnalisés vous permet de définir des filtres de produits complexes pouvant être réutilisés dans les analyses pour filtrer les données.
 
 Vous pouvez filtrer aujourd'hui sur les champs principaux d'un produit et appliquer plusieurs types de conditions.
 
@@ -120,30 +120,44 @@ Vous pouvez filtrer aujourd'hui sur les champs principaux d'un produit et appliq
 
 Avant de créer une analyse vous devez sélectionner une période d'analyse. Vous pouvez définir la période que vous souhaitez de date à date, ou utiliser un des boutons rapides pour définir celle-ci.
 
-Une fois les données chargées, Yuzer vous présente l'écran de configuration d'analyse. Celui-ci vous permet de définir un ensemble de filtres (dont les filtres personalisés que vous auriez pu définir au préalable), les différentes colonnes d'aggrégation de l'analyse, ainsi que les colonnes à afficher en plus des colonnes d'aggrégations pour les lignes détaillées.
+Une fois les données chargées, Yuzer vous présente l'écran de configuration d'analyse. Celui-ci vous permet de définir un ensemble de filtres (dont les filtres personnalisés que vous auriez pu définir au préalable), les différentes colonnes d'agrégation de l'analyse, ainsi que les colonnes à afficher en plus des colonnes d'agrégations pour les lignes détaillées.
 
-Les lignes telles que les prix, les quantitées mais aussi les numéros de clients, numéros d'acheteur ou identifiant du document peutvent voir leur valeurs ou nombre de valeurs distinctes aggrégé(e)s.
+Les lignes telles que les prix, les quantités mais aussi les numéros de clients, numéros d'acheteur ou identifiant du document peuvent voir leur valeurs ou nombre de valeurs distinctes agrégé(e)s.
 
 ## Visualisation d'une analyse
 
 Une fois l'analyse configurée vous pouvez visualiser le tableau contenant les données de celles-ci. Dans cette première version il n'est pas encore possible de configurer un graphique à partir d'une analyse ni de grouper ceux-ci dans une même page.
 
-Vous pouvez néanmoins dès à présent exporter les données des tableaux générés, en utilisant l'export soit des détails soit des aggrégations.
+Vous pouvez néanmoins dès à présent exporter les données des tableaux générés, en utilisant l'export soit des détails soit des agrégations.
 
 ## Facturé par et Ajouté par
 
-La personne qui a ajouté une ligne dans le panier (_Ajouté par_) est désormais différenciée de celle qui a facturé (_Facturé par_). Cette donnée, qui sera ajoutée dans le futur au widget de chiffre d'affaire, est dès à présent disponible dans la nouvelle fonctionalité d'analyse.
+La personne qui a ajouté une ligne dans le panier (_Ajouté par_) est désormais différenciée de celle qui a facturé (_Facturé par_). Cette donnée, qui sera ajoutée dans le futur au widget de chiffre d'affaire, est dès à présent disponible dans la nouvelle fonctionnalité d'analyse.
 
-# Amélioration de l'affichage des indisponiblités sur le planning
+# Amélioration de l'affichage des indisponibilités sur le planning
 
 Les personnes qui sont totalement indisponible sur une journée données ont un affichage désormais plus visible qu'un simple taux d'utilisation à 100%. Le contraste de période de fermeture du midi a également été augmenté.
 
-Cette première amélioration ne prends pas encore en compte les indisponibilité du matin ou de l'après midi uniquement. Seule les personnes absentent la journée entière sont affectées. De même si l'affichage est modifié nous n'empêchons pas encore la plannification de tâches à l'employé absent.
+Cette première amélioration ne prends pas encore en compte les indisponibilité du matin ou de l'après midi uniquement. Seule les personnes absentent la journée entière sont affectées. De même si l'affichage est modifié nous n'empêchons pas encore la planification de tâches à l'employé absent.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.18.0/unavailability-planning.png" height="320"/>
 
 # C'est corrigé
 
 - Les coûts opérationnels ajoutés lors de la création d'un nouveau dossier sont désormais bien calculés et ne nécessitent plus d'édition de ceux-ci sur la page de détail.
-- La fonctionalité s'adapter à l'écran devrait bien s'appliquer lorsque la vue calendrier est quittée et réouverte. Attention cependant, si vous avez accès aux pages calendier commercial et atelier la sauvegarde du paramètre est indépendante pour chacune de ces vues.
+- La fonctionnalité s'adapter à l'écran devrait bien s'appliquer lorsque la vue calendrier est quittée et réouverte. Attention cependant, si vous avez accès aux pages calendrier commercial et atelier la sauvegarde du paramètre est indépendante pour chacune de ces vues.
 - L'ajout de modèles dans une cession ne recopie plus les prix avec marges et TVA et va de plus bien récupérer le prix d'achat moyen pondéré du stock.
+
+# Application mobile
+
+## Transferts inter-entité
+
+L'application mobile supporte elle aussi les transferts inter-entité : création, modification, envoi, réception, etc.
+
+## Codes à barres
+
+Certains codes à barres étaient mal interprétés (certains caractères invisibles pouvaient être présents, ce qui empêchait de trouver la référence sans une intervention manuelle pour supprimer le caractère indésirable). Nous avons amélioré la lecture de ces codes à barres. Si d'autres codes n'étaient pas lus correctement, merci de les envoyer au support !
+
+## Expertises et tâches
+
+Lorsqu'une tâche est liée à un panier et à un véhicule, il était déjà possible de créer des expertises photos pour ce véhicule directement depuis la tâche, mais la tâche n'était pas automatiquement liée au panier. Voici qui est corrigé !
