@@ -1,3 +1,13 @@
+# Février 2022 - Version 1.18.4
+
+# Améliorations diverses
+
+- Lorsque vous ajoutez des produits dans un groupe de facturation de type "cession", le prix de vente corresponds désormais à la valeur du prix d'achat moyen pondéré du stock s'il existe.
+
+# C'est corrigé
+
+- La TVA d'achat est maintenant correctement enregistrée lors de la sauvegarde des prix, en particulier sur les dossiers. Par conséquent, vous ne devriez plus avoir de messages d'avertissement causés par cette erreur lors de la facturation de vos nouveaux dossiers.
+
 # Février 2022 - Version 1.18.3
 
 # Améliorations diverses
