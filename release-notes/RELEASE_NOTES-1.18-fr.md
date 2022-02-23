@@ -1,3 +1,10 @@
+# Février 2022 - Version 1.18.5
+
+# C'est corrigé
+
+- Le filtre sur les tâches non-assignées est maintenant fonctionnel.
+- Vous pouvez à nouveau éditer les prix sur les lignes de paniers de cession.
+
 # Février 2022 - Version 1.18.4
 
 # Améliorations diverses
