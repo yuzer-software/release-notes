@@ -1,3 +1,24 @@
+# Février 2022 - Version 1.18.6
+
+# Nouvelle règle de tarification
+
+Nous avons ajouté une nouvelle tarification par _"coefficient"_.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.18.0/pricing-policy-coefficient.png" width="1024"/>
+
+Comme le montre l'écran ci-dessus, vous pouvez maintenant définir un coefficient de type :
+_Si le `prix d'achat` est compris entre `4,61` et `23` alors le multiplier par `1,38` pour définir le `PV TTC`._
+
+Ainsi, prenons pour exemple un produit du fournit par _SUPERMOB_ avec un prix d'achat de `5€`, son prix de vente TTC sera donc `5€ x 1,38` = `7,59€`.
+
+Vous pouvez choisir entre _le prix d'achat_, _le prix de vente HT_ ou _le prix de vente TTC_ pour le prix à multiplier.
+Et vous pouvez définir le résultat dans _le prix de vente HT_ ou _le prix de vente TTC_.
+
+# C'est corrigé
+
+- Des erreurs d'arrondis pouvaient apparaître dans les sous totaux de TVA d'une facture.
+- Les modèles de commentaires pouvaient ne pas être proposées à l'ajout d'un panier lorsque l'un des contextes _Client_, _Garantie_, _Assurance_ ou _Cession_ était sélectionnés.
+
 # Février 2022 - Version 1.18.5
 
 # C'est corrigé
