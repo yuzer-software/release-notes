@@ -12,6 +12,8 @@ Il est possible de supprimer les inventaires _en cours d'ouverture_ 24h après l
 
 # C'est corrigé
 
+- Le nom du fourniseur n'était pas affiché sur les dossiers de produits identifiés (vélo, etc.)
+- L'identifiant du produit identifié n'était pas affiché sur l'entête du dossier juste après l'avoir saisie via le bouton _Réceptionner_ pour passer de l'état _Commandé_ à _Neuf_.
 - La mise à jour des prix est maintenant fonctionnelle pour un modèle de panier.
 - Les informations du véhicule du panier est maintenant correctement mis à jour lorsqu'on l'associe depuis le bouton _Vendre_ d'un dossier.
   <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.19.0/fix-vehicle-basket-line-refresh.gif" width="800"/>
