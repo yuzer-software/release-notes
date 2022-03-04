@@ -77,6 +77,24 @@ Celui-ci sera effectué en direct sans opérations comptables exportées étant 
 
 </div>
 
+## Exposition d'API externe
+
+Vous pouvez désormais exposer vos informations de facturations à des fins de statistiques ou commerciales pour un usage interne ou vers un exploitant externe tel que GarageScore.
+Comme pour l'exposition des stocks véhicules, il faut pour cela créer une clé d'API dans le menu _Adminitration_.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.19.0/api-key-invoice-customer.png" height="400" />
+
+Nous avons 2 types d'expositions de ressource disponible:
+
+- _Factures contenant des données personnelles sensibles du client_: Toutes les factures seront exportées, que le client ait accepté ou non de recevoir de la publicité.
+- _Factures uniquement des clients acceptant la publicité_: Seules les factures des clients ayant accepté de recevoir de la publicité seront exportées. C'est à dire que le champs _Autoriser la publicité_ a la valeur _Oui_ sur la fiche cliente.
+
+<div class="alert alert-warning">
+Attention, vous êtes responsable de la gestion et de la divulgation des secrets permettant l’accès à ce endpoint. Des informations personnelle de vos clients telles que leur noms, prénoms, numéros de téléphonne, adresses et emails sont accessible à travers ce endpoint si vous l’activez.
+La réponsabilité de Yuzer, de même que lors d’un export de contacts en fichier, ne saurait être engagée en cas de non respect du RGPD.
+Vous êtes responsable à ce titre de prévenir vos clients d’un éventuel partage de ses données à des tiers.
+</div>
+
 # Améliorations diverses
 
 - Les colonnes _Marque_ et _Fournisseur_ sont disponibles à l'export de stock.
