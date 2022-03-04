@@ -52,9 +52,29 @@ Lorsqu'une facture est éditée yuzer conserve la date de la dernière vente en 
 
 Des racourcis rapide vous permettent de définir des périodes rapidement, vous pouvez également définir votre propre période manuellement à l'aide du bouton calendrier.
 
-<div class="alert alert-warning">
+<div class="alert alert-info">
 Les ventes de vélo, moto-marines et autres produits identifiés ne sont pas encore proposées à la recherche.
 L'implémentation de cette évolution est en cours mais non-finalisées et sera disponible sur la prochaine version.
+</div>
+
+# Visibilité des balances
+
+Vous pouvez désormais configurer la visibilité des balances client entre plusieurs entités afin de partager une vision commune au sein d'un sous-ensemble
+
+- d'entités logiques (même société mais structurée logiquement et non administrativement en sous-gestion)
+- de succusalles / établissement (même SIRET mais SIREN différents)
+
+Cette configuration est définie dans la partie _Administration / Configuration commerciale_
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.19.0/shared-balance-config.png" width="800"/>
+
+<div class="alert alert-info">
+Seule la vision est aujourd'hui partagée. L'utilisation d'un crédit disponible dans une autre entité n'est pas aujourd'hui possible.
+Pour cette raison le montant disponible à l'utilisation en crédit depuis un panier client peut ne pas être égal à celui affiché sur la fiche du client dans le cas ou vous choisissez de définir une telle configuration.
+
+Le transfert de crédit d'une entité à une autre sera disponible dans la prochaine version et automatiquement activé en cas de partage de visibilité.
+Celui-ci sera effectué en direct sans opérations comptables exportées étant donné que la fonction de partage n'est possible que pour une société unique.
+
 </div>
 
 # Améliorations diverses
