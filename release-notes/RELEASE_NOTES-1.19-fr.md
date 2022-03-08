@@ -57,6 +57,13 @@ Les ventes de vélo, moto-marines et autres produits identifiés ne sont pas enc
 L'implémentation de cette évolution est en cours mais non-finalisées et sera disponible sur la prochaine version.
 </div>
 
+<div class="alert alert-warning">
+Attention les filtres sont actuellement appliqués sur l'ensemble des entités du groupe. Ainsi si une vente a été faite pour le contact C dans l'entité A et qu'un employé de l'entité B recherche par date de dernière vente il verra le contact C apparaitre même si celui-ci n'a pas effecuté d'achat dans l'entité B.
+
+Ce point sera amélioré dans une prochaine version vous permettant de restreindre de manière optionnelle le filte à l'entité de l'utilisateur.
+
+</div>
+
 # Visibilité des balances
 
 Vous pouvez désormais configurer la visibilité des balances client entre plusieurs entités afin de partager une vision commune au sein d'un sous-ensemble
