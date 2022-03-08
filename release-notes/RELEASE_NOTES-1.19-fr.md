@@ -120,6 +120,7 @@ Vous êtes responsable à ce titre de prévenir vos clients d’un éventuel par
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.19.0/fix-basker-quick-add.gif" width="800"/>
 
 - Il est possible de supprimer les inventaires _en cours d'ouverture_ 24h après leur création : un inventaire peut arriver dans cet état lorsque l'initialization de l'inventaire s'est mal passée.
+- La mise à jour du status de paiement de panier n'était pas correctement effectuée lorsque la facture était éditée depuis la boite de dialogue de paiement.
 
 ## Comptabilité des achats de véhicule avec TVA
 
