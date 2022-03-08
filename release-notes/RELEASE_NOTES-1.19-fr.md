@@ -120,3 +120,10 @@ Vous êtes responsable à ce titre de prévenir vos clients d’un éventuel par
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.19.0/fix-basker-quick-add.gif" width="800"/>
 
 - Il est possible de supprimer les inventaires _en cours d'ouverture_ 24h après leur création : un inventaire peut arriver dans cet état lorsque l'initialization de l'inventaire s'est mal passée.
+
+## Comptabilité des achats de véhicule avec TVA
+
+Les versions précédentes de Yuzer effectuaient la comptabilité d'un achat de véhicule avec TVA en prenant en compte que le montant HT de celui-ci de manière identique à un achat sans TVA (cas d'un achat à particulier).
+Ce point a été résolu et Yuzer ventile désormais la TVA déductible à l'achat sur base du compte configuré dans vos paramètres de comptabilité.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.19.0/tradein-accountancy.png" width="800"/>
