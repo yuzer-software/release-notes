@@ -46,21 +46,21 @@ Depuis la liste des clients, un nouveau filtre vous permet de rechercher les con
 
 ## Recherche par date de dernière vente
 
-Lorsqu'une facture est éditée yuzer conserve la date de la dernière vente en fonction de son type. Vous pouvez alors utiliser cette information afin de filtrer les clients par date de dernière vente.
+Lorsqu'une facture est éditée Yuzer conserve la date de la dernière vente en fonction de son type. Vous pouvez alors utiliser cette information afin de filtrer les clients par date de dernière vente.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.19.0/contact-sale-date-filter.png" width="360"/>
 
-Des racourcis rapide vous permettent de définir des périodes rapidement, vous pouvez également définir votre propre période manuellement à l'aide du bouton calendrier.
+Des raccourcis rapide vous permettent de définir des périodes rapidement, vous pouvez également définir votre propre période manuellement à l'aide du bouton calendrier.
 
 <div class="alert alert-info">
 Les ventes de vélo, moto-marines et autres produits identifiés ne sont pas encore proposées à la recherche.
-L'implémentation de cette évolution est en cours mais non-finalisées et sera disponible sur la prochaine version.
+L'implémentation de cette évolution est en cours mais non-finalisés et sera disponible sur la prochaine version.
 </div>
 
 <div class="alert alert-warning">
-Attention les filtres sont actuellement appliqués sur l'ensemble des entités du groupe. Ainsi si une vente a été faite pour le contact C dans l'entité A et qu'un employé de l'entité B recherche par date de dernière vente il verra le contact C apparaitre même si celui-ci n'a pas effecuté d'achat dans l'entité B.
+Attention les filtres sont actuellement appliqués sur l'ensemble des entités du groupe. Ainsi si une vente a été faite pour le contact C dans l'entité A et qu'un employé de l'entité B recherche par date de dernière vente il verra le contact C apparaitre même si celui-ci n'a pas effectué d'achat dans l'entité B.
 
-Ce point sera amélioré dans une prochaine version vous permettant de restreindre de manière optionnelle le filte à l'entité de l'utilisateur.
+Ce point sera amélioré dans une prochaine version vous permettant de restreindre de manière optionnelle le filtre à l'entité de l'utilisateur.
 
 </div>
 
@@ -91,14 +91,14 @@ Comme pour l'exposition des stocks véhicules, il faut pour cela créer une clé
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.19.0/api-key-invoice-customer.png" height="400" />
 
-Nous avons 2 types d'expositions de ressource disponible:
+Nous avons 2 types d'expositions de ressources disponible:
 
 - _Factures contenant des données personnelles sensibles du client_: Toutes les factures seront exportées, que le client ait accepté ou non de recevoir de la publicité.
 - _Factures uniquement des clients acceptant la publicité_: Seules les factures des clients ayant accepté de recevoir de la publicité seront exportées. C'est à dire que le champs _Autoriser la publicité_ a la valeur _Oui_ sur la fiche cliente.
 
 <div class="alert alert-warning">
-Attention, vous êtes responsable de la gestion et de la divulgation des secrets permettant l’accès à ce endpoint. Des informations personnelle de vos clients telles que leur noms, prénoms, numéros de téléphonne, adresses et emails sont accessible à travers ce endpoint si vous l’activez.
-La réponsabilité de Yuzer, de même que lors d’un export de contacts en fichier, ne saurait être engagée en cas de non respect du RGPD.
+Attention, vous êtes responsable de la gestion et de la divulgation des secrets permettant l’accès à ce _endpoint_. Des informations personnelle de vos clients telles que leur noms, prénoms, numéros de téléphone, adresses et emails sont accessibles à travers ce _endpoint_ si vous l’activez.
+La responsabilité de Yuzer, de même que lors d’un export de contacts en fichier, ne saurait être engagée en cas de non respect du RGPD.
 Vous êtes responsable à ce titre de prévenir vos clients d’un éventuel partage de ses données à des tiers.
 </div>
 
@@ -108,7 +108,7 @@ Vous êtes responsable à ce titre de prévenir vos clients d’un éventuel par
 
 # C'est corrigé
 
-- Le nom du fourniseur n'était pas affiché sur les dossiers de produits identifiés (vélo, etc.)
+- Le nom du fournisseur n'était pas affiché sur les dossiers de produits identifiés (vélo, etc.)
 - L'identifiant du produit identifié n'était pas affiché sur l'entête du dossier juste après l'avoir saisie via le bouton _Réceptionner_ pour passer de l'état _Commandé_ à _Neuf_.
 - La mise à jour des prix est maintenant fonctionnelle pour un modèle de panier.
 - Les informations du véhicule du panier sont maintenant correctement mis à jour lorsqu'on l'associe depuis le bouton _Vendre_ d'un dossier.
@@ -119,8 +119,8 @@ Vous êtes responsable à ce titre de prévenir vos clients d’un éventuel par
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.19.0/fix-basker-quick-add.gif" width="800"/>
 
-- Il est possible de supprimer les inventaires _en cours d'ouverture_ 24h après leur création : un inventaire peut arriver dans cet état lorsque l'initialization de l'inventaire s'est mal passée.
-- La mise à jour du status de paiement de panier n'était pas correctement effectuée lorsque la facture était éditée depuis la boite de dialogue de paiement.
+- Il est possible de supprimer les inventaires _en cours d'ouverture_ 24h après leur création : un inventaire peut arriver dans cet état lorsque l'initialisation de l'inventaire s'est mal passée.
+- La mise à jour du statut de paiement de panier n'était pas correctement effectuée lorsque la facture était éditée depuis la boite de dialogue de paiement.
 
 ## Comptabilité des achats de véhicule avec TVA
 
