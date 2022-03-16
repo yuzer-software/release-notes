@@ -1,4 +1,4 @@
-# Mars 2022 - Version 1.20.0
+# Mars 2022 - Version 1.20.1
 
 # Balances et crédit
 
@@ -26,7 +26,10 @@ Vous pouvez désormais ajouter des tags sur vos modèles et utiliser ceux-ci lor
 
 # Améliorations diverses
 
+- Le nom du tiers est conservé sur chaque ligne dans l'export en comptabilité (ne numéro de tiers n'est conservé que sur la ligne du tiers).
+
 # C'est corrigé
 
 - Le status de paiement d'un panier se solde bien lorsqu'un trop payé est reversé en crédit.
 - Lorsqu'une reprise est effecutée le prix de revente estimé s'il est défini est utilisé comme prix de vente à la place de 99999
+- Il pouvait y avoir un soucis suivant un certain ordre de navigation dans la gestion des prêts de vélos/moto-marines ayant pour conséquence l'affichage des employés au lieu des véhicules dans la fenêtre de prêt.
