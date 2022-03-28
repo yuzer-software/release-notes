@@ -30,6 +30,6 @@ Vous pouvez désormais ajouter des tags sur vos modèles et utiliser ceux-ci lor
 
 # C'est corrigé
 
-- Le status de paiement d'un panier se solde bien lorsqu'un trop payé est reversé en crédit.
-- Lorsqu'une reprise est effecutée le prix de revente estimé s'il est défini est utilisé comme prix de vente à la place de 99999
+- Le statut de paiement d'un panier se solde bien lorsqu'un trop payé est reversé en crédit.
+- Lorsqu'une reprise est effectuée le prix de revente estimé s'il est défini est utilisé comme prix de vente à la place de 99999
 - Il pouvait y avoir un soucis suivant un certain ordre de navigation dans la gestion des prêts de vélos/moto-marines ayant pour conséquence l'affichage des employés au lieu des véhicules dans la fenêtre de prêt.
