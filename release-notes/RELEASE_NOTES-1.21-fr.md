@@ -1,4 +1,4 @@
-# Mars 2022 - Version 1.20.1
+# Avril 2022 - Version 1.21.0
 
 # Tableau de bord
 
@@ -30,7 +30,6 @@ Les lignes des réceptions sont réceptions sont triées par date d'ajout mais t
 Nous avons donc ajouté un message indiquant lorsque des lignes sont réordonnées avec la possibilité de filtrer les lignes impactées (comme illustré ci-dessous).
 
 <img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/warn-reception.png" width="900"/>
-
 
 # Comptabilité
 
