@@ -6,6 +6,12 @@ Les filtres personnalisés qui seraient incompatibles avec le widget de chiffre 
 
 <img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/custom-filter-in-turnover-widget.png" width="500"/>
 
+# Panier
+
+Nous indiquons désormais clairement pourquoi une ligne avec préparations ne peut pas être supprimée.
+
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/delete-line-with-preparations.png" width="500"/>
+
 # Modèle de panier: import Honda
 
 Honda fournit des modèles de panier au format CSV qu'il est désormais possible d'importer dans Yuzer.
