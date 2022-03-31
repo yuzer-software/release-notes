@@ -46,3 +46,7 @@ Il est maintenant possible de configurer les comptes de TVA déductible à l'ach
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/vat-config.png" width="500"/>
 
 </div>
+
+# C'est corrigé
+
+- Dans la boite de dialogue de sélection d'un contact, vous n'être maintenant plus redirigé vers la page de détails lors de la sélection d'un véhicule.
