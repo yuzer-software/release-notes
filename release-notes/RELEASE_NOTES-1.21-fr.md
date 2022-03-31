@@ -47,6 +47,10 @@ Il est maintenant possible de configurer les comptes de TVA déductible à l'ach
 
 </div>
 
+# Améliorations diverses
+
+- Lorsque vous créez un ordre de réparation à partir d'une tâche d'atelier, le panier est maintenant nommé à partir du libellé de la tâche.
+
 # C'est corrigé
 
 - Dans la boite de dialogue de sélection d'un contact, vous n'être maintenant plus redirigé vers la page de détails lors de la sélection d'un véhicule.
