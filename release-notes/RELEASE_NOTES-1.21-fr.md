@@ -54,3 +54,4 @@ Il est maintenant possible de configurer les comptes de TVA déductible à l'ach
 # C'est corrigé
 
 - Dans la boite de dialogue de sélection d'un contact, vous n'être maintenant plus redirigé vers la page de détails lors de la sélection d'un véhicule.
+- La tâche de l'atelier n'était pas synchronisée lors de l'ajout d'un modèle de panier qui contient de la main d'oeuvre.
