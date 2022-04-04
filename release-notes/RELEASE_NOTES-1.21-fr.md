@@ -189,6 +189,16 @@ Nous avons donc ajouté un message indiquant lorsque des lignes sont réordonné
 
 <img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/warn-reception.png" width="600"/>
 
+### Améliorations ergonomiques
+
+- Lorsqu'une ligne contient une quantité supérieure à 1 et qu'un emplacement est choisi l'intégralité de la quantité est désormais affectée à l'emplacement choisi.
+
+- La navigation entres les vues de détails de la réception, des produits en commandes ou du catalogue est désormais plus simple et claire. Elle s'effectue à l'aide des boutons _Détails_, _Commandes_ et _Catalogue_. situés juste en dessous des boutons pricipaux _Supprimer_, _Quitter l'édition_ et _Clôturer la réception_ lorsque la réception est en cours d'édition.
+
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/reception-views.png" width="100%"/>
+
+Ce type d'affichage est également appliqué sur les inventaires et transferts.
+
 ## Modèle de panier: import Honda
 
 Honda fournit des modèles de panier au format CSV qu'il est désormais possible d'importer dans Yuzer.
@@ -220,3 +230,4 @@ Il est maintenant possible de configurer les comptes de TVA déductible à l'ach
 
 - Dans la boite de dialogue de sélection d'un contact, vous n'être maintenant plus redirigé vers la page de détails lors de la sélection d'un véhicule.
 - La tâche de l'atelier n'était pas synchronisée lors de l'ajout d'un modèle de panier qui contient de la main d'oeuvre.
+- Lors d'une réception de plus de 50 lignes changer un emplacement sur une ligne en page 2 ne fait plus revenir à la première page.
