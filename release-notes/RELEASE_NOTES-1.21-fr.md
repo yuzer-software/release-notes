@@ -64,6 +64,8 @@ Il est possible pour cela d'utiliser la fonction de fusion de fournisseurs. Cett
 
 <div class="m-2 alert alert-warning">Attention, les références des éventuels transferts ne seront pas migrées. Nous vous recommandons donc de les résoudre avant d'effectuer la fusion.</div>
 
+<div class="m-2 alert alert-danger">Attention, il est important d'effectuer la fusion alors que personne ne travaille (en fin de journée par exemple). Ceci afin d'éviter que des nouvelles réservations/ commandes /entrées ou sorties en stock ne soient effectuées pendant le processus.</div>
+
 Afin d'effectuer une fusion rendez-vous dans _Administration_ / _Fournisseurs_ puis cliquez sur le bouton d'édition _Gérer les fournisseurs_. Utilisez alors le bouton _Fusionner_ sur le fournisseur que vous souhaitez fusionner (celui amené à disparaitre).
 
 Dans notre cas nous souhaitons fusionner le catalogue local _Aratech_ afin de ne garder que le catalogue communautaire partagé par _Gallactic Empire_. Faites bien attention lorsque, comme ici, le nom du fournisseur est dupliqué à bien choisir le catalogue que vous souhaitez conserver à l'aide de l'icône _Communautaire_ ou _Local_ (comme ci-dessous).
