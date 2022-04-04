@@ -125,6 +125,18 @@ Une fois complétée Yuzer aura effecuté la migration vers les nouvelles réfé
 - Des réservations client actives ainsi que les lignes de panier associées à celle-ci (mais uniquement les lignes de panier associées à ces réservations)
 - Les commandes actives.
 
+### Supprimer mon ancien fournisseur et modifier le préfixe du nouveau
+
+Une fois le fournisseur correctement migré vous pouvez le supprimer (icône poubelle).
+
+<div class="m-2 alert alert-danger">
+ATTENTION de bien sélectionner le fournisseur que vous venez de fusionner et non celui dans lequel vous avez effectué la fusion.
+</div>
+
+Finalement vous souhaiterez probablement, dans le cas ou le fournisseur a été créé avec un autre préfixe, comme dans notre exemple, modifier le préfixe du fournisseur dans lequel les produits ont été migrés afin de ne pas perturber vos utilisateurs. Il vous suffit alors de l'éditer:
+
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/update-prefix.png" width="100%"/>
+
 ### Lignes de panier non migrées
 
 Comme expliqué ci-dessus les lignes de panier qui n'avaient pas de réservations ne sont pas migrées automatiquement. N'ayez crainte cependant, elles sont clairement indiquées sur le panier et modifier les référence se fait très facilement.
