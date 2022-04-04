@@ -143,6 +143,28 @@ La sélection de produit s'ouvre alors en effecuant une recherche par défaut av
 
 ### Widget de M.O.
 
+Le widget de main d'oeuvre vous permet désormais d'afficher en plus des heures facturés et C.A. facturé les informations extraites de l'atelier que sont:
+
+- La durée estimée: C'est le temps indiqué à la création d'une tâche atelier (à l'evoi à l'atelier lorsque la tâche est créée depuis un panier)
+- La durée planifiée: C'est la durée de la tâche modifiée soit à l'édition du panier soit depuis l'atelier et qui est visible sur le calendrier.
+- La durée de résolution qui est calculée à lorsqu'une tache est démarrée, mise en pause depuis l'application mobile et finalement marquée comme faite.
+
+De plus la configuration du widget a été déportée dans une boite de dialogue afin de simplifier celle-ci. L'ensemble des widgets suivront cette évolution dans le futur.
+
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/work-widget-cfg-1.png" width="100%"/>
+
+Certaines propriétés du graphique sont désormais disponibles par série de donnée affichée ce qui permet de mélanger sur le même graphique des courbes et histogrammes, pour des types de données différents par exemple.
+
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/work-widget-cfg-2.png" width="100%"/>
+
+A noter que les statistiques atelier ne permettent pas de filtrer par type de panier ou type de cession actuellement, ces filtres disparaissent donc lorsqu'un de ces Types de données est sélectionné.
+
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/work-widget-cfg-3.png" width="100%"/>
+
+Le graphique ci-dessous affiche à la fois le chiffre d'affaire en courbe et avec des labels (l'échelle de C.A. étant placée à gauche) et des durées (l'échelle de temps étant placée à droite).
+
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/work-widget.png" width="100%"/>
+
 ### Utilisations de filtres personnalisés
 
 Les filtres personnalisés qui seraient incompatibles avec le widget de chiffre d'affaires sont clairement exhibés.
@@ -154,6 +176,18 @@ Les filtres personnalisés qui seraient incompatibles avec le widget de chiffre 
 Nous indiquons désormais clairement pourquoi une ligne avec préparations ne peut pas être supprimée.
 
 <img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/delete-line-with-preparations.png" width="500"/>
+
+Depuis la version précédente (mais cela n'avait pas été noté dans la release note) vous pouvez accéder rapidement aux modèles depuis la bare d'édition.
+
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/basket-template-quick-add" width="100%"/>
+
+## Réceptions
+
+Les lignes des réceptions sont triées par date d'ajout mais toutefois groupées par identifiant de produit, ce qui est généralement désirable. En conséquence, il est possible que des lignes soient réordonnées sur des opérations d'ajout ou de suppression de lignes, ce qui était parfois déconcertant pour l'utilisateur qui pouvait croire que davantage de produit avait été ajouté que ce qu'il n'avait demandé ou, lors d'une suppression, que plusieurs lignes avaient été supprimées. Par exemple, si un produit 890479 a été ajouté à la réception, puis une dizaine d'autres lignes, puis à nouveau du 890479 et que cela crée une nouvelle ligne, alors toutes les lignes de 890479 seront groupées ensemble en tête de liste. Si cette dernière ligne venait à être supprimée, les autres lignes retrouveraient leurs place en fin de liste, donnant l'impression qu'elles ont été supprimées.
+
+Nous avons donc ajouté un message indiquant lorsque des lignes sont réordonnées avec la possibilité de filtrer les lignes impactées (comme illustré ci-dessous).
+
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/warn-reception.png" width="600"/>
 
 ## Modèle de panier: import Honda
 
@@ -170,25 +204,13 @@ Honda fournit des modèles de panier au format CSV qu'il est désormais possible
 
 - Cliquez sur "Charger": tous les modèles importés seront créés.
 
-<div *dmsHasAnyAuth="['ROLE_ACCOUNTANT']">
-
-## Réceptions
-
-Les lignes des réceptions sont réceptions sont triées par date d'ajout mais toutefois groupées par identifiant de produit, ce qui est généralement désirable. En conséquence, il est possible que des lignes soient réordonnées sur des opérations d'ajout ou de suppression de lignes, ce qui était parfois déconcertant pour l'utilisateur qui pouvait croire que davantage de produit avait été ajouté que ce qu'il n'avait demandé ou, lors d'une suppression, que plusieurs lignes avaient été supprimées. Par exemple, si un produit 890479 a été ajouté à la réception, puis une dizaine d'autres lignes, puis à nouveau du 890479 et que cela crée une nouvelle ligne, alors toutes les lignes de 890479 seront groupées ensemble en tête de liste. Si cette dernière ligne venait à être supprimée, les autres lignes retrouveraient leurs place en fin de liste, donnant l'impression qu'elles ont été supprimées.
-
-Nous avons donc ajouté un message indiquant lorsque des lignes sont réordonnées avec la possibilité de filtrer les lignes impactées (comme illustré ci-dessous).
-
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/warn-reception.png" width="900"/>
-
 ## Comptabilité
 
 ### TVA déductible à l'achat par taux de TVA
 
 Il est maintenant possible de configurer les comptes de TVA déductible à l'achat par taux de TVA.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/vat-config.png" width="500"/>
-
-</div>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/vat-config.png" width="700"/>
 
 ## Améliorations diverses
 
