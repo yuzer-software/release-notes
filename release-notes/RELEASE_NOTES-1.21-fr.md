@@ -151,15 +151,15 @@ Le widget de main d'oeuvre vous permet désormais d'afficher en plus des heures 
 
 De plus la configuration du widget a été déportée dans une boite de dialogue afin de simplifier celle-ci. L'ensemble des widgets suivront cette évolution dans le futur.
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/work-widget-cfg-1.png" width="100%"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/work-widget-cfg-1.png" width="700"/>
 
 Certaines propriétés du graphique sont désormais disponibles par série de donnée affichée ce qui permet de mélanger sur le même graphique des courbes et histogrammes, pour des types de données différents par exemple.
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/work-widget-cfg-2.png" width="100%"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/work-widget-cfg-2.png" width="700"/>
 
 A noter que les statistiques atelier ne permettent pas de filtrer par type de panier ou type de cession actuellement, ces filtres disparaissent donc lorsqu'un de ces Types de données est sélectionné.
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/work-widget-cfg-3.png" width="100%"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/work-widget-cfg-3.png" width="700"/>
 
 Le graphique ci-dessous affiche à la fois le chiffre d'affaire en courbe et avec des labels (l'échelle de C.A. étant placée à gauche) et des durées (l'échelle de temps étant placée à droite).
 
