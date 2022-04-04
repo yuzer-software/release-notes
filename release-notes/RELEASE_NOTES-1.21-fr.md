@@ -191,7 +191,17 @@ Nous indiquons désormais clairement pourquoi une ligne avec préparations ne pe
 
 Depuis la version précédente (mais cela n'avait pas été noté dans la release note) vous pouvez accéder rapidement aux modèles depuis la bare d'édition.
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/basket-template-quick-add" width="100%"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/basket-template-quick-add.png" width="100%"/>
+
+## Export des dossiers de produits
+
+Il n'est plus possible d'exporter les dossiers de véhicules ou de produits identifiés qu'en CSV.
+
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/dealer-file-export-button.png" width="350"/>
+
+En revanche, beaucoup de champs ont été rajoutés et il est même possible d'y associer des informations croisées (frais, factures, contact).
+
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/dealer-file-enhanced-export.png" width="650"/>
 
 ## Réceptions
 
