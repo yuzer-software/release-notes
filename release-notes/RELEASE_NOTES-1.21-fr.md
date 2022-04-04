@@ -4,38 +4,58 @@
 
 ### Partage de catalogues entre entités
 
-Vous pouvez désormais partager un de vos catalogues fournisseur avec d'autres entités du groupe. Depuis votre liste de fournisseurs (_Administration_ / _Fournisseurs_) un bouton _Partager_ fait son apparition en face de vos catalogues locaux.
+Vous pouvez désormais partager un de vos catalogues fournisseur avec d'autres entités du groupe.
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/supplier-list-share.png" width="500"/>
+<div class="m-2 alert alert-warning">
+Attention, une fois partagé le catalogue du fournisseur pourra être modifié aussi bien par l'entité ayant effectué le partage que par celle à qui le catalogue est partagé. Il ne sera pas possible de définir par exemple un prix différent pour une entité ou l'autre sauf usage de règles de tarifications spécifiques.
+</div>
+
+Depuis votre liste de fournisseurs (_Administration_ / _Fournisseurs_) un bouton _Partager_ fait son apparition en face de vos catalogues locaux.
+
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/share-supplier-list.png" width="100%"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/share-supplier.png" width="100%"/>
 
 Une fois actionné une modal s'ouvre alors vous permettant de visualiser:
 
 - Avec qui le catalogue est déjà partagé
 - Avec qui le catalogue peut-être partagé
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/supplier-list-share.png" width="500"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/share-supplier-modal.png" width="700"/>
 
+Une fois une cible sélectionnée, Yuzer vérifie que le préfixe n'est pas déjà utilisé dans la cible. Si tel est le cas, vous devez spécifier un autre préfixe afin de pouvoir partager le catalogue.
+
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/share-supplier-modal-prefix.png" width="320"/>
+
+Dans l'exemple ci-dessus nous allons utiliser le préfixe _ART_ car le fournisseur _Aratech_ est déjà dupliqué dans notre entité cible _Sullust Shipyard_.
+
+<div class="m-2 alert alert-info">
 Le partage doit se faire aujourd'hui cible par cible et il n'est pas possible de sélectionner plusieurs cibles d'un coup; ce point sera amélioré dans le futur.
+</div>
 
-Une fois une cible sélectionnée vous pouvez partager le catalogue. qui devient alors visible dans la liste des fournisseurs en tant que catalogue communautaire.
+Une fois partagé, le fournisseur devient visible dans la liste des fournisseurs en tant que catalogue communautaire.
+
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/target-supplier-list.png" width="100%"/>
 
 Pour rappel il existe trois icônes qui vous permettent de visualiser les types de syncronisation et mise à jour sur les catalogues:
 
 <div>
-<img class="ml-5 d-inline-block" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/catalog-local.png" width="46"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/catalog-local.png" width="32"/>
 <span>Calogue local que vous avez créé. Vous pouvez éditer les produits à votre convenance.</span>
 </div>
 <div>
-<img class="ml-5 d-inline-block" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/catalog-community.png" width="46"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/catalog-community.png" width="32"/>
 <span>Calogue communautaire qui a été partagé avec vous. Vous pouvez éditer les produits et toute modification sera répercutée sur l'ensemble des autres utilisateurs du catalogue.</span>
 <div>
 <div>
-<img class="ml-5 d-inline-block" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/catalog-automatic.png" width="46"/><span>Catalogue managé dans lequel vous ne pouvez effectuer de modifications.</span>
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/catalog-automatic.png" width="32"/><span>Catalogue managé dans lequel vous ne pouvez effectuer de modifications.</span>
 <div>
+
+Dans l'exemple ci-dessus le fournisseur _Aratech_ avait été créé en local avant que _Gallactic Empire_ ne nous partage son catalogue _Aratech_, c'est pourquoi celui-ci apparait deux fois, en local et en communautaire.
 
 ### Fusion de fournisseurs/catalogues
 
 Une fois les catalogues partagé il est probable que vous souhaitiez vous débarasser de catalogues existant en doublons.
+
 Il est possible pour cela d'utiliser la fonction de fusion de fournisseurs. Cette fonction vous permet de controler la consistence du catalogue cible mais également migrer
 
 - votre stock vers les nouvelles références catalogue
@@ -44,7 +64,80 @@ Il est possible pour cela d'utiliser la fonction de fusion de fournisseurs. Cett
 
 <div class="m-2 alert alert-warning">Attention, les références des éventuels transferts ne seront pas migrées. Nous vous recommandons donc de les résoudre avant d'effectuer la fusion.</div>
 
-Afin d'effectuer une fusion selectionnez le fournisseur que vous souhaitez fusionner puis cliquez sur le bouton suivant:
+Afin d'effectuer une fusion rendez-vous dans _Administration_ / _Fournisseurs_ puis cliquez sur le bouton d'édition _Gérer les fournisseurs_. Utilisez alors le bouton _Fusionner_ sur le fournisseur que vous souhaitez fusionner (celui amené à disparaitre).
+
+Dans notre cas nous souhaitons fusionner le catalogue local _Aratech_ afin de ne garder que le catalogue communautaire partagé par _Gallactic Empire_. Faites bien attention lorsque, comme ici, le nom du fournisseur est dupliqué à bien choisir le catalogue que vous souhaitez conserver à l'aide de l'icône _Communautaire_ ou _Local_ (comme ci-dessous).
+
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/merge-supplier-start.png" width="100%"/>
+
+Une fois la fusion lancée une boite de dialogue s'affiche et vous permet de sélectionner le fournisseur cible. Dans notre cas nous souhaitons fusionner dans le catalogue _Aratech_ communautaire (là encore faites bien attention à l'icône et au préfixe pour différencier les fournisseurs).
+
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/merge-supplier-select-target.png" width="100%"/>
+
+Yuzer recherche alors les produits manquants dans le catalogue cible et qu'il faut éventuellement créer.
+
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/
+merge-resolve-missing.png" width="100%"/>
+
+Chaque ligne de vous permet de visualiser un produit manquant dans le catalogue cible ainsi que le nombre de ses réservations (par status) commandes, ou présent en stock. Passez votre souris sur un nombre afin de d'avoir le détail du status, dont la couleur suit le code couleur de l'application.
+
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/merge-tooltip-booked.png" width="160"/>
+
+Vous pouvez, en cliquant sur le bouton loupe de la ligne accéder également au détail des Réservations, Commandes et Stock qui seront fusionnés.
+
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/merge-product-detail-btn.png" width="160"/>
+
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/merge-product-detail.png" width="100%"/>
+
+Vous pouvez également accéder depuis cet écran aux deux catalogues pour effecuter un comparatif en cliquant sur la loupe se situant en sous-titre:
+
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/merge-catalog-compare-btn.png" width="260"/>
+
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/merge-catalog-compare.png" width="100%"/>
+
+Re-cliquez sur la loupe en haut afin de revenir à la liste des produits manquants.
+
+Plusieurs actions vous sont proposées pour chaque produit:
+
+- Créer: le produit sera créé dans le catalogue cible avec la référence indiquée et sera accessible dans le cas d'un catalogue communautaire tant par vous même que par les autres utilisateurs du catalogue.
+- Remplacer: rechercher une référence équivalente déjà présente dans le catalogue cible.
+- Ignorer: disponible uniquement si vous n'avez ni stock, ni réservations.
+
+Une fois toutes les actions choisies vous pouvez cliquer sur suivant afin d'accéder au récapitulatif des actions à mener:
+
+Un onglet vous détaille les produits à créer
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/merge-preview-create.png" width="100%"/>
+
+Et l'autre les produits à fusionner
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/merge-preview-merge.png" width="100%"/>
+
+Vous pouvez alors lancer la fusion.
+
+<div class="m-2 alert alert-danger">
+Attendez bien que la fusion soit complétée avant de fermer la boite de dialogue ou Yuzer.
+</div>
+
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/merge-complete.png" width="100%"/>
+
+Une fois complétée Yuzer aura effecuté la migration vers les nouvelles référence:
+
+- Du stock
+- Des réservations client actives ainsi que les lignes de panier associées à celle-ci (mais uniquement les lignes de panier associées à ces réservations)
+- Les commandes actives.
+
+### Lignes de panier non migrées
+
+Comme expliqué ci-dessus les lignes de panier qui n'avaient pas de réservations ne sont pas migrées automatiquement. N'ayez crainte cependant, elles sont clairement indiquées sur le panier et modifier les référence se fait très facilement.
+
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/replace-ref-basket.png" width="100%"/>
+
+Il suffit pour cela de cliquer sur le bouton de remplacement de la référence:
+
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/replace-ref-button.png" width="180"/>
+
+La sélection de produit s'ouvre alors en effecuant une recherche par défaut avec la référence du produit:
+
+<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/replace-ref-modal.png" width="100%"/>
 
 ## Tableau de bord
 
