@@ -1,13 +1,17 @@
-# Avril 2022 - Version 1.22.0
+# Avril 2022 - Version 1.22.1
 
 ## Produits
 
 Dans la vue de détails d'un produit, vous pouvez maintenant remplacer et définir un prix spécifique pour celui-ci.
 
 <div class="alert alert-warning">
+
 - Les règles de marge, de TVA et de tarification ne sont pas appliquées dans ce cas.
+
 - Ce prix est appliqué pour votre entité seulement
+
 - Les valeurs que vous sauvegardez ne sont pas changées lorsque les prix fournisseurs sont mis à jour (import catalogue, synchronisation automatique, etc).
+
 </div>
 
 Dans la fenêtre d'édition, vous avez le detail des différents prix de produit:
