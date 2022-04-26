@@ -1,7 +1,14 @@
+# Avril 2022 - Version 1.22.6
+
+## C’est corrigé
+
+- Le filtre sur assignés dans le widget de main d'oeuvre est désormais bien appliqué également sur les statistiques de tâches (hors chiffre d’affaire et temps facturés)
+
 # Avril 2022 - Version 1.22.5
 
 ## C'est corrigé
-- Attention: Les données du widget main d’oeuvre sur les statistiques de tâches (hors chiffre d’affaire et temps facturés) étaient erronées. En effet un filtre permettant de ne compter que les tâches planifiées ne fonctionnait pas correctement et l’ensemble des tâches étaient prise en compte résultant en une prise en compte excessive des tâches et double comptage du temps. Ceci a été corrigé et les données visibles seront donc impactées.
+
+- **Attention:** Les données du widget main d’oeuvre sur les statistiques de tâches (hors chiffre d’affaire et temps facturés) étaient erronées. En effet un filtre permettant de ne compter que les tâches planifiées ne fonctionnait pas correctement et l’ensemble des tâches étaient prise en compte résultant en une prise en compte excessive des tâches et double comptage du temps. Ceci a été corrigé et les données visibles seront donc impactées.
 - Les données du widget de main d’oeuvre sont désormais bien mise à jour au changement d’entité.
 - La configuration du widget de main d’oeuvre a été améliorée, les assignés disponibles ainsi que taux de M.O. disponibles dans les filtres ne sont désormais plus dépendants des données chargées.
 - L’affichage de l’analytique a été légèrement amélioré afin de limiter le décalage de taille de colonnes sur un scroll.
@@ -11,16 +18,19 @@
 # Avril 2022 - Version 1.22.4
 
 ## C'est corrigé
+
 - Le placement du nouveau selecteur de date dans le calendrier (atelier etc) est désormais bien positionné en bas à gauche du bouton et visible dans tout contexte.
 
 # Avril 2022 - Version 1.22.3
 
 ## C'est corrigé
+
 - Correction d'une erreur empêchant l'impression correcte d'étiquettes produits
 
 # Avril 2022 - Version 1.22.2
 
 ## C'est corrigé
+
 - Une erreur empêchait de sélectionner le véhicule d'un contact avec celui-ci dans l'édition d'une tâche
 
 # Avril 2022 - Version 1.22.1
