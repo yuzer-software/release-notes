@@ -6,6 +6,7 @@ Produit non stockable / Petites fournitures
 Produit non stockable / Bon d’achat
 
 Permettant de gérer des ventes de produits que l'on ne souhaite pas stocker et de bon d'achat externes non-liés aux fonctionnement de cartes cadeaux.
+Nous recommandons cependant l'utilisation de cartes cadeaux qui permettent un meilleur suivi et évitent des erreurs d'utilisation et de TVA.
 
 # Avril 2022 - Version 1.22.6
 
