@@ -1,3 +1,12 @@
+# Avril 2022 - Version 1.22.7
+
+Ajout de nouvelles catégories:
+
+Produit non stockable / Petites fournitures
+Produit non stockable / Bon d’achat
+
+Permettant de gérer des ventes de produits que l'on ne souhaite pas stocker et de bon d'achat externes non-liés aux fonctionnement de cartes cadeaux.
+
 # Avril 2022 - Version 1.22.6
 
 ## C’est corrigé
