@@ -1,3 +1,19 @@
+# Mai 2022 - Version 1.23.3
+
+## Export des dossiers
+
+* Renommage de 'Commercial du produit phare' en 'Ajouté par' et de 'Éditeur' en 'Facturé par'.
+* Correction du champ 'Ajouté par'.
+
+## Nouvelles catégories
+
+Ajout des catégories "location" dans services et taxes:
+
+* Services et taxes
+    * Location
+        * Location courte durée
+        * Location longue durée
+
 # Mai 2022 - Version 1.23.1
 
 ## Support BIHR
@@ -31,7 +47,7 @@ Votre consommation SMS est désormais visible dans la section _Administration/T�
 - Le libellé du tiers est exporté sur chaque ligne dans un export comptable (le numéro de compte ne l'est que sur la ligne du tiers).
 - Vous pouvez exporter vos commandes dans un format spécifique Harley Davidson.
 - Les configurations des différents widgets sont désormais accessibles depuis une modal sur le modèle de la configuration du widget de Main d'oeuvre.
-- Vous pouvez désormais visualiser les pdf depuis les galleries de documents.
+- Vous pouvez désormais visualiser les pdf depuis les galeries de documents.
 - L'affichage de la vue stock a été amélioré et rendu plus réactif.
 
 ## C’est corrigé
