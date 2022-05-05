@@ -1,18 +1,25 @@
+# Mai 2022 - Version 1.23.4
+
+## C’est corrigé
+
+- Nous avons corrigé une erreur d'arrondi qui pouvait intervenir sur les prix de reprises de véhicules.
+- Lors d'un export commande au format Harley Davidson la boite de dialogue se ferme désormais correctement.
+
 # Mai 2022 - Version 1.23.3
 
 ## Export des dossiers
 
-* Renommage de 'Commercial du produit phare' en 'Ajouté par' et de 'Éditeur' en 'Facturé par'.
-* Correction du champ 'Ajouté par'.
+- Renommage de 'Commercial du produit phare' en 'Ajouté par' et de 'Éditeur' en 'Facturé par'.
+- Correction du champ 'Ajouté par'.
 
 ## Nouvelles catégories
 
 Ajout des catégories "location" dans services et taxes:
 
-* Services et taxes
-    * Location
-        * Location courte durée
-        * Location longue durée
+- Services et taxes
+  - Location
+    - Location courte durée
+    - Location longue durée
 
 # Mai 2022 - Version 1.23.1
 
