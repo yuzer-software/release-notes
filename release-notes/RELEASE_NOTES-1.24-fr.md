@@ -1,3 +1,11 @@
+# Mai 2022 - Version 1.24.2
+
+Nous avons corrigé les exportations CSV et XLSX.
+
+# Mai 2022 - Version 1.24.1
+
+Nous avons corrigé l'ajout d'une carte cadeau à un panier ! (Bug introduit lors du déplacement de la catégorie "Carte cadeau".)
+
 # Mai 2022 - Version 1.24.0
 
 ## Catégories
