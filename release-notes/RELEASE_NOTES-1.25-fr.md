@@ -10,7 +10,7 @@ La TVA sur marge qui était déjà bien prise en compte en comptabilité est dé
 - dans les chiffres du widget de C.A.
 - dans l'analytique
 
-La marge affichée prends donc désormais bien en compte l'impact de la TVA sur marge.
+La marge affichée prend donc désormais bien en compte l'impact de la TVA sur marge.
 
 ## Stocks
 
@@ -53,7 +53,7 @@ _Note: Le graphique de prix d'achat du stock du produit, qui n'était pas le plu
 
 #### Correction de la valeur d'achat d'un évènement
 
-Vous pouvez désormais corriger la valeur d'achat d'un évènement depuis l'UI.
+Vous pouvez désormais corriger la valeur d'achat d'un évènement depuis l'interface.
 
 Dans le cas d'une réception le prix de la ligne de réception associée est également mis à jour.
 
@@ -85,7 +85,7 @@ Il est désormais possible d'effectuer l'enregistrement de gravage d'un vélo pa
 
 ## C'est corrigé
 
-- Certaines colonnes dans l'analytique n'était pas exportées avec le bon format dans excel.
+- Certaines colonnes dans l'analytique n'étaient pas exportées avec le bon format dans excel.
 - Le regroupement par dates dans l'analytique n'affichait pas celles-ci correctement.
 - Les catégories filtrées dans le widget de C.A. sont bien pré-cochées lors la modification de celles-ci.
 - Sur la vue des dossiers véhicules le filtre ouverts/clôturés lors d'un changement d'entité ne peut plus être dans un état inconsistent avec la liste affichée.
