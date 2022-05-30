@@ -12,7 +12,7 @@ La TVA sur marge qui était déjà bien prise en compte en comptabilité est dé
 
 La marge affichée prend donc désormais bien en compte l'impact de la TVA sur marge. Lorsqu'une TVA sur marge est appliquée le montant de TVA est indiqué avec un icône 'marge' représenté par un camenbert.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/vat-margin-basket.png" width="650px"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/vat-margin-basket.png" width="460px"/>
 
 ## Stocks
 
@@ -20,7 +20,7 @@ La marge affichée prend donc désormais bien en compte l'impact de la TVA sur m
 
 Les fonctions d'export de stock et l'écran de stock négatif ont été remplacées par une fonction d'édition du stock.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/stock-browse.png" width="650px"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/stock-browse.png" width="100%"/>
 
 Celle-ci vous permet de configurer l'édition du stock suivant de multiples critères:
 
@@ -49,7 +49,7 @@ La vue de détails d'un produit a été revue pour apporter plus de lisibilité 
 
 L'affichage de l'application en mode _client_ cache les détails du stock, des réservations d'autres clients et des commandes. Les détails du produit sont eux automatiquement affichés ainsi qu'une vue simplifiée de la disponibilité produit (prenant en compte les réservations).
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/item-detail-client.png" width="650px"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/item-detail-client.png" width="100%"/>
 
 <div class="alert alert-warning">
 Attention si vous ne voyez plus les informations détaillées du stock c'est que vous êtes en vue client. Pensez à passer en vue concessionaire pour visualiser ceux-ci.
@@ -65,7 +65,7 @@ La couleur de l'encadré _Disponible_ est dépendant de la disponibilité du pro
 - Jaune lorsqu'il existe une disponibilité sur des pièces commandées (commandées et non-réservées)
 - Rouge lorsque le produit n'est pas disponible en stock et n'a pas été commandé.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/stock-quick-info.png" width="650px"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/stock-quick-info.png" width="440px"/>
 
 Si des pertes ont été relevées lors d'un inventaire celle-ci apparaissent aussi dans un encadré spécifique.
 
@@ -83,13 +83,13 @@ _Note: Le graphique de prix d'achat du stock du produit, qui n'était pas le plu
 
 La liste des évènements de mouvement de stock d'un produit est désormais mensualisée. Il est possible d'un coup d'oeil de visualiser les mois au cours desquels des évènements de stock ont été générés. Ceux-ci ont en effet une pastille verte à la droite du nom du mois.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/stock-event-price-edit-list.png" width="650px"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/stock-event-price-edit-list.png" width="100%"/>
 
 #### Correction de la valeur d'achat d'un évènement
 
 Il est également possible désormais de corriger la valeur d'achat d'un évènement depuis cette même liste d'évènements de stock en cliquant sur le bouton éditer en face du PA HT. Seul les utilisateurs _ADMIN_ et _COMPTABLE_ peuvent actuellement utiliser cette fonctionalité.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/stock-event-price-edit-modal.png" width="650px"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/stock-event-price-edit-modal.png" width="450px"/>
 
 Dans le cas d'une réception le prix de la ligne de réception associée est également mis à jour.
 
@@ -114,7 +114,7 @@ La modification se fait depuis l'encart _stock_ de la vue de détail d'un produi
 
 Et ouvre la popup suivante:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/stock-edit-wapp-modal.png" width="650px"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/stock-edit-wapp-modal.png" width="450px"/>
 
 ### Inventaires
 
@@ -128,7 +128,7 @@ A noter que cette option n'est disponible que si tout le stock ou un ensemble d'
 
 Il est désormais possible de filtrer les balances client dans la vue balance. Vous pouvez filtrer par montant ou par nom de client.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/balance.png" width="650px"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/balance.png" width="100%"/>
 
 ## Paravol
 
