@@ -10,28 +10,46 @@ La TVA sur marge qui était déjà bien prise en compte en comptabilité est dé
 - dans les chiffres du widget de C.A.
 - dans l'analytique
 
-La marge affichée prend donc désormais bien en compte l'impact de la TVA sur marge.
+La marge affichée prend donc désormais bien en compte l'impact de la TVA sur marge. Lorsqu'une TVA sur marge est appliquée le montant de TVA est indiqué avec un icône 'marge' représenté par un camenbert.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/vat-margin-basket.png" width="650px"/>
 
 ## Stocks
 
-<div class="d-none">
 - Vue stock
 
-La vue stock vous permet désormais de visualiser des extractions de stock directement dans Yuzer. Ces extractions peuvent ensuite être sauvegardées en CSV ou XLSX. Ceci remplace les fonctions d'export existant précédamment.
+Les fonctions d'export de stock et l'écran de stock négatif ont été remplacées par une fonction d'édition du stock.
 
-- Paramétrage de l'extraction
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/stock-browse.png" width="650px"/>
 
-Dates
+Celle-ci vous permet de configurer l'édition du stock suivant de multiples critères:
 
-Autre filtres
+- La date d'extraction.
+- L'entrepôt et emplacements de l'entrepôt.
+- Les références dont certains emplacements ont un stock négatif.
+- Les produits inconnus (possible lorsque le fournisseur a été supprimé ou que le produit a était géré dans un catalogue personalisé et que celui-ci a été supprimé par un opérateur).
+- Les fournisseurs et marques.
+- Les catégories de produit.
 
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/stock-list-cfg.png" width="650px"/>
+
+Vous pouvez également sélectionner les colonnes à afficher dans l'écran de configuration.
+
+Une fois la configuration validée, la liste affichée vous permet de grouper le contenu par un ou plusieurs critères de votre choix. Vous pouvez alors exporter le détail ou les aggrégations en CSV ou XLSX.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/stock-list.png" width="650px"/>
+
+<div class="alert alert-info m-1">
+Ne pas sélectionner les colonnes d'emplacements (entrepôt, zone, étagères, planches et paquet) permet d'aggréger les quantités et valeurs totales. Par exemple si seule la zone est sélectionné mais ni les étagères, planches et paquet alors les quantités seront aggrégées par zone.
 </div>
 
 ### Vue détails de produit
 
 La vue de détails d'un produit a été revue pour apporter plus de lisibilité sur les informations les plus importantes.
 
-L'affichage de l'application en mode _client_ cache les détails du stock, des réservations d'autres clients et des commandes.
+L'affichage de l'application en mode _client_ cache les détails du stock, des réservations d'autres clients et des commandes. Les détails du produit sont eux automatiquement affichés ainsi qu'une vue simplifiée de la disponibilité produit (prenant en compte les réservations).
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/item-detail-client.png" width="650px"/>
 
 <div class="alert alert-warning">
 Attention si vous ne voyez plus les informations détaillées du stock c'est que vous êtes en vue client. Pensez à passer en vue concessionaire pour visualiser ceux-ci.
@@ -41,6 +59,16 @@ Attention si vous ne voyez plus les informations détaillées du stock c'est que
 
 Le niveau de stock, la consommation sur le produit et un prévisionnel s'affichent désormais sur la vue produit.
 
+La couleur de l'encadré _Disponible_ est dépendant de la disponibilité du produit:
+
+- Vert lorsque le produit est en stock
+- Jaune lorsqu'il existe une disponibilité sur des pièces commandées (commandées et non-réservées)
+- Rouge lorsque le produit n'est pas disponible en stock et n'a pas été commandé.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/stock-quick-info.png" width="650px"/>
+
+Si des pertes ont été relevées lors d'un inventaire celle-ci apparaissent aussi dans un encadré spécifique.
+
 <div class="alert alert-info">
 Le prévisionnel est actuellement en bêta et nécessite que le produit ait une antériorité sur l'année précédente.
 
@@ -49,29 +77,44 @@ Nous allons améliorer cette fonction dans le futur afin de vous permettre de b�
 
 </div>
 
-_Note: Le graphique de prix d'achat du stock du produit, qui n'était pas le plus utilisé, disparait temporairement et reviendra dans une version ultérieure._
+_Note: Le graphique de prix d'achat du stock du produit, qui n'était pas le plus utilisé, disparait temporairement et reviendra sous une autre forme dans une version ultérieure._
+
+#### Liste d'évènements de mouvement de stock
+
+La liste des évènements de mouvement de stock d'un produit est désormais mensualisée. Il est possible d'un coup d'oeil de visualiser les mois au cours desquels des évènements de stock ont été générés. Ceux-ci ont en effet une pastille verte à la droite du nom du mois.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/stock-event-price-edit-list.png" width="650px"/>
 
 #### Correction de la valeur d'achat d'un évènement
 
-Vous pouvez désormais corriger la valeur d'achat d'un évènement depuis l'interface.
+Il est également possible désormais de corriger la valeur d'achat d'un évènement depuis cette même liste d'évènements de stock en cliquant sur le bouton éditer en face du PA HT. Seul les utilisateurs _ADMIN_ et _COMPTABLE_ peuvent actuellement utiliser cette fonctionalité.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/stock-event-price-edit-modal.png" width="650px"/>
 
 Dans le cas d'une réception le prix de la ligne de réception associée est également mis à jour.
 
 <div class="alert alert-warning">
 A noter que la mise à jour dans la réception ne sera pas effectuée:
  - Si le stock a été fusionné d'une reférence produit vers une autre (ou d'un fournisseur à un autre)
- - Sur certains évènements de réception anciens
+ - Sur certains évènements de réception datant de plus de deux mois.
 
 Ces désagréments ne sont valable que sur les évènements antérieurs à cette version. Il sera possible dans le futur de bien mettre à jour les évènements de réception avec le prix de leur ligne y compris sur des stock fusionnés.
 
 </div>
 
-<div class="d-none">
-- Changement du prix d'achat moyen pondéré.
+#### Changement du prix d'achat moyen pondéré.
 
-Le changement du prix d'achat moyen
+En plus de la modification du prix d'achat d'un évènement (qui impacte le prix d'achat moyen pondéré), il est également possible de modifier directement celui-ci depuis la fiche produit.
 
-</div>
+Ceci permet de prendre en compte une dévaluation de stock par exemple ou d'effectuer une correction rapide. Un évènement de stock sera alors généré afin qu'un recalcul de valeur de PAMP depuis les évènements conserve bien la valeur indiquée. Bien entendu les évènements futurs de réception impacteront à nouveau le PAMP.
+
+La modification se fait depuis l'encart _stock_ de la vue de détail d'un produit.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/stock-edit-wapp.png" width="650px"/>
+
+Et ouvre la popup suivante:
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/stock-edit-wapp-modal.png" width="650px"/>
 
 ### Inventaires
 
@@ -79,9 +122,23 @@ Il est désormais possible de faire des inventaires sur un sous-ensemble de prod
 
 A noter que cette option n'est disponible que si tout le stock ou un ensemble d'emplacements sont inventoriés. Elle n'a en effet pas de sens dans le cadre d'un inventaire vide.
 
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/inventory.png" width="650px"/>
+
+## Filtrage des balances
+
+Il est désormais possible de filtrer les balances client dans la vue balance. Vous pouvez filtrer par montant ou par nom de client.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/balance.png" width="650px"/>
+
 ## Paravol
 
 Il est désormais possible d'effectuer l'enregistrement de gravage d'un vélo paravol automatiquement à la vente.
+
+Le vélo doit avoir un identifiant Paravol enregistré au préalable. L'enregistrement est alors automatiquement effectué lors de la facturation. Et peut-être relancé en cas d'échec, ou si l'identifiant a été spécifié ultérieurement, manuellement depuis la ligne de vélo du panier facturé.
+
+## Améliorations diverses
+
+- Un lien vers le panier est désormais disponible dans la liste des réservations produit d'une fiche client.
 
 ## C'est corrigé
 
@@ -89,3 +146,4 @@ Il est désormais possible d'effectuer l'enregistrement de gravage d'un vélo pa
 - Le regroupement par dates dans l'analytique n'affichait pas celles-ci correctement.
 - Les catégories filtrées dans le widget de C.A. sont bien pré-cochées lors la modification de celles-ci.
 - Sur la vue des dossiers véhicules le filtre ouverts/clôturés lors d'un changement d'entité ne peut plus être dans un état inconsistent avec la liste affichée.
+- Les identifiants de produit de M.O. dans l'analytique sont désormais bien ceux enregistrés dans la configuration de la M.O.
