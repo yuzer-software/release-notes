@@ -2,7 +2,7 @@
 
 ## Configuration des opérations commerciales
 
-Nous avons ajouté la fonctionnalité d'opérations commerciales avec un système de règle, la possibilité d'imprimer des étiquettes qui reflètent les prix de l'opération commerciale.
+Nous avons ajouté la fonctionnalité d'opérations commerciales avec un système de règle, ainsi que la possibilité d'imprimer des étiquettes qui reflètent les prix de l'opération commerciale.
 
 ### Menu et liste des opérations
 
@@ -13,22 +13,25 @@ La configuration des opérations commerciales est accessible depuis le menu `Adm
 ### Création et configuration
 
 Le même menu est utilisé pour la création et la configuration d'une opération commerciale. Quelques remarques :
-  - sont nécessaires le libellé, les dates et **au moins une règle**.
-  - vous ne pourrez **plus changer les dates** une fois l'opération commerciale sauvegardée, mais ce sera possible à la prochaine mise à jour.
+
+- sont nécessaires le libellé, les dates et **au moins une règle**.
+- vous ne pourrez **plus changer les dates** une fois l'opération commerciale sauvegardée, mais ce sera possible à la prochaine mise à jour.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/commercial-operation-creation.png" width="800px"/>
 
 La configuration des règles est en partie similaire à celle des cartes de fidélité.
-* Chaque règle a un type (pour l'instant, un seul type de règle est disponible : la remise en pourcentage du prix)
-* Des paramètres (le pourcentage de remise à appliquer)
-* Deux listes de conditions
-  * Une liste de conditions de satisfaction
-  * Une liste de conditions de non-satisfaction
-  * La remise s'applique si au moins une condition de satisfaction est remplie (il en faut donc une) et si aucune condition de non-satisfaction est remplie (il peut n'en être aucune).
+
+- Chaque règle a un type (pour l'instant, un seul type de règle est disponible : la remise en pourcentage du prix)
+- Des paramètres (le pourcentage de remise à appliquer)
+- Deux listes de conditions
+  - Une liste de conditions de satisfaction
+  - Une liste de conditions de non-satisfaction
+  - La remise s'applique si au moins une condition de satisfaction est remplie (il en faut donc une) et si aucune condition de non-satisfaction est remplie (il peut n'en être aucune).
 
 Vous pouvez aussi ajouter deux commentaires:
-* Un commentaire qui sera ajouté à chaque groupe de facturation d'un panier bénéficiant de l'offre
-* Un commentaire qui sera ajouté à chaque ligne de panier qui bénéficie de l'offre
+
+- Un commentaire qui sera ajouté à chaque groupe de facturation d'un panier bénéficiant de l'offre
+- Un commentaire qui sera ajouté à chaque ligne de panier qui bénéficie de l'offre
 
 Voici un exemple d'une règle "Remise en pourcentage du prix"
 
@@ -38,22 +41,23 @@ N'oubliez pas de sauvegarder vos modifications !
 
 ### Validation d'une opération commerciale
 
-Une opération commerciale non validée ne sera jamais appliquée. Nous sommes en train de terminer quelques tests avant d'autoriser la validation des opérations commerciales. Vous ne pouvez donc que les configurer et imprimer les étiquettes correspondantes.
+Une opération commerciale non validée ne sera jamais appliquée. La validation d'une opération commerciale est encore en cycle d'assurance qualité et sera livrée en seconde semaine de juin.
+
+Vous pouvez cependant dès à présent péparer vos opérations commerciales et imprimer les étiquettes correspondantes.
 
 ### Impression des étiquettes pour une ou plusieurs opérations commerciales
 
 Yuzer vous permet d'imprimer des étiquettes pour certains produits (depuis `Stock > Étiquettes`) ou les étiquettes pour tout votre stock (depuis `Stock > Stock > Étiquettes`). Ces deux menus ont été dotés d'options pour imprimer les prix relatifs à une ou plusieurs opérations commerciales. Si un produit correspond à plusieurs opérations commerciales, la meilleure remise sera appliquée.
 
-* Imprimer certaines étiquettes (et définir la configuration d'impression)
+- Imprimer certaines étiquettes (et définir la configuration d'impression)
   - vous pouvez choisir au centre de l'écran vos opérations commerciales
   - vous pouvez choisir dans les options d'impression si l'opération commerciale a ou non un prix barré et la taille de la police de ce prix.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/commercial-operation-print-one.png" width="800px"/>
 
-* Imprimer tout le stock
+- Imprimer tout le stock
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/commercial-operation-print-all-stock.png" width="700px"/>
-
 
 # Mai 2022 - Version 1.25.0
 
