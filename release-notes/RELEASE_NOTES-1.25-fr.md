@@ -1,3 +1,28 @@
+# Mai 2022 - Version 1.25.8
+
+## Gestion des marges en statistiques
+
+L'affichage des marges a été corrigé et uniformisé dans les widgets de chiffres d'affaire et analytiques.
+
+- Ils excluent par défaut les primes, couts et cessions des dossiers véhicules et vélos.
+- Dans l'écran d'analytique:
+  - Les prix ne prennent plus en compte le prix catalogue des produits mais se fondent uniquement sur les prix d'achat moyen pondérés ce qui simplifie la lecture.
+  - De fait la colonne prix de stock disparait au profit d'une colonne _Prix d'achat (Inc. coûts et primes)_ qui n'a de valeur que pour les dossiers concernées.
+  - Vous pouvez activer une option dans la configuration de l'analyse pour que celle-ci affiche les prix et marges sur base de ce _Prix d'achat (Inc. coûts et primes)_.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/analytics_inc_bonus.png" width="380px"/>
+
+## C'est corrigé
+
+- Le 19 mai dernier nous avions corrigé le support de la TVA sur marge afin de la supprimer dans le cas d'une vente à perte (marge négative). Ce changement a causé un effet de bord qui empêchait l'annulation de la TVA sur marge dans le cas d'une annulation de facture. Le problème est bien corrigé et seule les annulations de factures d'un V.O. avec TVA sur marge effectuées entre le 19 mai et le 3 juin sont concernées.
+- Le filtre entrepôt sur l'export de stocks est corrigé.
+- Le problème précédent causait une erreur additionnelle pouvant causer des lignes dont la quantité multipliée par les prix ne correspondaient pas.
+- Une erreur sur le calcul de la consommation (ajoutée sur une fiche produit) a été corrigée. Cependant la correction des données passées n'a pu être effectuée. Celle-ci sera effectuée au plus tard le 6 juin 2022.
+
+# Mai 2022 - Version 1.25.7
+
+Quelques corrections et améliorations ont été apportées sur les opérations commerciales et l'impression des étiquettes.
+
 # Mai 2022 - Version 1.25.6
 
 ## Configuration des opérations commerciales
