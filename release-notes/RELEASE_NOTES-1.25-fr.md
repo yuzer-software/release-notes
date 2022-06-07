@@ -1,3 +1,11 @@
+# Juin 2022 - Version 1.25.11
+
+## Configuration des opérations commerciales
+
+Les opérations commerciales sont maintenant bien pris en compte lors de la création d'un panier. De plus elles bénéficient maintenant d'un statut, ce qui permet de les valider ou de les annuler.
+
+De plus les menus d'administration ont été légèrement repensés.
+
 # Mai 2022 - Version 1.25.8
 
 ## Gestion des marges en statistiques
