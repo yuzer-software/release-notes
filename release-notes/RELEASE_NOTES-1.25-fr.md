@@ -84,6 +84,24 @@ Yuzer vous permet d'imprimer des étiquettes pour certains produits (depuis `Sto
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/commercial-operation-print-all-stock.png" width="700px"/>
 
+## Application des opérations commerciales sur les paniers
+
+Les opérations commerciales validées en cours sont ajoutées automatiquement lors de la création du panier.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/commercial-operation-basket.png" width="100%"/>
+
+Dès qu'un produit ajouté dans le panier correspond aux critères de sélection des opérations commerciales, Yuzer va appliquer automatiquement la remise sur la ligne. 
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/commercial-operation-discount.png" width="100%"/>
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/commercial-operation-discount-explain.png" width="500px"/>
+
+Une remise personnalisée peut toujours être définie sur la ligne du panier en cas de besoin de manière habituelle.
+
+Sur un ancien panier dont les opérations commerciales sont devenues obsolètes, Yuzer permet la re-synchronization des calculs de remise sur l'ensemble des lignes du panier.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/commercial-operation-update.png" width="100%"/>
+
 # Mai 2022 - Version 1.25.0
 
 ## Affichage de la TVA sur marge
