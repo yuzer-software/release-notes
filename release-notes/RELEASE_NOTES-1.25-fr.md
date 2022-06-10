@@ -2,9 +2,17 @@
 
 ## Configuration des opérations commerciales
 
-Les opérations commerciales sont maintenant bien pris en compte lors de la création d'un panier. De plus elles bénéficient maintenant d'un statut, ce qui permet de les valider ou de les annuler.
+Vous pouvez désormais valider ou annuler les opérations commerciales configurées.
 
-De plus les menus d'administration ont été légèrement repensés.
+Lorsqu'elles sont actives (validées et que la date correspond à la période de l'opération commerciale) celles-ci sont prises en compte lors de la création d'un panier.
+
+## Améliorations diverses
+
+- Les menus de la section administration ont été légèrement réorganisés.
+
+## C'est corrigé
+
+- Les dates de factures dans les export de dossiers véhicules sont désormais correctement gérées pour excel.
 
 # Mai 2022 - Version 1.25.8
 
@@ -98,7 +106,7 @@ Les opérations commerciales validées en cours sont ajoutées automatiquement l
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/commercial-operation-basket.png" width="100%"/>
 
-Dès qu'un produit ajouté dans le panier correspond aux critères de sélection des opérations commerciales, Yuzer va appliquer automatiquement la remise sur la ligne. 
+Dès qu'un produit ajouté dans le panier correspond aux critères de sélection des opérations commerciales, Yuzer va appliquer automatiquement la remise sur la ligne.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/commercial-operation-discount.png" width="100%"/>
 
