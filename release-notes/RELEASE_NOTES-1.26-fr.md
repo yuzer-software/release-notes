@@ -96,3 +96,4 @@ Les rapports d'executions des exports peuvent-être consultés dans l'onglet \_R
 - Les mots avec accents et apostrophes sont maintenant correctement gérés dans la recherche de modèle de panier.
 - L'import de fichiers textes dans un panier ne nécessite plus de re-définir les colonnes à chaque fois.
 - Les étiquettes d'emplacement de stock n'affichent plus les numéros d'emplacement en grisé. Ceci posait des problèmes d'impression sur plusieurs imprimantes etiquette.
+- Les marges sur la M.O. s'affichent désormais comme attendu dans l'analytique.
