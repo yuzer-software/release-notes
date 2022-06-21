@@ -1,3 +1,10 @@
+# Juin 2022 - Version 1.26.3
+
+## C'est corrigé
+
+- La main d'oeuvre s'ajoute maintenant avec une TVA correcte dans la panier.
+- La sélection des colonnes a été réparée sur l'export des dossiers.
+
 # Juin 2022 - Version 1.26.1
 
 ## Cessions: internes et garantie fournisseur
