@@ -1,3 +1,9 @@
+# Juin 2022 - Version 1.26.4
+
+## C'est corrigé
+
+- Une erreur causée par une désynchonisation de l'horloge du poste utilisateur pouvait survenir lors l'initialisation de la clôture de caisse.
+
 # Juin 2022 - Version 1.26.3
 
 ## C'est corrigé
