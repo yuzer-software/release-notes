@@ -4,7 +4,7 @@
 
 Dans les paramètres de comptabilité il est désormais possible d'assigner un journal spécifique aux reprises.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.27.0/tradein_journal.png" width="380px"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.27.0/tradein_journal.png" width="600px"/>
 
 Pensez à bien sauvegarder la configuration une fois modifié (en bas de l'écran).
 
@@ -12,7 +12,7 @@ Pensez à bien sauvegarder la configuration une fois modifié (en bas de l'écra
 
 Vous pouvez désormais éditer un cerfa 15776-02 directement depuis le panier de reprise d'un véhicule.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.27.0/trade_in_cerfa.png" width="380px"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.27.0/trade_in_cerfa.png" width="100%"/>
 
 Vous devez avoir un dossier attaché afin de pouvoir créer celui-ci.
 
@@ -21,7 +21,7 @@ Vous devez avoir un dossier attaché afin de pouvoir créer celui-ci.
 Vous pouvez désormais retrouver des paniers en fonction des tags des clients associés.
 
 <div class="m-2 alert alert-warning">
-Note: Lors de la modification des tags d'un contacts seul ses paniers de l'année en cours sont impactés.
+Note: Lors de la modification des tags d'un contacts seul les nouveaux paniers seront impactés. La mise à jour des anciens paniers lors d'un changement de tags sera disponible dans une version future.
 </div>
 
 ## Export des dossiers véhicules / produits
@@ -42,12 +42,12 @@ Afin d'activer le tri, il suffit de clicker sur le bouton correspondant de la co
 
 - Des liens vers le panier et le client ont été ajoutés dans l'écran de clotûre de caisse.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.27.0/cash_desk_links.png" width="380px"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.27.0/cash_desk_links.png" width="600px"/>
 
 - La recherche sur les tags existant dans l'application n'est plus sensible à la casse (majuscules/minuscules) et aux diatriques (accents, cédilles).
 - L'affichage des propriétés d'un vélo a été amélioré.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.27.0/velo_props.png" width="380px"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.27.0/velo_props.png" width="100%"/>
 
 ## C'est corrigé
 
