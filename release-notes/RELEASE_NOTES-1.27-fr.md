@@ -28,7 +28,7 @@ Note: Lors de la modification des tags d'un contacts seul les nouveaux paniers s
 
 L'export des dossiers véhicules permet désormais l'export des dossiers clôturés et ouverts dans un même fichier.
 
-## Analyitiques
+## Analytiques
 
 L'affichage des colonnes lorsque peu d'entre elles sont sélectionnées n'est plus aligné à droite mais s'étends bien sur l'ensemble de l'écran.
 
@@ -44,7 +44,7 @@ Afin d'activer le tri, il suffit de clicker sur le bouton correspondant de la co
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.27.0/cash_desk_links.png" width="600px"/>
 
-- La recherche sur les tags existant dans l'application n'est plus sensible à la casse (majuscules/minuscules) et aux diatriques (accents, cédilles).
+- La recherche sur les tags existants dans l'application n'est plus sensible à la casse (majuscules/minuscules) ni aux signes diatriques (accents, cédilles).
 - L'affichage des propriétés d'un vélo a été amélioré.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.27.0/velo_props.png" width="100%"/>
