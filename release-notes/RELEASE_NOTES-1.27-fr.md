@@ -28,6 +28,12 @@ Note: Lors de la modification des tags d'un contacts seul les nouveaux paniers s
 
 L'export des dossiers véhicules permet désormais l'export des dossiers clôturés et ouverts dans un même fichier.
 
+De plus, il est maintenant possible, dans la configuration de l'export, de définir de nouvelles colonnes de valeurs (marge, prix de vente ou d'achat etc...) 
+filtrées sur des catégories ou des filtres personnalisés, permettant ainsi d'agglomérer et d'analyser les lignes d'une facture.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.27.0/Revenue_analysis.png" width="600px"/>
+
+
 ## Analytiques
 
 L'affichage des colonnes lorsque peu d'entre elles sont sélectionnées n'est plus aligné à droite mais s'étends bien sur l'ensemble de l'écran.
