@@ -11,3 +11,9 @@ Ainsi, lors de vos réceptions, l'emplacement défini sera automatiquement attri
 De plus, il est possible de définir plusieurs emplacements, et il sera alors très simple de passer de l'un à l'autre tel que montré ci dessous.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/default-dispatching-reception.png" />
+
+## Améliorations diverses
+
+- Nous avons amélioré la configuration du filtre personnalisé de l'analytique afin de faciliter la saisie des fournisseurs, comme dans le reste de l'application.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/analytics-supplier-filter.png" width="600px"/>
