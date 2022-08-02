@@ -1,4 +1,18 @@
-# Juin 2022 - Version 1.28.0
+# Juillet 2022 - Version 1.28.3
+
+## Améliorations diverses
+
+- La sélection de fournisseurs dans les filtres personalisés impliquaient de rentrer l'identifiant Yuzer interne et non le nom du fournisseur. Un sélecteur a été ajouté pour permette le bon usage de la fonction.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/analytics-supplier-filter.png" width="600px"/>
+
+# Juillet 2022 - Version 1.28.1
+
+## Améliorations diverses
+
+- Le temps disponible sur le widget de M.O. prends désormais bien en compte les pourcentages de non-affectation.
+
+# Juillet 2022 - Version 1.28.0
 
 ## Gestion des dates d'échéances pour les chèques
 
