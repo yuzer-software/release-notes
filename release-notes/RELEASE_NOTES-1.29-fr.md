@@ -177,7 +177,9 @@ De plus, il est possible de définir plusieurs emplacements, et il sera alors tr
   - Dans le cas ou le produit est retourné suite à une annulation de facture il rentre à la valeur de stock correspondant à sa sortie.
   - Dans le cas ou il rentre sur un nouveau panier avec une quantité négative il rentre à la valeur de stock actuelle.
 - Les paiements sur un panier de produit avec acheteur n'étaient pas redirigés sur la balance du client mais sur celui de l'acheteur alors que le montant de la facture mouvementait bien la balance du client.
-- Des messages d'erreurs de validation de montant sur les factures d'achat incluant taxe étaient erronés lorsque liés à des lignes de réception.
+- Factures d'achats:
+  - Des messages d'erreurs de validation de montant lorsque la taxe était incluse dans la facture étaient erronés lorsque liés à des lignes de réception.
+  - Les dates de la facture en cas de dates d'échéances fournisseurs étaient erronées
 - Lorsqu'un bon de commande est annulé et qu'un dossier véhicule reste attaché au panier, un message est affiché sur celui-ci afin de prévenir que, la vente ayant été annulée il devrait être détaché. Ce message persistait si une facture était émise néanmoins. Ce n'est désormais plus le cas.
 - Le bouton de clôture d'un dossier de produit identifié si celui-ci était ouvert alors que la facture venait bien d'être soldée à postériori ne déclenchait pas d'actions (il fallait passer par le panier).
 - La marge sur le widget de chiffre d'affaire pouvait être incorrecte dans le cas d'annulations, et différer de celle présente dans le widget d'analytique qui était bien correcte.
