@@ -2,7 +2,7 @@
 
 ## Facturation sans livraison
 
-Dans les versions précédentes de Yuzer la facturation de produit impliquait automatiquement la livraison des produits. Si cela reste valable pour les tickets de caisses, il est désormais possible d'éditer une facture dont une sous-partie ne sera pas livrée.
+Dans les versions précédentes de Yuzer, la facturation de produit impliquait automatiquement la livraison des produits. Si cela reste valable pour les tickets de caisses, il est désormais possible d'éditer une facture dont une sous-partie ne sera pas livrée.
 
 Ceci permet de préciser une information sur la facture indiquant, par exemple, la nécessité d'un retrait ultérieur dans un point de retrait magasin. A noter également que, dans le cas ou un produit non-livré fait l'objet d'une réservation client, celle-ci restera active et pourra être résoudre à la réception.
 
@@ -30,15 +30,15 @@ Lors de la finalisation de la cession vous pouvez indiquer:
 
 - Ce qui est en effet monté sur le véhicule (destiné à la vente au client final ou pouvant être démonté en cas de besoin de la pièce dans le cadre d'une autre vente/réparation).
 - Ce qui doit-être déstocké (consomable utilisé dans le cadre de la préparation ou produit que l'on ne souhaite pas valoriser lors de la vente).
-- Ce qui est sans impacts stock.
+- Ce qui est sans impact stock.
 
 Ces options sont désormais clairement matérialisées:
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/preparation.png" width="100%"/>
 
 <div class="alert alert-warning">
-Attention, un produit choisi sans impacts stock ne génèrera aucun mouvent de stock et celui-ci ne sera pas prélevé. Cette option ne doit-être utilisé qu'en cas de produit que vous décidez de ne pas gérer en stock et n'est pas recommandée.
-Elle ne devrait pas être utilisée pour corriger une erreur d'inventaire qui doit l'être à l'aide d'un inventaire partiel permettant ainsi de conserver une bonne tracabilité.
+Attention, un produit choisi sans impact stock ne génèrera aucun mouvent de stock et celui-ci ne sera pas prélevé. Cette option ne doit-être utilisée qu'en cas de produit que vous décidez de ne pas gérer en stock et n'est pas recommandée.
+Elle ne devrait pas être utilisée pour corriger une erreur d'inventaire, en effet, il est préférable d'effectuer un inventaire partiel permettant ainsi de conserver une bonne tracabilité.
 </div>
 
 #### Ajout d'un produit monté sur un véhicule dans un panier
@@ -78,7 +78,7 @@ Nous allons dans un premier temps effectuer un bon de livraison pour le casque u
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/basket-delivery-2.png" width="180px" />
 
-Nous suivons les étapes et Yuzer ouvre la pop-up de gestion de la livraison. Par défaut Yuzer propose la livraison de tout ce qui est préparé en stock ainsi que du véhicule.
+Nous suivons les étapes et Yuzer ouvre la fenêtre de gestion de la livraison. Par défaut Yuzer propose la livraison de tout ce qui est préparé en stock ainsi que du véhicule.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/basket-delivery-3.png" width="100%" />
 
@@ -86,7 +86,9 @@ Pour l'instant nous ne souhaitons pas livrer le véhicule nous allons donc séle
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/basket-delivery-4.png" width="100%" />
 
-Nous cliquons alors sur _Livrer_. Un contrôle de la preview du bon de livraison permet de bien constater que seul le casque va être livré.
+Puis, nous validons le formulaire en cliquant sur le bouton _Livrer_ en vert en bas à droite de la fenêtre.
+
+Un contrôle de la preview du bon de livraison permet de bien constater que seul le casque va être livré.
 
 Le statut des lignes du panier reflète bien la livraison partielle.
 
@@ -106,7 +108,7 @@ Le véhicule est par défaut livré mais vous pouvez décider de ne pas le livre
 
 - Destocker: liver en impactant le stock
 - Ne pas livrer: le produit devra être livrée ultérieurement
-- Sans impact stock: Livrer le produit mais ne pas effectuer d'impacts stock. Attention ceci n'est, comme indiqué dans _Finalisation d'une cession de préparation de véhicule_ pas recommandé sauf cas exceptionnels.
+- Sans impact stock: Livrer le produit mais ne pas effectuer d'impact stock. Attention ceci n'est, comme indiqué dans _Finalisation d'une cession de préparation de véhicule_ pas recommandé sauf cas exceptionnels.
 
 <div class="alert alert-info">Le produit MOTOREX FUEL STABILIZER 125ML qui est monté sur le véhicule est obligatoirement livré avec le véhicule s'il n'est pas démonté dans la cession de démontage.</div>
 
@@ -114,7 +116,7 @@ Dans notre cas nous allons choisir de livrer le produit _MONORACK KAWA_ qui est 
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/basket-delivery-8.png" width="100%"/>
 
-Le bouton livrer reste cependant grisé. En effet vous devez valider que vous souhaitez bien facturer malgré des produits non livrés:
+Le bouton d'action _Livrer_ reste cependant grisé. En effet vous devez valider que vous souhaitez bien facturer malgré des produits non livrés:
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/basket-delivery-9.png" width="380px" />
 
@@ -170,6 +172,7 @@ De plus, il est possible de définir plusieurs emplacements, et il sera alors tr
 - La sous catégorie des produits identitiés est désormais affichée sur la liste des dossiers et peut-être utilisée pour les filtrer.
 - Dans les filtres personalisés de l'analytique il est désormais possible de visualiser et utiliser les filtres d'une entité parente même lorsque des filtres personalisés complémentaires ont été définis localement.
 - Les configurations des écrans analytiques sont désormais héritées de la même manière que les configurations des filtres et donc disponible même si une configuration spécifique est définie.
+- La configuration de point de vente (terminal de paiement et imprimantes) est maintenant sauvegardée par entité. A noter que la configuration est toujours stockée localement sur votre machine.
 
 ## Corrections
 
@@ -183,3 +186,4 @@ De plus, il est possible de définir plusieurs emplacements, et il sera alors tr
 - Lorsqu'un bon de commande est annulé et qu'un dossier véhicule reste attaché au panier, un message est affiché sur celui-ci afin de prévenir que, la vente ayant été annulée il devrait être détaché. Ce message persistait si une facture était émise néanmoins. Ce n'est désormais plus le cas.
 - Le bouton de clôture d'un dossier de produit identifié si celui-ci était ouvert alors que la facture venait bien d'être soldée à postériori ne déclenchait pas d'actions (il fallait passer par le panier).
 - La marge sur le widget de chiffre d'affaire pouvait être incorrecte dans le cas d'annulations, et différer de celle présente dans le widget d'analytique qui était bien correcte.
+- Correction de la sélection de date dans les filtres dont l'heure était positionnée à midi au lieu du début ou fin de journée.
