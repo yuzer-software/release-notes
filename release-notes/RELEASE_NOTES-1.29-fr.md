@@ -1,4 +1,8 @@
-# Aout 2022 - Version 1.29.0
+# Aout 2022 - Version 1.29.2
+
+- Correction d'une regression dans l'affichage des colonnes agrégées dans le cadre d'une table "arbre" ajoutée sur la correction de l'export des tables drill-down.
+
+# Aout 2022 - Version 1.29.1
 
 ## Facturation sans livraison
 
