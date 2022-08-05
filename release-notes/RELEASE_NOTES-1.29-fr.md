@@ -1,3 +1,32 @@
+# Aout 2022 - Version 1.29.3
+
+## Réception
+
+- Correction d'une régression ayant pour conséquence l'absence de quantité automatique lors de la sélection d'un emplacement.
+
+Amélioration de la fonctionalité de sélection rapide d'emplacements. Désormais le stock est placé:
+
+- En priorité dans un emplacement ou celui-ci est déjà présent.
+- A défaut dans un emplacement configuré.
+
+Le sélecteur d'emplacement rapides traduit ce changement:
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/reception_selector.png" width="550px"/>
+
+# Edition du stock
+
+La valeure totale du stock est désormais affichée lors de l'édition du stock.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/stock_total_value.png" width="550px"/>
+
+## Corrections
+
+- Écran _En attente de commandes_:
+  - Les marques sont désormais toujours bien affichées
+  - Les catégories sont désormais correctement traduites
+- Edition de stock
+  - Les catégories sont désormais bien affichées lors d'un groupement
+
 # Aout 2022 - Version 1.29.2
 
 - Correction d'une regression dans l'affichage des colonnes agrégées dans le cadre d'une table "arbre" ajoutée sur la correction de l'export des tables drill-down.
