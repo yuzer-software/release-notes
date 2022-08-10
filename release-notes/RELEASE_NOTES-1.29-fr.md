@@ -1,3 +1,9 @@
+# Aout 2022 - Version 1.29.4
+
+## Corrections
+
+- Lors d'un retour produit dans un panier (quantité négative) la vérification des autres réservations client n'est plus effecutée évitant de bloquer le retour.
+
 # Aout 2022 - Version 1.29.3
 
 ## Réception
