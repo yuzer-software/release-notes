@@ -18,7 +18,7 @@ Vous pouvez choisir un style de note ainsi que définir son message.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.30.0/contact-sticky-notes-3.png" width="420px"/>
 
-La note globale apparait avec un icone spécifique. Vous pouvez bien entendu éditer ou supprimer une note à l'aide des boutons disponibles.
+La note globale apparait avec un icône spécifique. Vous pouvez bien entendu éditer ou supprimer une note à l'aide des boutons disponibles.
 
 ## Affichage des paniers du client
 
@@ -36,7 +36,7 @@ Yuzer charge désormais les premiers paniers du client et vous propose, si celui
 Les paniers sont récupérés en fonction de leur date de création et vous affiche dates du premier et dernier panier ainsi que le nombre de paniers filtrés.
 </div>
 
-Pour afficher les autres paniers vous pouvez cliquer sur l'icone de filtre et modifier la sélection par défaut.
+Pour afficher les autres paniers vous pouvez cliquer sur l'icône de filtre et modifier la sélection par défaut.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.30.0/contact-baskets-3.png" width="420px"/>
 
@@ -57,7 +57,7 @@ Afin de bien noter le panier comme soldé et étant donné qu'il pouvait-être c
 
 - Génération d'une extraction en crédit de la valeur de la reprise avec le message suivant:
   - Correction système: Paiement de la reprise au client par génération de crédit.
-- Puis une remise dans la balance de ce crédit afin que la migration n'ait aucun impact sur les opérations que vous auriez déjà effecuté:
+- Puis une remise dans la balance de ce crédit afin que la migration n'ait aucun impact sur les opérations que vous auriez déjà effectué:
   - Correction système: Mise en balance du crédit pour annuler le paiement automatique par crédit (release note v1.30).
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.30.0/credit-payment-1.png" width="100%"/>
@@ -75,7 +75,7 @@ Les paiements effectués sur une fiche de contact peuvent désormais être affec
 L'ouverture de la boite de dialogue effectue un chargement de tous les paniers non-payés du contact et les affiche dans deux colonnes distinctes:
 
 - Les paniers déjà facturés (qui devraient donc être prioritaire dans l'affectation du paiement)
-- Les paniers non-facturés sur lesquels des avancent peuvent-être versées.
+- Les paniers non-facturés sur lesquels des avances peuvent-être versées.
 
 Lors du paiement vous pouvez visualiser et modifier:
 
@@ -83,16 +83,18 @@ Lors du paiement vous pouvez visualiser et modifier:
 - Le montant qui sera automatiquement transféré en crédit
 - Le montant qui sera affecté sur certains paniers.
 
-Le fonctionnement interne va effecuter un paiement classique en impactant la balance, puis déplacer tout ou partie du montant en crédit et enfin utiliser ce crédit en affectation sur différents paniers.
+Le fonctionnement interne va effectuer un paiement classique en impactant la balance, puis déplacer tout ou partie du montant en crédit et enfin utiliser ce crédit en affectation sur différents paniers.
 
-L'historique des ces opétations sera visible sur l'écran de balance client.
+L'historique des ces opérations sera visible sur l'écran de balance client.
 
 <div class="alert alert-info">
 Cet écran sera amélioré dans la prochaine version afin de vous permettre de laisser Yuzer effectuer une répartition automatique des montants afin
-- De solder une éventuelle balance négative externe
-- D'assigner les montants en priorité aux plus vieux paniers facturés non-soldés puis sur les autres paniers non-soldés
-- Et d'affecter le reste au crédit
-- Tout en préservant le montant versé sur les paniers non-facturé (qui correspond à un montant séquestré dans le cadre de ceux-ci)
+<ul>
+  <li>De solder une éventuelle balance négative externe</li>
+  <li>D'assigner les montants en priorité aux plus vieux paniers facturés non-soldés puis sur les autres paniers non-soldés</li>
+  <li>D'affecter le reste au crédit</li>
+  <li>Tout en préservant le montant versé sur les paniers non-facturé (qui correspond à un montant séquestré dans le cadre de ceux-ci)</li>
+</ul>
 </div>
 
 ## Améliorations diverses
