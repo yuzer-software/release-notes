@@ -1,3 +1,9 @@
+# Sept 2022 - Version 1.30.5
+
+## Corrections
+
+- La date des paiements de chèque différé s'affichait avec un mois de décalage dans le fichier d'export de compta.
+
 # Aout 2022 - Version 1.30.0
 
 ## Post-its sur les contacts
