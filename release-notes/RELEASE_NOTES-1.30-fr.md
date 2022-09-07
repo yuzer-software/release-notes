@@ -1,3 +1,9 @@
+# Sept 2022 - Version 1.30.6
+
+## Corrections
+
+- Analytics: l'option d'affichage "Prix des dossiers incluant les coûts, bonus et cessions au moment de la facture." est sauvegardée.
+
 # Sept 2022 - Version 1.30.5
 
 ## Corrections
