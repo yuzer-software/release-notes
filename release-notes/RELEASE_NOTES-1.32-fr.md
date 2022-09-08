@@ -30,9 +30,19 @@ Remarquez au passage que, comme déjà mentionné, la recherche permet de filtre
 
 ### Payer plusieurs factures avec un seul paiement
 
-<!-- [DMS-2963] Add more validation                               Luc Boutier       19 days -->
-<!-- [DMS-2963] Fix bug refund not available anymore              VU Minh Khang     19 days -->
-<!-- [DMS-2963] Improve error message on payment with negative a… Luc Boutier       19 days -->
+Il est maintenant possible de régler les paiements de plusieurs factures en une seule fois.
+
+Pour ce faire, depuis la fiche contact, cliquer sur "Ajouter des paiements"
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.32.0/multi-payment-button.png"/>
+
+Puis dans la fenêtre de paiements, vous pouvez choisir les factures que vous souhaitez solder.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.32.0/multi-payment-modal.png"/>
+
+Les remboursements sont maintenant accessibles en utilisant le switch en haut à gauche de la même fenêtre d'ajout de paiement.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.32.0/multi-payment-refund.png"/>
 
 ## Transferts entre compagnies ou succursales.
 
