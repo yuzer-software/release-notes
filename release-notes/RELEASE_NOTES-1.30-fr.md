@@ -109,6 +109,18 @@ Cet écran sera amélioré dans la prochaine version afin de vous permettre de l
 </ul>
 </div>
 
+Pour ce faire, depuis la fiche contact, cliquer sur "Ajouter des paiements"
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.30.0/multi-payment-button.png"/>
+
+Puis dans la fenêtre de paiements, vous pouvez choisir les factures que vous souhaitez solder.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.30.0/multi-payment-modal.png"/>
+
+Les remboursements sont maintenant accessibles en utilisant le switch en haut à gauche de la même fenêtre d'ajout de paiement.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.30.0/multi-payment-refund.png"/>
+
 ## Améliorations diverses
 
 - Le montant de TVA est désormais affiché dans le bandeau de totaux du panier.

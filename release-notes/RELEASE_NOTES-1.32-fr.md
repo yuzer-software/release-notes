@@ -23,34 +23,18 @@ Vous aviez l'habitude de voir la marge réalisée par l'entreprise sur le panier
 - Le statut de stock des paniers est maintenant reporté par groupe de facturation.
 - Sur la liste des paniers, les différents status des groupes de facturations sont affichés : par exemple, ci-dessous, la première ligne indique que tous les groupes de facturation du panier sont "ouverts", "préparés" et "sans paiement"; la deuxième ligne indique que les groupes de facturation sont tous "facturés ou ouvert", "préparé ou traité", "sans paiement ou payés".
 
-
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.32.0/basket-statuses.png" width="180px"/>
 
 Remarquez au passage que, comme déjà mentionné, la recherche permet de filtrer plusieurs status du même type (par exemple tous les paniers avec du stock préparé ou réservé).
 
-### Payer plusieurs factures avec un seul paiement
-
-Il est maintenant possible de régler les paiements de plusieurs factures en une seule fois.
-
-Pour ce faire, depuis la fiche contact, cliquer sur "Ajouter des paiements"
-
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.32.0/multi-payment-button.png"/>
-
-Puis dans la fenêtre de paiements, vous pouvez choisir les factures que vous souhaitez solder.
-
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.32.0/multi-payment-modal.png"/>
-
-Les remboursements sont maintenant accessibles en utilisant le switch en haut à gauche de la même fenêtre d'ajout de paiement.
-
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.32.0/multi-payment-refund.png"/>
-
 ## Transferts entre compagnies ou succursales.
 
-Il est enfin possible de suivre le transfert de stock résultant d'une ventre entre vos compagnies ou succursales. Pour faire court:
-* Créez un panier pour la société destinatrice
-* Éditez un bon de commande ou une facture — des transferts sont créés avec les informations spécifiées
-* Allez côté transfert pour Emballez et Envoyez les transferts
-* Le destinataire peut aller dans ses transferts pour commencer la réception.
+Il est enfin possible de suivre le transfert de stock résultant d'une vente entre vos compagnies ou succursales. Pour faire court:
+
+- Créez un panier pour la société destinatrice
+- Éditez un bon de commande ou une facture — des transferts sont créés avec les informations spécifiées
+- Allez côté transfert pour Emballez et Envoyez les transferts
+- Le destinataire peut aller dans ses transferts pour commencer la réception.
 
 Voici le détail de ces étapes. Faites comme d'habitude votre panier avec comme client la société qui devra recevoir le stock. Vous pouvez préparer le stock en utilisant les fonctionnalités habituelles du panier. Notez que ce processus vous permet donc aussi de commander une pièce pour une autre de vos sociétés tout en gardant la traçabilité complète de la commande jusqu'au transfert.
 
@@ -70,14 +54,14 @@ Côté panier, il est possible d'accéder aux transferts correspondant aux diff�
 
 ## Comptabilité
 
-* Le nom de la caisse a été ajoutée à l'écran des détails journaliers
-* La date d'échéance a été ajoutée à l'affichage du journal
+- Le nom de la caisse a été ajoutée à l'écran des détails journaliers
+- La date d'échéance a été ajoutée à l'affichage du journal
 
 ## Corrections
 
-* Correction du total des paniers véhicules sur l'écran de liste des paniers
-* Correction du rafraichissement des status de paiement des paniers
-* Il n'est plus possible de supprimer l'emplacement entrepôt d'un dossier
-* Correction d'un bug qui empêchait les événements de mouvement de stock de se charger
-* Correction d'un bug pouvant fausser la valeur du mois de la date d'échéance lors de l'export d'un journal.
-* Il est à nouveau possible de rembourser un client à partir de la fenêtre de paiement de la fiche d'un contact
+- Correction du total des paniers véhicules sur l'écran de liste des paniers
+- Correction du rafraichissement des status de paiement des paniers
+- Il n'est plus possible de supprimer l'emplacement entrepôt d'un dossier
+- Correction d'un bug qui empêchait les événements de mouvement de stock de se charger
+- Correction d'un bug pouvant fausser la valeur du mois de la date d'échéance lors de l'export d'un journal.
+- Il est à nouveau possible de rembourser un client à partir de la fenêtre de paiement de la fiche d'un contact
