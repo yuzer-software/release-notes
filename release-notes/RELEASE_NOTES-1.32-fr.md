@@ -1,4 +1,10 @@
-# Aout 2022 - Version 1.32.3
+# Septembre 2022 - Version 1.32.4
+
+## Correction
+
+* de la facturation d'un produit non stockable à une autre entité du même compte Yuzer en l'absence d'autres produits stockables.
+
+# Septembre 2022 - Version 1.32.3
 
 ## Recherches
 
@@ -11,7 +17,7 @@ Sur la liste des paniers, le sélecteur d'utilisateur (Créé par) a un champ de
 * L'édition d'un bon de livraison ou d'une facture à une autre entité de votre de groupe pour certains types de paniers (dont véhicule) est réparée.
 * Depuis la 1.32.2, sélectionner un filtre estompait la table, mais l'estompage était perdu lorsqu'on passait d'un filtre à un autre.
 
-# Aout 2022 - Version 1.32.2
+# Septembre 2022 - Version 1.32.2
 
 ## Recherches
 
@@ -34,11 +40,11 @@ Vous aviez l'habitude de voir la marge réalisée par l'entreprise sur le panier
 ### Statut des paniers
 
 - Le statut de stock des paniers est maintenant reporté par groupe de facturation.
-- Sur la liste des paniers, les différents status des groupes de facturations sont affichés : par exemple, ci-dessous, la première ligne indique que tous les groupes de facturation du panier sont "ouverts", "préparés" et "sans paiement"; la deuxième ligne indique que les groupes de facturation sont tous "facturés ou ouvert", "préparé ou traité", "sans paiement ou payés".
+- Sur la liste des paniers, les différents statuts des groupes de facturations sont affichés : par exemple, ci-dessous, la première ligne indique que tous les groupes de facturation du panier sont "ouverts", "préparés" et "sans paiement"; la deuxième ligne indique que les groupes de facturation sont tous "facturés ou ouvert", "préparé ou traité", "sans paiement ou payés".
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.32.0/basket-statuses.png" width="180px"/>
 
-Remarquez au passage que, comme déjà mentionné, la recherche permet de filtrer plusieurs status du même type (par exemple tous les paniers avec du stock préparé ou réservé).
+Remarquez au passage que, comme déjà mentionné, la recherche permet de filtrer plusieurs statuts du même type (par exemple tous les paniers avec du stock préparé ou réservé).
 
 ## Transferts entre compagnies ou succursales.
 
@@ -73,7 +79,7 @@ Côté panier, il est possible d'accéder aux transferts correspondant aux diff�
 ## Corrections
 
 - Correction du total des paniers véhicules sur l'écran de liste des paniers
-- Correction du rafraichissement des status de paiement des paniers
+- Correction du rafraichissement des statuts de paiement des paniers
 - Il n'est plus possible de supprimer l'emplacement entrepôt d'un dossier
 - Correction d'un bug qui empêchait les événements de mouvement de stock de se charger
 - Correction d'un bug pouvant fausser la valeur du mois de la date d'échéance lors de l'export d'un journal.
