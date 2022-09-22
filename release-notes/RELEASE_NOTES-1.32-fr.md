@@ -1,8 +1,15 @@
+# Septembre 2022 - Version 1.32.5
+
+## Correction
+
+- L'affichage de 'Ma marge' sur un panier est raffraichi lors d'un changement de remise sur une ligne.
+- Le filtre 'En stock' se désactive bien sur le catalogue de produits.
+
 # Septembre 2022 - Version 1.32.4
 
 ## Correction
 
-* de la facturation d'un produit non stockable à une autre entité du même compte Yuzer en l'absence d'autres produits stockables.
+- de la facturation d'un produit non stockable à une autre entité du même compte Yuzer en l'absence d'autres produits stockables.
 
 # Septembre 2022 - Version 1.32.3
 
@@ -12,10 +19,10 @@ Sur la liste des paniers, le sélecteur d'utilisateur (Créé par) a un champ de
 
 ## Corrections
 
-* Le sélecteur de rôles attribués aux utilisateurs est réparé.
-* La mise à jour des propriétés d'un produit est réparée.
-* L'édition d'un bon de livraison ou d'une facture à une autre entité de votre de groupe pour certains types de paniers (dont véhicule) est réparée.
-* Depuis la 1.32.2, sélectionner un filtre estompait la table, mais l'estompage était perdu lorsqu'on passait d'un filtre à un autre.
+- Le sélecteur de rôles attribués aux utilisateurs est réparé.
+- La mise à jour des propriétés d'un produit est réparée.
+- L'édition d'un bon de livraison ou d'une facture à une autre entité de votre de groupe pour certains types de paniers (dont véhicule) est réparée.
+- Depuis la 1.32.2, sélectionner un filtre estompait la table, mais l'estompage était perdu lorsqu'on passait d'un filtre à un autre.
 
 # Septembre 2022 - Version 1.32.2
 
