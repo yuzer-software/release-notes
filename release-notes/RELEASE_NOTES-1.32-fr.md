@@ -1,3 +1,9 @@
+# Septembre 2022 - Version 1.32.6
+
+## Correction
+
+- Lors d'un export de dossiers véhicules, les boutons de filtres "Tous" / "Ouvert" ou "Clôturé" écrasaient le filtre de sélection de date de clôture. Un nouveau bouton "Filtre" permet de résoudre ce problème.
+
 # Septembre 2022 - Version 1.32.5
 
 ## Correction
