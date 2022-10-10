@@ -1,14 +1,30 @@
+# 10 Octobre 2022 - Version 1.32.8
+
+## Statut des paniers
+
+Sur la liste des paniers, les statuts de stock sont ceux des lignes de panier. Auparavant (à la 1.32.8), ces statuts étaient ceux des groupes de facturation, c'est-à-dire l'agrégation des statuts des lignes des groupes : si un panier avait un groupe de facturation avec deux lignes ayant des états de stock différents, un seul statut de stock était remonté. À présent, les deux statuts sont remontés.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.32.0/1.32.8-basket-status.png" width="250px"/>
+
+# 2 Octobre 2022 - Version 1.32.7
+
+## Amélioration de l'ergonomie de l'export des dossiers véhicules
+
+Sur l'export des dossiers, lorsqu'un filtre sur la date de clôture est défini, les boutons de filtres "Tous", "Ouvert" ou "Clôturé" ne sont tout simplement plus disponibles, ce qui évite toute confusion relative au filtre.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.32.0/1.32.7-export.png" width="250px"/>
+
 # Septembre 2022 - Version 1.32.6
 
 ## Correction
 
-- Lors d'un export de dossiers véhicules, les boutons de filtres "Tous" / "Ouvert" ou "Clôturé" écrasaient le filtre de sélection de date de clôture. Un nouveau bouton "Filtre" permet de résoudre ce problème.
+Lors d'un export de dossiers véhicules, les boutons de filtres "Tous" / "Ouvert" ou "Clôturé" écrasaient le filtre de sélection de date de clôture. Un nouveau bouton "Filtre" permet de résoudre ce problème.
 
 # Septembre 2022 - Version 1.32.5
 
 ## Correction
 
-- L'affichage de 'Ma marge' sur un panier est raffraichi lors d'un changement de remise sur une ligne.
+- L'affichage de 'Ma marge' sur un panier est rafraîchi lors d'un changement de remise sur une ligne.
 - Le filtre 'En stock' se désactive bien sur le catalogue de produits.
 
 # Septembre 2022 - Version 1.32.4
