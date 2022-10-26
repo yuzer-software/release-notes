@@ -1,3 +1,16 @@
+# 10 Octobre 2022 - Version 1.32.10
+
+## Correction
+
+- Le prix d'achat total du panier n'était pas correctement caché en mode client.
+- L'affichage du crédit client dans la boite de dialogue de paiement était celui du client principal du panier et non celui du groupe de facturation. Celui-ci était controllé par la suite mais cela pouvait entrainer une situation peu compréhenssible.
+
+# 10 Octobre 2022 - Version 1.32.9
+
+## Correction
+
+- Correction de l'affichage aggrégé de certaines colonnes comme les noms de client dans les tables (analytique principalement), causant un mauvais chargement de l'écran.
+
 # 10 Octobre 2022 - Version 1.32.8
 
 ## Statut des paniers
