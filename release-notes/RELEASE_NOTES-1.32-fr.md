@@ -1,15 +1,23 @@
-# 10 Octobre 2022 - Version 1.32.10
+# 3 Novembre 2022 - Version 1.32.12
+
+## Correction
+
+Lors de l'édition d'une cession, les cessions attachées au panier n'étaient pas rafraîchies et la nouvelle cession n'était donc pas prise en compte. Le stock, lui, avait correctement été impacté et rafraîchi. En conséquence, un message prétendait que le stock était désynchronisé avec les documents, et la fenêtre de gestion de stock permettait de "réparer" cette fausse desynchronization.
+
+Si vous avez cliqué sur "Réparer les réservations" dans ce contexte, le stock et les documents ont probablement été désynchronisés en annulant le traitement du stock lié à la cession. Vous devrez alors probablement annuler la cession (le stock ne bougera pas puisqu'il a déjà été annulé) et rééditer la cession (le stock sera ainsi correctement traité).
+
+# 26 Octobre 2022 - Version 1.32.10
 
 ## Correction
 
 - Le prix d'achat total du panier n'était pas correctement caché en mode client.
-- L'affichage du crédit client dans la boite de dialogue de paiement était celui du client principal du panier et non celui du groupe de facturation. Celui-ci était controllé par la suite mais cela pouvait entrainer une situation peu compréhenssible.
+- L'affichage du crédit client dans la boite de dialogue de paiement était celui du client principal du panier et non celui du groupe de facturation. Celui-ci était contrôlé par la suite mais cela pouvait entrainer une situation peu compréhensible.
 
-# 10 Octobre 2022 - Version 1.32.9
+# 16 Octobre 2022 - Version 1.32.9
 
 ## Correction
 
-- Correction de l'affichage aggrégé de certaines colonnes comme les noms de client dans les tables (analytique principalement), causant un mauvais chargement de l'écran.
+- Correction de l'affichage agrégé de certaines colonnes comme les noms de client dans les tables (analytique principalement), causant un mauvais chargement de l'écran.
 
 # 10 Octobre 2022 - Version 1.32.8
 
