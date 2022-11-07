@@ -1,3 +1,9 @@
+# 7 Novembre 2022 - Version 2.0.2
+
+## Correction
+
+La fenêtre d'ajout de paiement depuis la fiche contact se chargeait pas correctement lorsqu'il n'y avait pas de panier en attente de paiement.
+
 # 6 Novembre 2022 - Version 2.0.0
 
 <div class="alert alert-danger">
