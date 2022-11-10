@@ -1,3 +1,9 @@
+# 10 Novembre 2022 - Version 2.0.6
+
+Le document d'ordre de réparation tient maintenant bien compte de la modification du compteur dans la fenêtre d'édition de l'ordre de réparation. 
+
+Un bug empêchant l'affichage des véhicules dans la fiche de contact après la création d'un nouveau véhicule a été corrigé.
+ 
 # 7 Novembre 2022 - Version 2.0.2
 
 ## Correction
