@@ -1,14 +1,22 @@
+# 14 Novembre 2022 - Version 2.0.7
+
+## Corrections
+
+- Correction de la validation de TVA sur les produits du pack qui empèchait l'édition de la facture.
+- Supression des filtres de paniers "Véhicule" et "Reprise de véhicule" dans l'écran de liste de panier et dans la configuration des graphiques du tableau de bord. Il faut utiliser "Vente de produit sur dossier" et "Reprise de produit" depuis la version `2.0.0`.
+
 # 10 Novembre 2022 - Version 2.0.6
 
-Le document d'ordre de réparation tient maintenant bien compte de la modification du compteur dans la fenêtre d'édition de l'ordre de réparation. 
+## Corrections
 
-Un bug empêchant l'affichage des véhicules dans la fiche de contact après la création d'un nouveau véhicule a été corrigé.
- 
+- Le document d'ordre de réparation tient maintenant bien compte de la modification du compteur dans la fenêtre d'édition de l'ordre de réparation.
+- Un bug empêchant l'affichage des véhicules dans la fiche de contact après la création d'un nouveau véhicule a été corrigé.
+
 # 7 Novembre 2022 - Version 2.0.2
 
-## Correction
+## Corrections
 
-La fenêtre d'ajout de paiement depuis la fiche contact se chargeait pas correctement lorsqu'il n'y avait pas de panier en attente de paiement.
+- La fenêtre d'ajout de paiement depuis la fiche contact se chargeait pas correctement lorsqu'il n'y avait pas de panier en attente de paiement.
 
 # 6 Novembre 2022 - Version 2.0.0
 
