@@ -1,3 +1,10 @@
+# 15 Novembre 2022 - Version 2.0.8
+
+## Corrections
+
+- Correction de l'association des règles comptables sur les catégories de produits identifiés (véhicule terrestre à moteur, vélo) dans le cadre des reprises.
+- Suppression d'une boite de dialogue de confirmation inutile lors de l'envoi d'un panier à l'atelier.
+
 # 14 Novembre 2022 - Version 2.0.7
 
 ## Corrections
