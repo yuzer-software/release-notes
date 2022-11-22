@@ -1,3 +1,9 @@
+# 19 Novembre 2022 - Version 2.0.9
+
+## Corrections
+
+- Résolution et amélioration de l'association d'idenfiants véhicules suite à une recherche constructeur.
+
 # 15 Novembre 2022 - Version 2.0.8
 
 ## Corrections
