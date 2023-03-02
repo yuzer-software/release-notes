@@ -10,35 +10,35 @@ Nous avons supprimé la limitation sur les descriptions des libellés des adress
 
 Afin d'ajouter votre libellé personalisé si les libellés pré-définis ne vous suffisent pas, sélectionnez _Personaliser_ dans la liste puis cliquez sur le bouton Ajouter.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/default_key_add.png" width="512px"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/default_key_add.png" width="400px"/>
 
 Vous pouvez alors renseigner une clé personalisée pour le numéro, l'email ou l'adresse:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/custom_key_modal.png" width="512px"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/custom_key_modal.png" width="460px"/>
 
 Puis définir la valeur associée:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/custom_key_val_edit.png" width="512px"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/custom_key_val_edit.png" width="400px"/>
 
 ## Définition des valeurs par défaut
 
 En plus de définir vos clés personalisée vous pouvez définir, à l'édition du contact, les adresses, numéros de téléphonne et email à utiliser par défaut à la facturation:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/default_invoicing_phone.png" width="512px"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/default_invoicing_phone.png" width="312px"/>
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/default_invoicing_email.png" width="512px"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/default_invoicing_email.png" width="312px"/>
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/default_invoicing.png" width="512px"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/default_invoicing.png" width="312px"/>
 
 À noter que vous pouvez également dès maintenant définir une adresse de livraison par défaut. Cette adresse n'est pas actuellement exploitée dans Yuzer mais le sera plus tard dans l'année.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/defaut_shipment.png" width="512px"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/defaut_shipment.png" width="312px"/>
 
 # Simplification des transferts inter-groupe
 
 Dans le cas où le contact est un contact intra-groupe, vous pouvez définir l'entrepôt de livraison par défaut, ainsi que le nom du transport utilisé. Ces informations seront alors pré-remplies dans le cas de transfers entre deux entités correspondant à des sociétés différentes du groupe. Donc, lorsqu'une facture doit-être éditée entre les deux sociétés.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/entity_shipment.png" width="512px"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/entity_shipment.png" width="312px"/>
 
 Pour rappel ce type de transfert s'effectue en créant un panier de vente classique depuis la société à qui transférer les produits. Lors de la facturation à l'étape de gestion stock la boite de dialogue vous permet de livrer les produits à travers un transfer PGNA.
 
@@ -46,7 +46,7 @@ Nous avons ajouté une option permettant d'emballer et envoyer immédiatement le
 
 Cela permet de ne pas avoir à traiter les étapes de colisage et d'envoi du transfert. Car ces étapes peuvent être superflues dans le cas où le transfert ne nécessite pas de passer par un transporteur.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/transfer_basket_ship_modal.png" width="512px"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/transfer_basket_ship_modal.png" width="100%"/>
 
 # Exports FTP des informations de ventes
 
@@ -63,7 +63,7 @@ Le plus simple est de le pré-sélectionner depuis la fiche du client, vous pouv
 
 Ensuite rendez vous dans le menu contextuel du groupe de facturation souhaité afin d'ajouter les frais de carte grise.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/add_registration.png" width="512px"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/add_registration.png" width="100%"/>
 
 # Intégration Triumph
 
