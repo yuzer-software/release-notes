@@ -1,7 +1,7 @@
 # 6 Novembre 2022 - Version 2.0.0
 
 <div class="alert alert-danger">
-Nous invitons nos utilisateurs concessaionaires moto à lire la release note avec attention. Celle-ci explique les modifications induites par les changements sur cette nouvelle version.
+Nous invitons nos utilisateurs concessionnaires moto à lire la release note avec attention. Celle-ci explique les modifications induites par les changements sur cette nouvelle version.
 </div>
 
 Yuzer 2 uniformise la gestion des dossiers et ventes véhicules avec celle des vélos et autres produits possédant un identifiant unique (VIN, Immatriculation pour les véhicules; numéro APIC pour les vélos).
@@ -13,7 +13,7 @@ Cela entraine la disparition de plusieurs éléments spécifiques au véhicules 
 - Les _Paniers de ventes véhicules_ sont remplacés par les _Paniers de vente de produit sur dossier_ qui leur sont équivalent mais considèrent le véhicule comme une ligne spécifique du panier. L'onglet _Ventes et préparations additionelles_ disparait donc.
 - L'écran de détail de dossier véhicule devient identique à celui de détail de dossier utilisé pour les vélos.
 
-Nous avons effectué une migration de vos données et de vos paramètres de widget afin de refletter les différents changements opérés et que ceux-ci aient le moins d'impacts possible sur votre quotidien.
+Nous avons effectué une migration de vos données et de vos paramètres de widget afin de refléter les différents changements opérés et que ceux-ci aient le moins d'impacts possible sur votre quotidien.
 
 ## Catalogue véhicule
 

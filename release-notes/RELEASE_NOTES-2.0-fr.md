@@ -29,7 +29,7 @@
 
 ## Corrections
 
-- La fenêtre d'ajout de paiement depuis la fiche contact se chargeait pas correctement lorsqu'il n'y avait pas de panier en attente de paiement.
+- La fenêtre d'ajout de paiement depuis la fiche contact ne se chargeait pas correctement lorsqu'il n'y avait pas de panier en attente de paiement.
 
 # 6 Novembre 2022 - Version 2.0.0
 
@@ -50,7 +50,7 @@ Nous avons effectué une migration de vos données et de vos paramètres de widg
 
 ## Catalogue véhicule
 
-Le catalogue véhicule présent dans le même onglet que les dossiers disparait.
+Le catalogue véhicule présent dans le même onglet que les dossiers disparaissent.
 
 |                                                                 Yuzer 1.x                                                                  |                                                             Yuzer 2.x                                                              |
 | :----------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------: |
@@ -80,7 +80,7 @@ Un _produit identifiable_ est un produit possédant un ou plusieurs numéro(s) d
 
 ### Gestion des identifiants
 
-La gestion des identifiants véhicules dans Yuzer s'aligne sur la gestion de ceux des vélos et autres moto-marines. Ils deviennent à la fois plus générique mais aussi plus stricts en terme de validation.
+La gestion des identifiants véhicules dans Yuzer s'aligne sur la gestion de ceux des vélos et autres moto-marines. Ils deviennent à la fois plus génériques mais aussi plus stricts en termes de validation.
 
 Ainsi Yuzer ne permet plus d'entrer un VIN qui n'en est pas un (un numéro de série ne possédant pas 17 caractères). Certaines cartes grises sur de vieilles motos n'affichent pas de VIN et le véhicule n'en possède parfois pas. Dans ces cas vous devrez choisir comme identifiant le _Numéro dans la série du type_ ou _Code NST_.
 
@@ -172,7 +172,7 @@ De plus les icônes du type de vente deviennent dépendant du type de dossier co
 
 ## Liste de paniers du client
 
-La liste des ventes de véhicules du client dispose des même changements. De plus, si votre concession vend plusieurs types de produits, vous avez la possibilité de facilement filtrer les paniers du client pour ne visualiser que ceux que vous souhaitez.
+La liste des ventes de véhicules du client dispose des mêmes changements. De plus, si votre concession vend plusieurs types de produits, vous avez la possibilité de facilement filtrer les paniers du client pour ne visualiser que ceux que vous souhaitez.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/contact-idp-baskets.png" width="512px"/>
 
@@ -217,7 +217,7 @@ Vous pouvez comme avant créer vos Cerfa depuis le même menu qu'avant.
 
 ### Reprises
 
-L'onglet reprise existe toujours et évolue légèrement pour permettre, si vous gérez plusieurs type de produits, le choix du produit à reprendre.
+L'onglet reprise existe toujours et évolue légèrement pour permettre, si vous gérez plusieurs types de produits, le choix du produit à reprendre.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/v-basket-trade-in.png" width="1024px"/>
 
@@ -241,5 +241,5 @@ Les widgets et analytiques sont impactés par deux évolutions:
 
 - La disparition du panier véhicule (qui est remplacé par le panier de vente sur dossier)
   - Si vous ne vendez qu'un type de produit cela n'a aucun impact pour vous.
-  - Dans le cas ou vous vendez à la fois des motos et vélos ou moto-marines un nouveau paramètre _Type de produit_ dans les widgets vous permet de différencier les deux produits. Dans l'analytique un filtre sur la catégorie dans les lignes permet l'équivalent.
+  - Dans le cas où vous vendez à la fois des motos et vélos ou moto-marines un nouveau paramètre _Type de produit_ dans les widgets vous permet de différencier les deux produits. Dans l'analytique un filtre sur la catégorie dans les lignes permet l'équivalent.
 - L'évolution sur les catégories puisque les véhicules sont déplacés dans _Produits_ est immédiate. Pour disposer d'une métrique sur _Tous les autres produits_ vos configurations _Produits_ uniquement ont été migrées vers la sélection de l'ensemble des produits. Une catégorie virtuelle _Autres produits_ est ajoutée pour toutes les ventes dont le produit aurait été mal catégorisé.
