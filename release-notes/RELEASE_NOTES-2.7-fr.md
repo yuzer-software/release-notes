@@ -36,17 +36,29 @@ En plus de définir vos clés personnalisée vous pouvez définir, à l'édition
 
 # Simplification des transferts inter-groupe
 
-Dans le cas où le contact est un contact intra-groupe, vous pouvez définir l'entrepôt de livraison par défaut, ainsi que le nom du transport utilisé. Ces informations seront alors pré-remplies dans le cas de transferts entre deux entités correspondant à des sociétés différentes du groupe. Donc, lorsqu'une facture doit-être éditée entre les deux sociétés.
+Dans le cas où le contact est un contact intra-groupe, vous pouvez définir l'entrepôt de livraison par défaut, ainsi que le nom du transport utilisé. Ces informations seront alors pré-remplies dans le cas de transfers entre deux entités du groupe.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/entity_shipment.png" width="312px"/>
 
-Pour rappel ce type de transfert s'effectue en créant un panier de vente classique depuis la société à qui transférer les produits. Lors de la facturation à l'étape de gestion stock la boite de dialogue vous permet de livrer les produits à travers un transfert PGNA.
+# Inter sociétés
 
-Nous avons ajouté une option permettant d'emballer et envoyer immédiatement le transfert.
+Pour rappel ce type de transfert s'effectue en créant un panier de vente classique depuis la société à qui transférer les produits. Lors de la facturation à l'étape de gestion stock la boite de dialogue vous permet de livrer les produits à travers un transfer PGNA.
+
+Nous avons ajouté également une option permettant d'emballer et envoyer immédiatement le transfert depuis la facturation.
 
 Cela permet de ne pas avoir à traiter les étapes de colisage et d'envoi du transfert. Car ces étapes peuvent être superflues dans le cas où le transfert ne nécessite pas de passer par un transporteur.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/transfer_basket_ship_modal.png" width="100%"/>
+
+# Intra sociétés
+
+Dans le cas ou l'entité du groupe est une entité logique ou une branche de la même société la facturation et l'établissement de factures, ou la prise en compte de paiements n'a pas de sens. Ces options ont été supprimées pour ces paniers.
+
+Seuls l'établissement de bon de livraisons reste disponible. Celle-ci permet désormais l'envoi des produits à travers un transfer dans ce contexte de la même manière que la gestion des transfers inter-sociétés.
+
+<div class="alert alert-info">
+Le passage par le panier permet la gestion de commandes fournisseurs dans le cadre de produit à re-transférer à une autre entité du groupe. A l'avenir tout transfer se fera à travers un panier.
+</div>
 
 # Exports FTP des informations de ventes
 
@@ -96,18 +108,46 @@ Le principal objectif de cette itération était de fournir un ensemble de fonct
 
 ## Tableaux de bords
 
-La nouvelle fonction d'analyse vous permet de définir un ou plusieurs tableaux de bord.
+La nouvelle fonction d'analyse vous permet de définir un ou plusieurs tableaux de bord, ou d'afficher des tableaux de bords standard définis par Yuzer.
 
-Vous pouvez également réutiliser des tableaux de bords pré-définis par Yuzer. Ceux-ci sont en cours d'élaboration et nous vous invitons à contacter notre support dans le cas où vous ne trouverez pas ceux que vous recherchez.
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/dashboard_menu.png" width="100%"/>
+
+<div class="alert alert-info">
+Les tableaux de bords Yuzer sont encore en cours d'élaboration et complétion. Nous vous invitons à détailler dans un ticket zendesk votre dans le cas ou vous ne trouverez pas ce que vous recherchez.
+
+</div>
+
+## Organiser mes tableaux de bords
+
+Les tableaux de bords peuvent-être organisés par onglets pour ceux accédés les plus fréquemment, les autres pouvant être accédés par la liste déroulante se trouvant en dernier onglet.
+
+Vous pouvez configurer vos onglets à l'aide du menu _Configurer les onglets_ du le menu _..._ de la page.
+
+Une fois sur la page de configuration des onglets vous pouvez sélectionner les tableaux de bords à conserver sous forme d'onglet, puis déplacer ceux-ci dans l'ordre que vous souhaitez.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/dashboard_tabs.png" width="100%"/>
 
 ## Créer un tableau de bord
+
+Vous pouvez créer un nouveau tableau de bord vide (ou en créer en copiant un tableau de bord existant) à partir des options _Nouveau tableau de bord_ et _Nouveau à partir de..._ du le menu _..._ de la page
+
+Vous pouvez alors configurer le nom du tableau de bord, sa description
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/edit_dashboard.png" width="100%"/>
+
+ainsi que le comportement de la grille d'affichage dont les valeurs peuvent-être
+
+- S'adapte à la largeur: Dans ce cas le tableau de bord sera toujours affiché sur la largeur disponible, la place pour chaque widget sera alors redimenssionée.
+- Fixe: Dans ce cas le tableau de bord garde une taille fixe. Chaque widget conserve alors sa taille originale.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/edit_dashboard_grid_type.png" width="512px"/>
 
 ### Période d'analyse
 
 Les périodes d'analyse sont aujourd'hui toutes glissantes. Les périodes les plus courantes, de la journée au mois sont définies par défaut.
 
-<div class="alert alert-info">
-Les périodes non-glissantes, permettant d'adresser des problématiques de visions par trimestres, ou de période de soldes ou activité commerciales spécifiques, seront livrées dans les versions futures.
+<div class="alert alert-warning">
+Les périodes non-glissantes, permettant d'adresser des problématiques de visions par trimestres, ou de période de soldes ou activité commerciales spécifiques, seront livrées dans les versions à venir.
 </div>
 
 Lors du choix de la période d'analyse, Yuzer vous propose d'ajouter deux ensembles de données connexes:
@@ -117,23 +157,31 @@ Lors du choix de la période d'analyse, Yuzer vous propose d'ajouter deux ensemb
 
 Bien entendu dans le cas où le choix de période concerne l'année en cours, alors «la période précédente» et «la même période de l'année précédente» désignent la même période et une seule sélection doit alors être effectuée.
 
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/edit_dashboard_period.png" width="100%"/>
+
 ### Définition des filtres généraux
 
 Vous pouvez en plus de la définition de la période d'analyse, définir un ensemble de filtres généraux qui sont appliqués aux données affichées dans le tableau de bords. L'ensemble des données de la période sont donc pré-filtrées à l'aide de ceux-ci avant le rendu.
 
-### Définition des sources de données
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/edit_dashboard_global_filtering.png" width="100%"/>
+
+### Définition des sources de données par niveau
 
 Un tableau de bord dans l'analyse Yuzer peut utiliser une ou plusieurs sources de données basées sur les données des périodes et pré-filtrées à l'aide des filtres généraux.
 
 Chaque source de donnée peut être utilisée par un ou plusieurs graphiques ou tableaux. Il est donc possible de définir une source de donnée unique, et plusieurs visualisations comme un tableau et un graphique par exemple.
 
+Les sources de données définissent un ensemble de filtres spéficiques à la source de donnée ainsi que les différents niveaux d'aggrégations:
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/edit_dashboard_datasource_1.png" width="100%"/>
+
 Il est aussi possible de définir plusieurs sources de données pour afficher, par exemple, un tableau des ventes véhicules et un tableau des ventes de produits sur un même dashboard.
 
-Les sources de données définissent un ensemble de filtres spécifiques à la source de donnée ainsi que les différents niveaux d'agrégations.
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/edit_dashboard_datasource_2.png" width="100%"/>
 
 ### Visualisation des données et définition des widgets
 
-Une fois les données
+Une fois les sources de données configurées, vous pouvez associer différents widgets, tableaux ou graphiques, à celles-ci.
 
 # Utilisation des catalogues
 
