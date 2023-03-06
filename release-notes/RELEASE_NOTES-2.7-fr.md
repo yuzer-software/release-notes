@@ -190,3 +190,4 @@ Lorsque vous êtes éditeur d'un catalogue vous pouvez désormais visualiser qui
 ## Améliorations diverses
 
 - Le code-barres s'imprime désormais en tant que texte plutôt qu'en image sur l'étiquette, améliorant ainsi sa lisibilité à l'impression.
+- Les colonnes 'TVA achat' et 'PA TTC' peuvent maintenant être sélectionnées dans la configuration d'export de dossiers.
