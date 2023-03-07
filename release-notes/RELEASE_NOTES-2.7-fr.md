@@ -1,8 +1,12 @@
+# Mars 2022 - Version 2.7.6
+
+- Correction d'un problème d'affichage dans la fenêtre d'édition de tâche qui affectait les concessions fonctionnant avec plusieurs types de ventes sur dossier.
+
 # Mars 2022 - Version 2.7.5
 
 - Il n'est désormais plus possible de facturer un panier à un client qui n'a pas été ajouté au préalable à la société en cours.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/add_contact.png" width="400px"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/add_contact.png" width="240px"/>
 
 - Correction d'un problème de chargement des données analytiques sur l'année précédente et légère amélioration du système de cache.
 - Correction du blocage de la facturation de cessions introduit avec l'impossibilité de facturer à une autre entité logique.
@@ -45,13 +49,13 @@ En plus de définir vos clés personnalisée vous pouvez définir, à l'édition
 
 # Simplification des transferts inter-groupe
 
-Dans le cas où le contact est un contact intra-groupe, vous pouvez définir l'entrepôt de livraison par défaut, ainsi que le nom du transport utilisé. Ces informations seront alors pré-remplies dans le cas de transfers entre deux entités du groupe.
+Dans le cas où le contact est un contact intra-groupe, vous pouvez définir l'entrepôt de livraison par défaut, ainsi que le nom du transport utilisé. Ces informations seront alors pré-remplies dans le cas de transfert entre deux entités du groupe.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/entity_shipment.png" width="312px"/>
 
 # Inter sociétés
 
-Pour rappel ce type de transfert s'effectue en créant un panier de vente classique depuis la société à qui transférer les produits. Lors de la facturation à l'étape de gestion stock la boite de dialogue vous permet de livrer les produits à travers un transfer PGNA.
+Pour rappel ce type de transfert s'effectue en créant un panier de vente classique depuis la société à qui transférer les produits. Lors de la facturation à l'étape de gestion stock la boite de dialogue vous permet de livrer les produits à travers un transfert PGNA.
 
 Nous avons ajouté également une option permettant d'emballer et envoyer immédiatement le transfert depuis la facturation.
 
@@ -63,10 +67,10 @@ Cela permet de ne pas avoir à traiter les étapes de colisage et d'envoi du tra
 
 Dans le cas ou l'entité du groupe est une entité logique ou une branche de la même société la facturation et l'établissement de factures, ou la prise en compte de paiements n'a pas de sens. Ces options ont été supprimées pour ces paniers.
 
-Seuls l'établissement de bon de livraisons reste disponible. Celle-ci permet désormais l'envoi des produits à travers un transfer dans ce contexte de la même manière que la gestion des transfers inter-sociétés.
+Seuls l'établissement de bon de livraisons reste disponible. Celle-ci permet désormais l'envoi des produits à travers un transfert dans ce contexte de la même manière que la gestion des transferts inter-sociétés.
 
 <div class="alert alert-info">
-Le passage par le panier permet la gestion de commandes fournisseurs dans le cadre de produit à re-transférer à une autre entité du groupe. A l'avenir tout transfer se fera à travers un panier.
+Le passage par le panier permet la gestion de commandes fournisseurs dans le cadre de produit à re-transférer à une autre entité du groupe. A l'avenir tout transfert se fera à travers un panier.
 </div>
 
 # Exports FTP des informations de ventes
@@ -122,7 +126,7 @@ La nouvelle fonction d'analyse vous permet de définir un ou plusieurs tableaux 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/dashboard_menu.png" width="100%"/>
 
 <div class="alert alert-info">
-Les tableaux de bords Yuzer sont encore en cours d'élaboration et complétion. Nous vous invitons à détailler dans un ticket zendesk votre dans le cas ou vous ne trouverez pas ce que vous recherchez.
+Les tableaux de bords Yuzer sont encore en cours d'élaboration et complétion. Nous vous invitons à détailler dans un ticket Zendesk votre dans le cas où vous ne trouverez pas ce que vous recherchez.
 
 </div>
 
@@ -146,10 +150,10 @@ Vous pouvez alors configurer le nom du tableau de bord, sa description
 
 ainsi que le comportement de la grille d'affichage dont les valeurs peuvent-être
 
-- S'adapte à la largeur: Dans ce cas le tableau de bord sera toujours affiché sur la largeur disponible, la place pour chaque widget sera alors redimenssionée.
+- S'adapte à la largeur: Dans ce cas le tableau de bord sera toujours affiché sur la largeur disponible, la place pour chaque widget sera alors redimensionnée.
 - Fixe: Dans ce cas le tableau de bord garde une taille fixe. Chaque widget conserve alors sa taille originale.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/edit_dashboard_grid_type.png" width="512px"/>
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/edit_dashboard_grid_type.png" width="384px"/>
 
 ### Période d'analyse
 
@@ -180,7 +184,7 @@ Un tableau de bord dans l'analyse Yuzer peut utiliser une ou plusieurs sources d
 
 Chaque source de donnée peut être utilisée par un ou plusieurs graphiques ou tableaux. Il est donc possible de définir une source de donnée unique, et plusieurs visualisations comme un tableau et un graphique par exemple.
 
-Les sources de données définissent un ensemble de filtres spéficiques à la source de donnée ainsi que les différents niveaux d'aggrégations:
+Les sources de données définissent un ensemble de filtres spécifiques à la source de donnée ainsi que les différents niveaux d'agrégations:
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/edit_dashboard_datasource_1.png" width="100%"/>
 
