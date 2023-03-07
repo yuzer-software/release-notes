@@ -1,4 +1,13 @@
-# Février 2022 - Version 2.7.x
+# Mars 2022 - Version 2.7.5
+
+- Il n'est désormais plus possible de facturer un panier à un client qui n'a pas été ajouté au préalable à la société en cours.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/add_contact.png" width="400px"/>
+
+- Correction d'un problème de chargement des données analytiques sur l'année précédente et légère amélioration du système de cache.
+- Correction du blocage de la facturation de cessions introduit avec l'impossibilité de facturer à une autre entité logique.
+
+# Mars 2022 - Version 2.7.x
 
 Cette version 2.7 marque enfin le grand retour des release notes détaillées! Nous espérons que celle-ci vous permettra de vous approprier les dernières nouveautés de Yuzer de la meilleure manière possible.
 
