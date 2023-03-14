@@ -1,3 +1,8 @@
+# Mars 2022 - Version 2.7.7
+
+- Correction d'un problème qui empêchait de corriger la catégorie et marque des produits sur une facture avant le passage comptabilité.
+- Correction d'un problème qui empêchait d'appliquer une TVA globale sur un panier contenant des packs importés depuis un modèle de panier.
+
 # Mars 2022 - Version 2.7.6
 
 - Correction d'un problème d'affichage dans la fenêtre d'édition de tâche qui affectait les concessions fonctionnant avec plusieurs types de ventes sur dossier.
