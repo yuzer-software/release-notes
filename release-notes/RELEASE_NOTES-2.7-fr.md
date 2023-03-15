@@ -1,3 +1,7 @@
+# Mars 2022 - Version 2.7.8
+
+- Correction d'un problème qui empêchait la sauvegarde des marques dans les filtres personalisés de l'analytique.
+
 # Mars 2022 - Version 2.7.7
 
 - Correction d'un problème qui empêchait de corriger la catégorie et marque des produits sur une facture avant le passage comptabilité.
