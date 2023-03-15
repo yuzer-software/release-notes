@@ -1,3 +1,9 @@
+# Mars 2022 - Version 2.7.9
+
+- Améliorations diverses sur la fusion de catalogue: Ajout de pagination et de filtres. Désormais, une fenêtre s'affiche après la sélection du catalogue cible afin d'indiquer le chargement des données de stock.
+- Correction de la fusion de catalogue. Le stock n'était pas fusionné pour les références remplacées.
+- Correction de l'affichage des modèles de panier quand le kilométrage était défini avec une valeur vide.
+
 # Mars 2022 - Version 2.7.8
 
 - Correction d'un problème qui empêchait la sauvegarde des marques dans les filtres personalisés de l'analytique.
