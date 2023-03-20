@@ -2,7 +2,7 @@
 
 # Tickets de caisse dématérialisés
 
-Seuls documents qui n'étaient pas dématérialisés dans Yuzer, les tickets de caisse rejoignent factures et autres documents afin de pouvoir être envoyé par email au lieu d'être imprimé.
+Seuls documents qui n'étaient pas dématérialisés dans Yuzer, les tickets de caisse rejoignent factures et autres documents afin de pouvoir être envoyés par email au lieu d'être imprimés.
 
 Cette contrainte est obligatoire à partir du 1er avril.
 
@@ -27,7 +27,7 @@ Désormais, lorsque tous les produits d'un paniers sont reçus à la clôture d'
 
 Vous pouvez désormais choisir de comptabiliser une ligne remisée en intégralité (dans le cadre d'une vente client) sur le compte de cession cadeau clientèle plutôt que mouvementer un compte de produit et de remise.
 
-Afin d'activer cette fonctionalité rendez vous dans vos paramètres de comptabilité et cochez la case associée:
+Afin d'activer cette fonctionalité rendez vous dans vos paramètres de comptabilité et cochez la case associée :
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.8.0/accountancy_cession.png" width="100%"/>
 
@@ -35,18 +35,16 @@ Afin d'activer cette fonctionalité rendez vous dans vos paramètres de comptabi
 
 Vous pouvez désormais imprimer les étiquettes avec l'ajout des informations de recyclage si vous le souhaitez. Si le packaging du produit que vous vendez ne le contient pas vous devez désormais imprimer une étiquette incluant les informations.
 
-# Fusions des produits
 
-Nous allons progressivement offrir à tous l'ouverture de notre fonctionnalité de fusion de fiches produits. Cette fonctionnalité vous permet de déclarer plusieurs fiches produits de plusieurs catalogues comme étant identiques.
+# Regroupement de fiches produits identiques
 
-Certaines fusions sont proposées automatiquement par le système, c'est particulièrement le cas pour les catalogues
+Cette fonctionnalité permet d'établir une correspondance entre plusieurs références fournisseurs, afin d'indiquer qu'il s'agit d'un seul et même produit. L'unique fiche produit indique alors toutes les références fournisseurs. La référence principale est celle qui est utilisé par défaut lorsque l'on passe commande.
 
-- BIHR: Fusions des anciennes/nouvelles références)
-- SADEM:
-- Michelin
-- Pirelli
+Certaines correspondances sont établies automatiquement par Yuzer, en particulier pour les produits des catalogues BIHR, SADEM, Michelin et Pirelli.
 
-Cette fonctionnalité sera mise à disposition de tous dans la version 2.9.0. N'hésitez pas à vous rapprocher de notre support en cas de questions afin
+Noter qu'il existe maintenant une notion de priorité sur les catalogues auxquels une entité (point de vente, etc.) est abonné. Ceci permet d'indiquer une préférence entre les fournisseurs, et impactera donc la référence principale. De plus chaque entité peut déclarer ses propres correspondances, qui n'affecteront alors que celle-ci.
+
+Cette fonctionnalité est pour le moment restreinte à quelques comptes beta-testeurs. Mais elle sera très prochainement ouverte à tous.
 
 # Nouvelles intégrations de catalogues
 
@@ -60,12 +58,12 @@ ont été ajoutés à la base de catalogues disponibles.
 
 # Oubli de la release note 2.7.x: Liste des tickets
 
-A partir de la version 2.7 tous les tickets sont automatiquement affichés dans l'onglet _Ticket de caisse et acompte_ qui a été renommé pour être plus explicite. Dans les versions précédentes les tickets de caisses étaient affichés par défaut et il fallait désactiver un filtre pour visualiser l'ensemble des reçus.
+À partir de la version 2.7 tous les tickets sont automatiquement affichés dans l'onglet _Ticket de caisse et acompte_ qui a été renommé pour être plus explicite. Dans les versions précédentes les tickets de caisses étaient affichés par défaut et il fallait désactiver un filtre pour visualiser l'ensemble des reçus.
 
 Il est également possible d'appliquer différents filtres, sur le type de ticket (ticket de caisse ou acompte):
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.8.0/receipt_list.png" width="100%"/>
 
-et pour l'ensemble des documents sur les montants:
+et pour l'ensemble des documents sur les montants :
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.8.0/receipt_list_amount_filter.png" width="240px"/>
