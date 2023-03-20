@@ -19,22 +19,21 @@ Cette contrainte est obligatoire à partir du 1er avril.
 - Correction de la fonction _cumulatif_ sur les graphiques
 - Correction de traductions
 
-# Amélioration des synchronisation des tâches
+# Amélioration des synchronisations des tâches
 
-Désormais, lorsque tous les produits d'un paniers sont reçus à la clôture d'une réception, la tâche du panier passe du statut _En attente de fournisseur_ au statut _En attente de réception_ si la tâche de récéption du panier n'est pas faite ou _A faire_ si la tâche de réception du panier est effecutée.
+Désormais, lorsque tous les produits d'un panier sont reçus à la clôture d'une réception, la tâche du panier passe du statut _En attente de fournisseur_ au statut _En attente de réception_ si la tâche de réception du panier n'est pas faite ou _A faire_ si la tâche de réception du panier est effectuée.
 
 # Remises intégrales en comptabilité
 
 Vous pouvez désormais choisir de comptabiliser une ligne remisée en intégralité (dans le cadre d'une vente client) sur le compte de cession cadeau clientèle plutôt que mouvementer un compte de produit et de remise.
 
-Afin d'activer cette fonctionalité rendez vous dans vos paramètres de comptabilité et cochez la case associée :
+Afin d'activer cette fonctionnalité rendez-vous dans vos paramètres de comptabilité et cochez la case associée :
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.8.0/accountancy_cession.png" width="100%"/>
 
 # Impression des étiquettes avec information recyclage
 
 Vous pouvez désormais imprimer les étiquettes avec l'ajout des informations de recyclage si vous le souhaitez. Si le packaging du produit que vous vendez ne le contient pas vous devez désormais imprimer une étiquette incluant les informations.
-
 
 # Regroupement de fiches produits identiques
 
@@ -55,6 +54,16 @@ Les catalogues des marques
 - Trophy
 
 ont été ajoutés à la base de catalogues disponibles.
+
+# Amélioration de la fusion catalogues
+
+Vous pouvez désormais choisir ne fusionner que les références de produits que vous avez en stock. Pour cela il suffit de cocher l'option `Charger seulement les produits possédant réservations, commandes ou évènements de stock` avant de sélectionner le catalogue cible.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.8.0/catalog_merge_load_stock_only.png" width="896px"/>
+
+Nous avons aussi ajouté des filtres et une pagination sur l'écran de résolution de produits manquants afin de faciliter la saisie ainsi que la navigation.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.8.0/catalog_merge_filters.png" width="896px"/>
 
 # Oubli de la release note 2.7.x: Liste des tickets
 
