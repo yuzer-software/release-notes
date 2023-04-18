@@ -6,7 +6,7 @@ La version 2.10 est une version majeure et apporte les changements suivants:
   - Ajout de remise en pourcentage sur la marge
   - Application automatique à la création de nouveaux paniers
 - Commandes intra-groupes
-- Transfers améliorés et uniformisés
+- Transferts améliorés et uniformisés
 - Réception:
   - Conversion de produits
   - Meilleur support des références inconnues
@@ -25,28 +25,28 @@ Si vous êtes magasinier nous vous conseillons fortement de prendre le temps de 
 
 Les programmes de fidélités prennent une portée un peu plus large avec l'ajout de la remise en pourcentage sur la marge.
 
-Appliqués sur une autre société du groupe ils permettent ainsi de définir votre politique de tarification dans le cas de transfers intra-groupe mais extra-société.
+Appliqués sur une autre société du groupe ils permettent ainsi de définir votre politique de tarification dans le cas de transferts intra-groupe mais extra-société.
 
 ### Configuration
 
-La configuration nécessite un rôle ADMIN et se situe dans _Administration / Gestion commerciale / Cartes cadeaux et fidéllité / Programmes de fidélité_.
+La configuration nécessite un rôle ADMIN et se situe dans _Administration / Gestion commerciale / Cartes cadeaux et fidélité / Programmes de fidélité_.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/fidelity_1.webp" width="100%"/>
 
 Vous pouvez alors créer ou éditer un programme de fidélité et y configurer:
 
 - Le nom du programme (Libellé)
-- Optionellement:
+- Optionnellement:
   - Le commentaire qui apparaitra en bas de la facture (Commentaire du groupe de facturation)
   - Le commentaire qui apparaitra suite à la ligne impactée
 - Si le programme de fidélité doit s'appliquer automatiquement sur les nouveaux paniers.
-- Enfin vous pouvez spécifier la remise à appliquer en fonction de contraintes diverses.
+- La remise à appliquer en fonction de contraintes diverses.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/fidelity_2.webp" width="100%"/>
 
 _Ci-dessus: Exemple de configuration d'un programme intra-groupe permettant une vente à prix coûtant_
 
-A noter que les remises de fidélités sont non-cumulables avec les opérations commerciales ou remises configurées manuellement. La meilleure remise disponible est automatiquement appliquée.
+À noter que les remises de fidélités sont non-cumulables avec les opérations commerciales ou remises configurées manuellement. La meilleure remise disponible est automatiquement appliquée.
 
 ### Application et visualisation
 
@@ -58,7 +58,7 @@ Les commentaires spécifiés (pour la facture ou pour les lignes) sont égalemen
 
 Les commandes intra-groupes vous permettent de bien modéliser et valider la prise en charge d'une commande qui est réalisée par l'intermédiaire d'une autre entité du groupe. Les lignes ainsi commandées sont bien regroupées dans une commande et quittent par la même occasion l'écran _En attente de commande_.
 
-Les produits listés sur l'écran en question peuvent donc provenir de deux scénario principaux:
+Les produits listés sur l'écran en question peuvent donc provenir de deux scénarios principaux:
 
 - Le produit est bien à commander à un fournisseur
 - Le stock connu par Yuzer n'est pas à jour:
@@ -97,7 +97,7 @@ Avant la commande, un résumé est affiché vous permettant de contrôler sa val
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/intra_group_order_4.webp" width="800px"/>
 
-Une fois validé la commande est placée et Yuzer vous redirige vers le détail de celle-ci.
+Une fois validée, la commande est placée et Yuzer vous redirige vers le détail de celle-ci.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/intra_group_order_5.webp" width="100%"/>
 
@@ -105,9 +105,9 @@ Au moment où la commande est placée, un panier est créé dans sur fiche conta
 
 ### Panier de commande et transfert intra-groupe
 
-Désormais tous les transfers doivent s'effectuer en passant par un panier. Dans le cas ou les produits ont été commandés via une commande intra-groupe, le panier créé automatiquement dans l'étape décrite ci-dessus est visible sur la fiche contact de l'entité ayant effectué la commande.
+Désormais tous les transferts doivent s'effectuer en passant par un panier. Dans le cas ou les produits ont été commandés via une commande intra-groupe, le panier créé automatiquement dans l'étape décrite ci-dessus est visible sur la fiche contact de l'entité ayant effectué la commande.
 
-Ainsi la commande effecutée dans l'exemple ci-dessus par _Corruscant_ chez _Gallactic Empire_ est visible, pour un utilisateur de _Gallactic Empire_ sur la fiche contact de _Corruscant_:
+Ainsi la commande effectuée dans l'exemple ci-dessus par _Corruscant_ chez _Gallactic Empire_ est visible, pour un utilisateur de _Gallactic Empire_ sur la fiche contact de _Corruscant_:
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/intra_group_basket_1.webp" width="100%"/>
 
@@ -122,15 +122,15 @@ Dans notre exemple le T-Shirt KTM n'était pas en stock chez _Gallactic Empire_ 
 La suite est équivalente à n'importe quel panier client classique. Dans notre exemple le magasinier de _Gallactic Empire_ a effectué la commande du T-Shirt chez KTM, en a effectué la réception en préparant le T-Shirt pour le panier de _Corruscant_ et le panier est prêt à être facturé.
 
 <div class="alert alert-info">
-Dans notre exemple _Corruscant_ est une société indépendante de _Gallactic Empire_ bien qu'intra-groupe, c'est pour cela qu'une facture doit-être éditée. L'enregistrement de la facture d'achat est, dans ce cas, automatiquement créé chez _Corruscant_.
-Si _Corruscant_ était une entité logique ou une branche de la même société que _Gallactic Empire_ alors seul un bon de livraison serait à éditer.
+Dans notre exemple, <i>Corruscant</i> est une société indépendante de <i>Gallactic Empire</i> bien qu'intra-groupe, c'est pour cela qu'une facture doit-être éditée. L'enregistrement de la facture d'achat est, dans ce cas, automatiquement créé chez <i>Corruscant</i>.
+Si <i>Corruscant</i> était une entité logique ou une branche de la même société que <i>Gallactic Empire</i> alors seul un bon de livraison serait à éditer.
 </div>
 
 Comme le client est une société intra-groupe, au moment de l'édition d'un bon de livraison ou d'une facture, le contenu du panier peut-être envoyé à travers un transfert.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/intra_group_basket_3.webp" width="100%"/>
 
-Cliquez alors sur _Livrer et envoyer le transfer_, puis éditez la facture ou le bon de livraison afin que celui-ci soit prêt à recevoir par Corruscant.
+Cliquez alors sur _Livrer et envoyer le transfert_, puis éditez la facture ou le bon de livraison afin que celui-ci soit prêt à recevoir par Corruscant.
 
 ### Transferts
 
@@ -158,14 +158,14 @@ Par ailleurs le comportement de l'association des réservations clients peut dé
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/reception_edit_2.webp" width="240px"/>
 
-Lorsque auto est sélectionné Yuzer détermine si la pièce doit-être préparée ou ajoutée en stock et réservée sur la base des critères suivants:
+Lorsque auto est sélectionné Yuzer détermine si la pièce doit-être préparée ou ajoutée au stock et réservée sur la base des critères suivants:
 
-- Si, lorsque la ligne est ajoutée à la réception, le panier client a une date de livraison définie et que celle-ci se situe dans le passé ou dans un intervalle d'une sermaine suivant la réception alors le produit est préparé.
+- Si, lorsque la ligne est ajoutée à la réception, le panier client a une date de livraison définie et que celle-ci se situe dans le passé ou dans un intervalle d'une semaine suivant la réception alors le produit est préparé.
 - Dans le cas contraire, le produit est réservé.
 
 Tout autre sélection applique l'option choisie.
 
-Nous avons par ailleurs ajouté la possibilité de tout préparer/réserver dans le cas ou vous n'auriez pas choisi l'option souhaitée au préalable et que le comportement ne vous convenait pas.
+Nous avons par ailleurs ajouté la possibilité de tout préparer/réserver dans le cas où vous n'auriez pas choisi l'option souhaitée au préalable et que le comportement ne vous convenait pas.
 
  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/reception_edit_3.webp" width="240px"/>
 
@@ -183,7 +183,7 @@ Nous avons aussi ajouté une ligne de total qui vous indiquera le nombre de lign
 
 Grosse nouveauté de cette version, il est possible de recevoir un produit en tant qu'un ou que plusieurs autres produits. Vous pouvez:
 
-- changer la référence du produit (inclus le cas où la référence du fournisseur, écrite sur le bon d'achat, n'existe pas dans votre catalogue). Cela permet également de résoudre des difficultés rencontrées dans les transfers entre entités ne disposant pas des mêmes catalogues.
+- changer la référence du produit (inclus le cas où la référence du fournisseur, écrite sur le bon d'achat, n'existe pas dans votre catalogue). Cela permet également de résoudre des difficultés rencontrées dans les transferts entre entités ne disposant pas des mêmes catalogues.
 - changer la référence et la quantité reçue: par exemple recevoir un baril de 208L d'huile en tant que 208 fois un litre de la même huile
 - décomposer un produit en plusieurs produits: par exemple recevoir une planche de pins en tant que 200 pins rouges, 100 pins bleus, etc.
 
@@ -195,17 +195,17 @@ En cliquant sur "Éditer l'entrée en stock", vous pourrez accéder à la config
 
  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/reception_product_compose_1.webp" width="240px"/>
 
-La coche "Sauver la configuration à la validation" vous permet de sauvergarder en base la décomposition lorsque vous la validez. Ainsi, elle pourra être réutilisée. La coche "Appliquer automatiquement à la réception" servira dans des versions ultérieures de Yuzer à appliquer automatiquement la décomposition lors de la réception du produit source.
+La coche "Sauver la configuration à la validation" vous permet de sauvegarder en base la décomposition lorsque vous la validez. Ainsi, elle pourra être réutilisée. Si vous cochez "Appliquer automatiquement à la réception", une réception ultérieure de ce produit sera automatiquement décomposée avec cette décomposition ("Sauver la configuration à la validation" doit être coché).
 
  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/reception_product_compose_2.webp" width="240px"/>
 
 ### Nouvelle vue rangement
 
-La nouvelle vue rangement vous permet d'avoir un listing de la réception par emplacement de stock. Les paniers client préparés sont placés en premier.
+La nouvelle vue _rangement_ vous permet d'avoir un listing de la réception par emplacement de stock. Les paniers client préparés sont placés en premier.
 
 ## Factures d'achat
 
-Comme indiqué ci-dessus, les factures d'achat provenant de transfers intra-groupes sont désormais automatiquement créés par Yuzer dans la société cible.
+Comme indiqué ci-dessus, les factures d'achat provenant de transferts intra-groupes sont désormais automatiquement créées par Yuzer dans la société cible.
 
 L'autre nouveauté est la possibilité de mettre à jour les prix d'achat d'une réception clôturée depuis la validation de la facture d'achat correspondante (pour les lignes effectivement liées aux réceptions).
 
@@ -228,19 +228,23 @@ L'application mobile a été améliorée ! En plus des modifications nécessair
 
 ### Scanner
 
-Partout dans l'application, le composant de scanner a été amélioré et possède un nouveau mode optimisé pour les scanners externes (type eyoyo).
+Partout dans l'application, le composant de scanner a été amélioré et possède un nouveau mode optimisé pour les scanners externes (type eyoyo). Il est possible de passer de l'un à l'autre à tout moment, comme illustré ci-dessous.
 
-|                                                           Scanner avec la caméra                                                           |                                                     Scanner avec un périphérique externe                                                     |
-| :----------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/mobile-text-scanner.webp" width="320px"/> | <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/mobile-camera-scanner.webp" width="320px"/> |
+- Le bouton (2) permet de changer le type de scanner
+- Le bouton (3) permet de fermer le scanner (et ainsi laisser plus de place à la lisibilité)
+- Le bouton (1) active la lampe — seulement dans le cas où la caméra est utilisée.
+
+|                                                            Scanner avec la caméra                                                            |                                                    Scanner avec un périphérique externe                                                    |
+| :------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/mobile-camera-scanner.webp" width="320px"/> | <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/mobile-text-scanner.webp" width="320px"/> |
 
 ### Réceptions
 
-La lisibilité de la liste des réceptions a été améliorée: augmentation de la taille du texte, des icônes, couleurs, etc.
+La lisibilité de la liste des réceptions a été améliorée: augmentation de la taille du texte et des icônes, ajout de couleurs, etc.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/mobile-reception-list.webp" width="320px"/>
 
-De même la liste des lignes d'au sein d'une réception.
+De même la liste des lignes au sein d'une réception.
 
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/mobile-reception-detail.webp" width="320px"/>
 
@@ -259,7 +263,7 @@ Lorsque vous êtes en mode de sélection de produit (2), vous pouvez effacer la 
 
 Dès qu'un produit a été ajouté, le mode de sélection de produit (2) est sélectionné.
 
-|                                                             Sélection de protuit (2)                                                             |                                                             Sélection d'emplacement (3)                                                              |
+|                                                             Sélection de produit (2)                                                             |                                                             Sélection d'emplacement (3)                                                              |
 | :----------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------: |
 | <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/mobile-reception-add-item.webp" width="320px"/> | <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/mobile-reception-add-location.webp" width="320px"/> |
 
