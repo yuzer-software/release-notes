@@ -1,6 +1,6 @@
 # Avril 2022 - Version 2.10.x
 
-La version 2.10 est l'aboutissement d'un énorme effort de nos équipes et comporte de nombreux changements et améliorations sur les sujets suivants:
+La version 2.10 est une version majeure et apporte les changements suivants:
 
 - Programmes de fidélité:
   - Ajout de remise en pourcentage sur la marge
@@ -17,6 +17,7 @@ La version 2.10 est l'aboutissement d'un énorme effort de nos équipes et compo
   - Prise en compte des cessions de maintenance post-vente dans les marges affichées
 - Analytique:
   - Ajout d'une colonne "Nombre de documents" comptant les annulations en -1
+- Chat support: vous pouvez désormais depuis Yuzer ouvrir un chat avec nos équipes support.
 
 Si vous êtes magasinier nous vous conseillons fortement de prendre le temps de lire cette release note.
 
@@ -180,6 +181,16 @@ La nouvelle vue rangement vous permet d'avoir un listing de la réception par em
 Comme indiqué ci-dessus, les factures d'achat provenant de transfers intra-groupes sont désormais automatiquement créés par Yuzer dans la société cible.
 
 L'autre nouveauté est la possibilité de mettre à jour les prix d'achat d'une réception clôturée depuis la validation de la facture d'achat correspondante (pour les lignes effectivement liées aux réceptions).
+
+## Chat support
+
+Vous pouvez désormais ouvrir une fenêtre de chat pour communiquer avec notre équipe support directement depuis Yuzer.
+
+<div class="d-flex">
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/support_chat_1.webp" width="48px"/>
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/support_chat_2.webp" width="240px"/>
+</div>
 
 ## Application mobile
 
