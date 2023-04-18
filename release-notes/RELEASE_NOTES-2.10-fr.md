@@ -140,11 +140,34 @@ Depuis la page du transfert, vous pouvez cliquer sur "Recevoir" pour créer une 
 
 L'écran des réceptions contient de nombreuses nouveautés.
 
-- distinction entre bon de livraison et entrée en stock
+- Distinction entre bon de livraison et entrée en stock
 - Choix de l'action par défaut à appliquer aux réservations clients: réserver, préparer ou laisser Yuzer choisir
-- nouvelle vue de rangement (réception par emplacement de stockage)
-- filtre d'erreurs amélioré
-- impression possible des étiquettes
+- Nouvelle vue de rangement (réception par emplacement de stockage)
+- Filtre d'erreurs amélioré
+- Impression possible des étiquettes
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/reception_1.webp" width="100%"/>
+
+### Ajouts de produits
+
+La quantité pour l'ajout de lignes de produits est désormais configurée sur 1 par défaut. De plus l'ajout consécutif de la même référence deux fois de suite n'ajoute pas de nouvelle ligne mais augmente la quantité de la ligne existante. Cela permet une utilisation plus efficace d'une douchette à la réception.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/reception_edit_1.webp" width="380px"/>
+
+Par ailleurs le comportement de l'association des réservations clients peut désormais être configuré:
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/reception_edit_2.webp" width="240px"/>
+
+Lorsque auto est sélectionné Yuzer détermine si la pièce doit-être préparée ou ajoutée en stock et réservée sur la base des critères suivants:
+
+- Si, lorsque la ligne est ajoutée à la réception, le panier client a une date de livraison définie et que celle-ci se situe dans le passé ou dans un intervalle d'une sermaine suivant la réception alors le produit est préparé.
+- Dans le cas contraire, le produit est réservé.
+
+Tout autre sélection applique l'option choisie.
+
+Nous avons par ailleurs ajouté la possibilité de tout préparer/réserver dans le cas ou vous n'auriez pas choisi l'option souhaitée au préalable et que le comportement ne vous convenait pas.
+
+ <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/reception_edit_3.webp" width="240px"/>
 
 ### Bon de livraison
 
@@ -158,9 +181,9 @@ Nous avons aussi ajouté une ligne de total qui vous indiquera le nombre de lign
 
 ### Entrée en stock
 
-Grosse nouveauté de cette version, il est possible de recevoir un produit en tant qu'un ou que plusieurs autres produits. Vous pouvez :
+Grosse nouveauté de cette version, il est possible de recevoir un produit en tant qu'un ou que plusieurs autres produits. Vous pouvez:
 
-- changer la référence du produit (inclus le cas où la référence du fournisseur, écrite sur le bon d'achat, n'existe pas dans votre catalogue)
+- changer la référence du produit (inclus le cas où la référence du fournisseur, écrite sur le bon d'achat, n'existe pas dans votre catalogue). Cela permet également de résoudre des difficultés rencontrées dans les transfers entre entités ne disposant pas des mêmes catalogues.
 - changer la référence et la quantité reçue: par exemple recevoir un baril de 208L d'huile en tant que 208 fois un litre de la même huile
 - décomposer un produit en plusieurs produits: par exemple recevoir une planche de pins en tant que 200 pins rouges, 100 pins bleus, etc.
 
@@ -170,7 +193,11 @@ La modale de décomposition est présentée ci-dessous. Pour ce qui est de l'ent
 
 En cliquant sur "Éditer l'entrée en stock", vous pourrez accéder à la configuration de décomposition d'un produit. Elle vous permet de définir comment 1 produit source peut être décomposé en plusieurs produits (cibles de décomposition).
 
+ <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/reception_product_compose_1.webp" width="240px"/>
+
 La coche "Sauver la configuration à la validation" vous permet de sauvergarder en base la décomposition lorsque vous la validez. Ainsi, elle pourra être réutilisée. La coche "Appliquer automatiquement à la réception" servira dans des versions ultérieures de Yuzer à appliquer automatiquement la décomposition lors de la réception du produit source.
+
+ <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/reception_product_compose_2.webp" width="240px"/>
 
 ### Nouvelle vue rangement
 
@@ -187,9 +214,12 @@ L'autre nouveauté est la possibilité de mettre à jour les prix d'achat d'une 
 Vous pouvez désormais ouvrir une fenêtre de chat pour communiquer avec notre équipe support directement depuis Yuzer.
 
 <div class="d-flex">
+<div>
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/support_chat_1.webp" width="48px"/>
-
+</div>
+<div>
 <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/support_chat_2.webp" width="240px"/>
+</div>
 </div>
 
 ## Application mobile
