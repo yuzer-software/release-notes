@@ -1,31 +1,141 @@
 # Avril 2022 - Version 2.10.x
 
-## Commande à une autre entité Yuzer
+La version 2.10 est l'aboutissement d'un énorme effort de nos équipes et comporte de nombreux changements et améliorations sur les sujets suivants:
 
-Cette mise à jour apporte des modifications majeures au flux de commandes à une autre entité Yuzer:
+- Programmes de fidélité:
+  - Ajout de remise en pourcentage sur la marge
+  - Application automatique à la création de nouveaux paniers
+- Commandes intra-groupes
+- Transfers améliorés et uniformisés
+- Réception:
+  - Conversion de produits
+  - Meilleur support des références inconnues
+  - Écrans bureau et mobiles revus et améliorés
+- Factures d'achat:
+  - Impact du PA des réceptions et PAMP stock
+- Dossiers véhicules:
+  - Prise en compte des cessions de maintenance post-vente dans les marges affichées
+- Analytique:
+  - Ajout d'une colonne "Nombre de documents" comptant les annulations en -1
 
-- commande chez une autre entité,
-- gestion au niveau des paniers des commandes réalisées chez vous,
-- envoi de la commande par un transfert,
-- réception de la commande.
+Si vous êtes magasinier nous vous conseillons fortement de prendre le temps de lire cette release note.
 
-À chacun de ces niveaux, de nombreuses améliorations ont été apportées.
+## Programmes de fidélité
 
-### Commande
+Les programmes de fidélités prennent une portée un peu plus large avec l'ajout de la remise en pourcentage sur la marge.
 
-Vous pouvez, depuis l'écran de commandes, sélectionner une entité auprès de laquelle placer une commande de pièces. Au moment où la commande est placée, un panier est créé dans sur fiche contact dans l'entité fournisseur.
+Appliqués sur une autre société du groupe ils permettent ainsi de définir votre politique de tarification dans le cas de transfers intra-groupe mais extra-société.
 
-### Panier
+### Configuration
 
-En tant que fournisseur d'une autre entité, vous pouvez sélectionner cette entité parmis vos contacts et sélectionner les paniers automatiquement créés qui correspondent aux commandes qui vous ont été faites. Vous gérez le stock, les paiements et les éditions des documents comme pour tout panier.
+La configuration nécessite un rôle ADMIN et se situe dans _Administration / Gestion commerciale / Cartes cadeaux et fidéllité / Programmes de fidélité_.
 
-Au moment de l'édition d'un bon de livraison ou d'une facture, vous pouvez décider d'envoyer le contenu de ce panier par un transfert.
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/fidelity_1.webp" width="100%"/>
+
+Vous pouvez alors créer ou éditer un programme de fidélité et y configurer:
+
+- Le nom du programme (Libellé)
+- Optionellement:
+  - Le commentaire qui apparaitra en bas de la facture (Commentaire du groupe de facturation)
+  - Le commentaire qui apparaitra suite à la ligne impactée
+- Si le programme de fidélité doit s'appliquer automatiquement sur les nouveaux paniers.
+- Enfin vous pouvez spécifier la remise à appliquer en fonction de contraintes diverses.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/fidelity_2.webp" width="100%"/>
+
+_Ci-dessus: Exemple de configuration d'un programme intra-groupe permettant une vente à prix coûtant_
+
+A noter que les remises de fidélités sont non-cumulables avec les opérations commerciales ou remises configurées manuellement. La meilleure remise disponible est automatiquement appliquée.
+
+### Application et visualisation
+
+Sur les nouveaux paniers l'application du programme de fidélité a changé. La ligne de remise globale ajoutée par le passé a été supprimée et une remise immédiate est appliquée sur chaque ligne en lieu et place.
+
+Les commentaires spécifiés (pour la facture ou pour les lignes) sont également ajoutés le cas échéant.
+
+## Commandes intra-groupes
+
+Les commandes intra-groupes vous permettent de bien modéliser et valider la prise en charge d'une commande qui est réalisée par l'intermédiaire d'une autre entité du groupe. Les lignes ainsi commandées sont bien regroupées dans une commande et quittent par la même occasion l'écran _En attente de commande_.
+
+Les produits listés sur l'écran en question peuvent donc provenir de deux scénario principaux:
+
+- Le produit est bien à commander à un fournisseur
+- Le stock connu par Yuzer n'est pas à jour:
+  - Une commande n'a pas été renseignée dans Yuzer et sa réception n'a pas été complétée alors que des pièces ont déjà été sorties.
+  - Erreur d'inventaire.
+
+### Pré-requis
+
+Afin de pouvoir commander à une société intra-groupe il faut que celle-ci soit considérée comme fournisseur possible sur le catalogue sélectionné.
+
+Chaque catalogue peut comporter plusieurs fournisseurs, il est ainsi possible par exemple, d'avoir comme fournisseur _KTM_ et une autre concession _KTM_ de votre groupe.
+
+Un ADMIN peut effectuer la configuration dans _Administration / Catalogue_ en sélectionnant le catalogue souhaité puis en cliquant sur éditer.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/catalog_supplier_1.webp" width="100%"/>
+
+Il est alors possible d'ajouter le fournisseur intra-groupe.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/catalog_supplier_2.webp" width="460px"/>
+
+### Effectuer une commande
+
+Depuis l'écran _En attente de commande_ vous pouvez désormais filtrer par fournisseur. Les différentes entités de votre groupe sont désormais automatiquement ajoutées comme fournisseur, vous permettant de les sélectionner.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/intra_group_order_1.webp" width="100%"/>
+
+Vous pouvez également, si vous le souhaitez affiner la recherche en sélectionnant un des catalogues que le fournisseur peut adresser.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/intra_group_order_2.webp" width="480px"/>
+
+Finalement sélectionnez les pièces que vous souhaitez commander et cliquez sur commander (ici nous commandons un T-Shirt KTM lié à un panier client).
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/intra_group_order_3.webp" width="100%"/>
+
+Avant la commande, un résumé est affiché vous permettant de contrôler sa validité.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/intra_group_order_4.webp" width="800px"/>
+
+Une fois validé la commande est placée et Yuzer vous redirige vers le détail de celle-ci.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/intra_group_order_5.webp" width="100%"/>
+
+Au moment où la commande est placée, un panier est créé dans sur fiche contact dans l'entité fournisseur. Ce panier est également automatiquement commandé, ce qui permet de réserver les pièces en stock ou de les mettre en attente de commande si elles ne sont pas en stock.
+
+### Panier de commande et transfert intra-groupe
+
+Désormais tous les transfers doivent s'effectuer en passant par un panier. Dans le cas ou les produits ont été commandés via une commande intra-groupe, le panier créé automatiquement dans l'étape décrite ci-dessus est visible sur la fiche contact de l'entité ayant effectué la commande.
+
+Ainsi la commande effecutée dans l'exemple ci-dessus par _Corruscant_ chez _Gallactic Empire_ est visible, pour un utilisateur de _Gallactic Empire_ sur la fiche contact de _Corruscant_:
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/intra_group_basket_1.webp" width="100%"/>
+
+De plus le panier a bien été automatiquement réservé/commandé.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/intra_group_basket_2.webp" width="100%"/>
+
+Dans notre exemple le T-Shirt KTM n'était pas en stock chez _Gallactic Empire_ celui-ci a donc été automatiquement ajouté dans les produits _En attente de commande_ afin qu'il puisse-t-être commandé à un fournisseur de _Gallactic Empire_.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/intra_group_transitive_order.webp" width="100%"/>
+
+La suite est équivalente à n'importe quel panier client classique. Dans notre exemple le magasinier de _Gallactic Empire_ a effectué la commande du T-Shirt chez KTM, en a effectué la réception en préparant le T-Shirt pour le panier de _Corruscant_ et le panier est prêt à être facturé.
+
+<div class="alert alert-info">
+Dans notre exemple _Corruscant_ est une société indépendante de _Gallactic Empire_ bien qu'intra-groupe, c'est pour cela qu'une facture doit-être éditée. L'enregistrement de la facture d'achat est, dans ce cas, automatiquement créé chez _Corruscant_.
+Si _Corruscant_ était une entité logique ou une branche de la même société que _Gallactic Empire_ alors seul un bon de livraison serait à éditer.
+</div>
+
+Comme le client est une société intra-groupe, au moment de l'édition d'un bon de livraison ou d'une facture, le contenu du panier peut-être envoyé à travers un transfert.
+
+<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/intra_group_basket_3.webp" width="100%"/>
+
+Cliquez alors sur _Livrer et envoyer le transfer_, puis éditez la facture ou le bon de livraison afin que celui-ci soit prêt à recevoir par Corruscant.
 
 ### Transferts
 
 Depuis la page du transfert, vous pouvez cliquer sur "Recevoir" pour créer une nouvelle réception qui contient le contenu de ce transfert.
 
-### Receptions
+## Receptions
 
 L'écran des réceptions contient de nombreuses nouveautés.
 
@@ -35,7 +145,7 @@ L'écran des réceptions contient de nombreuses nouveautés.
 - filtre d'erreurs amélioré
 - impression possible des étiquettes
 
-#### Bon de livraison
+### Bon de livraison
 
 La section gauche, "bon de livraison", vous permet d'avoir ce qui concerne le bon de livraison et doit correspondre à ce que vous avez reçu du fournisseur. C'est donc dans cette partie que sont les prix et les liens vers les commandes.
 
@@ -45,7 +155,7 @@ La section gauche, "bon de livraison", vous permet d'avoir ce qui concerne le bo
 
 Nous avons aussi ajouté une ligne de total qui vous indiquera le nombre de lignes et le montant total de la réception.
 
-#### Entrée en stock
+### Entrée en stock
 
 Grosse nouveauté de cette version, il est possible de recevoir un produit en tant qu'un ou que plusieurs autres produits. Vous pouvez :
 
@@ -55,13 +165,21 @@ Grosse nouveauté de cette version, il est possible de recevoir un produit en ta
 
 La modale de décomposition est présentée ci-dessous. Pour ce qui est de l'entrée en stock, pour chaque produit reçu, vous devez définir les emplacements de stockage et les réservations. Là encore, la sélection des emplacements de stockage a été améliorée et uniformisée avec plus de raccourcis sur les emplacements par défaut.
 
-#### Décomposition des produits
+### Décomposition des produits
 
 En cliquant sur "Éditer l'entrée en stock", vous pourrez accéder à la configuration de décomposition d'un produit. Elle vous permet de définir comment 1 produit source peut être décomposé en plusieurs produits (cibles de décomposition).
 
 La coche "Sauver la configuration à la validation" vous permet de sauvergarder en base la décomposition lorsque vous la validez. Ainsi, elle pourra être réutilisée. La coche "Appliquer automatiquement à la réception" servira dans des versions ultérieures de Yuzer à appliquer automatiquement la décomposition lors de la réception du produit source.
 
-### Factures d'achat
+### Nouvelle vue rangement
+
+La nouvelle vue rangement vous permet d'avoir un listing de la réception par emplacement de stock. Les paniers client préparés sont placés en premier.
+
+## Factures d'achat
+
+Comme indiqué ci-dessus, les factures d'achat provenant de transfers intra-groupes sont désormais automatiquement créés par Yuzer dans la société cible.
+
+L'autre nouveauté est la possibilité de mettre à jour les prix d'achat d'une réception clôturée depuis la validation de la facture d'achat correspondante (pour les lignes effectivement liées aux réceptions).
 
 ## Application mobile
 
