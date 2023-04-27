@@ -1,3 +1,10 @@
+# 27 Avril 2022 - Version 2.10.4
+
+Corrections:
+
+- le bouton d'édition d'un bon de livraison était désactivé dans le cas d'un transfert intra-société
+- lorsque le menu de sélection de produits proposait de sélectionner une ligne avec un bouton `[+]`, celui-ci ne faisait rien (il fallait cliquer sur la ligne)
+
 # Avril 2022 - Version 2.10.x
 
 La version 2.10 est une version majeure et apporte les changements suivants:
