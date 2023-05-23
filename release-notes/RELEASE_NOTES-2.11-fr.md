@@ -1,3 +1,25 @@
+# Mai 2023 - Version 2.11.3
+
+- Correction de l'affichage des lignes dans les tableaux analytiques.
+- Amélioration du scrolling et du positionnement des bas de tableaux dans plusieurs écrans.
+
+# Mai 2023 - Version 2.11.2
+
+- Correction de l'injection du mécanicien assigné dans les données de facturations dans le cadre de forfaits.
+
+# Mai 2023 - Version 2.11.1
+
+## Suppression des groupes dans un panier
+
+Il est désormais possible de supprimer l'intégralité d'un groupe dans un panier sans avoir à supprimer les lignes une à une au préalable.
+Les lignes réservées ou préparées ne peuvent pas être supprimées, dans ce cas l'affichage de suppression vous permettra de supprimer les autres lignes uniquement. Pour supprimer ces lignes il faut au préalable annuler les réservations/préparations de stock.
+
+## Améliorations et corrections diverses
+
+- Correction de l'affichage des jours non-travaillés dans le calendrier. Ceux-ci pouvaient être décallés.
+- Lorsqu'un modèle de panier est ajouté les meta-data du produit (catégories, marques) sont bien mise à jour.
+- Vous pouvez créer une réception depuis l'écran affichant le détail d'une commande fournisseur.
+
 # Mai 2023 - Version 2.11.x
 
 ## Réceptions
