@@ -20,6 +20,12 @@ Il est désormais possible d'effectuer un transfer d'un produit identifié. Celu
 
 La réception dans ce contexte précis permet d'effectuer la réception du produit identifié et de définir quels sont les produits effectivement montés sur le produit identifié.
 
+## Corrections et Améliorations
+
+- Si vous laissez votre curseur de souris pendant une demi seconde sur la référence dans une ligne de panier, celle-ci sera affichée dans une info-bulle. Cela permet de visualiser de longues références. Souvenez vous que vous pouvez copier la référence par un simple click.
+
+<img width="256" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.11.0/ref_tooltip.webp"/>
+
 # Juin 2023 - Version 2.12.0
 
 ## Analytiques
