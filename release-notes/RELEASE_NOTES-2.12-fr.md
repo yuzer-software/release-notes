@@ -2,6 +2,18 @@
 
 <div class="alert alert-info">La version 2.12.0 est disponible dès le 30/05/2023 en démo. La version 2.12.1 sera disponible le 31/05/2023</div>
 
+## Gestion des cessions fournisseurs dans un dossier véhicule
+
+<div class="alert alert-warning">Changement impactant</div>
+
+Dans les versions précédentes, les cessions de garantie fournisseurs sur un dossier véhicule impactaient les coûts opérationels au même titre que les autres cessions. Depuis la version 2.12.1 ceci n'est plus le cas.
+
+Par ailleurs nous avons rendu plus simple la création d'une cession de garantie fourninisseur depuis le dossier du véhicule en ajoutant le choix aux cessions de préparation ou maintenance.
+
+<div class="text-center" style="text-align: 'center';">
+  <img width="850" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.11.0/new_file_cessions.webp"/>
+</div>
+
 ## Transfers de produits identifiés
 
 Il est désormais possible d'effectuer un transfer d'un produit identifié. Celui-ci se fait à travers un panier intra-groupe et suit le même cheminement qu'un transfer de produit.
