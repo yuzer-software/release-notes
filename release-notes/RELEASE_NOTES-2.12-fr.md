@@ -1,6 +1,6 @@
 # Juin 2023 - Version 2.12.1
 
-<div class="alert alert-info">La version 2.12.0 est disponible dès le 30/05/2023 en démo. La version 2.12.1 sera disponible le 31/05/2023</div>
+<div class="alert alert-info">La version 2.12.0 est disponible dès le 30/05/2023 en démo. La version 2.12.1 sera disponible le 01/06/2023</div>
 
 ## Gestion des cessions fournisseurs dans un dossier véhicule
 
