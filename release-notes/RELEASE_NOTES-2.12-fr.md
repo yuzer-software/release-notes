@@ -11,7 +11,7 @@ Dans les versions précédentes, les cessions de garantie fournisseurs sur un do
 Par ailleurs nous avons rendu plus simple la création d'une cession de garantie fourninisseur depuis le dossier du véhicule en ajoutant le choix aux cessions de préparation ou maintenance.
 
 <div class="text-center" style="text-align: 'center';">
-  <img width="850" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.11.0/new_file_cessions.webp"/>
+  <img width="850" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.12.0/new_file_cessions.webp"/>
 </div>
 
 ## Transfers de produits identifiés
@@ -24,7 +24,7 @@ La réception dans ce contexte précis permet d'effectuer la réception du produ
 
 - Si vous laissez votre curseur de souris pendant une demi seconde sur la référence dans une ligne de panier, celle-ci sera affichée dans une info-bulle. Cela permet de visualiser de longues références. Souvenez vous que vous pouvez copier la référence par un simple click.
 
-<img width="256" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.11.0/ref_tooltip.webp"/>
+<img width="256" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.12.0/ref_tooltip.webp"/>
 
 # Juin 2023 - Version 2.12.0
 
