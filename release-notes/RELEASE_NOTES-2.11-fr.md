@@ -1,3 +1,7 @@
+# Juin 2023 - Version 2.11.4
+
+- Correction et amélioration de l'annulation d'une réception dans le cas où une intervention de l'utilisateur est requise pour sélectionner les emplacements d'où prélever le stock (typiquement parce que le stock entré en réception a été déstocké — vendu, déplacé, etc.).
+
 # Mai 2023 - Version 2.11.3
 
 - Correction de l'affichage des lignes dans les tableaux analytiques.
