@@ -38,6 +38,10 @@ Le transfert de produit identifié suit le même flux que celui d'une vente de p
 
 Jusqu'à l'édition des documents, il n'y a aucune différence d'avec une vente client. En particulier, les produits "montés sur le produit identifié" seront transférés en même temps que le véhicule, exactement comme lors d'une vente classique (un groupe de cession peut être fait pour démonter les produits à ne pas transférer, etc.).
 
+<div class="alert alert-warning">
+Aujourd'hui, le calcul de marge ne prend pas en compte les coûts et bonus. Pour l'instant, si vous voulez définir une marge à 0 mais facturer les coûts à l'entité cible, vous devez modifier manuellement le prix de vente du produit identifié.
+</div>
+
 ### Transfert du panier
 
 Comme pour les transferts de pièces, il vous faudra éditer un bon de livraison ou une facture (réservé aux transferts inter-société). Pour rappel :
@@ -67,7 +71,7 @@ Si vous retournez le transfert, une réception est créée. Le dossier du produi
 
 Lorsque le destinataire reçoit le transfert de produit identifié, une réception est créée avec une ligne particulière pour le produit identifié et une ligne pour chaque produit "monté sur" ce produit.
 
-Deux comportements sont possible pour la ligne de produit identifié.
+Deux comportements sont possibles pour la ligne de produit identifié.
 
 - Par défaut, la ligne n'est liée à aucun dossier ouvert et un nouveau dossier sera créé à la clôture de la réception.
 - En éditant l'entrée en stock, vous pouvez choisir un dossier ouvert déjà existant référençant le même produit identifié (attention, pas le même _modèle_, mais exactement le même _produit identifié_).
@@ -91,7 +95,7 @@ Lors d'un transfert inter-société, la facture d'achat est générée à partir
 
 ## Corrections et Améliorations
 
-- Si vous laissez votre curseur de souris pendant une demi seconde sur la référence dans une ligne de panier, celle-ci sera affichée dans une info-bulle. Cela permet de visualiser de longues références. Souvenez vous que vous pouvez copier la référence par un simple click.
+- Si vous laissez votre curseur de souris pendant une demi-seconde sur la référence dans une ligne de panier, celle-ci sera affichée dans une info-bulle. Cela permet de visualiser de longues références. Souvenez-vous que vous pouvez copier la référence par un simple clic.
 
 <img width="256" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.12.0/ref_tooltip.webp"/>
 
@@ -99,7 +103,7 @@ Lors d'un transfert inter-société, la facture d'achat est générée à partir
 
 ## Analytiques
 
-Nous avons amélioré le temps de chargement de l'analytique en améliorant la gestion du cache local. A noter que les données journalière ne seront mise à jour que dans un intervalle de 30 minutes.
+Nous avons amélioré le temps de chargement de l'analytique en améliorant la gestion du cache local. A noter que les données journalières ne seront mise à jour que dans un intervalle de 30 minutes.
 
 Il est désormais possible de modifier les entités, la période d'analyse, et même les groupes des sources de données d'un tableau de bord sans avoir à modifier sa configuration. Ces modifications sont également plus rapides que dans les versions précédentes qui forçaient un rechargement intégral du tableau de bord.
 
