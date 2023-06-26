@@ -32,6 +32,19 @@ Désormais, Yuzer vérifie que les statuts du dossier et du panier sont consista
 
 Aussi, Yuzer marque désormais automatiquement le dossier à `Facturé et soldé` si le panier est soldé au moment de la facturation.
 
+## Nouvelles configurations
+
+Nous avons ajouté la possibilité de restreindre les actions suivantes aux administrateurs seulement:
+
+- La possibilité de délivrer les produits d'un panier sans impacter le stock.
+- La possibilité d'initialiser le stock depuis la fiche produit.
+
+Pour ce faire, allez dans le menu `Administration > Gestion commerciale > Configurer > Configuration commerciale`
+
+<div class="text-center" style="text-align: 'center';">
+  <img width="1536" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.13.0/new-trade-configurations.webp"/>
+</div>
+
 ## Corrections et Améliorations
 
 - Un modèle de panier sera maintenant importer avec les références principales des produits si vous avez activé l'option des équivalences (`Administration > Gestion du stock`).
