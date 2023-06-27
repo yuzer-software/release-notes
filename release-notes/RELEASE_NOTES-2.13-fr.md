@@ -2,20 +2,20 @@
 
 ## Honda: amélioration de la remontée d'information sur commandes et envois
 
-Suite à une commande passée via Yuzer, les statut de prise en charge de la commande par Honda sont désormais remontés dans Yuzer.
+Suite à une commande passée via Yuzer, les statuts de prise en charge de la commande par Honda sont désormais remontés dans Yuzer.
 
 De plus, lorsque Honda effectue un envoi une réception est automatiquement crée avec le contenu de l'envoi. Vous n'avez alors plus qu'à valider que tout est bien reçu comme prévu et à clôturer la réception une fois le contrôle effectué.
 
 # Juin 2023 - Version 2.13.0
 
-## Raffraichisement des données analytiques
+## Rafraîchissement des données analytiques
 
-Les données d'analytiques sont désormais automatiquement raffraichies:
+Les données d'analytiques sont désormais automatiquement rafraîchies:
 
-- lors de mises à jours de coûts et bonus ou cessions liées au dossiers de véhicules.
+- lors de mises à jour de coûts et bonus ou cessions liées au dossiers de véhicules.
 - lors d'édition de catégories de ventes depuis les listes de documents.
 
-Afin de pleinement bénéficier de cette fonctionalité et garantir que vos données sont bien à jour il est recommandé de réinitialiser vos données.
+Afin de pleinement bénéficier de cette fonctionnalité et garantir que vos données sont bien à jour il est recommandé de réinitialiser vos données.
 
 ## Gestion du stock monté sur véhicule
 
@@ -76,7 +76,6 @@ Pour ce faire, allez dans le menu `Administration > Gestion commerciale > Config
 
 ## Corrections et Améliorations
 
-- Un modèle de panier sera maintenant importer avec les références principales des produits si vous avez activé l'option des équivalences (`Administration > Gestion du stock`).
 - La clôture d'inventaire ne remontait plus correctement le statut de clôture et ni les erreurs éventuelles.
 - Un catalogue ne pouvait pas toujours être supprimé même lorsque tout le stock a été fusionné.
 - Améliorations internes du module comptabilité.
