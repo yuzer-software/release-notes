@@ -1,4 +1,33 @@
+# Juin 2023 - Version 2.13.1
+
+## Honda: amélioration de la remontée d'information sur commandes et envois
+
+Suite à une commande passée via Yuzer, les statut de prise en charge de la commande par Honda sont désormais remontés dans Yuzer.
+
+De plus, lorsque Honda effectue un envoi une réception est automatiquement crée avec le contenu de l'envoi. Vous n'avez alors plus qu'à valider que tout est bien reçu comme prévu et à clôturer la réception une fois le contrôle effectué.
+
 # Juin 2023 - Version 2.13.0
+
+## Raffraichisement des données analytiques
+
+Les données d'analytiques sont désormais automatiquement raffraichies:
+
+- lors de mises à jours de coûts et bonus ou cessions liées au dossiers de véhicules.
+- lors d'édition de catégories de ventes depuis les listes de documents.
+
+Afin de pleinement bénéficier de cette fonctionalité et garantir que vos données sont bien à jour il est recommandé de réinitialiser vos données.
+
+## Gestion du stock monté sur véhicule
+
+Le stock monté sur véhicule est désormais traité comme non-disponible dans le cadre des propositions de commande automatisées.
+
+Cet aspect est désormais clairement explicité dans la vue produit et dans les résumés de contenu de stock.
+
+## Gestion des références équivalentes et modèles
+
+Lorsqu'un modèle est ajouté à un panier, si celui-ci contient une référence A qui est une référence d'une référence B définie comme principale, c'est bien la référence B qui sera ajoutée dans le panier.
+
+## Les programmes de fidélités peuvent désormais être appliqués sur les produits identifiés (véhicules etc.)
 
 ## Commandes & prix d'achat
 
@@ -30,7 +59,7 @@
 Il arrivait que le statut d'un dossier ne se mette pas correctement à jour, particulièrement lors de l'annulation d'une facture où le dossier restait parfois à `Facturé et soldé`, bloquant ainsi certaines actions autour du panier.
 Désormais, Yuzer vérifie que les statuts du dossier et du panier sont consistants et corrige automatique le statut du dossier si nécessaire.
 
-Aussi, Yuzer marque désormais automatiquement le dossier à `Facturé et soldé` si le panier est soldé au moment de la facturation.
+De plus, Yuzer marque désormais automatiquement le dossier à `Facturé et soldé` si le panier est soldé au moment de la facturation. La boîte de dialogue demandant à l'utilisateur s'il souhaite ou non clôturer le dossier disparait donc.
 
 ## Nouvelles configurations
 
@@ -50,3 +79,4 @@ Pour ce faire, allez dans le menu `Administration > Gestion commerciale > Config
 - Un modèle de panier sera maintenant importer avec les références principales des produits si vous avez activé l'option des équivalences (`Administration > Gestion du stock`).
 - La clôture d'inventaire ne remontait plus correctement le statut de clôture et ni les erreurs éventuelles.
 - Un catalogue ne pouvait pas toujours être supprimé même lorsque tout le stock a été fusionné.
+- Améliorations internes du module comptabilité.
