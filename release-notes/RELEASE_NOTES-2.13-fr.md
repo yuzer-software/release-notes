@@ -3,6 +3,7 @@
 ## Corrections et Améliorations
 
 - Le dossier produit n'est plus requis pour l'édition d'une facture proforma.
+- Correction de l'affichage de la fenêtre de "Champs requis" lors de la création d'un nouveau contact.
 
 # Juillet 2023 - Version 2.13.1
 
@@ -22,7 +23,7 @@ Nous avons ajouté un onglet dans `Administration > Automates > SIV` permettant 
 
 ## Corrections et Améliorations
 
-- Fixe de l'affichage du compteur de documents dans l'analytique
+- Correction de l'affichage du compteur de documents dans l'analytique
 
 # Juin 2023 - Version 2.13.0
 
