@@ -1,4 +1,10 @@
-# Juin 2023 - Version 2.13.1
+# Juillet 2023 - Version 2.13.2
+
+## Corrections et Améliorations
+
+- Le dossier produit n'est plus requis pour l'édition d'une facture proforma.
+
+# Juillet 2023 - Version 2.13.1
 
 ## Honda: amélioration de la remontée d'information sur commandes et envois
 
@@ -6,13 +12,25 @@ Suite à une commande passée via Yuzer, les statuts de prise en charge de la co
 
 De plus, lorsque Honda effectue un envoi une réception est automatiquement crée avec le contenu de l'envoi. Vous n'avez alors plus qu'à valider que tout est bien reçu comme prévu et à clôturer la réception une fois le contrôle effectué.
 
+## Compteur SIV
+
+Nous avons ajouté un onglet dans `Administration > Automates > SIV` permettant de consulter le compteur et l'historique des requêtes vers MiSIV.
+
+<div class="text-center" style="text-align: 'center';">
+  <img width="840" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.13.0/siv-count.webp"/>
+</div>
+
+## Corrections et Améliorations
+
+- Fixe de l'affichage du compteur de documents dans l'analytique
+
 # Juin 2023 - Version 2.13.0
 
 ## Rafraîchissement des données analytiques
 
 Les données d'analytiques sont désormais automatiquement rafraîchies:
 
-- lors de mises à jour de coûts et bonus ou cessions liées au dossiers de véhicules.
+- lors de mises à jour de coûts et bonus ou cessions liées aux dossiers de véhicules.
 - lors d'édition de catégories de ventes depuis les listes de documents.
 
 Afin de pleinement bénéficier de cette fonctionnalité et garantir que vos données sont bien à jour il est recommandé de réinitialiser vos données.
@@ -49,10 +67,8 @@ Lorsqu'un modèle est ajouté à un panier, si celui-ci contient une référence
   <img width="840" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.13.0/orders-purchase-prices.webp"/>
 </div>
 
-<div class="alert alert-info">
 `Coût total estimé` : Prix d'achat calculé à partir du catalogue.
 `Total prix d'achat` : Prix d'achat donné par le fournisseur (si disponible).
-</div>
 
 ## Statut de dossiers
 
