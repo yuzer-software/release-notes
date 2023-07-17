@@ -1,3 +1,19 @@
+# Juillet 2023 - Version 2.13.7
+
+## Corrections et Améliorations
+
+- Nouvelle autorité de produit identifié: plaques d'immatriculations autrichiennes.
+
+<div class="text-center" style="text-align: 'center';">
+  <img width="240" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.13.0/austrian-registration.webp"/>
+</div>
+
+# Juillet 2023 - Version 2.13.6
+
+## Corrections et Améliorations
+
+- Corrections de calcul et de vérification de calcul d'arrondis.
+
 # Juillet 2023 - Version 2.13.2
 
 ## Corrections et Améliorations
