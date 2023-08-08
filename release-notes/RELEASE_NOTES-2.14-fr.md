@@ -1,10 +1,14 @@
+# Juillet 2023 - Version 2.14.4
+
+- Correction apportée à la gestion des lignes de forfaits dans l'analytique pour correctement prendre en compte uniquement le contenu.
+
 # Juillet 2023 - Version 2.14.0
 
 ## Modèles de panier
 
 Un modèle de panier peut:
 
-- Soit être ajouté en tant que forfait. Dans ce cas seul le prix global est affiché sur le panier dans lequel il est utilisé et les éléments le composants sont affichés sans prix.
+- Soit être ajouté en tant que forfait. Dans ce cas, seul le prix global est affiché sur le panier dans lequel il est utilisé et les éléments sont affichés sans prix.
 - Soit être ajouté en l'état.
 
 <img width="986" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/basket-template-1.webp"/>
@@ -48,7 +52,7 @@ Afin de permettre de bénéficier plus efficacement de la gestion des variants, 
 
 Dans les versions précédentes vous pouviez configurer les éventuelles catégories de tarification fournisseur et les catégories yuzer depuis des informations de produit.
 
-Ces paramétrages sont désormais plus consistant quel que soit le champ enrichi, et d'autres champs peuvent être définis comme, par exemple l'identifiant de référence parente aux variants (voir ci-dessus).
+Ces paramétrages sont désormais plus consistants quel que soit le champ enrichi, et d'autres champs peuvent être définis comme, par exemple l'identifiant de référence parente aux variants (voir ci-dessus).
 
 #### Définir une étape d'enrichissement
 
@@ -64,13 +68,13 @@ Le bouton _Ajouter_ au niveau principal (en bleu) vous permet d'ajouter une éta
 
 #### Filtre
 
-_Ajouter un filtre_ vous permet de définir un filtre afin que l'étape ne soit appliquée qu'à certains éléments du catalogue (par exemple les t-shirt uniquement en utilisant un filtre sur la catégorie)
+_Ajouter un filtre_ vous permet de définir un filtre afin que l'étape ne soit appliquée qu'à certains éléments du catalogue (par exemple les t-shirts uniquement en utilisant un filtre sur la catégorie)
 
 #### Règles d'extraction
 
 _Ajouter_ une règle d'extraction permet de définir une règle afin d'analyser un champ (en général la référence du produit) pour en extraire des informations.
 
-Ces infomations extraites seront alors disponible dans le cadre des règles d'enrichissement (voir ci-dessous).
+Ces informations extraites seront alors disponible dans le cadre des règles d'enrichissement (voir ci-dessous).
 
 Plusieurs opérations peuvent être utilisées afin d'extraire des informations.
 
@@ -104,14 +108,14 @@ Trois possibilités d'enrichissement existent:
 
 <img width="876" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/enrichment-8.webp"/>
 
-- _Copier la valeur_: Permet de copier la valeur d'un autre champ. Cette dernière règles n'est possible que dans le cadre de champs dit libres, c'est à dire dont la liste des valeurs n'est pas contrainte par yuzer.
+- _Copier la valeur_: Permet de copier la valeur d'un autre champ. Cette dernière règle n'est possible que dans le cadre de champs dit libres, c'est à dire dont la liste des valeurs n'est pas contrainte par yuzer.
 
 <img width="876" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/enrichment-9.webp"/>
 
 Comme vous pouvez le constater les champs extraits dans les règles précédentes deviennent disponible pour l'enrichissement des données du produit.
 
 <div class="alert alert-info">
-Les prochaines versions de Yuzer vous permettrons également d'enrichir les propriétés des produits telles que la taille ou les couleurs.
+Les prochaines versions de Yuzer vous permettront également d'enrichir les propriétés des produits telles que la taille ou les couleurs.
 </div>
 
 ## Comptabilité et analytiques
@@ -127,7 +131,7 @@ Pour ce faire, allez dans le menu `Comptabilité > Configurer` pour activer l'op
 </div>
 
 <div class="alert alert-warning">
-A noter que Yuzer effectue quelque validation en fonction de la configuration d'aggrégation avant d'écrire dans le journal.
+A noter que Yuzer effectue quelque validation en fonction de la configuration d'agrégation avant d'écrire dans le journal.
 En conséquence, si vous changez la configuration alors que vous avez des écritures en attentes, ces dernières ne passeront plus la validation.
 
 Dans ce cas, vous avez 2 solutions:
@@ -138,7 +142,7 @@ Dans ce cas, vous avez 2 solutions:
 
 ### Gestion des factures d'achat en comptabilité
 
-Certains d'entre vous utilisent les factures d'achat dans yuzer afin de valider les prix d'achat des réceptions mais les enregistrent dans leur logiciel comptable par d'autres biais. Dans ce cadre nous avons ajouté une option dans les paramètres de comptabilité afin de définir le comportement souhaité pour le passage en comptabilité des factures d'achat.
+Certains d'entre vous utilisent les factures d'achat dans Yuzer afin de valider les prix d'achat des réceptions mais les enregistrent dans leur logiciel comptable par d'autres biais. Dans ce cadre nous avons ajouté une option dans les paramètres de comptabilité afin de définir le comportement souhaité pour le passage en comptabilité des factures d'achat.
 
 Trois options sont possibles:
 
@@ -151,5 +155,5 @@ Désormais, si vous avez configuré Yuzer pour qu'une ligne totalement remisée 
 ## Corrections
 
 - Sur une cession de préparation véhicule le PAMP n'était pas correctement renseigné pour les produits consommés. Les produits montés sont eux bien assigné à un prix de zero dans ce cadre puisque ceux-ci ne sortent pas du stock.
-- Dans le cadre de livraisons partielles de stock à la facturation, un message d'avertissement sur l'impossiblité de réserver du stock à la facturation était affiché à tord pouvant causer une confusion.
+- Dans le cadre de livraisons partielles de stock à la facturation, un message d'avertissement sur l'impossibilité de réserver du stock à la facturation était affiché à tort pouvant causer une confusion.
 - Le statut stock de certaines lignes de panier suite à une facturation pouvait ne plus être correctement affiché lors du retour immédiat sur le panier.
