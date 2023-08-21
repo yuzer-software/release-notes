@@ -1,3 +1,7 @@
+# Juillet 2023 - Version 2.14.5
+
+- Correction des recherches liées aux identifiants de variant.
+
 # Juillet 2023 - Version 2.14.4
 
 - Correction apportée à la gestion des lignes de forfaits dans l'analytique pour correctement prendre en compte uniquement le contenu.
