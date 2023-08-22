@@ -15,7 +15,7 @@ Un modèle de panier peut:
 - Soit être ajouté en tant que forfait. Dans ce cas, seul le prix global est affiché sur le panier dans lequel il est utilisé et les éléments sont affichés sans prix.
 - Soit être ajouté en l'état.
 
-<img width="986" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/basket-template-1.webp"/>
+<img width="1096" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/basket-template-2.webp"/>
 
 La nouvelle cible de Yuzer est le comportement suivant:
 
@@ -24,7 +24,7 @@ La nouvelle cible de Yuzer est le comportement suivant:
 
 Afin de ne pas vous impacter immédiatement, une option a été ajoutée afin que le comportement précédent reste actif. Vous devez effectuer la configuration de l'option si vous souhaitez que le nouveau comportement soit appliqué dès maintenant.
 
-<img width="1096" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/basket-template-2.webp"/>
+<img width="986" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/basket-template-1.webp"/>
 
 Cette option est temporaire et les versions futures de Yuzer adopteront le comportement défini ci-dessus. Si certain de vos modèles ajoutés en l'état devraient avoir un prix fixe vous devez les configurer en tant que forfaits afin que ces tarifs n'évoluent pas à l'ajout lorsque le nouveau comportement sera appliqué de manière standard.
 
@@ -54,7 +54,7 @@ Nous améliorons la prise en charge des variants dans les catalogues supportés 
 
 Afin de permettre de bénéficier plus efficacement de la gestion des variants, nous avons également amélioré la configuration des règles d'enrichissement des catalogues.
 
-Dans les versions précédentes vous pouviez configurer les éventuelles catégories de tarification fournisseur et les catégories yuzer depuis des informations de produit.
+Dans les versions précédentes vous pouviez configurer les éventuelles catégories de tarification fournisseur et les catégories Yuzer depuis des informations de produit.
 
 Ces paramétrages sont désormais plus consistants quel que soit le champ enrichi, et d'autres champs peuvent être définis comme, par exemple l'identifiant de référence parente aux variants (voir ci-dessus).
 
@@ -84,7 +84,7 @@ Plusieurs opérations peuvent être utilisées afin d'extraire des informations.
 
 <img width="876" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/enrichment-3.webp"/>
 
-- _Découpe par délimiteur_: Dans le cas ou votre référence contient des informations séparées par un délimiteur par exemple _ref parente**-**couleur**-**taille_ vous pouvez utiliser cette règle afin d'extraire les différents groupes.
+- _Découpe par délimiteur_: Dans le cas où votre référence contient des informations séparées par un délimiteur, vous pouvez utiliser cette règle afin d'extraire les différents groupes. Par exemple, la référence "_ref parente-couleur-taille_" délimite les informations avec un "-", on peut donc utiliser le paramétrage suivant:
 
 <img width="876" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/enrichment-4.webp"/>
 
@@ -100,7 +100,7 @@ Plusieurs opérations peuvent être utilisées afin d'extraire des informations.
 
 #### Règles d'enrichissement
 
-Les règles d'enrichissement permettent d'utiliser les éléments précédents afin de définir les valeurs de certains champs. Tels que la référence parente afin d'identifier les variants par exemple, mais aussi de configurer les catégories yuzer à partir des catégories fournisseur etc.
+Les règles d'enrichissement permettent d'utiliser les éléments précédents afin de définir les valeurs de certains champs. Tels que la référence parente afin d'identifier les variants par exemple, mais aussi de configurer les catégories Yuzer à partir des catégories fournisseur etc.
 
 Trois possibilités d'enrichissement existent:
 
@@ -112,7 +112,7 @@ Trois possibilités d'enrichissement existent:
 
 <img width="876" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/enrichment-8.webp"/>
 
-- _Copier la valeur_: Permet de copier la valeur d'un autre champ. Cette dernière règle n'est possible que dans le cadre de champs dit libres, c'est à dire dont la liste des valeurs n'est pas contrainte par yuzer.
+- _Copier la valeur_: Permet de copier la valeur d'un autre champ. Cette dernière règle n'est possible que dans le cadre de champs dit libres, c'est à dire dont la liste des valeurs n'est pas contrainte par Yuzer.
 
 <img width="876" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/enrichment-9.webp"/>
 
@@ -135,13 +135,13 @@ Pour ce faire, allez dans le menu `Comptabilité > Configurer` pour activer l'op
 </div>
 
 <div class="alert alert-warning">
-A noter que Yuzer effectue quelque validation en fonction de la configuration d'agrégation avant d'écrire dans le journal.
+A noter que Yuzer effectue une validation en fonction de la configuration d'agrégation avant d'écrire dans le journal.
 En conséquence, si vous changez la configuration alors que vous avez des écritures en attentes, ces dernières ne passeront plus la validation.
 
 Dans ce cas, vous avez 2 solutions:
 
 - Soit vous validez les écritures avant de mettre à jour la configuration d'agrégation.
-- Soit vous rejetez les écritures en attentes pour les repasser en comptabilité avec la nouvelle configuration agrégation.
+- Soit vous rejetez les écritures en attentes pour les repasser en comptabilité avec la nouvelle configuration d'agrégation.
 </div>
 
 ### Gestion des factures d'achat en comptabilité
@@ -158,6 +158,6 @@ Désormais, si vous avez configuré Yuzer pour qu'une ligne totalement remisée 
 
 ## Corrections
 
-- Sur une cession de préparation véhicule le PAMP n'était pas correctement renseigné pour les produits consommés. Les produits montés sont eux bien assigné à un prix de zero dans ce cadre puisque ceux-ci ne sortent pas du stock.
+- Sur une cession de préparation véhicule le PAMP n'était pas correctement renseigné pour les produits consommés. Les produits montés sont eux bien assignés à un prix de zéro dans ce cadre puisque ceux-ci ne sortent pas du stock.
 - Dans le cadre de livraisons partielles de stock à la facturation, un message d'avertissement sur l'impossibilité de réserver du stock à la facturation était affiché à tort pouvant causer une confusion.
 - Le statut stock de certaines lignes de panier suite à une facturation pouvait ne plus être correctement affiché lors du retour immédiat sur le panier.
