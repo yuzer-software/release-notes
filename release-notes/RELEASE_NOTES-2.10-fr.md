@@ -38,7 +38,7 @@ Appliqués sur une autre société du groupe ils permettent ainsi de définir vo
 
 La configuration nécessite un rôle ADMIN et se situe dans _Administration / Gestion commerciale / Cartes cadeaux et fidélité / Programmes de fidélité_.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/fidelity_1.webp" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/fidelity_1.webp" width="100%"/>
 
 Vous pouvez alors créer ou éditer un programme de fidélité et y configurer:
 
@@ -49,7 +49,7 @@ Vous pouvez alors créer ou éditer un programme de fidélité et y configurer:
 - Si le programme de fidélité doit s'appliquer automatiquement sur les nouveaux paniers.
 - La remise à appliquer en fonction de contraintes diverses.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/fidelity_2.webp" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/fidelity_2.webp" width="100%"/>
 
 _Ci-dessus: Exemple de configuration d'un programme intra-groupe permettant une vente à prix coûtant_
 
@@ -80,33 +80,33 @@ Chaque catalogue peut comporter plusieurs fournisseurs, il est ainsi possible pa
 
 Un ADMIN peut effectuer la configuration dans _Administration / Catalogue_ en sélectionnant le catalogue souhaité puis en cliquant sur éditer.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/catalog_supplier_1.webp" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/catalog_supplier_1.webp" width="100%"/>
 
 Il est alors possible d'ajouter le fournisseur intra-groupe.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/catalog_supplier_2.webp" width="460px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/catalog_supplier_2.webp" width="460px"/>
 
 ### Effectuer une commande
 
 Depuis l'écran _En attente de commande_ vous pouvez désormais filtrer par fournisseur. Les différentes entités de votre groupe sont désormais automatiquement ajoutées comme fournisseur, vous permettant de les sélectionner.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/intra_group_order_1.webp" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/intra_group_order_1.webp" width="100%"/>
 
 Vous pouvez également, si vous le souhaitez affiner la recherche en sélectionnant un des catalogues que le fournisseur peut adresser.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/intra_group_order_2.webp" width="480px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/intra_group_order_2.webp" width="480px"/>
 
 Finalement sélectionnez les pièces que vous souhaitez commander et cliquez sur commander (ici nous commandons un T-Shirt KTM lié à un panier client).
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/intra_group_order_3.webp" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/intra_group_order_3.webp" width="100%"/>
 
 Avant la commande, un résumé est affiché vous permettant de contrôler sa validité.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/intra_group_order_4.webp" width="800px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/intra_group_order_4.webp" width="800px"/>
 
 Une fois validée, la commande est placée et Yuzer vous redirige vers le détail de celle-ci.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/intra_group_order_5.webp" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/intra_group_order_5.webp" width="100%"/>
 
 Au moment où la commande est placée, un panier est créé dans sur fiche contact dans l'entité fournisseur. Ce panier est également automatiquement commandé, ce qui permet de réserver les pièces en stock ou de les mettre en attente de commande si elles ne sont pas en stock.
 
@@ -116,15 +116,15 @@ Désormais tous les transferts doivent s'effectuer en passant par un panier. Dan
 
 Ainsi la commande effectuée dans l'exemple ci-dessus par _Corruscant_ chez _Gallactic Empire_ est visible, pour un utilisateur de _Gallactic Empire_ sur la fiche contact de _Corruscant_:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/intra_group_basket_1.webp" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/intra_group_basket_1.webp" width="100%"/>
 
 De plus le panier a bien été automatiquement réservé/commandé.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/intra_group_basket_2.webp" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/intra_group_basket_2.webp" width="100%"/>
 
 Dans notre exemple le T-Shirt KTM n'était pas en stock chez _Gallactic Empire_ celui-ci a donc été automatiquement ajouté dans les produits _En attente de commande_ afin qu'il puisse-t-être commandé à un fournisseur de _Gallactic Empire_.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/intra_group_transitive_order.webp" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/intra_group_transitive_order.webp" width="100%"/>
 
 La suite est équivalente à n'importe quel panier client classique. Dans notre exemple le magasinier de _Gallactic Empire_ a effectué la commande du T-Shirt chez KTM, en a effectué la réception en préparant le T-Shirt pour le panier de _Corruscant_ et le panier est prêt à être facturé.
 
@@ -135,7 +135,7 @@ Si <i>Corruscant</i> était une entité logique ou une branche de la même soci�
 
 Comme le client est une société intra-groupe, au moment de l'édition d'un bon de livraison ou d'une facture, le contenu du panier peut-être envoyé à travers un transfert.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/intra_group_basket_3.webp" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/intra_group_basket_3.webp" width="100%"/>
 
 Cliquez alors sur _Livrer et envoyer le transfert_, puis éditez la facture ou le bon de livraison afin que celui-ci soit prêt à recevoir par Corruscant.
 
@@ -153,17 +153,17 @@ L'écran des réceptions contient de nombreuses nouveautés.
 - Filtre d'erreurs amélioré
 - Impression possible des étiquettes
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/reception_1.webp" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/reception_1.webp" width="100%"/>
 
 ### Ajouts de produits
 
 La quantité pour l'ajout de lignes de produits est désormais configurée sur 1 par défaut. De plus l'ajout consécutif de la même référence deux fois de suite n'ajoute pas de nouvelle ligne mais augmente la quantité de la ligne existante. Cela permet une utilisation plus efficace d'une douchette à la réception.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/reception_edit_1.webp" width="380px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/reception_edit_1.webp" width="380px"/>
 
 Par ailleurs le comportement de l'association des réservations clients peut désormais être configuré:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/reception_edit_2.webp" width="240px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/reception_edit_2.webp" width="240px"/>
 
 Lorsque auto est sélectionné Yuzer détermine si la pièce doit-être préparée ou ajoutée au stock et réservée sur la base des critères suivants:
 
@@ -174,7 +174,7 @@ Tout autre sélection applique l'option choisie.
 
 Nous avons par ailleurs ajouté la possibilité de tout préparer/réserver dans le cas où vous n'auriez pas choisi l'option souhaitée au préalable et que le comportement ne vous convenait pas.
 
- <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/reception_edit_3.webp" width="240px"/>
+ <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/reception_edit_3.webp" width="240px"/>
 
 ### Bon de livraison
 
@@ -200,11 +200,11 @@ La modale de décomposition est présentée ci-dessous. Pour ce qui est de l'ent
 
 En cliquant sur "Éditer l'entrée en stock", vous pourrez accéder à la configuration de décomposition d'un produit. Elle vous permet de définir comment 1 produit source peut être décomposé en plusieurs produits (cibles de décomposition).
 
- <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/reception_product_compose_1.webp" width="240px"/>
+ <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/reception_product_compose_1.webp" width="240px"/>
 
 La coche "Sauver la configuration à la validation" vous permet de sauvegarder en base la décomposition lorsque vous la validez. Ainsi, elle pourra être réutilisée. Si vous cochez "Appliquer automatiquement à la réception", une réception ultérieure de ce produit sera automatiquement décomposée avec cette décomposition ("Sauver la configuration à la validation" doit être coché).
 
- <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/reception_product_compose_2.webp" width="240px"/>
+ <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/reception_product_compose_2.webp" width="240px"/>
 
 ### Nouvelle vue rangement
 
@@ -222,10 +222,10 @@ Vous pouvez désormais ouvrir une fenêtre de chat pour communiquer avec notre �
 
 <div class="d-flex">
 <div>
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/support_chat_1.webp" width="48px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/support_chat_1.webp" width="48px"/>
 </div>
 <div>
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/support_chat_2.webp" width="240px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/support_chat_2.webp" width="240px"/>
 </div>
 </div>
 
@@ -243,17 +243,17 @@ Partout dans l'application, le composant de scanner a été amélioré et possè
 
 |                                                            Scanner avec la caméra                                                            |                                                    Scanner avec un périphérique externe                                                    |
 | :------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/mobile-camera-scanner.webp" width="320px"/> | <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/mobile-text-scanner.webp" width="320px"/> |
+| <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/mobile-camera-scanner.webp" width="320px"/> | <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/mobile-text-scanner.webp" width="320px"/> |
 
 ### Réceptions
 
 La lisibilité de la liste des réceptions a été améliorée: augmentation de la taille du texte et des icônes, ajout de couleurs, etc.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/mobile-reception-list.webp" width="320px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/mobile-reception-list.webp" width="320px"/>
 
 De même la liste des lignes au sein d'une réception.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/mobile-reception-detail.webp" width="320px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/mobile-reception-detail.webp" width="320px"/>
 
 #### Ajout d'éléments au bon de livraison
 
@@ -272,11 +272,11 @@ Dès qu'un produit a été ajouté, le mode de sélection de produit (2) est sé
 
 |                                                             Sélection de produit (2)                                                             |                                                             Sélection d'emplacement (3)                                                              |
 | :----------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/mobile-reception-add-item.webp" width="320px"/> | <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/mobile-reception-add-location.webp" width="320px"/> |
+| <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/mobile-reception-add-item.webp" width="320px"/> | <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/mobile-reception-add-location.webp" width="320px"/> |
 
 |                                                           Aperçu avant validation sur (4)                                                            |                                                       Après ajout, la ligne apparaît en (7)                                                        |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/mobile-reception-add-validate.webp" width="320px"/> | <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/mobile-reception-add-result.webp" width="320px"/> |
+| <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/mobile-reception-add-validate.webp" width="320px"/> | <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/mobile-reception-add-result.webp" width="320px"/> |
 
 #### Détails d'une ligne et modification de l'entrée en stock
 
@@ -284,7 +284,7 @@ La modale de détail d'une ligne réception a aussi été revue. Elle se ferme p
 
 Comme sur l'application de bureau, on retrouve ci-dessous la partie "Bon de livraison" (3) et la partie "Entrée en stock" (4).
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/mobile-reception-line-detail.webp" width="320px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/mobile-reception-line-detail.webp" width="320px"/>
 
 Une fois en mode édition, il est possible :
 
@@ -296,13 +296,13 @@ Une fois en mode édition, il est possible :
   - de modifier la quantité ou de supprimer un emplacement de stockage (6)
   - de gérer les réservations pour ce produit (7)
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/mobile-reception-line-edit.webp" width="320px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/mobile-reception-line-edit.webp" width="320px"/>
 
 La décomposition d'un produit permet de faire la même chose que côté application de bureau. Dans l'exemple ci-dessous, nous avons choisi de faire entrer dans notre stock le fut de 208L d'huile en tant que 208 bidons d'un litre, ce qui nous permettra de travailler au litre par la suite.
 
 Vous pouvez supprimer des cibles de décompositions avec le bouton (2), passer en mode d'ajout avec le bouton (1) et configurer la décomposition avec les options (3). Dans le cas où vous auriez choisi de sauvegarder en base la configuration de ce produit à la validation (3), le bouton "supprimer" vous permet de supprimer la décomposition de la base.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/mobile-reception-line-edit-conversion.webp" width="320px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/mobile-reception-line-edit-conversion.webp" width="320px"/>
 
 En mode d'ajout, vous retrouvez la même présentation d'ajout de produit que sur l'entrée en bon de livraison (2) — la sélection d'emplacement n'était bien sûr pas disponible.
 
@@ -310,8 +310,8 @@ Vous devez quitter le mode d'ajout (1) pour pouvoir valider la décomposition.
 
 |                                                                             Mode d'ajout                                                                              |                                                                             Validation                                                                              |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/mobile-reception-line-edit-conversion-add-item.webp" width="320px"/> | <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/mobile-reception-line-edit-conversion-resume.webp" width="320px"/> |
+| <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/mobile-reception-line-edit-conversion-add-item.webp" width="320px"/> | <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/mobile-reception-line-edit-conversion-resume.webp" width="320px"/> |
 
 Une fois toutes les modifications faites au niveau de la ligne de réception, la vue en lecture seule (hors édition) vous permet de voir de manière compacte ce que vous avez fait. Ici, nous avons bien rangé 2x208 litres (416) dans deux emplacements différents.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.10.0/mobile-reception-line-detail-resume.webp" width="320px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.10.0/mobile-reception-line-detail-resume.webp" width="320px"/>

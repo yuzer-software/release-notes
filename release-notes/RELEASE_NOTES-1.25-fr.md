@@ -26,7 +26,7 @@ L'affichage des marges a été corrigé et uniformisé dans les widgets de chiff
   - De fait la colonne prix de stock disparait au profit d'une colonne _Prix d'achat (Inc. coûts et primes)_ qui n'a de valeur que pour les dossiers concernées.
   - Vous pouvez activer une option dans la configuration de l'analyse pour que celle-ci affiche les prix et marges sur base de ce _Prix d'achat (Inc. coûts et primes)_.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/analytics_inc_bonus.png" width="380px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.25.0/analytics_inc_bonus.png" width="380px"/>
 
 ## C'est corrigé
 
@@ -49,7 +49,7 @@ Nous avons ajouté la fonctionnalité d'opérations commerciales avec un systèm
 
 La configuration des opérations commerciales est accessible depuis le menu `Administration > Gestion commerciale > Opérations commerciales`. Les opérations commerciales de l'année sont affichées. Il est possible d'en créer une.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/commercial-operation-list.png" width="800px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.25.0/commercial-operation-list.png" width="800px"/>
 
 ### Création et configuration
 
@@ -58,7 +58,7 @@ Le même menu est utilisé pour la création et la configuration d'une opératio
 - sont nécessaires le libellé, les dates et **au moins une règle**.
 - vous ne pourrez **plus changer les dates** une fois l'opération commerciale sauvegardée, mais ce sera possible à la prochaine mise à jour.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/commercial-operation-creation.png" width="800px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.25.0/commercial-operation-creation.png" width="800px"/>
 
 La configuration des règles est en partie similaire à celle des cartes de fidélité.
 
@@ -76,7 +76,7 @@ Vous pouvez aussi ajouter deux commentaires:
 
 Voici un exemple d'une règle "Remise en pourcentage du prix"
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/commercial-operation-config.png" width="600px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.25.0/commercial-operation-config.png" width="600px"/>
 
 N'oubliez pas de sauvegarder vos modifications !
 
@@ -94,29 +94,29 @@ Yuzer vous permet d'imprimer des étiquettes pour certains produits (depuis `Sto
   - vous pouvez choisir au centre de l'écran vos opérations commerciales
   - vous pouvez choisir dans les options d'impression si l'opération commerciale a ou non un prix barré et la taille de la police de ce prix.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/commercial-operation-print-one.png" width="800px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.25.0/commercial-operation-print-one.png" width="800px"/>
 
 - Imprimer tout le stock
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/commercial-operation-print-all-stock.png" width="700px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.25.0/commercial-operation-print-all-stock.png" width="700px"/>
 
 ## Application des opérations commerciales sur les paniers
 
 Les opérations commerciales validées en cours sont ajoutées automatiquement lors de la création du panier.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/commercial-operation-basket.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.25.0/commercial-operation-basket.png" width="100%"/>
 
 Dès qu'un produit ajouté dans le panier correspond aux critères de sélection des opérations commerciales, Yuzer va appliquer automatiquement la remise sur la ligne.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/commercial-operation-discount.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.25.0/commercial-operation-discount.png" width="100%"/>
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/commercial-operation-discount-explain.png" width="500px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.25.0/commercial-operation-discount-explain.png" width="500px"/>
 
 Une remise personnalisée peut toujours être définie sur la ligne du panier en cas de besoin de manière habituelle.
 
 Sur un ancien panier dont les opérations commerciales sont devenues obsolètes, Yuzer permet la re-synchronization des calculs de remise sur l'ensemble des lignes du panier.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/commercial-operation-update.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.25.0/commercial-operation-update.png" width="100%"/>
 
 # Mai 2022 - Version 1.25.0
 
@@ -132,7 +132,7 @@ La TVA sur marge qui était déjà bien prise en compte en comptabilité est dé
 
 La marge affichée prend donc désormais bien en compte l'impact de la TVA sur marge. Lorsqu'une TVA sur marge est appliquée le montant de TVA est indiqué avec un icône 'marge' représenté par un camembert.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/vat-margin-basket.png" width="460px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.25.0/vat-margin-basket.png" width="460px"/>
 
 ## Stocks
 
@@ -140,7 +140,7 @@ La marge affichée prend donc désormais bien en compte l'impact de la TVA sur m
 
 Les fonctions d'export de stock et l'écran de stock négatif ont été remplacées par une fonction d'édition du stock.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/stock-browse.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.25.0/stock-browse.png" width="100%"/>
 
 Celle-ci vous permet de configurer l'édition du stock suivant de multiples critères:
 
@@ -151,13 +151,13 @@ Celle-ci vous permet de configurer l'édition du stock suivant de multiples crit
 - Les fournisseurs et marques.
 - Les catégories de produit.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/stock-list-cfg.png" width="650px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.25.0/stock-list-cfg.png" width="650px"/>
 
 Vous pouvez également sélectionner les colonnes à afficher dans l'écran de configuration.
 
 Une fois la configuration validée, la liste affichée vous permet de grouper le contenu par un ou plusieurs critères de votre choix. Vous pouvez alors exporter le détail ou les agrégations en CSV ou XLSX.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/stock-list.png" width="650px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.25.0/stock-list.png" width="650px"/>
 
 <div class="alert alert-info m-1">
 Ne pas sélectionner les colonnes d'emplacements (entrepôt, zone, étagères, planches et paquet) permet d'agréger les quantités et valeurs totales. Par exemple si seule la zone est sélectionné mais ni les étagères, planches et paquet alors les quantités seront agrégées par zone.
@@ -169,7 +169,7 @@ La vue de détails d'un produit a été revue pour apporter plus de lisibilité 
 
 L'affichage de l'application en mode _client_ cache les détails du stock, des réservations d'autres clients et des commandes. Les détails du produit sont eux automatiquement affichés ainsi qu'une vue simplifiée de la disponibilité produit (prenant en compte les réservations).
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/item-detail-client.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.25.0/item-detail-client.png" width="100%"/>
 
 <div class="alert alert-warning">
 Attention si vous ne voyez plus les informations détaillées du stock c'est que vous êtes en vue client. Pensez à passer en vue concessionaire pour visualiser ceux-ci.
@@ -185,7 +185,7 @@ La couleur de l'encadré _Disponible_ est dépendant de la disponibilité du pro
 - Jaune lorsqu'il existe une disponibilité sur des pièces commandées (commandées et non-réservées)
 - Rouge lorsque le produit n'est pas disponible en stock et n'a pas été commandé.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/stock-quick-info.png" width="440px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.25.0/stock-quick-info.png" width="440px"/>
 
 Si des pertes ont été relevées lors d'un inventaire celle-ci apparaissent aussi dans un encadré spécifique.
 
@@ -203,13 +203,13 @@ _Note: Le graphique de prix d'achat du stock du produit, qui n'était pas le plu
 
 La liste des évènements de mouvement de stock d'un produit est désormais mensualisée. Il est possible d'un coup d'oeil de visualiser les mois au cours desquels des évènements de stock ont été générés. Ceux-ci ont en effet une pastille verte à la droite du nom du mois.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/stock-event-price-edit-list.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.25.0/stock-event-price-edit-list.png" width="100%"/>
 
 #### Correction de la valeur d'achat d'un évènement
 
 Il est également possible désormais de corriger la valeur d'achat d'un évènement depuis cette même liste d'évènements de stock en cliquant sur le bouton éditer en face du PA HT. Seul les utilisateurs _ADMIN_ et _COMPTABLE_ peuvent actuellement utiliser cette fonctionnalité.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/stock-event-price-edit-modal.png" width="450px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.25.0/stock-event-price-edit-modal.png" width="450px"/>
 
 Dans le cas d'une réception le prix de la ligne de réception associée est également mis à jour.
 
@@ -230,11 +230,11 @@ Ceci permet de prendre en compte une dévaluation de stock par exemple ou d'effe
 
 La modification se fait depuis l'encart _stock_ de la vue de détail d'un produit.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/stock-edit-wapp.png" width="650px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.25.0/stock-edit-wapp.png" width="650px"/>
 
 Et ouvre la popup suivante:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/stock-edit-wapp-modal.png" width="450px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.25.0/stock-edit-wapp-modal.png" width="450px"/>
 
 ### Inventaires
 
@@ -242,13 +242,13 @@ Il est désormais possible de faire des inventaires sur un sous-ensemble de prod
 
 A noter que cette option n'est disponible que si tout le stock ou un ensemble d'emplacements sont inventoriés. Elle n'a en effet pas de sens dans le cadre d'un inventaire vide.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/inventory.png" width="650px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.25.0/inventory.png" width="650px"/>
 
 ## Filtrage des balances
 
 Il est désormais possible de filtrer les balances client dans la vue balance. Vous pouvez filtrer par montant ou par nom de client.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.25.0/balance.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.25.0/balance.png" width="100%"/>
 
 ## Paravol
 

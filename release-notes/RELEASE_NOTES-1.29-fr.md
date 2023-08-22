@@ -17,13 +17,13 @@ Amélioration de la fonctionalité de sélection rapide d'emplacements. Désorma
 
 Le sélecteur d'emplacement rapides traduit ce changement:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/reception_selector.png" width="550px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.29.0/reception_selector.png" width="550px"/>
 
 # Edition du stock
 
 La valeure totale du stock est désormais affichée lors de l'édition du stock.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/stock_total_value.png" width="550px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.29.0/stock_total_value.png" width="550px"/>
 
 ## Corrections
 
@@ -55,7 +55,7 @@ Attention, cette fonctionnalité peut être soumise à la juridiction locale et 
 
 En plus de l'activation ou non de la fonctionnalité vous pouvez également indiquer un message qui sera ajouté sur les lignes de factures non livrées.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/invoice-before-delivery.png" width="550px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.29.0/invoice-before-delivery.png" width="550px"/>
 
 ### Évolution des options de stock à la facturation
 
@@ -73,7 +73,7 @@ Lors de la finalisation de la cession vous pouvez indiquer:
 
 Ces options sont désormais clairement matérialisées:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/preparation.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.29.0/preparation.png" width="100%"/>
 
 <div class="alert alert-warning">
 Attention, un produit choisi sans impact stock ne génèrera aucun mouvement de stock et celui-ci ne sera pas prélevé. Cette option ne doit-être utilisée qu'en cas de produit que vous décidez de ne pas gérer en stock et n'est pas recommandée.
@@ -84,7 +84,7 @@ Elle ne devrait pas être utilisée pour corriger une erreur d'inventaire, en ef
 
 Un changement mineur a été apporté lorsqu'un produit monté au préalable (cf. paragraphe ci-dessus) est détecté comme manquant dans un panier. Nous vous proposons désormais par défaut de le vendre. Cette action est également affichée dans la couleur primaire du thème.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/basket-mounted-add.png" width="450px" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.29.0/basket-mounted-add.png" width="450px" />
 
 #### Gestion de la livraison dans le panier.
 
@@ -109,21 +109,21 @@ Le statut du panier est donc le suivant:
 - MOTOREX FUEL STABILIZER 125ML **monté sur le véhicule**
 - QUALIF SOLID BK MAT 55-56/ TS **préparé** (dans un carton destiné au panier)
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/basket-delivery-1.png" width="680px" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.29.0/basket-delivery-1.png" width="680px" />
 
 ##### Edition du bon de livraison initial
 
 Nous allons dans un premier temps effectuer un bon de livraison pour le casque uniquement. Pour cela nous allons dans _Editer_/_Un bon de livraison_:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/basket-delivery-2.png" width="180px" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.29.0/basket-delivery-2.png" width="180px" />
 
 Nous suivons les étapes et Yuzer ouvre la fenêtre de gestion de la livraison. Par défaut Yuzer propose la livraison de tout ce qui est préparé en stock ainsi que du véhicule.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/basket-delivery-3.png" width="100%" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.29.0/basket-delivery-3.png" width="100%" />
 
 Pour l'instant nous ne souhaitons pas livrer le véhicule nous allons donc sélectionner **Ne pas livrer**.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/basket-delivery-4.png" width="100%" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.29.0/basket-delivery-4.png" width="100%" />
 
 Puis, nous validons le formulaire en cliquant sur le bouton _Livrer_ en vert en bas à droite de la fenêtre.
 
@@ -131,7 +131,7 @@ Un contrôle de la preview du bon de livraison permet de bien constater que seul
 
 Le statut des lignes du panier reflète bien la livraison partielle.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/basket-delivery-5.png" width="680px" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.29.0/basket-delivery-5.png" width="680px" />
 
 ##### Edition de la facture en livraison partielle
 
@@ -139,9 +139,9 @@ Nous allons désormais éditer la facture afin de livrer le véhicule _VERSYS 65
 
 Pour éditer la facture nous allons dans _Editer_/_Les factures_ et suivons les étapes jusqu'à l'ouverture de la pop-up de gestion du stock.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/basket-delivery-6.png" width="180px" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.29.0/basket-delivery-6.png" width="180px" />
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/basket-delivery-7.png" width="100%" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.29.0/basket-delivery-7.png" width="100%" />
 
 Le véhicule est par défaut livré mais vous pouvez décider de ne pas le livrer. Aucune pièce n'est actuellement préparée, Yuzer n'a donc pas automatiquement décidé de livrer des pièces. Vous devez donc manuellement choisir de
 
@@ -153,19 +153,19 @@ Le véhicule est par défaut livré mais vous pouvez décider de ne pas le livre
 
 Dans notre cas nous allons choisir de livrer le produit _MONORACK KAWA_ qui est réservé. Nous utilisons pour cela l'action **Déstocker** sur la ligne concernée.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/basket-delivery-8.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.29.0/basket-delivery-8.png" width="100%"/>
 
 Le bouton d'action _Livrer_ reste cependant grisé. En effet, vous devez valider que vous souhaitez bien facturer malgré des produits non livrés:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/basket-delivery-9.png" width="380px" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.29.0/basket-delivery-9.png" width="380px" />
 
 Vous pouvez alors livrer et générer la facture. Au niveau de celle-ci le message configuré pour les produits non-livrés est ajouté ainsi que la quantité non livrée (Ceci est utile si une livraison par bon de livraison avait été effectuée partiellement au préalable).
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/basket-delivery-10.png" width="380px" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.29.0/basket-delivery-10.png" width="380px" />
 
 Mon panier est désormais bien facturé mais la réservation client reste active ainsi que la commande.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/basket-delivery-11.png" width="680px" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.29.0/basket-delivery-11.png" width="680px" />
 
 ##### Edition du bon de livraison permettant de livrer le produit restant
 
@@ -175,17 +175,17 @@ Une fois effectuée il est possible d'éditer un nouveau bon de livraison afin d
 
 Ayant préparé ma réception le produit est immédiatement indiqué comme à **Déstocker** et peut donc être livré.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/basket-delivery-12.png" width="100%" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.29.0/basket-delivery-12.png" width="100%" />
 
 ## Âge du stock
 
 L'âge du stock est désormais affiché en jours dans la liste de véhicules à côté de la date de réception.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/stock-age-list.png" width="480px" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.29.0/stock-age-list.png" width="480px" />
 
 Vous pouvez également afficher une colonne âge de stock (pour trier dessus ou si vous utilisez un affichage en table).
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/stock-age-column.png" width="180px" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.29.0/stock-age-column.png" width="180px" />
 
 <div class="alert alert-warning">Si vous avez groupé vos véhicules et que vous triez par âge, le tri sera effectif à l'intérieur d'un groupe. En effet un tri "à plat" serait antinomique avec le groupement.</div>
 
@@ -196,12 +196,12 @@ Cette colonne peut également être exportée.
 Afin de faciliter vos réceptions, il est maintenant possible de définir, dans un écran de configuration dédié, situé dans _Stock -> Emplacement entrepôt_
 des emplacements par défaut par entrepôt, en fonction des marques et catégories des produits que vous recevez.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/default-dispatching-conf.png" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.29.0/default-dispatching-conf.png" />
 
 Ainsi, lors de vos réceptions, l'emplacement défini sera automatiquement attribué à vos produits.
 De plus, il est possible de définir plusieurs emplacements, et il sera alors très simple de passer de l'un à l'autre tel que montré ci-dessous.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.29.0/default-dispatching-reception.png" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.29.0/default-dispatching-reception.png" />
 
 ## Améliorations diverses
 

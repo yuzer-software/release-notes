@@ -18,13 +18,13 @@ Nous avons renommé la catégorie _Autres services et taxes_ en _Autres services
     <li>
       de bien vérifier vos règles de comptabilité (Comptabilité > Configuration des comptes)<br/>
       Dans le cas ou vous aviez spécifié une règle spécifique telle que celle-ci:
-      <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/accountancy-rule.png" width="100%"/>
+      <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.9.0/accountancy-rule.png" width="100%"/>
       Si toute les factures et tickets de caisses n'ont pas encore été passés en comptabilité nous vous suggérons de garder la règle obsolète et d'ajouter au dessus les règles correspondant aux nouvelles catégories de services et de taxes. N'hésitez pas à contacter notre support si vous avez besoin d'assistance.
     </li>
     <li>de bien vérifier que les catégories des produits dans les paniers ouverts existants sont correctes</li>
     <li>
       de bien vérifier que les produits désormais dans "Autres services" ne devraient pas être dans "Autres taxes" (vous pouvez utiliser le filtre comme ci-dessous)<br/>
-      <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/search-for-other-services.png" height="160"/>
+      <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.9.0/search-for-other-services.png" height="160"/>
     </li>
   </ul>
 </div>
@@ -35,7 +35,7 @@ Nous avons renommé la catégorie _Autres services et taxes_ en _Autres services
 
 - Le numéro d'immatriculation des véhicules du client sont désormais affichés.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/vehicle-registration.png" height="140"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.9.0/vehicle-registration.png" height="140"/>
 
 ### Exonération de TVA
 
@@ -49,37 +49,37 @@ En effet, lorsque nous créons un modèle de panier, nous sauvegardons actuellem
 
 Dans Stock -> Onglet Stock, il y a maintenant un nouveau bouton "Stock négatif" permettant d'afficher tous les produits ayant un stock négatif dans au moins un de ses emplacements. A noter que vous pouvez imprimer la page affichée avec la liste des produits.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/negative-stock.png" height="160"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.9.0/negative-stock.png" height="160"/>
 
 ## Surcharge de prix d'un véhicule dans le catalogue
 
 Il est désormais possible de surcharger le prix d'un vehicule dans le catalogue, même si le catalogue n'est pas géré par la concession.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/override_prices.gif" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.9.0/override_prices.gif" width="100%"/>
 
 ## Filtrer les véhicules réservés
 
 Il est désormais possible de filtrer les véhicules réservés.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/dealer-file-reserved-filter.png" width="475"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.9.0/dealer-file-reserved-filter.png" width="475"/>
 
 ## Date de facture d'achat
 
 Dans la fiche de véhicule, vous pouvez dorénavant retrouver et modifier la date de facture d'achat.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/purchase-invoice-date.png" height="160"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.9.0/purchase-invoice-date.png" height="160"/>
 
 ## Impression de réceptions
 
 Vous pouvez désormais utiliser le bouton _Imprimer_ sur une réception clôturée afin d'en imprimer le listing.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/reception-print.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.9.0/reception-print.png" width="100%"/>
 
 ## Sélection dans les listes de produits et véhicules
 
 La navigation dans les listes de produits et véhicules a été améliorée: vous pouvez cliquer à n'importe quel endroit de la ligne pour accéder au détail. La sélection de texte (description, référence) reste possible soit par double clic soit en sélectionnant une sous-partie de celui-ci avec la souris.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/line-select.gif" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.9.0/line-select.gif" width="100%"/>
 
 ## Améliorations sur la barre de recherche globale
 
@@ -100,21 +100,21 @@ Notez que la recherche d'un véhicule dans les systèmes des constructeurs ou pa
 - Seul Triumph supporte actuellement la recherche de VIN avec les 6 derniers caractères.
 - Une immatriculation ou un VIN pour les autres constructeurs doivent être obligatoirement entrés en entier.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/top-search.gif" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.9.0/top-search.gif" width="100%"/>
 
 ## Renommage du label 'En attente de livraison'
 
 - Le label 'En attente de livraison' a été renommé par le label 'En attente du fournisseur' dans l'écran d'affichage du calendrier en vue kanban et dans la modale d'édition d'une tâche.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/kanban_fr.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.9.0/kanban_fr.png" width="100%"/>
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/status_fr.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.9.0/status_fr.png" width="100%"/>
 
 ## Configuration des couleurs des tâches
 
 Les couleurs des tâches peuvent désormais être modifiées selon vos souhaits. Elles peuvent-être configurées pour la société/entité (ou héritées de la société parente si aucune configuration n'est définie sur une société fille), ou surchargées par utilisateur.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.9.0/task-color-config.gif" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.9.0/task-color-config.gif" width="100%"/>
 
 A noter que chaque utilisateur peut avoir sa propre configuration de couleurs en le configurant dans _Informations du compte > Espaces de travail_
 

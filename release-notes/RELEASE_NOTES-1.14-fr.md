@@ -25,7 +25,7 @@ Ainsi, si vous êtes amené à changer d'écran pendant le comptage, les billets
 
 Une nouvelle configuration est maintenant possible dans le paramétrage des caisses.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.14.0/cashdesk-openWithClosingAmount.png" height="400"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.14.0/cashdesk-openWithClosingAmount.png" height="400"/>
 
 Cette nouvelle option permet d'avoir le même montant et les mêmes billets à l'ouverture qu'à la clôture précédente.
 Cette option, si elle est activée, remplace donc le "Montant d'ouverture souhaité".
@@ -39,7 +39,7 @@ Lors de la clôture de la caisse, le comptage des billets se fait maintenant dir
 Les étapes sont donc dorénavant:
 - Initialisation de la clôture
   
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.14.0/cashdesk-initiateClosing.png" height="100"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.14.0/cashdesk-initiateClosing.png" height="100"/>
 
 - Comptage des billets et vérification des tickets
 - Validation de la clôture
@@ -56,15 +56,15 @@ Lorsqu'une tâche est liée à un produit, les détails de ce produit apparaisse
 
 Dans le cas d'un véhicule immatriculé, la plaque d'immatriculation est affichée entre parenthèses.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.14.0/task-with-motorcycle.PNG" height="400"/>
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.14.0/task-with-bike.PNG" height="400"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.14.0/task-with-motorcycle.PNG" height="400"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.14.0/task-with-bike.PNG" height="400"/>
 
 ## Détails d'un produit
 
 La page des détails de véhicules et produit a été révisée et étoffée. De nombreuses informations y ont été ajoutées et vous pouvez désormais consulter toutes les photos expertises liées à ce produit et en créer de nouvelles.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.14.0/motorcycle-details.PNG" height="400"/>
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.14.0/bike-details.PNG" height="400"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.14.0/motorcycle-details.PNG" height="400"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.14.0/bike-details.PNG" height="400"/>
 
 ## C'est corrigé
 

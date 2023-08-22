@@ -14,7 +14,7 @@ In Accountancy -> Configuration, you can now configurate default deposit amounts
 
 You can choose a fixed amount or or percentage with a rounding strategy.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/deposit-config.png"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.7.0/deposit-config.png"/>
 
 ## Payment means
 
@@ -26,20 +26,20 @@ Payment means may be associated to a subset of basket types: when registering a 
 
 In Accountancy -> Configuration, cashdesks are now created and configured in a new tab.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/cashdesk-config.png"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.7.0/cashdesk-config.png"/>
 
 The main evolution here is that you now have to associate means of payment to cashdesk in order to have more relevant choices during payments. You can only select one "cash" mean of payment per cashdesk.
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/cashdesk-modal.gif" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.7.0/cashdesk-modal.gif" width="100%"/>
 
 ### Quick payments
 
 In order to enhance the payment experience, the payment window has been tweaked. You can now automaticaly fill the amount field with a single click.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/cashdesk-modal.gif"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.7.0/cashdesk-modal.gif"/>
 
 In case of a configured default deposit, you can choose the "deposit" section to automatically fill the fields with the deposit amount.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/payment-deposit-modal.gif"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.7.0/payment-deposit-modal.gif"/>
 
 As you can see, when choosing a cash payment type Yuzer now allows you to enter the amount received from the customer in addition to the desired payed amount and displays amount to give back to the customer.
 
@@ -62,7 +62,7 @@ Once all information are complete you can
 - Either create the basket but not send it to the workshop; This will allow you to eventually fill-in details of the repair, split tasks and add products before you send it to the workshop.
 - Either quickly create the basket and directly send it to the workshop.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/booking-modal.gif" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.7.0/booking-modal.gif" width="100%"/>
 
 ## It's fixed!
 
@@ -91,16 +91,16 @@ Yuzer can now create automatically tasks based on some pre-formatted email recep
 To enable the feature please go to the email configuration to enable the feature by checking _Subscribe to automatic email analytics_.
 Make sure that you entered your credentials again to save the configuration.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/emailfetch-setup.gif" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.7.0/emailfetch-setup.gif" width="100%"/>
 
 Once enabled you must initialize the mailbox from the _Inbox_ tab. Once started it may take a while for Yuzer to fetch emails.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/emailfetch-init.gif" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.7.0/emailfetch-init.gif" width="100%"/>
 
 Last step is to configure templates for Yuzer to create tasks.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/emailfetch-create-template.gif" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.7.0/emailfetch-create-template.gif" width="100%"/>
 
 You will then find tasks in the various list or calendar of the targetted workspace.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/emailfetch-task.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.7.0/emailfetch-task.png" width="100%"/>

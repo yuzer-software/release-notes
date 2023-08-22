@@ -8,21 +8,21 @@
 - Products added to a reception are now added to the filtered location if one is specified and when not linked to a customer (they are still associated with the customer's basket if so).
 - You can now filter baskets by closing dates. A basket is considered closed if it is invoiced and its balance is nil or if it is canceled.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/baskets-filtering-closed-date.png" width="400" class="mx-2"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.6.0/baskets-filtering-closed-date.png" width="400" class="mx-2"/>
 
 - Contact activities now displays the author; we also improved icons on the list.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/contact-activities.png" width="400" class="mx-2"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.6.0/contact-activities.png" width="400" class="mx-2"/>
 
 - You can now easely add products to re-order from the _Waiting for order_ page.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/waiting-order-quick-add.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.6.0/waiting-order-quick-add.png" width="100%"/>
 
 ## Avoiding contact duplications
 
 When you create a new contact, we now automatically search for potential duplicates so that you avoid creating a duplicate when not needed.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/contact-duplicates.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.6.0/contact-duplicates.png" width="100%"/>
 
 We use multiple fields of the contacts to find then so you should not create duplicates again.
 
@@ -32,17 +32,17 @@ If the contact you search is in the potential duplicates list just click on him 
 
 We added options to enable auto-validation of invoices, trade-in and cessions in accountancy.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/accountancy-auto-validation.png" width="200" class="mx-2"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.6.0/accountancy-auto-validation.png" width="200" class="mx-2"/>
 
 If the options are enabled, then we automatically process an edited document to create lines in the pending journal.
 If automatic pending writings is enalbed then the lines are writen directly to the journal. In case of an error (wrong account mapping etc.) writings are still writen in the pending journal rather than the journal so that you can fix the issue.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/accountancy-to-validate.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.6.0/accountancy-to-validate.png" width="100%"/>
 
 You also can configure a daily export of the journal to your own FTPS server.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/accountancy-ftp-config.png" width="200" class="mx-2"/>
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/accountancy-to-validate.png" width="200" class="mx-2"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.6.0/accountancy-ftp-config.png" width="200" class="mx-2"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.6.0/accountancy-to-validate.png" width="200" class="mx-2"/>
 
 The file will be generated every night with the content of journal lines written since the last export.
 
@@ -110,11 +110,11 @@ To configure them please go to the setup tab of the vehicles section. You can he
 - Supplier specific's new vehicle operational costs are added to new dealer files that have a matching supplier defined.
 - Used vehicle operational costs are added to any created dealer file for a used vehicle except for now on trade ins.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/operational-costs-config.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.6.0/operational-costs-config.png" width="100%"/>
 
 When creating a new dealer file theses costs are added:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/dealer-file-create-operational-costs.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.6.0/dealer-file-create-operational-costs.png" width="100%"/>
 
 As you can see the rendering of the new dealer file creation has also been improved for a better lisibility.
 
@@ -122,7 +122,7 @@ As you can see the rendering of the new dealer file creation has also been impro
 
 Rendering of a dealer file has also been improved and is now easier to understand and visualize. It brings many improvments also on bonuses and the new operational costs support.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/dealer-file-detail.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.6.0/dealer-file-detail.png" width="100%"/>
 
 As you can see each bonus now has a label as well as the computed amount (once applied for example to the vehicle purchase price for related percent bonuses).
 
@@ -130,7 +130,7 @@ You can also now have a direct visualization on the purchase price including all
 
 You can edit operation costs just as you did with bonuses. As you can see we of course added the edition of the label as well as a checkbox to allow you to include or not sales bonuses in the purchase price and margin computation.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.6.0/dealer-file-costs-bonus-edit.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.6.0/dealer-file-costs-bonus-edit.png" width="100%"/>
 
 ## Bug fixes
 

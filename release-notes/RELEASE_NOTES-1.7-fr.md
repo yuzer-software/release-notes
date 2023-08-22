@@ -15,7 +15,7 @@ Dans Comptabilité -> Configurer, il est maintenant possible de configurer des a
 
 Il est possible de choisir soit un montant fixe, soit un pourcentage du prix, arrondi selon la stratégie selectionnée.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/deposit-config.png"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.7.0/deposit-config.png"/>
 
 ## Moyens de paiement
 
@@ -27,21 +27,21 @@ Les moyens de paiements sont maintenant associés aux types de panier : lors de
 
 Dans Comptabilité -> Configurer, les caisses sont maintenant créées et configurées depuis un nouvel onglet.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/cashdesk-config.png"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.7.0/cashdesk-config.png"/>
 
 La grande nouveauté est qu'il faut maintenant associer les moyens de paiements aux caisses afin d'avoir des choix plus pertinent lors du paiement. Il est à noté qu'une caisse ne peut avoir qu'un seul moyen de paiement de type "Espèce".
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/cashdesk-modal.gif"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.7.0/cashdesk-modal.gif"/>
 
 ### Les paiements rapides
 
 Afin de fluidifier la saisie des lors des paiements, l'écran de saisie à été amélioré. Il est dorénavant possible de remplir les montants avec un seul click.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/payment-modal.gif"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.7.0/payment-modal.gif"/>
 
 Dans le cas ou un acompte par défaut aurait été configuré, il est possible de choisir "Acompte" afin de remplir automatiquement les champs avec le montant de l'acompte.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/payment-deposit-modal.gif"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.7.0/payment-deposit-modal.gif"/>
 
 Comme vous pouvez le constater, dans le cas d'un paiement espèce Yuzer vous permet de rentrer le montant reçu du client et vous indique le montant à lui rendre.
 
@@ -64,7 +64,7 @@ Une fois que les information sont complétées vous pouvez:
 - Soit créer le panier mais ne pas l'envoyer à l'atelier; ceci vous permet éventuellement de compléter les détails de la réparation, tant en ajoutant les pièces qu'en détaillant la main d'oeuvre avant de l'envoyer à l'atelier.
 - Soit créer rapidement le panier en l'envoyant directement à l'atelier (auquel cas la tâche atelier est créer telle qu'elle a été définie et placée dans le calendrier).
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/booking-modal.gif" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.7.0/booking-modal.gif" width="100%"/>
 
 ## C'est corrigé!
 
@@ -93,16 +93,16 @@ Vous pouvez désormais créer automatiquement des tâches sur réception de cert
 Pour cela rendez-vous dans la configuration des emails pour activer la fonctionalité en cochant la case _Souscrire à l'analyse automatique des emails_.
 Notez que vous devez entrer vos mots de passes à nouveau afin de sauvegarder la configuration.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/emailfetch-setup.gif" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.7.0/emailfetch-setup.gif" width="100%"/>
 
 Une fois activé vous devez initialiser votre boite email depuis l'écran _boite de réception_. Notez qu'une fois lancée il vous faudra attendre quelques minutes pour que Yuzer complète la récupération de vos emails.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/emailfetch-init.gif" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.7.0/emailfetch-init.gif" width="100%"/>
 
 La dernière étape consiste à créer vos templates d'email pour que le robot puisse extraire et créer les tâches en fonction de vos emails reçus.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/emailfetch-create-template.gif" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.7.0/emailfetch-create-template.gif" width="100%"/>
 
 Vous retrouverez alors vos tâches dans la liste des tâches du groupe associé.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.7.0/emailfetch-task.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.7.0/emailfetch-task.png" width="100%"/>

@@ -6,7 +6,7 @@
 - Lors de la création d'un nouvel essai véhicule, le libellé de la tâche est désormais auto-généré. Il peut toujours être modifié ce qui annulera l'auto-génération.
 - Vous pouvez désormais envoyer un email directement depuis la fiche d'un client. Cela nécessite qu'un client email soit bien défini dans votre système d'exploitation.
 - Le bouton permettant d'assigner une référence produit à un objet sans référence dans le panier est désormais plus visible.
-  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.4.0/basket-button.png" width="200" class="mx-2"/>
+  <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.4.0/basket-button.png" width="200" class="mx-2"/>
 - Sur l’écran _En attente de commande_, la configuration des colonnes épinglées sont maintenant conservées lorsque vous revenez sur la page.
 - Ajout d’un bouton pour rafraichir la liste et les statuts des produits _en attente de commande_.
 - Il est maintenant possible d’annuler une ligne de _produits en commande_. Quand vous annulez une ligne, toutes les quantités non reçues sont marquées comme _annulée_. Si besoin, vous pouvez éditer cette quantité à partir de l’écran détaillés des commandes pour la remettre en statut _commandée_.
@@ -19,18 +19,18 @@
 - Nous avons ajouté des indicateurs sur les icônes des activités téléphone pour une meilleure compréhension de ceux-ci
 - Vous pouvez désormais commenter une activité téléphonique afin d'y ajouter un résumé de l'appel.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.4.0/call-comment.png" width="300" class="mx-2"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.4.0/call-comment.png" width="300" class="mx-2"/>
 
 - La liste de vos derniers appels est désormais accéssible directement depuis la bare de navigation principale.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.4.0/missed-call-pill.png" width="300" class="mx-2"/>
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.4.0/recent-call-list.png" width="300" class="mx-2"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.4.0/missed-call-pill.png" width="300" class="mx-2"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.4.0/recent-call-list.png" width="300" class="mx-2"/>
 
 ## Bare de navigation
 
 Nous avons revu l'organisation de la bare de navigation principale en regroupant les différents éléments de manière plus logique.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.4.0/navbar.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.4.0/navbar.png" width="100%"/>
 
 Vous trouvez désormais à gauche votre contexte de travail:
 
@@ -57,7 +57,7 @@ Et comme avant le bouton permettant d'afficher ou non les marges et prix d'achat
 
 Nous avons revu l'ordre et l'accès par défaut aux vues de stock afin d'améliorer votre productivité.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.4.0/stock-tabs.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.4.0/stock-tabs.png" width="100%"/>
 
 Lorsque vous accédez à l'onglet stock, vous êtes désormais directement redirigés vers l'onglet 'En attente de commande'.
 
@@ -67,7 +67,7 @@ De plus l'ordre des onglets a été modifié pour mieux refléter l'ordre logiqu
 
 Lors de la facturation, les **administrateurs** peuvent maintenant choisir de ne pas impacter le stock pour tout type de panier. Pour ce faire, il suffit de cliquer sur le bouton _Options étendues_ dans la fenêtre _Gestion de stock du panier_. A noter que la possibilité d'ignorer l'impact stock était déjà présent dans le cadre d'une préparation de véhicule et reste disponible aux utilisateurs ayants droit.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.4.0/admin-ignore-stock-impact.png" width="800" class="mx-2"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.4.0/admin-ignore-stock-impact.png" width="800" class="mx-2"/>
 
 ## Correction de bugs
 

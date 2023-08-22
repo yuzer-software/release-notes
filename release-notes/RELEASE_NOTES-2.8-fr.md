@@ -10,11 +10,11 @@ Cette contrainte est obligatoire à partir du 1er avril.
 
 - Il est désormais possible de filtrer les données d'une source de donnée par niveau pour une entité donnée. Cela permet sur un même tableau de bord de disposer de visualisations spécifiques à une entité, et d'autres à une autre entité.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.8.0/ana_entity_filter.png" width="240px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.8.0/ana_entity_filter.png" width="240px"/>
 
 - Vous pouvez désormais configurer l'affichage des tables, leur titre, réduire la hauteur des lignes ou afficher ou non les bordures.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.8.0/ana_table_config.png" width="240px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.8.0/ana_table_config.png" width="240px"/>
 
 - Correction de la fonction _cumulatif_ sur les graphiques
 - Correction de traductions
@@ -29,7 +29,7 @@ Vous pouvez désormais choisir de comptabiliser une ligne remisée en intégrali
 
 Afin d'activer cette fonctionnalité rendez-vous dans vos paramètres de comptabilité et cochez la case associée :
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.8.0/accountancy_cession.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.8.0/accountancy_cession.png" width="100%"/>
 
 # Impression des étiquettes avec information recyclage
 
@@ -59,11 +59,11 @@ ont été ajoutés à la base de catalogues disponibles.
 
 Vous pouvez désormais choisir ne fusionner que les références de produits que vous avez en stock. Pour cela il suffit de cocher l'option `Charger seulement les produits possédant réservations, commandes ou évènements de stock` avant de sélectionner le catalogue cible.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.8.0/catalog_merge_load_stock_only.png" width="896px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.8.0/catalog_merge_load_stock_only.png" width="896px"/>
 
 Nous avons aussi ajouté des filtres et une pagination sur l'écran de résolution de produits manquants afin de faciliter la saisie ainsi que la navigation.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.8.0/catalog_merge_filters.png" width="896px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.8.0/catalog_merge_filters.png" width="896px"/>
 
 # Oubli de la release note 2.7.x: Liste des tickets
 
@@ -71,8 +71,8 @@ Nous avons aussi ajouté des filtres et une pagination sur l'écran de résoluti
 
 Il est également possible d'appliquer différents filtres, sur le type de ticket (ticket de caisse ou acompte):
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.8.0/receipt_list.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.8.0/receipt_list.png" width="100%"/>
 
 et pour l'ensemble des documents sur les montants :
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.8.0/receipt_list_amount_filter.png" width="240px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.8.0/receipt_list_amount_filter.png" width="240px"/>

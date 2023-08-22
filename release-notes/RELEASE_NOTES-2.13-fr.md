@@ -5,7 +5,7 @@
 - Nouvelle autorité de produit identifié: plaques d'immatriculations autrichiennes.
 
 <div class="text-center" style="text-align: 'center';">
-  <img width="240" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.13.0/austrian-registration.webp"/>
+  <img width="240" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.13.0/austrian-registration.webp"/>
 </div>
 
 # Juillet 2023 - Version 2.13.6
@@ -34,7 +34,7 @@ De plus, lorsque Honda effectue un envoi une réception est automatiquement cré
 Nous avons ajouté un onglet dans `Administration > Automates > SIV` permettant de consulter le compteur et l'historique des requêtes vers MiSIV.
 
 <div class="text-center" style="text-align: 'center';">
-  <img width="840" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.13.0/siv-count.webp"/>
+  <img width="840" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.13.0/siv-count.webp"/>
 </div>
 
 ## Corrections et Améliorations
@@ -69,19 +69,19 @@ Lorsqu'un modèle est ajouté à un panier, si celui-ci contient une référence
 - Lors de la commande, Yuzer s'assure de la mise à jour des prix d'achat de chaque produit et affiche désormais le coût total estimé dans la fenêtre de `Récapitulatif des produits à commander`.
 
 <div class="text-center" style="text-align: 'center';">
-  <img width="840" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.13.0/orders-estimated-costs.webp"/>
+  <img width="840" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.13.0/orders-estimated-costs.webp"/>
 </div>
 
 - Il est possible rafraîchir ou de mettre à jours ces prix d'achats si ce n'est renseigné sur les lignes en attente de commande
 
 <div class="text-center" style="text-align: 'center';">
-  <img width="300" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.13.0/orders-refresh-prices.webp"/>
+  <img width="300" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.13.0/orders-refresh-prices.webp"/>
 </div>
 
 - Nous avons également ajouter les informations de prix d'achat sur l'écran de commandes
 
 <div class="text-center" style="text-align: 'center';">
-  <img width="840" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.13.0/orders-purchase-prices.webp"/>
+  <img width="840" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.13.0/orders-purchase-prices.webp"/>
 </div>
 
 `Coût total estimé` : Prix d'achat calculé à partir du catalogue.
@@ -104,7 +104,7 @@ Nous avons ajouté la possibilité de restreindre les actions suivantes aux admi
 Pour ce faire, allez dans le menu `Administration > Gestion commerciale > Configurer > Configuration commerciale`
 
 <div class="text-center" style="text-align: 'center';">
-  <img width="1536" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.13.0/new-trade-configurations.webp"/>
+  <img width="1536" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.13.0/new-trade-configurations.webp"/>
 </div>
 
 ## Corrections et Améliorations

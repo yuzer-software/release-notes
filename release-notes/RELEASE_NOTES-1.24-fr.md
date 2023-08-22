@@ -80,7 +80,7 @@ Amélioration de la recherche et de la navigation lors d'ajout de produits réce
 - la fenêtre d'ajout ne se ferme pas après avoir ajouté une ligne (ce qui permet d'ajouter des lignes de plusieurs réceptions).
 - ajout d'un bouton pour revenir du détail d'une réception à la liste des réceptions.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.24.0/purchase-invoice-filtering.png" width="650px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.24.0/purchase-invoice-filtering.png" width="650px"/>
 
 ## Export de données en XLSX
 

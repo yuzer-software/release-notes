@@ -12,7 +12,7 @@ This version includes a major rewrite of orders management from the basket to th
 
 Yuzer has now a final logo and icon shipped with the application. We hope you will like it as much as we do!
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.1.0/icon.png" width="100"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.1.0/icon.png" width="100"/>
 
 # What's new
 
@@ -20,7 +20,7 @@ When launching the application with a new version we now open the What's new pag
 
 You can always see the What's new page again by clicking on the version on the bottom-left corner of the app.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.1.0/version-click.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.1.0/version-click.png" width="100%"/>
 
 ## New basket to reception workflow
 
@@ -39,11 +39,11 @@ Just before creating an order form or a repair order is created we now automatic
 - Every element that is in stock is _Reserved_ on the stock
 - Every element that is not in stock _Ordered_ and we automatically create, in addition to the customer reservation a supplier order that is _waiting for order_.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.1.0/auto-reservation-fr.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.1.0/auto-reservation-fr.png" width="100%"/>
 
 Note that you can also dispatch manually the stock from the stock pop-up window.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.1.0/manual-reservation-fr.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.1.0/manual-reservation-fr.png" width="100%"/>
 
 Reservation button allows you to reserve a single billing group, or all the basket if using the modal bottom button.
 
@@ -55,8 +55,8 @@ Our recommandation is that you keep a specific location in your warehouses for p
 
 In order to prepare the basket stock you can go to the basket and click on the _stock_ button or directly from a task detail.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.1.0/basket-stock-btn.png" width="160"/>
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.1.0/task-pick-btn.png" width="160"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.1.0/basket-stock-btn.png" width="160"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.1.0/task-pick-btn.png" width="160"/>
 
 From this modal you can click on the picking button for each line that you want to prepare, this will try to auto-select the best emplacement from which to take the item. In case the emplacement is not the one of your choice you can edit it or eventually add some more emplacement if you take items from multiple locations to fullfill the line quantity.
 
@@ -102,7 +102,7 @@ When displaying the catalog we now automatically filter
 We have made it simpler to select suppliers in multiple places in the application. The selector now allows your to quickly filter the supplier that you are looking for.
 
 <div class="d-flex justify-content-center">
-  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.1.0/new-supplier-select-fr.png" height="150"/>
+  <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.1.0/new-supplier-select-fr.png" height="150"/>
 </div>
 
 We will replace supplier selection with the new selector in the upcomming versions.

@@ -21,11 +21,11 @@ Le catalogue véhicule présent dans le même onglet que les dossiers disparait
 
 |                                                                 Yuzer 1.x                                                                  |                                                             Yuzer 2.x                                                              |
 | :----------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/file-list-catalog-1.x.png" width="512px"/> | <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/file-list-2.x.png" width="512px"/> |
+| <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/file-list-catalog-1.x.png" width="512px"/> | <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/file-list-2.x.png" width="512px"/> |
 
 Les modèles de véhicules sont désormais directement existant en tant que produit dans le même catalogue que ceux-ci la catégorie à sélectionner pour filtrer sur ceux-ci est _Véhicule terrestre à moteur_. Tous les véhicules possédant un VIN sont regroupés sous celle-ci dont les sous-catégories _Moto_, _Voiture_ etc.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/vehicle-catalog-2.x.png" width="1024px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/vehicle-catalog-2.x.png" width="1024px"/>
 
 ### Fiche détail produit véhicule
 
@@ -33,7 +33,7 @@ La fiche de détail du produit véhicule s'aligne sur la fiche de détail produi
 
 |                                                                Yuzer 1.x                                                                 |                                                                Yuzer 2.x                                                                 |
 | :--------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/vehicle-detail-1.x.png" width="1024px"/> | <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/vehicle-detail-2.x.png" width="1024px"/> |
+| <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/vehicle-detail-1.x.png" width="1024px"/> | <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/vehicle-detail-2.x.png" width="1024px"/> |
 
 ## Véhicules et Dossiers véhicules
 
@@ -53,40 +53,40 @@ Quelques modifications à la création de dossier apportent plus de clarté et s
 
 |                                                                Yuzer 1.x                                                                 |                                                              Yuzer 2.x                                                               |
 | :--------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/file_new_step1_old.png" width="1024px"/> | <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/file_new_step1.png" width="1024px"/> |
+| <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/file_new_step1_old.png" width="1024px"/> | <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/file_new_step1.png" width="1024px"/> |
 
 L'ajout d'un produit sans identifiant est désormais, bien que non recommandé, possible immédiatement à l'aide du bouton
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/file_new_no_id.png" width="140px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/file_new_no_id.png" width="140px"/>
 Vous pourrez associer un identifiant (VIN, Immatriculation etc.) ultérieurement.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/file_new_search.png" width="1024px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/file_new_search.png" width="1024px"/>
 
 La recherche de l'identifiant précise si l'information provient de données Yuzer ou de données d'un service extérieur (SIV, constructeur etc.).
 
 Vous pouvez également choisir, en cas de plusieurs données correspondante, choisir le résultat que vous souhaitez.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/file_new_selected.png" width="1024px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/file_new_selected.png" width="1024px"/>
 
 #### Identifiant inconnu
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/file_new_unknown_id_search.png" width="1024px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/file_new_unknown_id_search.png" width="1024px"/>
 
 Dans le cas ou l'identifiant sélectionné est inconnu du système ainsi que des systèmes connectés l'information vous ai clairement présentée. Si vous êtes certain de votre identifiant il est possible de créer le dossier avec un identifiant donné. Vous devez alors préciser le type d'identifiant spécifique que vous souhaitez enregister:
 
 |                        Le bouton permettant cette action est grisé tant que le choix de l'identifiant n'a pas été effectué.                        |                                Pour choisir l'identifiant précisez le dans la zone de recherche à la place de _Tous_                                 |
 | :------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/file_new_unknown_id_type_warn.png" width="256px"/> | <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/file_new_unknown_id_type_select.png" width="256px"/> |
+| <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/file_new_unknown_id_type_warn.png" width="256px"/> | <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/file_new_unknown_id_type_select.png" width="256px"/> |
 
 <div class="alert alert-warning">
 Attention le format de l'identifiant doit-être correct. Dans le cas contraire la création du dossier échouera lors de la validation finale:
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/file_new_wrong_id.png" width="256px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/file_new_wrong_id.png" width="256px"/>
 </div>
 
 ### Dossier véhicule
 
 |                                                               Yuzer 1.x                                                               |                                                               Yuzer 2.x                                                               |
 | :-----------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/dealer-file-old.png" width="1024px"/> | <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/dealer-file-new.png" width="1024px"/> |
+| <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/dealer-file-old.png" width="1024px"/> | <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/dealer-file-new.png" width="1024px"/> |
 
 Les informations principales restent affichées en haut mais sont complétées de plusieurs informations et liens:
 
@@ -94,17 +94,17 @@ Les informations principales restent affichées en haut mais sont complétées d
 
 Ceux-ci peuvent être édités à l'aide du bouton d'édition principal:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/dealer-file-main-props.png" width="758px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/dealer-file-main-props.png" width="758px"/>
 
 - Les informations de la fiche produit associée, la référence produit, le libellé catalogue ainsi que le fournisseur et catégorie du dossier. Contrairement aux véhicules, il est possible de modifier l'association à une référence en cas d'erreur:
 
 |                                                               Aller au produit                                                                |                                                           Changer le produit associé                                                            |                                                    Supprimer l'assciation à la fiche produit                                                    |
 | :-------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/dealer-file-product-goto.png" width="256px"/> | <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/dealer-file-product-change.png" width="256px"/> | <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/dealer-file-product-unlink.png" width="256px"/> |
+| <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/dealer-file-product-goto.png" width="256px"/> | <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/dealer-file-product-change.png" width="256px"/> | <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/dealer-file-product-unlink.png" width="256px"/> |
 
 Finalement vous pouvez consulter les attributs et propriétés du produit en bas de la fiche.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/dealer-file-props-and-attr.png" width="1024px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/dealer-file-props-and-attr.png" width="1024px"/>
 
 _Note: Une propriété est présente sur la fiche produit également. Un attribut est spécifique au véhicule. Par exemple toutes les Duke 390 2021 ont le même type de moteur. Cependant le kilométrage est spécifique à chaque véhicule._
 
@@ -120,48 +120,48 @@ La recherche de véhicule
 
 La liste de panier affiche plus clairement les informations des véhicules ou autres produits identifiés des paniers.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/basket-list.png" width="1024px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/basket-list.png" width="1024px"/>
 
 De plus les icônes du type de vente deviennent dépendant du type de dossier contenu dans le panier mais également du type de reprises.
 
 |                                                         vente de moto                                                         |                                                         vente de vélo                                                         |                                                          reprise de moto                                                           |                                                      vente et reprise de moto                                                      |                                                   vente vélo et reprise de moto                                                    |                                                produit vendu non sélectionné                                                 |
 | :---------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/icon_moto.png" width="34px"/> | <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/icon_bicy.png" width="34px"/> | <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/icon_none_moto.png" width="34px"/> | <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/icon_moto_moto.png" width="34px"/> | <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/icon_bicy_moto.png" width="34px"/> | <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/icon_idp.png" width="34px"/> |
+| <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/icon_moto.png" width="34px"/> | <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/icon_bicy.png" width="34px"/> | <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/icon_none_moto.png" width="34px"/> | <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/icon_moto_moto.png" width="34px"/> | <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/icon_bicy_moto.png" width="34px"/> | <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/icon_idp.png" width="34px"/> |
 
 ## Liste de paniers du client
 
 La liste des ventes de véhicules du client dispose des même changements. De plus, si votre concession vends plusieurs types de produits, vous avez la possibilité de facilement filtrer les paniers du client pour ne visualiser que ceux que vous souhaitez
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/contact-idp-baskets.png" width="512px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/contact-idp-baskets.png" width="512px"/>
 
 La création de nouveau panier de vente sur dossier reste inchangée pour une concession moto uniquement, et se simplifie pour une concession vendant différent types de produits identifiés:
 
 |                                                                Yuzer 1.x                                                                |                                                                Yuzer 2.x                                                                |
 | :-------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: |
-|   <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/old-sale-moto.png" width="256px"/>    |   <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/new-sale-moto.png" width="256px"/>    |
-| <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/old-sale-moto-bicy.png" width="256px"/> | <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/new-sale-moto-bicy.png" width="256px"/> |
+|   <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/old-sale-moto.png" width="256px"/>    |   <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/new-sale-moto.png" width="256px"/>    |
+| <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/old-sale-moto-bicy.png" width="256px"/> | <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/new-sale-moto-bicy.png" width="256px"/> |
 
 L'icône et le texte s'adapte à votre contexte, ainsi si vous vendez vélos, véhicules et moto-marines:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/new-sale-all.png" width="256px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/new-sale-all.png" width="256px"/>
 
 ## Panier véhicules
 
 |                                                             Yuzer 1.x                                                              |                                                             Yuzer 2.x                                                              |
 | :--------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/v-basket-old.png" width="1024px"/> | <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/v-basket-new.png" width="1024px"/> |
+| <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/v-basket-old.png" width="1024px"/> | <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/v-basket-new.png" width="1024px"/> |
 
 L'onglet Préparation et ventes additionelles disparait, tout se passe directement dans le panier désormais.
 
 L'ajout de dossier se fait à partir du même endroit que l'ajout des autres produits, si vous vendez plusieurs type de produits vous devez sélectionner le type de dossier à ajouter:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/v-basket-select-new-1.png" width="256px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/v-basket-select-new-1.png" width="256px"/>
 
 La sélection du dossier s'ouvre alors:
 
 |                                                                 Yuzer 1.x                                                                 |                                                                 Yuzer 2.x                                                                 |
 | :---------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/v-basket-select-old.png" width="1024px"/> | <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/v-basket-select-new.png" width="1024px"/> |
+| <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/v-basket-select-old.png" width="1024px"/> | <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/v-basket-select-new.png" width="1024px"/> |
 
 <div class="alert alert-info">
 Désormais la vue s'ouvre sur tous les dossiers. De plus un filtre pré-défini impose l'affichage des dossiers non-réservés uniquement. Celui-ci peut, bien entendu, être désactivé.
@@ -169,7 +169,7 @@ Désormais la vue s'ouvre sur tous les dossiers. De plus un filtre pré-défini 
 
 Comme avant les frais de carte grise pourront être ajoutés. Et la ligne sera ajoutée au panier. Celle-ci comme une ligne classique peut-être déplacée dans le panier. Les informations du dossier y sont également affichées.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/v-basket-selected.png" width="1024px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/v-basket-selected.png" width="1024px"/>
 
 Vous pouvez comme avant créer vos Cerfa depuis le même menu qu'avant.
 
@@ -177,11 +177,11 @@ Vous pouvez comme avant créer vos Cerfa depuis le même menu qu'avant.
 
 L'onglet reprise existe toujours et évolue légèrement pour permettre, si vous gérez plusieurs type de produits, le choix du produit à reprendre.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/v-basket-trade-in.png" width="1024px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/v-basket-trade-in.png" width="1024px"/>
 
 La première étape d'une réception de reprise permet également de valider et compléter l'ensemble des informations liées.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.0.0/v-basket-trade-in-2.png" width="1024px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.0.0/v-basket-trade-in-2.png" width="1024px"/>
 
 ## Changement de catégorie
 

@@ -11,13 +11,13 @@ La comptabilité des cessions a été revue totalement afin de pouvoir spécifie
 
 Vous pouvez aller configurer le journal de cession dans l'onglet _Paramètres de comptabilité_ de la configuration comptable.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.19.0/accountancy-settings-cession-journal.png" width="900"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.19.0/accountancy-settings-cession-journal.png" width="900"/>
 
 ## Configuration des comptes de contreparties des cessions
 
 Votre configuration du mapping de cession doit être mise à jour afin de définir pour chaque règle la contrepartie à ventiler.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.19.0/cession-mapping-config.png" width="900"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.19.0/cession-mapping-config.png" width="900"/>
 
 <div class="alert alert-danger">
 Ces configurations sont nécessaires afin que vos cessions passent en comptabilité et nous vous invitons à effectuer celles-ci au plus vite.
@@ -31,7 +31,7 @@ De nouveaux filtres ont été ajoutés sur la recherche de client et vous permet
 
 Depuis une fiche contact, vous pouvez éditer le cycle de prospection d'un contact:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.19.0/contact-edit-state.png" width="480"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.19.0/contact-edit-state.png" width="480"/>
 
 - **Client à contacter**: Ce statut permet d'indiquer un contact intéressé par une vente mais dont la qualification et proposition commerciale n'a pas été effectuée ou finalisée.
 - **Proposition effectuée**: Une proposition commerciale a été effectuée et il n’y a pas eu de bon de commande ou facture depuis.
@@ -42,13 +42,13 @@ Les états sont mis à jour automatiquement par Yuzer à l'exception de l'état 
 
 Depuis la liste des clients, un nouveau filtre vous permet de rechercher les contacts à l'aide de ces états:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.19.0/contact-state-filter.png" width="360"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.19.0/contact-state-filter.png" width="360"/>
 
 ## Recherche par date de dernière vente
 
 Lorsqu'une facture est éditée Yuzer conserve la date de la dernière vente en fonction de son type. Vous pouvez alors utiliser cette information afin de filtrer les clients par date de dernière vente.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.19.0/contact-sale-date-filter.png" width="360"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.19.0/contact-sale-date-filter.png" width="360"/>
 
 Des raccourcis rapide vous permettent de définir des périodes rapidement, vous pouvez également définir votre propre période manuellement à l'aide du bouton calendrier.
 
@@ -73,7 +73,7 @@ Vous pouvez désormais configurer la visibilité des balances client entre plusi
 
 Cette configuration est définie dans la partie _Administration / Configuration commerciale_
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.19.0/shared-balance-config.png" width="800"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.19.0/shared-balance-config.png" width="800"/>
 
 <div class="alert alert-info">
 Seule la vision est aujourd'hui partagée. L'utilisation d'un crédit disponible dans une autre entité n'est pas aujourd'hui possible.
@@ -89,7 +89,7 @@ Celui-ci sera effectué en direct sans opérations comptables exportées étant 
 Vous pouvez désormais exposer vos informations de facturations à des fins de statistiques ou commerciales pour un usage interne ou vers un exploitant externe tel que GarageScore.
 Comme pour l'exposition des stocks véhicules, il faut pour cela créer une clé d'API dans le menu _Adminitration_.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.19.0/api-key-invoice-customer.png" height="400" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.19.0/api-key-invoice-customer.png" height="400" />
 
 Nous avons 2 types d'expositions de ressources disponible:
 
@@ -113,11 +113,11 @@ Vous êtes responsable à ce titre de prévenir vos clients d’un éventuel par
 - La mise à jour des prix est maintenant fonctionnelle pour un modèle de panier.
 - Les informations du véhicule du panier sont maintenant correctement mis à jour lorsqu'on l'associe depuis le bouton _Vendre_ d'un dossier.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.19.0/fix-vehicle-basket-line-refresh.gif" width="800"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.19.0/fix-vehicle-basket-line-refresh.gif" width="800"/>
 
 - Sur un panier de vente véhicule, le formulaire d'ajout rapide garde maintenant le focus du dernier groupe sélectionné quand on revient sur le groupe de _Préparation et ventes additionnelles_.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.19.0/fix-basker-quick-add.gif" width="800"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.19.0/fix-basker-quick-add.gif" width="800"/>
 
 - Il est possible de supprimer les inventaires _en cours d'ouverture_ 24h après leur création : un inventaire peut arriver dans cet état lorsque l'initialisation de l'inventaire s'est mal passée.
 - La mise à jour du statut de paiement de panier n'était pas correctement effectuée lorsque la facture était éditée depuis la boite de dialogue de paiement.
@@ -127,4 +127,4 @@ Vous êtes responsable à ce titre de prévenir vos clients d’un éventuel par
 Les versions précédentes de Yuzer effectuaient la comptabilité d'un achat de véhicule avec TVA en prenant en compte que le montant HT de celui-ci de manière identique à un achat sans TVA (cas d'un achat à particulier).
 Ce point a été résolu et Yuzer ventile désormais la TVA déductible à l'achat sur base du compte configuré dans vos paramètres de comptabilité.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.19.0/tradein-accountancy.png" width="800"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.19.0/tradein-accountancy.png" width="800"/>

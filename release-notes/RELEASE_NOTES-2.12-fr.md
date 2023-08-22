@@ -15,7 +15,7 @@ Dans les versions précédentes, les cessions de garantie fournisseurs sur un do
 Par ailleurs, nous avons rendu plus simple la création d'une cession de garantie fournisseur depuis le dossier du véhicule en ajoutant le choix aux cessions de préparation ou maintenance.
 
 <div class="text-center" style="text-align: 'center';">
-  <img width="850" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.12.0/new_file_cessions.webp"/>
+  <img width="850" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.12.0/new_file_cessions.webp"/>
 </div>
 
 ## Transferts de produits identifiés
@@ -29,7 +29,7 @@ La réception dans ce contexte précis permet d'effectuer la réception du produ
 Le transfert d'un produit identifié au sein de la même entité n'est pas possible par le flux des transferts. Il n'y a donc pas de changement sur ce point : il faut et il suffit de passer par la fiche du dossier véhicule et de changer l'entrepôt comme ci-dessous.
 
 <div class="text-center" style="text-align: 'center';">
-  <img width="220" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.12.0/0-change-idp-warehouse.webp"/>
+  <img width="220" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.12.0/0-change-idp-warehouse.webp"/>
 </div>
 
 ### Création et édition du panier
@@ -37,7 +37,7 @@ Le transfert d'un produit identifié au sein de la même entité n'est pas possi
 Le transfert de produit identifié suit le même flux que celui d'une vente de produit identifié.
 
 <div class="text-center" style="text-align: 'center';">
-  <img width="400" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.12.0/1-new_idp_transfer.webp"/>
+  <img width="400" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.12.0/1-new_idp_transfer.webp"/>
 </div>
 
 Jusqu'à l'édition des documents, il n'y a aucune différence d'avec une vente client. En particulier, les produits "montés sur le produit identifié" seront transférés en même temps que le véhicule, exactement comme lors d'une vente classique (un groupe de cession peut être fait pour démonter les produits à ne pas transférer, etc.).
@@ -54,7 +54,7 @@ Comme pour les transferts de pièces, il vous faudra éditer un bon de livraison
 - _Livrer en envoyer le transfert_ crée un transfert et l'envoie directement.
 
 <div class="text-center" style="text-align: 'center';">
-  <img width="250" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.12.0/3-deliver-with-transfer.webp"/>
+  <img width="250" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.12.0/3-deliver-with-transfer.webp"/>
 </div>
 
 **Note** : Comme pour les transferts de pièces, si les pièces du panier proviennent de plusieurs entrepôts différents, un transfert par entrepôt sera créé. Un seul panier peut donc se retrouver dans 2 transferts différents. Le produit identifié et les pièces montées dessus proviennent de l'entrepôt dans lequel le produit identifié est entreposé.
@@ -101,7 +101,7 @@ Lors d'un transfert inter-société, la facture d'achat est générée à partir
 
 - Si vous laissez votre curseur de souris pendant une demi-seconde sur la référence dans une ligne de panier, celle-ci sera affichée dans une info-bulle. Cela permet de visualiser de longues références. Souvenez-vous que vous pouvez copier la référence par un simple clic.
 
-<img width="256" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.12.0/ref_tooltip.webp"/>
+<img width="256" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.12.0/ref_tooltip.webp"/>
 
 # Juin 2023 - Version 2.12.0
 

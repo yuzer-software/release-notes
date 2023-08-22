@@ -15,7 +15,7 @@ Un modèle de panier peut:
 - Soit être ajouté en tant que forfait. Dans ce cas, seul le prix global est affiché sur le panier dans lequel il est utilisé et les éléments sont affichés sans prix.
 - Soit être ajouté en l'état.
 
-<img width="1096" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/basket-template-2.webp"/>
+<img width="1096" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.14.0/basket-template-2.webp"/>
 
 La nouvelle cible de Yuzer est le comportement suivant:
 
@@ -24,7 +24,7 @@ La nouvelle cible de Yuzer est le comportement suivant:
 
 Afin de ne pas vous impacter immédiatement, une option a été ajoutée afin que le comportement précédent reste actif. Vous devez effectuer la configuration de l'option si vous souhaitez que le nouveau comportement soit appliqué dès maintenant.
 
-<img width="986" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/basket-template-1.webp"/>
+<img width="986" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.14.0/basket-template-1.webp"/>
 
 Cette option est temporaire et les versions futures de Yuzer adopteront le comportement défini ci-dessus. Si certain de vos modèles ajoutés en l'état devraient avoir un prix fixe vous devez les configurer en tant que forfaits afin que ces tarifs n'évoluent pas à l'ajout lorsque le nouveau comportement sera appliqué de manière standard.
 
@@ -36,15 +36,15 @@ Le catalogue de produit permet désormais de regrouper les variants d'un même p
 
 La référence parente est venue s'ajouter aux différents champs d'édition:
 
-<img width="986" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/variant-edit.webp"/>
+<img width="986" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.14.0/variant-edit.webp"/>
 
 Lors d'une recherche vous pouvez désormais visualiser les différents variants regroupés ensemble
 
-<img width="1096" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/variant-list.webp"/>
+<img width="1096" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.14.0/variant-list.webp"/>
 
 Et changer efficacement de l'un à l'autre dans la vue de détails d'un produit
 
-<img width="1096" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/variant-detail.webp"/>
+<img width="1096" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.14.0/variant-detail.webp"/>
 
 <div class="alert alert-info">
 Nous améliorons la prise en charge des variants dans les catalogues supportés officiellement par Yuzer et sur lesquels nous disposons d'information quand au support des variants.
@@ -64,11 +64,11 @@ Afin d'éditer les règles rendez vous dans _Administration/Catalogue_ puis cliq
 
 Cliquez alors sur _Éditer_ afin de modifier les règles:
 
-<img width="1096" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/enrichment-1.webp"/>
+<img width="1096" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.14.0/enrichment-1.webp"/>
 
 Le bouton _Ajouter_ au niveau principal (en bleu) vous permet d'ajouter une étape d'enrichissement. Vous pouvez alors configurer l'étape d'enrichissement:
 
-<img width="464" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/enrichment-2.webp"/>
+<img width="464" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.14.0/enrichment-2.webp"/>
 
 #### Filtre
 
@@ -82,19 +82,19 @@ Ces informations extraites seront alors disponible dans le cadre des règles d'e
 
 Plusieurs opérations peuvent être utilisées afin d'extraire des informations.
 
-<img width="876" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/enrichment-3.webp"/>
+<img width="876" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.14.0/enrichment-3.webp"/>
 
 - _Découpe par délimiteur_: Dans le cas où votre référence contient des informations séparées par un délimiteur, vous pouvez utiliser cette règle afin d'extraire les différents groupes. Par exemple, la référence "_ref parente-couleur-taille_" délimite les informations avec un "-", on peut donc utiliser le paramétrage suivant:
 
-<img width="876" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/enrichment-4.webp"/>
+<img width="876" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.14.0/enrichment-4.webp"/>
 
 - _Sous-chaines de caractères à tailles fixes_: Cette règle permet d'extraire des sous parties de la référence (en préfixe ou suffixe) qui ont une taille de caractères définies.
 
-<img width="876" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/enrichment-5.webp"/>
+<img width="876" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.14.0/enrichment-5.webp"/>
 
 - _Pré/Su-fixes définis_: Cette règle permet d'extraire des éléments dont la liste des valeurs possible est pré-définie depuis le début ou la fin d'un champ.
 
-<img width="876" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/enrichment-6.webp"/>
+<img width="876" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.14.0/enrichment-6.webp"/>
 
 <div width="876" class="alert alert-info">Vous pouvez définir plusieurs règles d'extractions de différents types, y compris sur un même champ</div>
 
@@ -106,15 +106,15 @@ Trois possibilités d'enrichissement existent:
 
 - _Association conditionelle_: Permet de définir une valeur si la condition est satisfaite.
 
-<img width="876" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/enrichment-7.webp"/>
+<img width="876" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.14.0/enrichment-7.webp"/>
 
 - _Association valeur à valeur_: Permet de définir une valeur en fonction de la valeur d'origine.
 
-<img width="876" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/enrichment-8.webp"/>
+<img width="876" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.14.0/enrichment-8.webp"/>
 
 - _Copier la valeur_: Permet de copier la valeur d'un autre champ. Cette dernière règle n'est possible que dans le cadre de champs dit libres, c'est à dire dont la liste des valeurs n'est pas contrainte par Yuzer.
 
-<img width="876" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/enrichment-9.webp"/>
+<img width="876" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.14.0/enrichment-9.webp"/>
 
 Comme vous pouvez le constater les champs extraits dans les règles précédentes deviennent disponible pour l'enrichissement des données du produit.
 
@@ -131,7 +131,7 @@ Nous avons ajouté la possibilité d'agréger les écritures de caisse par moyen
 Pour ce faire, allez dans le menu `Comptabilité > Configurer` pour activer l'option:
 
 <div class="text-center" style="text-align: 'center';">
-  <img width="364" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/aggregate-cashdesk-by-payment-mean.webp"/>
+  <img width="364" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.14.0/aggregate-cashdesk-by-payment-mean.webp"/>
 </div>
 
 <div class="alert alert-warning">
@@ -150,7 +150,7 @@ Certains d'entre vous utilisent les factures d'achat dans Yuzer afin de valider 
 
 Trois options sont possibles:
 
-<img width="600" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.14.0/purchase-invoice-accountancy.webp"/>
+<img width="600" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.14.0/purchase-invoice-accountancy.webp"/>
 
 ### Remises totales en analytique
 

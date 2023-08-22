@@ -2,17 +2,17 @@
 
 - Nous avons amélioré la fonction de filtrage des produits en stock. Cela devrait vous fournir de meilleurs résultats.
 - Dans la barre de context du panier, l’icône du _Caddie_ a été changé au profit de l’icône du type de panier.
-  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/basket-type-icon.png" height="50"/>
+  <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/basket-type-icon.png" height="50"/>
 
 # Tableau de bord
 
 La configuration du _widget_ "Chiffre d'affaires" a été rendue plus claire et dispose d'une nouvelle fonctionnalité: filter ou grouper par type de panier.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/turnover.png" height="300"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/turnover.png" height="300"/>
 
 Un nouveau _widget_ "Main-d'œuvre" a été ajouté et vous permet d'afficher le temps ou le chiffre d'affaire **facturé** de l'atelier.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/workforce-widget.png" height="320"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/workforce-widget.png" height="320"/>
 
 # Catalogue
 
@@ -26,7 +26,7 @@ Remarque. Lors d'une réception de produits Mash, Royal Enfield ou Hyosung, il f
 
 Vous pouvez désormais afficher plusieurs espaces de travail sur le même calendrier.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/multiple-workspaces.png" height="140"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/multiple-workspaces.png" height="140"/>
 
 Lorsque plusieurs espaces de travails sont affichés:
 
@@ -37,21 +37,21 @@ Lorsque plusieurs espaces de travails sont affichés:
 
 Lorsqu'un panier est facturé alors que des cessions (préparations / réparations) n'ont pas été terminées, une tâche est créée automatiquement dans le calendrier de gestion commerciale afin de rappeler la nécessité de clôturer celles-ci.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/incomplete-cession-warn.png" height="140"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/incomplete-cession-warn.png" height="140"/>
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/incomplete-cession-create.png" height="140"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/incomplete-cession-create.png" height="140"/>
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/incomplete-cession-task-cal.png" height="140"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/incomplete-cession-task-cal.png" height="140"/>
 
 # Estimation des reprises.
 
 Lorsque vous effectuez une reprise vous pouvez désormais indiquer les prix estimés de revente et coûts de réparation estimés.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/trade-in-estimate.png" height="80"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/trade-in-estimate.png" height="80"/>
 
 Ces champs sont optionnels par défaut mais peuvent être rendus obligatoire par l'administrateur dans la section _Configuration commerciale_ (voir ci-dessous).
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/trade-in-estimate-mandatory.png" height="110"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/trade-in-estimate-mandatory.png" height="110"/>
 
 Si une marge recommandée a été configurée dans les paramètres de gestion commerciale (voir ci-dessous) Yuzer affiche aussi une valeur de prix d'achat recommandée basée sur les prix de vente et coûts de réparations estimés ainsi que sur la marge recommandée.
 
@@ -59,18 +59,18 @@ Si une marge recommandée a été configurée dans les paramètres de gestion co
 
 Des options ont été ajoutées à l'export de stock afin de pouvoir exporter le stock complet et non uniquement celui de l'entrepôt selectionné.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/stock-export.png" height="320"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/stock-export.png" height="320"/>
 
 Vous pouvez également chosir d'exporter l'intégralité du stock ou d'ignorer les valeurs positives ou négatives.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/stock-export-opts.png" height="100"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/stock-export-opts.png" height="100"/>
 
 # Gestion commerciale
 
 Un nouveau menu "Gestion commerciale" est disponible dans l'onglet "administration".
 L'on pourra y retrouver les menus suivants:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/commercial_config.png"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/commercial_config.png"/>
 
 La configuration des messages et CGV ainsi que la configuration des prêts de véhicules y ont donc été déplacés.
 
@@ -78,7 +78,7 @@ La configuration des messages et CGV ainsi que la configuration des prêts de v�
 
 Un nouveau menu permet d'accéder à de nouvelles options de configuration.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/commercial_config_tab.png" height="180"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/commercial_config_tab.png" height="180"/>
 
 ### Durée de validité par défaut des documents
 
@@ -110,7 +110,7 @@ Actuellement, quelques limitations demeurent: il n'est pas possible d'offrir des
 
 Notez que la marque doit être renseignée avec exactitude (majuscule, etc). Une valeur vide signifie que le programme de fidélité s'applique à toutes les marques.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/loyalty-config.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/loyalty-config.png" width="100%"/>
 
 ## Souscrire à un programme de fidélité
 
@@ -120,7 +120,7 @@ Vous pouvez inscrire un de vos clients à un programme de fidélité depuis sa p
 - Ajouter un programme de fidélité, dont le contact est membre, au groupe de facturation (remarque: un groupe de facturation ne peut être lié qu'à un seul programme de fidélité). Nous en décrirons les effets à la section "Appliquer un programme de fidélité".
 - Supprimer le programme de fidélité d'un groupe de facturation.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/loyalty-subscription.gif"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/loyalty-subscription.gif"/>
 
 ## Appliquer un programme de fidélité
 
@@ -132,7 +132,7 @@ Les remises de fidélité sont regroupées par TVA. Dans notre exemple, tous les
 - BIH-01-142 est un vêtement : la première règle du programme de fidélité s'applique, ce qui donne 10% de remise.
 - BIH-1003038 n'est pas un vêtement, mais c'est un produit Blackbird fourni par Bihr : la deuxième règle du programme de fidélité s'applique, ce qui donne 5% de remise.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/loyalty-basket.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/loyalty-basket.png" width="100%"/>
 
 # C'est corrigé
 

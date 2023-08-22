@@ -25,7 +25,7 @@ Si vous avez cliqué sur "Réparer les réservations" dans ce contexte, le stock
 
 Sur la liste des paniers, les statuts de stock sont ceux des lignes de panier. Auparavant (à la 1.32.8), ces statuts étaient ceux des groupes de facturation, c'est-à-dire l'agrégation des statuts des lignes des groupes : si un panier avait un groupe de facturation avec deux lignes ayant des états de stock différents, un seul statut de stock était remonté. À présent, les deux statuts sont remontés.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.32.0/1.32.8-basket-status.png" width="250px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.32.0/1.32.8-basket-status.png" width="250px"/>
 
 # 2 Octobre 2022 - Version 1.32.7
 
@@ -33,7 +33,7 @@ Sur la liste des paniers, les statuts de stock sont ceux des lignes de panier. A
 
 Sur l'export des dossiers, lorsqu'un filtre sur la date de clôture est défini, les boutons de filtres "Tous", "Ouvert" ou "Clôturé" ne sont tout simplement plus disponibles, ce qui évite toute confusion relative au filtre.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.32.0/1.32.7-export.png" width="250px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.32.0/1.32.7-export.png" width="250px"/>
 
 # Septembre 2022 - Version 1.32.6
 
@@ -73,26 +73,26 @@ Sur la liste des paniers, le sélecteur d'utilisateur (Créé par) a un champ de
 
 Nous avons amélioré la recherche dans l'application: il est désormais possible de filtrer sur plusieurs choix d'un même type (par exemple de rechercher tous les dossiers de 2018 et 2020 comme illustré ci-dessous).
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.32.0/multi-select-search.png" width="120px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.32.0/multi-select-search.png" width="120px"/>
 
 ## Panier
 
 Dorénavant, Au moment de la génération de la facture, les biens non livrés seront automatiquement réservé/commandé.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.32.0/basket-auto_deliver.png"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.32.0/basket-auto_deliver.png"/>
 
 ### Ma Marge
 
 Vous aviez l'habitude de voir la marge réalisée par l'entreprise sur le panier. Lorsque plusieurs utilisateurs ont modifié un même panier, la marge réalisée grâce à l'utilisateur courant est désormais affichée comme "Ma marge" en dessous de la marge globale du panier.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.32.0/my-margin.png" width="1024px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.32.0/my-margin.png" width="1024px"/>
 
 ### Statut des paniers
 
 - Le statut de stock des paniers est maintenant reporté par groupe de facturation.
 - Sur la liste des paniers, les différents statuts des groupes de facturations sont affichés : par exemple, ci-dessous, la première ligne indique que tous les groupes de facturation du panier sont "ouverts", "préparés" et "sans paiement"; la deuxième ligne indique que les groupes de facturation sont tous "facturés ou ouvert", "préparé ou traité", "sans paiement ou payés".
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.32.0/basket-statuses.png" width="180px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.32.0/basket-statuses.png" width="180px"/>
 
 Remarquez au passage que, comme déjà mentionné, la recherche permet de filtrer plusieurs statuts du même type (par exemple tous les paniers avec du stock préparé ou réservé).
 
@@ -109,17 +109,17 @@ Voici le détail de ces étapes. Faites comme d'habitude votre panier avec comme
 
 Enfin, pour réaliser le transfert, il vous suffit d'éditer votre facture (ou un bon de livraison). La fenêtre de gestion du stock s'ouvrira, comme d'habitude, avec une nouvelle option pour configurer (ou désactiver) le transfert (cf. **A** sur l'image "Gestion de stock du panier"). les informations de transfert (cf. **A** sur l'image "Gestion de stock du panier" et l'image "Nouveau transfert"). Lorsque vous cliquez sur "Livrer", un transfert sera créé d'où le stock est prélevé. Dans l'exemple ci-dessous, le premier produit est prélevé de l'entrepôt _Dock 1_ (**B**) et le deuxième produit est prélevé de l'entrepôt _Dock 2_ (**C**).
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.32.0/basket-modal-on-transfer.png" width="1024px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.32.0/basket-modal-on-transfer.png" width="1024px"/>
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.32.0/new-transfer-from-basket.png" width="800px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.32.0/new-transfer-from-basket.png" width="800px"/>
 
 Puisque nous avons configuré nos transferts pour qu'ils soient livrés à l'entrepôt _Stockage_, nous avons bien deux nouveaux transferts (créés après édition de la facture). Il n'y a qu'une seule action possible sur cette page: il faut emballer puis envoyer les transferts — même si c'est pour devoir les annuler en effectuant un retour. Le destinataire peut alors consulter ses transferts et commencer la réception de ses pièces.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.32.0/new-transfers.png" width="1024px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.32.0/new-transfers.png" width="1024px"/>
 
 Côté panier, il est possible d'accéder aux transferts correspondant aux différentes lignes depuis l'affichage de statut de stock.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.32.0/basket-transfer-links.png" width="1024px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.32.0/basket-transfer-links.png" width="1024px"/>
 
 ## Comptabilité
 

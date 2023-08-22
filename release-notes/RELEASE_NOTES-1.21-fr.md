@@ -12,19 +12,19 @@ Attention, une fois partagé le catalogue du fournisseur pourra être modifié a
 
 Depuis votre liste de fournisseurs (_Administration_ / _Fournisseurs_) un bouton _Partager_ fait son apparition en face de vos catalogues locaux.
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/share-supplier-list.png" width="100%"/>
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/share-supplier.png" width="100%"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/share-supplier-list.png" width="100%"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/share-supplier.png" width="100%"/>
 
 Une fois actionné une modal s'ouvre alors vous permettant de visualiser:
 
 - Avec qui le catalogue est déjà partagé
 - Avec qui le catalogue peut-être partagé
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/share-supplier-modal.png" width="700"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/share-supplier-modal.png" width="700"/>
 
 Une fois une cible sélectionnée, Yuzer vérifie que le préfixe n'est pas déjà utilisé dans la cible. Si tel est le cas, vous devez spécifier un autre préfixe afin de pouvoir partager le catalogue.
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/share-supplier-modal-prefix.png" width="320"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/share-supplier-modal-prefix.png" width="320"/>
 
 Dans l'exemple ci-dessus nous allons utiliser le préfixe _ART_ car le fournisseur _Aratech_ est déjà dupliqué dans notre entité cible _Sullust Shipyard_.
 
@@ -34,20 +34,20 @@ Le partage doit se faire aujourd'hui cible par cible et il n'est pas possible de
 
 Une fois partagé, le fournisseur devient visible dans la liste des fournisseurs en tant que catalogue communautaire.
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/target-supplier-list.png" width="100%"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/target-supplier-list.png" width="100%"/>
 
 Pour rappel il existe trois icônes qui vous permettent de visualiser les types de syncronisation et mise à jour sur les catalogues:
 
 <div>
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/catalog-local.png" width="32"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/catalog-local.png" width="32"/>
 <span>Calogue local que vous avez créé. Vous pouvez éditer les produits à votre convenance.</span>
 </div>
 <div>
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/catalog-community.png" width="32"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/catalog-community.png" width="32"/>
 <span>Calogue communautaire qui a été partagé avec vous. Vous pouvez éditer les produits et toute modification sera répercutée sur l'ensemble des autres utilisateurs du catalogue.</span>
 <div>
 <div>
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/catalog-automatic.png" width="32"/><span>Catalogue managé dans lequel vous ne pouvez effectuer de modifications.</span>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/catalog-automatic.png" width="32"/><span>Catalogue managé dans lequel vous ne pouvez effectuer de modifications.</span>
 <div>
 
 Dans l'exemple ci-dessus le fournisseur _Aratech_ avait été créé en local avant que _Gallactic Empire_ ne nous partage son catalogue _Aratech_, c'est pourquoi celui-ci apparait deux fois, en local et en communautaire.
@@ -70,32 +70,32 @@ Afin d'effectuer une fusion rendez-vous dans _Administration_ / _Fournisseurs_ p
 
 Dans notre cas nous souhaitons fusionner le catalogue local _Aratech_ afin de ne garder que le catalogue communautaire partagé par _Gallactic Empire_. Faites bien attention lorsque, comme ici, le nom du fournisseur est dupliqué à bien choisir le catalogue que vous souhaitez conserver à l'aide de l'icône _Communautaire_ ou _Local_ (comme ci-dessous).
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/merge-supplier-start.png" width="100%"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/merge-supplier-start.png" width="100%"/>
 
 Une fois la fusion lancée une boite de dialogue s'affiche et vous permet de sélectionner le fournisseur cible. Dans notre cas nous souhaitons fusionner dans le catalogue _Aratech_ communautaire (là encore faites bien attention à l'icône et au préfixe pour différencier les fournisseurs).
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/merge-supplier-select-target.png" width="100%"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/merge-supplier-select-target.png" width="100%"/>
 
 Yuzer recherche alors les produits manquants dans le catalogue cible et qu'il faut éventuellement créer.
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/
 merge-resolve-missing.png" width="100%"/>
 
 Chaque ligne de vous permet de visualiser un produit manquant dans le catalogue cible ainsi que le nombre de ses réservations (par status) commandes, ou présent en stock. Passez votre souris sur un nombre afin de d'avoir le détail du status, dont la couleur suit le code couleur de l'application.
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/merge-tooltip-booked.png" width="160"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/merge-tooltip-booked.png" width="160"/>
 
 Vous pouvez, en cliquant sur le bouton loupe de la ligne accéder également au détail des Réservations, Commandes et Stock qui seront fusionnés.
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/merge-product-detail-btn.png" width="160"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/merge-product-detail-btn.png" width="160"/>
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/merge-product-detail.png" width="100%"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/merge-product-detail.png" width="100%"/>
 
 Vous pouvez également accéder depuis cet écran aux deux catalogues pour effecuter un comparatif en cliquant sur la loupe se situant en sous-titre:
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/merge-catalog-compare-btn.png" width="260"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/merge-catalog-compare-btn.png" width="260"/>
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/merge-catalog-compare.png" width="100%"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/merge-catalog-compare.png" width="100%"/>
 
 Re-cliquez sur la loupe en haut afin de revenir à la liste des produits manquants.
 
@@ -108,10 +108,10 @@ Plusieurs actions vous sont proposées pour chaque produit:
 Une fois toutes les actions choisies vous pouvez cliquer sur suivant afin d'accéder au récapitulatif des actions à mener:
 
 Un onglet vous détaille les produits à créer
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/merge-preview-create.png" width="100%"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/merge-preview-create.png" width="100%"/>
 
 Et l'autre les produits à fusionner
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/merge-preview-merge.png" width="100%"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/merge-preview-merge.png" width="100%"/>
 
 Vous pouvez alors lancer la fusion.
 
@@ -119,7 +119,7 @@ Vous pouvez alors lancer la fusion.
 Attendez bien que la fusion soit complétée avant de fermer la boite de dialogue ou Yuzer.
 </div>
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/merge-complete.png" width="100%"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/merge-complete.png" width="100%"/>
 
 Une fois complétée Yuzer aura effecuté la migration vers les nouvelles référence:
 
@@ -137,21 +137,21 @@ ATTENTION de bien sélectionner le fournisseur que vous venez de fusionner et no
 
 Finalement vous souhaiterez probablement, dans le cas ou le fournisseur a été créé avec un autre préfixe, comme dans notre exemple, modifier le préfixe du fournisseur dans lequel les produits ont été migrés afin de ne pas perturber vos utilisateurs. Il vous suffit alors de l'éditer:
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/update-prefix.png" width="100%"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/update-prefix.png" width="100%"/>
 
 ### Lignes de panier non migrées
 
 Comme expliqué ci-dessus les lignes de panier qui n'avaient pas de réservations ne sont pas migrées automatiquement. N'ayez crainte cependant, elles sont clairement indiquées sur le panier et modifier les référence se fait très facilement.
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/replace-ref-basket.png" width="100%"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/replace-ref-basket.png" width="100%"/>
 
 Il suffit pour cela de cliquer sur le bouton de remplacement de la référence:
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/replace-ref-button.png" width="180"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/replace-ref-button.png" width="180"/>
 
 La sélection de produit s'ouvre alors en effecuant une recherche par défaut avec la référence du produit:
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/replace-ref-modal.png" width="100%"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/replace-ref-modal.png" width="100%"/>
 
 ## Tableau de bord
 
@@ -165,45 +165,45 @@ Le widget de main d'oeuvre vous permet désormais d'afficher en plus des heures 
 
 De plus la configuration du widget a été déportée dans une boite de dialogue afin de simplifier celle-ci. L'ensemble des widgets suivront cette évolution dans le futur.
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/work-widget-cfg-1.png" width="700"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/work-widget-cfg-1.png" width="700"/>
 
 Certaines propriétés du graphique sont désormais disponibles par série de donnée affichée ce qui permet de mélanger sur le même graphique des courbes et histogrammes, pour des types de données différents par exemple.
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/work-widget-cfg-2.png" width="700"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/work-widget-cfg-2.png" width="700"/>
 
 A noter que les statistiques atelier ne permettent pas de filtrer par type de panier ou type de cession actuellement, ces filtres disparaissent donc lorsqu'un de ces Types de données est sélectionné.
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/work-widget-cfg-3.png" width="700"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/work-widget-cfg-3.png" width="700"/>
 
 Le graphique ci-dessous affiche à la fois le chiffre d'affaire en courbe et avec des labels (l'échelle de C.A. étant placée à gauche) et des durées (l'échelle de temps étant placée à droite).
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/work-widget.png" width="100%"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/work-widget.png" width="100%"/>
 
 ### Utilisations de filtres personnalisés
 
 Les filtres personnalisés qui seraient incompatibles avec le widget de chiffre d'affaires sont clairement exhibés.
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/custom-filter-in-turnover-widget.png" width="500"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/custom-filter-in-turnover-widget.png" width="500"/>
 
 ## Panier
 
 Nous indiquons désormais clairement pourquoi une ligne avec préparations ne peut pas être supprimée.
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/delete-line-with-preparations.png" width="500"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/delete-line-with-preparations.png" width="500"/>
 
 Depuis la version précédente (mais cela n'avait pas été noté dans la release note) vous pouvez accéder rapidement aux modèles depuis la bare d'édition.
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/basket-template-quick-add.png" width="100%"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/basket-template-quick-add.png" width="100%"/>
 
 ## Export des dossiers de produits
 
 Il n'est plus possible d'exporter les dossiers de véhicules ou de produits identifiés qu'en CSV.
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/dealer-file-export-button.png" width="350"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/dealer-file-export-button.png" width="350"/>
 
 En revanche, beaucoup de champs ont été rajoutés et il est même possible d'y associer des informations croisées (frais, factures, contact).
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/dealer-file-enhanced-export.png" width="650"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/dealer-file-enhanced-export.png" width="650"/>
 
 ## Réceptions
 
@@ -211,7 +211,7 @@ Les lignes des réceptions sont triées par date d'ajout mais toutefois groupée
 
 Nous avons donc ajouté un message indiquant lorsque des lignes sont réordonnées avec la possibilité de filtrer les lignes impactées (comme illustré ci-dessous).
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/warn-reception.png" width="600"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/warn-reception.png" width="600"/>
 
 ### Améliorations ergonomiques
 
@@ -219,7 +219,7 @@ Nous avons donc ajouté un message indiquant lorsque des lignes sont réordonné
 
 - La navigation entres les vues de détails de la réception, des produits en commandes ou du catalogue est désormais plus simple et claire. Elle s'effectue à l'aide des boutons _Détails_, _Commandes_ et _Catalogue_. situés juste en dessous des boutons pricipaux _Supprimer_, _Quitter l'édition_ et _Clôturer la réception_ lorsque la réception est en cours d'édition.
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/reception-views.png" width="100%"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/reception-views.png" width="100%"/>
 
 Ce type d'affichage est également appliqué sur les inventaires et transferts.
 
@@ -230,11 +230,11 @@ Honda fournit des modèles de panier au format CSV qu'il est désormais possible
 - Vous devez au préalable avoir Honda comme fournisseur.
 - Depuis la page des modèles, cliquez sur "Importer Honda".
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/new-honda-import.png" width="300"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/new-honda-import.png" width="300"/>
 
 - Suivez les instructions: téléchargez les fichiers fournis par Honda, puis remplissez les champs comme indiqué.
 
-<img class="ml-5" src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/honda-import.png" width="800"/>
+<img class="ml-5" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/honda-import.png" width="800"/>
 
 - Cliquez sur "Charger": tous les modèles importés seront créés.
 
@@ -244,7 +244,7 @@ Honda fournit des modèles de panier au format CSV qu'il est désormais possible
 
 Il est maintenant possible de configurer les comptes de TVA déductible à l'achat par taux de TVA.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.21.0/vat-config.png" width="700"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.21.0/vat-config.png" width="700"/>
 
 ## Améliorations diverses
 

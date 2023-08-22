@@ -21,7 +21,7 @@
 
 - Il n'est désormais plus possible de facturer un panier à un client qui n'a pas été ajouté au préalable à la société en cours.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/add_contact.png" width="240px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.7.0/add_contact.png" width="240px"/>
 
 - Correction d'un problème de chargement des données analytiques sur l'année précédente et légère amélioration du système de cache.
 - Correction du blocage de la facturation de cessions introduit avec l'impossibilité de facturer à une autre entité logique.
@@ -38,35 +38,35 @@ Nous avons supprimé la limitation sur les descriptions des libellés des adress
 
 Afin d'ajouter votre libellé personnalisé si les libellés pré-définis ne vous suffisent pas, sélectionnez _Personnaliser_ dans la liste puis cliquez sur le bouton Ajouter.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/default_key_add.png" width="400px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.7.0/default_key_add.png" width="400px"/>
 
 Vous pouvez alors renseigner une clé personnalisée pour le numéro, l'email ou l'adresse:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/custom_key_modal.png" width="460px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.7.0/custom_key_modal.png" width="460px"/>
 
 Puis définir la valeur associée:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/custom_key_val_edit.png" width="400px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.7.0/custom_key_val_edit.png" width="400px"/>
 
 ## Définition des valeurs par défaut
 
 En plus de définir vos clés personnalisée vous pouvez définir, à l'édition du contact, les adresses, numéros de téléphone et email à utiliser par défaut à la facturation:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/default_invoicing_phone.png" width="312px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.7.0/default_invoicing_phone.png" width="312px"/>
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/default_invoicing_email.png" width="312px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.7.0/default_invoicing_email.png" width="312px"/>
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/default_invoicing.png" width="312px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.7.0/default_invoicing.png" width="312px"/>
 
 À noter que vous pouvez également dès maintenant définir une adresse de livraison par défaut. Cette adresse n'est pas actuellement exploitée dans Yuzer mais le sera plus tard dans l'année.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/defaut_shipment.png" width="312px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.7.0/defaut_shipment.png" width="312px"/>
 
 # Simplification des transferts inter-groupe
 
 Dans le cas où le contact est un contact intra-groupe, vous pouvez définir l'entrepôt de livraison par défaut, ainsi que le nom du transport utilisé. Ces informations seront alors pré-remplies dans le cas de transfert entre deux entités du groupe.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/entity_shipment.png" width="312px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.7.0/entity_shipment.png" width="312px"/>
 
 # Inter sociétés
 
@@ -76,7 +76,7 @@ Nous avons ajouté également une option permettant d'emballer et envoyer imméd
 
 Cela permet de ne pas avoir à traiter les étapes de colisage et d'envoi du transfert. Car ces étapes peuvent être superflues dans le cas où le transfert ne nécessite pas de passer par un transporteur.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/transfer_basket_ship_modal.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.7.0/transfer_basket_ship_modal.png" width="100%"/>
 
 # Intra sociétés
 
@@ -99,11 +99,11 @@ Vous pouvez désormais accéder à l'ajout des frais de carte grise dans un pani
 
 Le plus simple est de le pré-sélectionner depuis la fiche du client, vous pouvez également l'ajouter dans un panier déjà créé comme suit:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/set_vehicle.png" width="512px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.7.0/set_vehicle.png" width="512px"/>
 
 Ensuite rendez-vous dans le menu contextuel du groupe de facturation souhaité afin d'ajouter les frais de carte grise.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/add_registration.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.7.0/add_registration.png" width="100%"/>
 
 # Intégration Triumph
 
@@ -113,7 +113,7 @@ L'intégration Triumph nous permet de vous faciliter la vie avec l'enregistremen
 
 Si la réparation ne doit pas être transmise à AMP contentez-vous de cliquer sur annuler. Sinon remplissez le formulaire et validez.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/triumph_register.png" width="512px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.7.0/triumph_register.png" width="512px"/>
 
 <div class="alert alert-warning">
 Attention, vous êtes responsables des informations remontées à Triumph, merci de bien valider celles-ci.
@@ -138,7 +138,7 @@ Le principal objectif de cette itération était de fournir un ensemble de fonct
 
 La nouvelle fonction d'analyse vous permet de définir un ou plusieurs tableaux de bord, ou d'afficher des tableaux de bords standard définis par Yuzer.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/dashboard_menu.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.7.0/dashboard_menu.png" width="100%"/>
 
 <div class="alert alert-info">
 Les tableaux de bords Yuzer sont encore en cours d'élaboration et complétion. Nous vous invitons à détailler dans un ticket Zendesk votre dans le cas où vous ne trouverez pas ce que vous recherchez.
@@ -153,7 +153,7 @@ Vous pouvez configurer vos onglets à l'aide du menu _Configurer les onglets_ du
 
 Une fois sur la page de configuration des onglets vous pouvez sélectionner les tableaux de bords à conserver sous forme d'onglet, puis déplacer ceux-ci dans l'ordre que vous souhaitez.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/dashboard_tabs.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.7.0/dashboard_tabs.png" width="100%"/>
 
 ## Créer un tableau de bord
 
@@ -161,14 +161,14 @@ Vous pouvez créer un nouveau tableau de bord vide (ou en créer en copiant un t
 
 Vous pouvez alors configurer le nom du tableau de bord, sa description
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/edit_dashboard.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.7.0/edit_dashboard.png" width="100%"/>
 
 ainsi que le comportement de la grille d'affichage dont les valeurs peuvent-être
 
 - S'adapte à la largeur: Dans ce cas le tableau de bord sera toujours affiché sur la largeur disponible, la place pour chaque widget sera alors redimensionnée.
 - Fixe: Dans ce cas le tableau de bord garde une taille fixe. Chaque widget conserve alors sa taille originale.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/edit_dashboard_grid_type.png" width="384px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.7.0/edit_dashboard_grid_type.png" width="384px"/>
 
 ### Période d'analyse
 
@@ -185,13 +185,13 @@ Lors du choix de la période d'analyse, Yuzer vous propose d'ajouter deux ensemb
 
 Bien entendu dans le cas où le choix de période concerne l'année en cours, alors «la période précédente» et «la même période de l'année précédente» désignent la même période et une seule sélection doit alors être effectuée.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/edit_dashboard_period.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.7.0/edit_dashboard_period.png" width="100%"/>
 
 ### Définition des filtres généraux
 
 Vous pouvez en plus de la définition de la période d'analyse, définir un ensemble de filtres généraux qui sont appliqués aux données affichées dans le tableau de bords. L'ensemble des données de la période sont donc pré-filtrées à l'aide de ceux-ci avant le rendu.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/edit_dashboard_global_filtering.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.7.0/edit_dashboard_global_filtering.png" width="100%"/>
 
 ### Définition des sources de données par niveau
 
@@ -201,11 +201,11 @@ Chaque source de donnée peut être utilisée par un ou plusieurs graphiques ou 
 
 Les sources de données définissent un ensemble de filtres spécifiques à la source de donnée ainsi que les différents niveaux d'agrégations:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/edit_dashboard_datasource_1.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.7.0/edit_dashboard_datasource_1.png" width="100%"/>
 
 Il est aussi possible de définir plusieurs sources de données pour afficher, par exemple, un tableau des ventes véhicules et un tableau des ventes de produits sur un même dashboard.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.7.0/edit_dashboard_datasource_2.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.7.0/edit_dashboard_datasource_2.png" width="100%"/>
 
 ### Visualisation des données et définition des widgets
 

@@ -8,7 +8,7 @@ La chargement des paniers et de certaines pages a été amélioré.
 
 Nous avons ajouté une colonne _marque_ à la liste des produits en attente de commande. Il est donc possible, comme illustré ci-dessous, de grouper par fournisseur puis marque. Cette fonctionnalité est particulièrement utile lorsqu'un fournisseur de catalogue possède plusieurs marques et que les commandes doivent être passées directement aux marques en question.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/waiting-order-by-brand.png" height="350"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.15.0/waiting-order-by-brand.png" height="350"/>
 
 ## C'est corrigé
 
@@ -29,7 +29,7 @@ De même qu'il était possible de déplacer les lignes avec des références inc
 
 Le bouton "Extraire les produits inconnus dans un nouvel inventaire reliquat" devient "Scinder l'inventaire".
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/split-inventory-button.png" height="90"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.15.0/split-inventory-button.png" height="90"/>
 
 Il ouvre une fenêtre où vous pouvez choisir entre :
 
@@ -38,19 +38,19 @@ Il ouvre une fenêtre où vous pouvez choisir entre :
 
 La description du nouvel inventaire est pré-remplie dans les deux cas mais peut être personnalisée.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/split-inventory-modal.png" height="500"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.15.0/split-inventory-modal.png" height="500"/>
 
 # Janvier 2022 - Version 1.15.13
 
 Il est possible de définir un préfixe pour les numéros de documents édités (factures, bons de commandes, etc). Cette fonctionnalité est particulièrement important si vous avez des entités logiques (sous-entité d'une même entité légale) pour éviter des conflits entre vos numéros de factures, chaque entité ayant sa propre séquence.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/document_id_prefix_conf.png" height="400"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.15.0/document_id_prefix_conf.png" height="400"/>
 
 # Janvier 2022 - Version 1.15.12
 
 - Ajoute d'un sélecteur pour allez directement sur une page d'inventaire donnée.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/inventory-page-selector.png" height="150"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.15.0/inventory-page-selector.png" height="150"/>
 
 ## C'est corrigé
 
@@ -64,7 +64,7 @@ Nous avons ajouté sur les lignes d'inventaire:
 - le prix moyen pondéré du produit
 - et une case à cocher pour aider à la validation et à la vérification de l'inventaire. A noter que ces valeurs sont stockées localement sur votre machine pour l'instant.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/inventory-lines-more-columns.png" height="150"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.15.0/inventory-lines-more-columns.png" height="150"/>
 
 ## C'est corrigé
 
@@ -76,11 +76,11 @@ Nous avons ajouté sur les lignes d'inventaire:
 
 - Ajout d'un bouton pour pouvoir filtrer et ne voir que les lignes d'inventaire qui ont une balance de stock incorrecte.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/inventory-balance-filter.png" height="150"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.15.0/inventory-balance-filter.png" height="150"/>
 
 - Ajout d'un bouton pour ajouter rapidement un produit par référence. A noter que vous devez activer le filtre par emplacement pour que le bouton apparaisse.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/inventory-quick-add.png" height="80"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.15.0/inventory-quick-add.png" height="80"/>
 
 - Les zones de préparation de panier et emplacement véhicules ont été ajouté dans le filtre par emplacement.
 
@@ -101,7 +101,7 @@ Nous avons ajouté sur les lignes d'inventaire:
 
 La sélection de la caisse active s'effectue désormais directement depuis la barre de navigation principale à côté de la sélection de l'entrepôt:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/top-navbar.png" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.15.0/top-navbar.png" />
 
 Cette sélection permet de mieux comprendre sur quelle caisse l'utilisateur travaille et remplace la sélection dans la pop-up de paiement ou dans la clôture de caisse.
 
@@ -109,7 +109,7 @@ Cette sélection permet de mieux comprendre sur quelle caisse l'utilisateur trav
 
 Nous avons ajouté un bouton en haut à droite de la fiche de détails d'un produit afin d'imprimer directement ses étiquettes.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/quick-price-tag-printing.png" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.15.0/quick-price-tag-printing.png" />
 
 ## Configuration des imprimantes par défaut
 
@@ -120,15 +120,15 @@ Aussi, en activant l'option **impression automatique** pour l'imprimante ticket 
 
 La configuration est spécifique sur chaque poste.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/default-printer-configuration.png" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.15.0/default-printer-configuration.png" />
 
 ## Imprimer les étiquettes de produits de tout mon stock
 
 Nous avons ajouté une fonctionnalité, accessible depuis le menu **Stock**, pour pouvoir imprimer les étiquettes de tous les produits du stock.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/print-all-stock-labels-01.png" />
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/print-all-stock-labels-02.png" />
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/print-all-stock-labels-03.png" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.15.0/print-all-stock-labels-01.png" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.15.0/print-all-stock-labels-02.png" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.15.0/print-all-stock-labels-03.png" />
 
 Description des options:
 
@@ -168,7 +168,7 @@ Les options de configuration du widget de main-d'œuvre ont été améliorées e
 
 Mais aussi d'afficher une nouvelle visualisation sous forme de jauge:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/workforce-gauge.png" height="350"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.15.0/workforce-gauge.png" height="350"/>
 
 ## Améliorations du widget de chiffre d'affaires
 
@@ -179,15 +179,15 @@ Mais aussi d'afficher une nouvelle visualisation sous forme de jauge:
 
 Vous pouvez désormais exposer votre liste de stock véhicules à un exploitant externe tel que Winteam. Il faut pour cela créer une clé d'API depuis la nouvelle section de votre espace administration.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/api-key-menu.png" height="100"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.15.0/api-key-menu.png" height="100"/>
 
 Cliquez sur _Ajouter_ puis configurez les différents paramètres de la clé d'API.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/api-key-new.png" height="300" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.15.0/api-key-new.png" height="300" />
 
 Vous pouvez alors communiquer à votre exploitant les instructions qui s'affichent:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/api-key-instructions.png"  height="100" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.15.0/api-key-instructions.png"  height="100" />
 
 ## Gestion des factures d'achat
 
@@ -199,15 +199,15 @@ Il est désormais possible d'enregistrer ses factures d'achat dans Yuzer et d'as
 
 De nouveaux paramètres de comptabilité ont été ajoutés afin de pouvoir gérer vos factures d'achat.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/accountancy-settings-menu.png" height="80" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.15.0/accountancy-settings-menu.png" height="80" />
 
 Ces nouveaux paramètres vous permettent de configurer les numéros de comptes fournisseurs ainsi que les comptes TVA liés aux achats.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/accountancy-settings-new-params.png" height="150" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.15.0/accountancy-settings-new-params.png" height="150" />
 
 Vous devrez également définir les règles d'association de votre comptabilité à l'achat et pour les remises à l'achat.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/accountancy-mapping-purchase.png" height="200" />
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.15.0/accountancy-mapping-purchase.png" height="200" />
 
 <div class="alert alert-info">
 Plusieurs améliorations seront développées sur ce sujet courant janvier, incluant la possibilité de créer une configuration à l'achat spécifique pour les achats intra-communautaires.
@@ -217,13 +217,13 @@ Plusieurs améliorations seront développées sur ce sujet courant janvier, incl
 
 Les factures d'achat sont disponibles depuis l'onglet comptabilité
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/purchase-invoice-list.png" height="400"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.15.0/purchase-invoice-list.png" height="400"/>
 
 ### Ajout d'une nouvelle facture d'achat
 
 L'ajout d'une nouvelle facture d'achat se fait à l'aide du bouton depuis la liste.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/new-purchase-invoice.png" height="350"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.15.0/new-purchase-invoice.png" height="350"/>
 
 Notez que l'ajout d'une facture d'achat pour un fournisseur nécessite au préalable d'avoir associé un contact avec un numéro fournisseur à celui-ci. Le numéro de fournisseur est en effet utilisé comme numéro du tiers en comptabilité.
 
@@ -239,17 +239,17 @@ La plupart des informations peuvent être modifiées sur l'écran de détails.
 
 ### Edition d'une facture d'achat
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/purchase-invoice-edit.png" height="100"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.15.0/purchase-invoice-edit.png" height="100"/>
 
 ### Lien avec un dossier
 
 Pour une ligne de facture d'achat associée à un produit identifié, vous pouvez lier celle ci au dossier du/des produit(s) en utilisant l'icône d'ajout de dossier.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/purchase-invoice-dealerfile-link.png" height="100"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.15.0/purchase-invoice-dealerfile-link.png" height="100"/>
 
 Il est aussi possible de générer une ligne à partir du dossier produit en cliquant sur le bouton ci-dessous:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.15.0/create-purchase-line-from-dealerfile.png" height="100"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.15.0/create-purchase-line-from-dealerfile.png" height="100"/>
 
 ## Integration with Suzuki
 

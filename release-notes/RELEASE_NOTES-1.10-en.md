@@ -2,17 +2,17 @@
 
 - We improved products in stock filtering which should provide better results.
 - In the basket context bar, the _cart_ icon has been changed to the basket type icon.
-  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/basket-type-icon.png" height="50"/>
+  <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/basket-type-icon.png" height="50"/>
 
 # Dashboard
 
 The "Turnover" widget configuration has been clarified and has a new feature: filtering or grouping by basket type.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/turnover.png" height="320"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/turnover.png" height="320"/>
 
 A new _Workforce_ widget has been added and allows to to display the **Invoiced** time or turnover of the workshop.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/workforce-widget.png" height="320"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/workforce-widget.png" height="320"/>
 
 # Catalog
 
@@ -26,7 +26,7 @@ Note. When receiving Mash, Royal Enfield or Hyosung products, you still have to 
 
 You can now display multiple workspaces in a single calendar.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/multiple-workspaces.png" height="140"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/multiple-workspaces.png" height="140"/>
 
 When multiple workspaces are displayed:
 
@@ -37,21 +37,21 @@ When multiple workspaces are displayed:
 
 When a basket is invoiced and some of the cessions (prepair / repair) have not been finalized, a task is automatically created in the commercial management calendar.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/incomplete-cession-warn.png" height="140"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/incomplete-cession-warn.png" height="140"/>
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/incomplete-cession-create.png" height="140"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/incomplete-cession-create.png" height="140"/>
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/incomplete-cession-task-cal.png" height="140"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/incomplete-cession-task-cal.png" height="140"/>
 
 # Trade-in estimation
 
 In the event of a trade in, you can now fill some new fields to estimate the selling cost of the trade in vehicle and the cost of the repairs.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/trade-in-estimate.png" height="120"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/trade-in-estimate.png" height="120"/>
 
 These fields are optional by default but can be made mandatory by the admin in the _Commercial management tab_ (see below).
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/trade-in-estimate-mandatory.png" height="120"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/trade-in-estimate-mandatory.png" height="120"/>
 
 If you defined a _recommended margin_ in the commercial management configuration (see below) the estimated sale price and repairs are used to compute a recommended purchase price.
 
@@ -59,7 +59,7 @@ If you defined a _recommended margin_ in the commercial management configuration
 
 A new option "Commercial management" is now available in the "Settings" and will allow you to access these tabs:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/commercial_config.png"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/commercial_config.png"/>
 
 We moved CGV and loan configuration here.
 
@@ -67,7 +67,7 @@ We moved CGV and loan configuration here.
 
 You will also find a brand new menu that will allow you to access a new set of parameters:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/commercial_config_tab.png"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/commercial_config_tab.png"/>
 
 ### Default document validity duration
 
@@ -93,7 +93,7 @@ Currently, we have some limitations: vehicles cannot be discounted by a loyalty 
 
 Note that the brand must be the exact, case sensitive name of the brand. An empty value matches all brands.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/loyalty-config.png"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/loyalty-config.png"/>
 
 ## Subscribing to a loyalty program
 
@@ -103,7 +103,7 @@ You may register a contact loyalty program subscription from the contact page ed
 - Add a loyalty membership to the billing group (note that you cannot have more than one loyalty membership applied to a billing group). Effects on the basket are described in Section "Apply contact's loyalty membership".
 - Remove a loyalty membership from a billing group.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/loyalty-subscription.gif"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/loyalty-subscription.gif"/>
 
 ## Apply contact's loyalty membership
 
@@ -115,7 +115,7 @@ Loyalty discounts are gathered by VAT. In our exampe, all lines have 20% VAT, so
 - BIH-01-142 is a garment: it matches the first rule of the program and thus this rule applies, resulting in a 10% discount.
 - BIH-1003038 is not a garment but a blackbird product provided by Bihr so the second rule applies, resulting in a 5% discount.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.10.0/loyalty-basket.png"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.10.0/loyalty-basket.png"/>
 
 # That's fixed
 

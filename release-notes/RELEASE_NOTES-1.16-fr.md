@@ -58,15 +58,15 @@ L'objectif est de permettre à terme un transfert de stock sans génération de 
 
 La personne ayant créé une fiche contact et la dernière personne l'ayant modifiée sont désormais affichés sur le détail de celle-ci.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.16.0/contact-creator.png" height="90"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.16.0/contact-creator.png" height="90"/>
 
 ## Amélioration des widgets
 
 Il est désormais possible de sélectionner plusieurs catégories dans le widget de chiffre d'affaire.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.16.0/turnover-widget-cat-selector.png" height="90"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.16.0/turnover-widget-cat-selector.png" height="90"/>
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.16.0/turnover-widget-cat-select.png" height="90"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.16.0/turnover-widget-cat-select.png" height="90"/>
 
 Le widget de ventes permet quand à lui de cumuler les ventes de plusieurs types de dossiers (véhicules et vélos par exemple).
 

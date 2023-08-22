@@ -20,15 +20,15 @@ Seuls les administrateurs ou comptables peuvent ajouter des notes visibles pour 
 
 Depuis la fiche contact cliquez sur le nouveau bouton _Post-it_.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.30.0/contact-sticky-notes-1.png" width="360px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.30.0/contact-sticky-notes-1.png" width="360px"/>
 
 Si votre droit ne vous permet que de créer des notes locales à l'entité sur laquelle vous êtes connectés la boite de dialogue suivante s'ouvre automatiquement sans sélection du type de note à créer.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.30.0/contact-sticky-notes-2.png" width="480px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.30.0/contact-sticky-notes-2.png" width="480px"/>
 
 Vous pouvez choisir un style de note ainsi que définir son message.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.30.0/contact-sticky-notes-3.png" width="420px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.30.0/contact-sticky-notes-3.png" width="420px"/>
 
 La note globale apparait avec un icône spécifique. Vous pouvez bien entendu éditer ou supprimer une note à l'aide des boutons disponibles.
 
@@ -36,11 +36,11 @@ La note globale apparait avec un icône spécifique. Vous pouvez bien entendu é
 
 Le statut de paiement ainsi que le montant total du panier ont été ajoutés à l'affichage d'un panier dans la liste.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.30.0/contact-baskets-1.png" width="400px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.30.0/contact-baskets-1.png" width="400px"/>
 
 Les paniers sont désormais filtrés par défaut afin de simplifier leur lisibilité et n'afficher que les paniers les plus utiles: Les panier non facturés, non annulés ou non soldés.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.30.0/contact-baskets-2.png" width="420px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.30.0/contact-baskets-2.png" width="420px"/>
 
 Yuzer charge désormais les premiers paniers du client et vous propose, si celui-ci a d'autres paniers, de charger plus de paniers.
 
@@ -50,7 +50,7 @@ Les paniers sont récupérés en fonction de leur date de création et vous affi
 
 Pour afficher les autres paniers vous pouvez cliquer sur l'icône de filtre et modifier la sélection par défaut.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.30.0/contact-baskets-3.png" width="420px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.30.0/contact-baskets-3.png" width="420px"/>
 
 ## Gestion des paiements sur les paniers de reprises
 
@@ -72,7 +72,7 @@ Afin de bien noter le panier comme soldé et étant donné qu'il pouvait-être c
 - Puis une remise dans la balance de ce crédit afin que la migration n'ait aucun impact sur les opérations que vous auriez déjà effectué:
   - Correction système: Mise en balance du crédit pour annuler le paiement automatique par crédit (release note v1.30).
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.30.0/credit-payment-1.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.30.0/credit-payment-1.png" width="100%"/>
 
 Ces deux opérations n'ont aucune implication comptable et permettent, sans aucun impact sur la balance, de solder tous les paniers de reprises sèche dont le bon d'achat a été édité avant la version 1.30.
 
@@ -111,15 +111,15 @@ Cet écran sera amélioré dans la prochaine version afin de vous permettre de l
 
 Pour ce faire, depuis la fiche contact, cliquer sur "Ajouter des paiements"
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.30.0/multi-payment-button.png"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.30.0/multi-payment-button.png"/>
 
 Puis dans la fenêtre de paiements, vous pouvez choisir les factures que vous souhaitez solder.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.30.0/multi-payment-modal.png"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.30.0/multi-payment-modal.png"/>
 
 Les remboursements sont maintenant accessibles en utilisant le switch en haut à gauche de la même fenêtre d'ajout de paiement.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.30.0/multi-payment-refund.png"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.30.0/multi-payment-refund.png"/>
 
 ## Améliorations diverses
 

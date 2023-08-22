@@ -10,15 +10,15 @@ L'ajout de produits dans un panier, ou à commander, depuis la liste de produits
 
 Vous pouvez toujours spécifier un nombre de produits à ajouter mais un bouton _+1_ permet d'ajouter rapidement une unité au panier.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/item-quick-add-nbr.png" height="64"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.12.0/item-quick-add-nbr.png" height="64"/>
 
 - L'icône change en fonction du contexte que ce soit pour l'ajout dans un panier:
 
-  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/item-quick-add-basket.png" height="64"/>
+  <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.12.0/item-quick-add-basket.png" height="64"/>
 
 - ou pour l'ajout dans les produits à commander au fournisseur:
 
-  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/item-quick-add-order.png" height="64"/>
+  <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.12.0/item-quick-add-order.png" height="64"/>
 
 # Gestion des documents d'identité d'un contact
 
@@ -32,7 +32,7 @@ Vous pouvez désormais ajouter à un contact les pièces d'identité suivantes:
 
 </div>
   <div class="col">
-    <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/identity-docs.png" height="320"/>
+    <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.12.0/identity-docs.png" height="320"/>
   </div>
 </div>
 
@@ -40,7 +40,7 @@ Vous pouvez désormais ajouter à un contact les pièces d'identité suivantes:
 
 La gestion des marges de vente minimales a été ajoutée dans l'onglet **Gestion commerciale**/**configuration commerciale** du panneau d'administration.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/recommended_margins.png" height="380"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.12.0/recommended_margins.png" height="380"/>
 
 Vous pouvez ici définir des règles sur la gestion des marges à la vente. Il est possible d'être informatif ou restrictif.
 
@@ -52,20 +52,20 @@ Une fois configurées, nous affichons un avertissement sur la marge du panier ou
 
 Lors de l'édition du panier:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/basket-margin-warn.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.12.0/basket-margin-warn.png" width="100%"/>
 
 Ainsi qu'avant l'édition des divers documents:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/basket-margin-warn-invoice.png" height="380"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.12.0/basket-margin-warn-invoice.png" height="380"/>
 
 Dans le cas de règles restrictives, si un panier ou un véhicule a une marge inférieure à celle configurée alors, en plus des messages d'alerte en rouge, l'édition de documents sera empêchée (sachant qu'un utilisateur ayant le rôle ADMIN pourra toujours effectuer une vente quelque soit la configuration).
 
 <div class="d-flex justify-content-center">
   <div class="mr-2">
-  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/basket-margin-error.png" height="48"/>
+  <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.12.0/basket-margin-error.png" height="48"/>
   </div>
   <div class="ml-2">
-  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/basket-margin-block.png" height="140"/>
+  <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.12.0/basket-margin-block.png" height="140"/>
   </div>
 </div>
 
@@ -77,7 +77,7 @@ Les règles basées sur l'âge du stock nécessitent que le dossier renseignent 
 
 Votre entité peut-être configurée pour empêcher la facturation d'un panier qui aurait des cessions non finalisées. L'option est accessible depuis l'onglet **Gestion commerciale**/**configuration commerciale** du panneau d'administration.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/config-unfinalized-cessions.png" height="100"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.12.0/config-unfinalized-cessions.png" height="100"/>
 
 # Amélioration de la gestion des attributs des produits
 
@@ -122,7 +122,7 @@ Vous pouvez créer une nouvelle catégorie identifiable à l'aide du bouton **+*
 
 De nouveaux onglets s'ajoutent ou se substituent (en fonction de la configuration ci-dessus) afin de vous permettre de gérer vos dossiers de produits identifiés.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.12.0/dealer-file-list.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.12.0/dealer-file-list.png" width="100%"/>
 
 ## Associer un produit identifié à un client
 

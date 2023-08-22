@@ -43,7 +43,7 @@ Il est désormais possible de gérer des cartes cadeaux dans Yuzer. Assurez vous
 
 La première étape pour accepter les cartes cadeaux est de configurer un moyen de paiement de type carte cadeau.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/gift-card-cfg.png" height="400"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.13.0/gift-card-cfg.png" height="400"/>
 
 Vous pouvez choisir de laisser Yuzer générer les numéros de séquences des cartes, ou utiliser des cartes cadeaux existantes dont les numéros ne sont pas générés par Yuzer.
 
@@ -58,11 +58,11 @@ Notez que vous pouvez avoir plusieurs moyen de paiement de type carte cadeau, il
 
 La vente d'une carte cadeau se fait à travers l'ajout d'un produit dont la catégorie est "Services et Taxes / Carte cadeau". La première étape consiste donc à créer ce produit dans le catalogue local de votre société depuis l'onglet magasin.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/add-product.png" height="180"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.13.0/add-product.png" height="180"/>
 
 Lors de la création du produit les prix peuvent-être laissés à zero car la valeur de la carte cadeau sera quoi qu'il arrive définie lors de l'ajout de celle-ci au panier.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/new-gift-card-product.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.13.0/new-gift-card-product.png" width="100%"/>
 
 La création d'un produit de carte cadeau vous permet de mettre en magasin des pochettes de cartes cadeaux qui ne contiendraient pas la carte, ou ne laisseraient pas le code barre de la carte visible. Seule le code barre du produit étant visible sur celle-ci.
 
@@ -74,19 +74,19 @@ Dans l'onglet _administration_ le menu _Cartes fidélités_ est désormais _Cart
 
 Vous retrouvez ici la liste des cartes cadeaux configurées en moyen de paiement:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/gift-card-list.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.13.0/gift-card-list.png" width="100%"/>
 
 Sélectionnez la carte cadeau pour laquelle générer un lot de cartes et cliquez sur le bouton **+** à droite.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/gift-card-batches.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.13.0/gift-card-batches.png" width="100%"/>
 
 Vous devez préciser le nombre de cartes cadeau à générer ainsi qu'un montant optionnel sur la carte cadeau. Dans le cas ou le montant n'est pas précisé, celui sera affecté au moment de la vente de la carte avec le montant de celle-ci.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/gift-card-new-batch.png" height="160"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.13.0/gift-card-new-batch.png" height="160"/>
 
 La liste des cartes cadeaux générées est alors affichée. Vous pouvez l'exporter en CSV ou xlsx afin de pouvoir, si vous le souhaitez, la transmettre à un service d'impression de cartes PVC.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/gift-card-batch-cards.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.13.0/gift-card-batch-cards.png" width="100%"/>
 
 Comme vous pouvez le constater les cartes générées ne sont pas activées et il est impossible de les utiliser comme moyen de paiement.
 
@@ -95,7 +95,7 @@ Comme vous pouvez le constater les cartes générées ne sont pas activées et i
 Lors de la vente du produit carte cadeau (qui peut-être ajouté au panier par identifiant, en scannant son code barre, ou par le catalogue) une boite de dialogue s'ouvre afin que vous définissiez la carte cadeau à associer à la vente.
 Les cartes cadeaux sont en effet désactivées lors de leur création et activées unitairement lors de la vente de celles-ci.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/add-giftcard-to-basket-modal.png" height="240"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.13.0/add-giftcard-to-basket-modal.png" height="240"/>
 
 La première étape, dans le cas ou vous avez configuré plusieurs types de cartes cadeau dans les moyens de paiement, est de sélectionner celle que vous souhaitez. Ce cas est rare et cette selection n'est pas nécessaire dans la plupart des cas.
 
@@ -105,7 +105,7 @@ Une fois la carte sélectionnée vous devez sélectionner le montant à lui affe
 
 Il est finalement possible de définir un client bénéficiaire de la carte cadeau si celle-ci est dès maintenant destinée à une personne en particulier. Ce champ est bien entendu disponible.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/add-giftcard-to-basket-modal-2.png" height="300"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.13.0/add-giftcard-to-basket-modal-2.png" height="300"/>
 
 Contrairement aux autres lignes, la modification d'une carte cadeau (pour la changer ou modifier le montant) se fait au niveau du bouton _éditer_ se trouvant sur la ligne (au niveau de la colonne stock).
 
@@ -139,7 +139,7 @@ Dans les versions précédentes Yuzer ne remettait pas à jour les produits "mon
 
 Yuzer va désormais re-synchroniser ces produits vous permettant de les placer dans le groupe de facturation du client ou dans le groupe de facturation "à démonter".
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/basket-synch.png" height="340"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.13.0/basket-synch.png" height="340"/>
 
 De la même façon, un produit démonté lors d'une cession, verra son statut "Monté sur produit" mis à jour.
 
@@ -172,7 +172,7 @@ Vous pouvez effectuer une demande de récupération de TVA trop payée sur vos p
 
 - Partout dans l'application, l'affichage du stock a été étendu aux dossiers de produits (véhicules inclus). Il est possible d'aller au dossier en question en cliquant sur le numéro de dossier.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/stock-location-name-bicycle.png" height="30"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.13.0/stock-location-name-bicycle.png" height="30"/>
 
 - Les QR-codes sont opérationnels pour les produits identifiés.
 
@@ -182,13 +182,13 @@ Les lignes d'une réception sont triées par date de création. Toutefois, les p
 
 L'ajout rapide ne crée plus systématiquement une nouvelle ligne mais les lignes qui le peuvent seront fusionnées. Les réservations et préparations seront également mises à jour.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/reception-quick-add.png" height="40"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.13.0/reception-quick-add.png" height="40"/>
 
 La préparation effective d'un panier (choix des emplacements de stock) et la volonté de préparation sont décorrélées: les quantités affectées aux préparations panier ne sont pas automatiquement remplies. Ainsi, il est possible de choisir de préparer la réception côté application de bureau et d'effectuer réellement la préparation côté application mobile.
 
 Avoir "emplacement inconnu" n'est plus proposé par défaut.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/reception-no-location.png" height="30"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.13.0/reception-no-location.png" height="30"/>
 
 # Inventaires
 
@@ -196,7 +196,7 @@ Les lignes d'un inventaire sont triées par date de création. Toutefois, les em
 
 Il est désormais possible d'inventorier des dossiers produits et de filtrer ces emplacements.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.13.0/inventory-selector.png" height="130"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.13.0/inventory-selector.png" height="130"/>
 
 Quelques améliorations de performances ont été réalisées.
 

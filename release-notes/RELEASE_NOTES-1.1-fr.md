@@ -14,7 +14,7 @@ Cette version introduit une réécriture majeure de la gestion des réservations
 
 Yuzer arbore désormais son logo définitif. Nous espérons que vous l'aimerez autant que nous!
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.1.0/icon.png" width="100"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.1.0/icon.png" width="100"/>
 
 # Nouveautés
 
@@ -22,7 +22,7 @@ Lorsqu'une nouvelle version de l'application démarre, la page nouveauté s'ouvr
 
 Vous pouvez également ré-ouvrir cette page à tout moment en cliquant sur le numéro de version de Yuzer dans le coin en bas à gauche de l'application.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.1.0/version-click.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.1.0/version-click.png" width="100%"/>
 
 ## Nouveau flux de gestion du stock du panier à la réception
 
@@ -43,11 +43,11 @@ Juste avant de créer un bon de commande ou un order de réparation nous effectu
 - Chaque élément en stock devient _Réservé_ dans le stock
 - Chaque élément qui n'est pas en stock est automatiquement _Réservé sur les commandes_ et nous créons une ligne _En attente de commande_ dans la gestion des commandes fournisseur.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.1.0/auto-reservation-fr.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.1.0/auto-reservation-fr.png" width="100%"/>
 
 Vous pouvez bien entendu toujours déclencher la réservation depuis la boite de dialogue de gestion du stock du panier.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.1.0/manual-reservation-fr.png" width="100%"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.1.0/manual-reservation-fr.png" width="100%"/>
 
 Comme vous pouvez le constater la gestion de la réservation a été simplifiée et vous pouvez désormais déclencher la réservation pour un groupe de facturation donné ou directement pour l'ensemble du panier.
 
@@ -59,8 +59,8 @@ Notre recommandation est que vous gardiez un emplacement spécifique dans votre 
 
 Afin de préparer le stock d'un panier, vous devez accéder à la boite de dialogue d'un panier, soit via le bouton _stock/cmd_ du panier, soit depuis une tâche atelier/réception-livraison directement.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.1.0/basket-stock-btn.png" width="160"/>
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.1.0/task-pick-btn.png" width="160"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.1.0/basket-stock-btn.png" width="160"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.1.0/task-pick-btn.png" width="160"/>
 
 Depuis cette boite de dialogue vous pouvez cliquer sur les boutons de picking (en vert) de chaque ligne que vous souhaitez préparer. Yuzer va alors essayer de trouver automatiquement le meilleure emplacement depuis lequel prendre le produit. Si cet emplacement n'est pas celui d'ou vous souhaitez prendre le produit vous pouvez alors l'éditer ou ajouter d'autres emplacements si vous prenez les produits depuis plusieurs endroits.
 
@@ -103,7 +103,7 @@ L'affichage des commandes est désormais automatiquement filtré sur le fourniss
 Nous avons simplifié le composant de sélection d'un fournisseur dans certain écrans de l'application, vous permettant de chercher plus efficacement le fournisseur que vous recherchez.
 
 <div class="d-flex justify-content-center">
-  <img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.1.0/new-supplier-select-fr.png" height="150"/>
+  <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.1.0/new-supplier-select-fr.png" height="150"/>
 </div>
 
 Nous allons déployer ce sélecteur sur l'ensemble des écrans permettant la sélection de fournisseurs dans les versions à venir.

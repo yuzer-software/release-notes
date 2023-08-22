@@ -4,7 +4,7 @@
 
 Nous avons ajouté une nouvelle tarification par _"coefficient"_.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.18.0/pricing-policy-coefficient.png" width="1024"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.18.0/pricing-policy-coefficient.png" width="1024"/>
 
 Comme le montre l'écran ci-dessus, vous pouvez maintenant définir un coefficient de type :
 _Si le `prix d'achat` est compris entre `4,61` et `23` alors le multiplier par `1,38` pour définir le `PV TTC`._
@@ -49,13 +49,13 @@ Et vous pouvez définir le résultat dans _le prix de vente HT_ ou _le prix de v
 
 Il est désormais possible de faire des transferts de stock entre différentes entités.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.18.0/transfer-create.png" height="500"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.18.0/transfer-create.png" height="500"/>
 
 ## Liste des transferts
 
 La liste des transferts recense les transferts depuis ou vers cette entité (y inclus les transferts intra-entité). Dans le cas d'un transfert inter-entité, le nom de l'entité est affiché en gras.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.18.0/transfer-list.png" height="200"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.18.0/transfer-list.png" height="200"/>
 
 ## Liste des réceptions
 
@@ -63,7 +63,7 @@ La liste des transferts recense les transferts depuis ou vers cette entité (y i
 - Lorsqu'une réception est une réception d'un transfert inter-entité, nous n'affichons pas le nom de l'entrepôt comme "Fournisseur" mais seulement le nom de l'entité.
 - Lorsqu'une réception est une réception d'un transfert, nous avons remplacé le numéro de livraison (qui correspondait à un identifiant interne du transfert) par un lien vers le transfert.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.18.0/reception-list.png" height="85"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.18.0/reception-list.png" height="85"/>
 
 # Gestion des bons de livraison
 
@@ -80,7 +80,7 @@ Vous pouvez désormais ajouter un ensemble de filtres lors de la recherche d'un 
 - Par année du véhicule
 - Par tags
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.18.0/contact-filter.png" height="650"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.18.0/contact-filter.png" height="650"/>
 
 # Amélioration de l'affichage des CGV
 
@@ -94,7 +94,7 @@ Sélectionnez les CGV que vous souhaitez éditer et définissez le nombre de col
 - Police: Arial Narrow
 - Taille: 2
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.18.0/cgv_nb_cols.png" height="80"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.18.0/cgv_nb_cols.png" height="80"/>
 
 # Marges dans les paniers
 
@@ -104,9 +104,9 @@ Ce même prix est bien utilisé dans les cessions éditées.
 
 Lorsque le produit n'a pas encore été stocké le prix d'achat utilisé reste le prix catalogue. Un indicateur vous permet de savoir quel prix est utilisé.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.18.0/basket-purchase-stock-price.png" height="106"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.18.0/basket-purchase-stock-price.png" height="106"/>
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.18.0/basket-purchase-catalog-price.png" height="150"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.18.0/basket-purchase-catalog-price.png" height="150"/>
 
 # Améliorations du widget de main d'oeuvre
 
@@ -118,25 +118,25 @@ Vous pouvez donc:
 - Trier la main d'oeuvre facturée ou en cession
 - Filtrer par type de panier
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.18.0/workforce-widget-settings.png" height="320"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.18.0/workforce-widget-settings.png" height="320"/>
 
 - Il est désormais possible de définir une période glissante plutôt qu'une période fixe
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.18.0/sliding-period-workforce.png" height="280"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.18.0/sliding-period-workforce.png" height="280"/>
 
 L'affichage des données sous forme de table est par défaut à plat:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.18.0/workforce-widget-table.png" height="380"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.18.0/workforce-widget-table.png" height="380"/>
 
 Vous pouvez glisser une colonne afin de grouper les données
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.18.0/workforce-widget-table-groupped.png" height="380"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.18.0/workforce-widget-table-groupped.png" height="380"/>
 
 Notez que le groupement n'est pour l'instant pas sauvegardé et doit-être effectué directement sur le widget. Ceci fera l'objet d'une amélioration dans le futur.
 
 Enfin il est possible d'exporter en CSV les données de la table, soit l'ensemble des lignes sans regroupement, soit seulement les lignes regroupées.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.18.0/workforce-widget-export.png" height="160"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.18.0/workforce-widget-export.png" height="160"/>
 
 # Analyses des ventes
 
@@ -178,7 +178,7 @@ Les personnes qui sont totalement indisponible sur une journée données ont un 
 
 Cette première amélioration ne prends pas encore en compte les indisponibilité du matin ou de l'après midi uniquement. Seule les personnes absentent la journée entière sont affectées. De même si l'affichage est modifié nous n'empêchons pas encore la planification de tâches à l'employé absent.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/1.18.0/unavailability-planning.png" height="320"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.18.0/unavailability-planning.png" height="320"/>
 
 # C'est corrigé
 

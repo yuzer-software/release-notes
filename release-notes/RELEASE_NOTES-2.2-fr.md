@@ -6,11 +6,11 @@
 
 La gestion des marques dans Yuzer se normalise. En effet, le champ libre existant dans les versions précédentes pouvait causer des différences dans les noms ou formatages qui limitait l'exploitation de l'information marque dans les différents écrans de l'application ou dans les analytiques.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.2.0/brand_select.png" width="512px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.2.0/brand_select.png" width="512px"/>
 
 Le champ libre est donc remplacé par un sélecteur qui permet de choisir une marque dans un référentiel normalisé. Ce référentiel de marque peut-être accédé à travers l'onglet _Administration / Marques_:
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.2.0/brand_list.png" width="512px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.2.0/brand_list.png" width="512px"/>
 
 Si une marque venait à manquer, vous pourrez créer depuis cet écran une nouvelle marque qui ne sera visible, tant que celle-ci n'aura pas été validée par les équipes Yuzer, que par votre concession.
 
@@ -28,14 +28,14 @@ Les anciennes marques qui n'ont pas été migrées à l'identique sont toujours 
 
 Vous pouvez ajouter une nouvelle marque depuis le menu _Administration / Marques_.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.2.0/brand_new.png" width="512px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.2.0/brand_new.png" width="512px"/>
 
 ## Séparation des catalogues et fournisseurs
 
 Autre modification apportée par la version 2.2 de Yuzer, les fournisseurs sont désormais séparés de la notion de catalogue.
 Ce point est plus proche de la réalité et permet de mieux exprimer la différence entre l'éditeur d'un catalogue et le fournisseur de celui-ci.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.2.0/catalog_list.png" width="1024px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.2.0/catalog_list.png" width="1024px"/>
 
 L'écran de gestion des fournisseurs reste accessible comme avant. Cependant:
 
@@ -43,7 +43,7 @@ L'écran de gestion des fournisseurs reste accessible comme avant. Cependant:
 - Le fournisseur ne porte plus de catalogue (ajouter un fournisseur n'ajoutera pas d'accès à ses produits).
 - La gestion des fournisseurs est désormais focalisée sur ce qu'est un fournisseur. Il permet de configurer le numéro du fournisseur et des informations relatives aux aspects comptables et commande.
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.2.0/catalog_detail.png" width="1024px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.2.0/catalog_detail.png" width="1024px"/>
 
 Note: Les fournisseurs ayant des services de passage commande automatisés tels que KTM par exemple doivent toujours être ajoutés depuis cet écran à travers les fournisseurs officiels. Le service de commande est en effet directement lié à la notion de fournisseur.
 
@@ -60,9 +60,9 @@ Les fournisseurs n'ont pu être automatiquement associé lors de la migration. V
 
 Vous pouvez désormais exporter vos stock dossier de la même manière que vos stock produits via un export automatique nocturne. Pour cela rendez vous dans l'onglet _Administration / Automates_
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.2.0/export_files.png" width="1024px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.2.0/export_files.png" width="1024px"/>
 
-<img src="https://raw.githubusercontent.com/gear-group/release-notes/master/release-notes/2.2.0/export_files_2.png" width="1024px"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.2.0/export_files_2.png" width="1024px"/>
 
 ## Améliorations inventaires
 
