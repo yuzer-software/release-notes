@@ -51,6 +51,8 @@ Quand on annule une facture, les éventuelles réservations clientes liées au p
 Quand on réceptionne plusieurs unités d'un même produit, Yuzer ajuste automatiquement la quantité reçue plutôt que de créer une nouvelle ligne de réception à chaque lecture de code barre. Ceci permet d'avoir une description de la réception plus concise.
 Cependant il existe quelques cas où l'on peut préférer dupliquer une ligne de réception, par exemple lorsque toutes les unités n'ont pas le même prix. À cette fin, un nouveau bouton a été ajouté pour pouvoir changer le comportement.
 
+<img width="1024" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/reception/add_to_new_line_before.png"/>
+<img width="1024" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/reception/add_to_new_line_result.png"/>
 
 ## Enrichissement des produits
 
