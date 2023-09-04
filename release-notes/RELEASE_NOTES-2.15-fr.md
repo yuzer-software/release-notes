@@ -48,11 +48,28 @@ Quand on annule une facture, les éventuelles réservations clientes liées au p
 
 ## Réception
 
+### Ajout d'un produit dans une nouvelle ligne
+
 Quand on réceptionne plusieurs unités d'un même produit, Yuzer ajuste automatiquement la quantité reçue plutôt que de créer une nouvelle ligne de réception à chaque lecture de code barre. Ceci permet d'avoir une description de la réception plus concise.
 Cependant il existe quelques cas où l'on peut préférer dupliquer une ligne de réception, par exemple lorsque toutes les unités n'ont pas le même prix. À cette fin, un nouveau bouton a été ajouté pour pouvoir changer le comportement.
 
 <img width="1024" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/reception/add_to_new_line_before.png"/>
 <img width="1024" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/reception/add_to_new_line_result.png"/>
+ 
+### Ajout de produit dans une reception à partir d'une commande
+
+Afin de facilité la réception, il est maintenant possible d'ajouter des produits depuis une commande donnée.
+Dans le mode "Commandes", un nouvel onglet permet de changer de vue. 
+
+<img width="1024" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/reception/add_by_order_tab.png"/>
+
+Cette nouvelle vue permet d'ajouter des produits depuis la commande voulu:
+
+<img width="1024" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/reception/add_by_order_expand.png"/>
+
+Ou bien d'ajouter directement la commande complète: 
+
+<img width="1024" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/reception/add_by_order_all.png"/>
 
 ## Enrichissement des produits
 
