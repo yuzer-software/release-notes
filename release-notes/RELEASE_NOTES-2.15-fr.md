@@ -87,4 +87,9 @@ Pour des raisons de simplification, les règles possédant des tags vides comme 
 Nous vous invitons à corriger votre configuration si vous rencontrez un message d'alerte à ce sujet.
 </div>
 
+## Annulation de facture
+
+Quand on annule une facture, les éventuelles réservations clientes liées au panier changent aussi d'état. Dorénavant on peut choisir si l'on souhaite leur annulation ou bien si l'on préfère qu'elles retournent dans l'état PRÉPARÉES, avec le déplacement de stock idoine.
+
+
 ## Corrections
