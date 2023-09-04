@@ -40,14 +40,25 @@ Pour des raisons de simplification, les règles possédant des tags vides comme 
 Nous vous invitons à corriger votre configuration si vous rencontrez un message d'alerte à ce sujet.
 </div>
 
+
 ## Annulation de facture
 
 Quand on annule une facture, les éventuelles réservations clientes liées au panier changent aussi d'état. Dorénavant on peut choisir si l'on souhaite leur annulation ou bien si l'on préfère qu'elles retournent dans l'état PRÉPARÉES, avec le déplacement de stock idoine.
 
+
+## Réception
+
+Quand on réceptionne plusieurs unités d'un même produit, Yuzer ajuste automatiquement la quantité reçue plutôt que de créer une nouvelle ligne de réception à chaque lecture de code barre. Ceci permet d'avoir une description de la réception plus concise.
+Cependant il existe quelques cas où l'on peut préférer dupliquer une ligne de réception, par exemple lorsque toutes les unités n'ont pas le même prix. À cette fin, un nouveau bouton a été ajouté pour pouvoir changer le comportement.
+
+
 ## Enrichissement des produits
 
-Les travaux concernant l'enrichissement des produits commencés dans la version précédente ont été complétés afin de pouvoir extraire des propriétés des produits depuis des champs tel que l'identifiant.
+Les travaux concernant l'enrichissement des produits commencés dans la version précédente ont été complétés afin de pouvoir extraire des propriétés des produits depuis des champs tel que leur identifiant.
 
 Afin d'activer cette possibilité il faut qu'une des règles d'enrichissement ait un filtre afin d'être appliquée à une catégorie spécifique de produits (par exemple aux vêtements hauts uniquement). En effet les propriétés des produits sont liées à leur catégorie.
 
-Nous allons enrichir petit à petit certain de nos catalogues automatisés afin d'exploiter ces enrichissement lorsque cela est possible. N'hésitez pas, si vous connaissez des règles permettant d'extraire des couleurs ou tailles depuis des identifiants de produits, à les communiquer à notre équipe support.
+Nous allons enrichir petit à petit certains de nos catalogues automatisés afin d'exploiter ces enrichissement lorsque cela est possible. N'hésitez pas, si vous connaissez des règles permettant d'extraire des couleurs ou tailles depuis des identifiants de produits, à les communiquer à notre équipe support.
+
+
+## Corrections
