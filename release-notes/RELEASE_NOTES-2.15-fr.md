@@ -44,5 +44,10 @@ Nous vous invitons à corriger votre configuration si vous rencontrez un message
 
 Quand on annule une facture, les éventuelles réservations clientes liées au panier changent aussi d'état. Dorénavant on peut choisir si l'on souhaite leur annulation ou bien si l'on préfère qu'elles retournent dans l'état PRÉPARÉES, avec le déplacement de stock idoine.
 
+## Enrichissement des produits
 
-## Corrections
+Les travaux concernant l'enrichissement des produits commencés dans la version précédente ont été complétés afin de pouvoir extraire des propriétés des produits depuis des champs tel que l'identifiant.
+
+Afin d'activer cette possibilité il faut qu'une des règles d'enrichissement ait un filtre afin d'être appliquée à une catégorie spécifique de produits (par exemple aux vêtements hauts uniquement). En effet les propriétés des produits sont liées à leur catégorie.
+
+Nous allons enrichir petit à petit certain de nos catalogues automatisés afin d'exploiter ces enrichissement lorsque cela est possible. N'hésitez pas, si vous connaissez des règles permettant d'extraire des couleurs ou tailles depuis des identifiants de produits, à les communiquer à notre équipe support.
