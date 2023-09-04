@@ -2,10 +2,8 @@
 
 ## Opérations entre différents comptes
 
-Vous pouviez déjà effectuer commandes, facturations et livraisons à une entité de
-votre groupe (ou compte Yuzer). Vous pourrez effectuer ces opérations avec une
-entité Yuzer qui ne serait pas de votre groupe, sous réserve que les deux entités
-acceptent de collaborer.
+Auparavant vous pouviez déjà effectuer des opérations de commandes, facturations et livraisons à une autre entité de votre groupe (ou compte Yuzer).
+Dorénavant vous pouvez effectuer ces opérations avec une entité Yuzer qui n'est pas de votre groupe, à la condition que les deux entités aient préalablement autoriser cette collaboration.
 
 ### Lier un contact à une entité externe
 
@@ -14,17 +12,16 @@ vous (c'est-à-dire créent des paniers, etc.), vous devez d'abord leur donner
 la permission de le faire. Pour cela, allez dans le nouveau menu
 `Administration/Codes d'association` et cliquez sur `Ajouter`. Choisissez une
 date d'expiration, et validez. Notez qu'une fois que la date d'expiration est
-atteinte, vous devrez soit la repousser soit re-générer un code. (Si vous ne
-souhaitez pas d'expiration, vous n'avez qu'à demander une expiration dans un
-millénaire).
+atteinte, vous devrez soit la repousser soit re-générer un code (si vous ne
+souhaitez pas d'expiration, vous pouvez configurer une date très loin dans le futur).
 
 <img width="400" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/pairing-code-1-admin.webp"/>
 
 Vous verrez le détail du code généré. Vous pouvez :
 
-- l'envoyer par mail avec le bouton à enveloppe ou par tout autre moyen de
+- l'envoyer par mail (bouton `enveloppe`) ou par tout autre moyen de
   votre choix en le copiant (bouton `copier`)
-- ajouter un libellé personnalisé pour savoir à qui vous l'avez envoyé
+- ajouter un libellé personnalisé pour vous rappeler son objet ou son destinataire,
 - voir le nom de l'entité Yuzer qui a utilisé ce code
 - voir la date d'expiration du code
 - révoquer le code pour cesser de travailler avec l'entité sus-mentionnée,
@@ -57,7 +54,7 @@ Dans le cas où vous gérer un seul atelier physique partagé entre plusieurs en
 <img width="896" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/workspace-config.webp"/>
 
 Lier les espaces de travail permet de visualiser les tâches de tous les espaces ainsi reliés.
-Les tâches provenant d'une autre entité apparaîtront grisées. Il faudra vous connecter sur l'entité où la tâche été créer pour pouvoir la modifié.
+Les tâches provenant d'une autre entité apparaîtront grisées. Il faudra vous connecter sur l'entité où la tâche été créer pour pouvoir la modifier.
 
 <img width="640" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/calendar-shared-tasks.webp"/>
 
@@ -71,7 +68,7 @@ Assurez-vous d'avoir les mêmes horaires d'ouverture sur les espaces de travail 
 
 ## Gestion des calendriers et ressources
 
-La configuration du **temps de d'occupation** et de leurs **indisponibilités** des ressources sont maintenant partagées entre toutes les entités du compte.
+Les configurations du **temps de d'occupation** et des **indisponibilités** de leurs ressources sont maintenant partagées entre toutes les entités du compte.
 Ainsi, vous devez commencer par définir le pourcentage de temps alloué à chaque entité et ensuite définir le pourcentage de temps pour chaque type de tâches pour une entité donnée.
 
 **Exemple de configuration**:
@@ -83,11 +80,11 @@ Pour _Gallactic Empire_, il consacre 100% de son temps sur n'importe quelle tâc
 
 **Testeur T** a une charge journalière de 50% sur _Bespin_.
 Vous pouvez remarquer qu'il a une configuration avec une règle de 15% de son temps pour des tâches sans tags et le reste pour n'importe quelle tâche.
-Cette configuration ne fait pas vraiment de sens et revient au même que s'il avait simplement 100% sur n'importe quelle tâche.
+Cette configuration ne fait pas vraiment de sens : elle est équivalente à une règle de 100% du temps pour n'importe quelle tâche.
 
 <div class="alert alert-warning">
 Pour des raisons de simplification, les règles possédant des tags vides comme ci-dessus seront ignorées lors de la sauvegarde.
-Nous vous invitons à corriger votre configuration si vous rencontrez le message d'alerte.
+Nous vous invitons à corriger votre configuration si vous rencontrez un message d'alerte à ce sujet.
 </div>
 
 ## Corrections
