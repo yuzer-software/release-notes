@@ -19,6 +19,16 @@ La barre de pourcentage dans la vue calendrier représente la charge pour l'enti
 Assurez-vous d'avoir les mêmes horaires d'ouverture sur les espaces de travail relié. Dans le cas contraire, les pourcentages d'occupations du calendrier peuvent être erronés.
 </div>
 
+### Application mobile
+
+Vous verrez de la même manière les tâches d'autres entités dans l'application mobile. Cliquer sur une tâche changera automatiquement d'entité (si vous en avez les droits) puis accèdera aux détails de la tâche.
+
+<div class="d-flex">
+    <img width="300" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/calendar-shared-tasks-mobile-1.webp"/>
+    <img width="300" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/calendar-shared-tasks-mobile-2.webp"/>
+    <img width="300" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/calendar-shared-tasks-mobile-3.webp"/>
+</div>
+
 ## Gestion des calendriers et ressources
 
 Les configurations du **temps d'occupation** et des **indisponibilités** de leurs ressources sont maintenant partagées entre toutes les entités du compte.
@@ -76,5 +86,16 @@ Les travaux concernant l'enrichissement des produits commencés dans la version 
 Afin d'activer cette possibilité il faut qu'une des règles d'enrichissement ait un filtre afin d'être appliquée à une catégorie spécifique de produits (par exemple aux vêtements hauts uniquement). En effet les propriétés des produits sont liées à leur catégorie.
 
 Nous allons enrichir petit à petit certains de nos catalogues automatisés afin d'exploiter ces enrichissements lorsque cela est possible. N'hésitez pas, si vous connaissez des règles permettant d'extraire des couleurs ou tailles depuis des identifiants de produits, à les communiquer à notre équipe support.
+
+## Application Mobile: changement d'entité
+
+Il est enfin possible de changer d'entité depuis l'application mobile sans se déconnecter ! Dans le menu latéral, cliquez sur le bouton de changement d'entité. La liste des entités apparaît alors. Sélectionnez l'entité sur laquelle vous voulez travailler.
+
+<div class="d-flex">
+    <img width="300" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/mobile-switch-entity-1.webp"/>
+    <img width="300" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/mobile-switch-entity-2.webp"/>
+</div>
+
+<img width="300" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/reception/add_by_order_all.png"/>
 
 ## Corrections
