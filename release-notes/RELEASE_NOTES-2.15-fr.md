@@ -21,7 +21,7 @@ Assurez-vous d'avoir les mêmes horaires d'ouverture sur les espaces de travail 
 
 ## Gestion des calendriers et ressources
 
-Les configurations du **temps de d'occupation** et des **indisponibilités** de leurs ressources sont maintenant partagées entre toutes les entités du compte.
+Les configurations du **temps d'occupation** et des **indisponibilités** de leurs ressources sont maintenant partagées entre toutes les entités du compte.
 Ainsi, vous devez commencer par définir le pourcentage de temps alloué à chaque entité et ensuite définir le pourcentage de temps pour chaque type de tâches pour une entité donnée.
 
 **Exemple de configuration**:
@@ -40,11 +40,9 @@ Pour des raisons de simplification, les règles possédant des tags vides comme 
 Nous vous invitons à corriger votre configuration si vous rencontrez un message d'alerte à ce sujet.
 </div>
 
-
 ## Annulation de facture
 
 Quand on annule une facture, les éventuelles réservations clientes liées au panier changent aussi d'état. Dorénavant on peut choisir si l'on souhaite leur annulation ou bien si l'on préfère qu'elles retournent dans l'état PRÉPARÉES, avec le déplacement de stock idoine.
-
 
 ## Réception
 
@@ -56,18 +54,18 @@ Cependant il existe quelques cas où l'on peut préférer dupliquer une ligne de
 <img width="1024" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/reception/add_to_new_line_before.png"/>
 <img width="1024" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/reception/add_to_new_line_result.png"/>
  
-### Ajout de produit dans une reception à partir d'une commande
+### Ajout de produit dans une réception à partir d'une commande
 
 Afin de facilité la réception, il est maintenant possible d'ajouter des produits depuis une commande donnée.
-Dans le mode "Commandes", un nouvel onglet permet de changer de vue. 
+Dans le mode "Commandes", un nouvel onglet permet de changer de vue.
 
 <img width="1024" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/reception/add_by_order_tab.png"/>
 
-Cette nouvelle vue permet d'ajouter des produits depuis la commande voulu:
+Cette nouvelle vue permet d'ajouter une sélection de produits d'une commande:
 
 <img width="1024" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/reception/add_by_order_expand.png"/>
 
-Ou bien d'ajouter directement la commande complète: 
+Ou bien d'ajouter directement tous les produits d'une commande:
 
 <img width="1024" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/reception/add_by_order_all.png"/>
 
@@ -77,7 +75,6 @@ Les travaux concernant l'enrichissement des produits commencés dans la version 
 
 Afin d'activer cette possibilité il faut qu'une des règles d'enrichissement ait un filtre afin d'être appliquée à une catégorie spécifique de produits (par exemple aux vêtements hauts uniquement). En effet les propriétés des produits sont liées à leur catégorie.
 
-Nous allons enrichir petit à petit certains de nos catalogues automatisés afin d'exploiter ces enrichissement lorsque cela est possible. N'hésitez pas, si vous connaissez des règles permettant d'extraire des couleurs ou tailles depuis des identifiants de produits, à les communiquer à notre équipe support.
-
+Nous allons enrichir petit à petit certains de nos catalogues automatisés afin d'exploiter ces enrichissements lorsque cela est possible. N'hésitez pas, si vous connaissez des règles permettant d'extraire des couleurs ou tailles depuis des identifiants de produits, à les communiquer à notre équipe support.
 
 ## Corrections
