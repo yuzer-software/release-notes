@@ -24,9 +24,9 @@ Assurez-vous d'avoir les mêmes horaires d'ouverture sur les espaces de travail 
 Vous verrez de la même manière les tâches d'autres entités dans l'application mobile. Cliquer sur une tâche changera automatiquement d'entité (si vous en avez les droits) puis accèdera aux détails de la tâche.
 
 <div class="d-flex">
-    <img width="300" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/calendar-shared-tasks-mobile-1.webp"/>
-    <img width="300" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/calendar-shared-tasks-mobile-2.webp"/>
-    <img width="300" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/calendar-shared-tasks-mobile-3.webp"/>
+    <div class="mr-2"><img width="300" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/calendar-shared-tasks-mobile-1.webp"/></div>
+    <div class="mr-2"><img width="300" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/calendar-shared-tasks-mobile-2.webp"/></div>
+    <div class="mr-2"><img width="300" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/calendar-shared-tasks-mobile-3.webp"/></div>
 </div>
 
 ## Gestion des calendriers et ressources
@@ -92,8 +92,8 @@ Nous allons enrichir petit à petit certains de nos catalogues automatisés afin
 Il est enfin possible de changer d'entité depuis l'application mobile sans se déconnecter ! Dans le menu latéral, cliquez sur le bouton de changement d'entité. La liste des entités apparaît alors. Sélectionnez l'entité sur laquelle vous voulez travailler.
 
 <div class="d-flex">
-    <img width="300" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/mobile-switch-entity-1.webp"/>
-    <img width="300" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/mobile-switch-entity-2.webp"/>
+    <div class="mr-2"><img width="300" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/mobile-switch-entity-1.webp"/></div>
+    <div class="mr-2"><img width="300" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/mobile-switch-entity-2.webp"/></div>
 </div>
 
 <img width="300" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/reception/add_by_order_all.png"/>
