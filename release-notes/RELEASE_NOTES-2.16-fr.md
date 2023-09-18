@@ -47,5 +47,51 @@ En tant qu'entité cliente du fournisseur :
 
 <img width="330" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/pairing-code-6-is-linked.webp"/>
 
+<br />
+
+## Produits sur dossier
+
+Vous pouvez désormais ajouter une date de livraison estimée provenant de votre fournisseur dans l'encadrer _Informations d'achats_ de la fiche.
+
+Vous pouvez également afficher le numéro de commandes et la date de livraison estimée dans la liste de dossiers.
+
+Pour ce faire, il suffit d'activer l'affichage de ces colonnes:
+<img width="480" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.16.0/dealer-file-list-column-filter.webp"/>
+
+### Import Excel
+
+Nous avons ajouter la possible d'importer des produits sur dossier à partir de fichier Excel.
+
+Yuzer se base sur les identifiants d’autorité (VIN, immatriculation, etc.) pour savoir si un dossier existe déjà.
+Par défaut, si Yuzer lève une erreur s'il détecte qu'un dossier ouvert existe déjà.
+
+Vous pouvez activer l’option _Écraser les valeurs des dossiers existants_ pour forcer la mise à jour des valeurs liées au dossier.
+A noter que les attributs liés au produit identifié ne peuvent être mis à jour.
+
+<br />
+
+## Impression des étiquettes produits
+
+Il est maintenant possible d'ordonner les étiquettes pour les imprimer par ordre de référence produit.
+
+<img width="480" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.16.0/printing-price-tag.webp"/>
+
+A noter que par défaut, les étiquettes sont triées par order d'ajout.
+
+<br />
+
+## Analytiques
+
+Nous avons ajouter un filtre sur l'état du dossier, permettant ainsi d'exclure les dossiers _Démo_ par exemple.
+
+<img width="360" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.16.0/analytics-dealer-file-state-filter.webp"/>
+
+<br />
+
+## Améliorations diverses
+
+- Yuzer affiche désormais le prix d'achat au moment de la facturation sur les lignes du panier lorsque le groupe de facturation a été facturé.
 
 ## Corrections
+
+- Sur les formulaires d'édition de prix, la marge est maintenant recalculée après modification du prix d'achat.
