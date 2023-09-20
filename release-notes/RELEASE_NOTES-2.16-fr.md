@@ -47,8 +47,6 @@ En tant qu'entité cliente du fournisseur :
 
 <img width="330" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.15.0/pairing-code-6-is-linked.webp"/>
 
-<br />
-
 ## Produits sur dossier
 
 Vous pouvez désormais ajouter une date de livraison estimée provenant de votre fournisseur dans l'encadrer _Informations d'achats_ de la fiche.
@@ -56,6 +54,7 @@ Vous pouvez désormais ajouter une date de livraison estimée provenant de votre
 Vous pouvez également afficher le numéro de commandes et la date de livraison estimée dans la liste de dossiers.
 
 Pour ce faire, il suffit d'activer l'affichage de ces colonnes:
+
 <img width="480" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.16.0/dealer-file-list-column-filter.webp"/>
 
 ### Import Excel
@@ -68,8 +67,6 @@ Par défaut, si Yuzer lève une erreur s'il détecte qu'un dossier ouvert existe
 Vous pouvez activer l’option _Écraser les valeurs des dossiers existants_ pour forcer la mise à jour des valeurs liées au dossier.
 A noter que les attributs liés au produit identifié ne peuvent être mis à jour.
 
-<br />
-
 ## Impression des étiquettes produits
 
 Il est maintenant possible d'ordonner les étiquettes pour les imprimer par ordre de référence produit.
@@ -78,15 +75,18 @@ Il est maintenant possible d'ordonner les étiquettes pour les imprimer par ordr
 
 A noter que par défaut, les étiquettes sont triées par order d'ajout.
 
-<br />
-
 ## Analytiques
 
 Nous avons ajouter un filtre sur l'état du dossier, permettant ainsi d'exclure les dossiers _Démo_ par exemple.
 
 <img width="360" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.16.0/analytics-dealer-file-state-filter.webp"/>
 
-<br />
+## Édition de stock
+
+Vous pouvez désormais éditer et exporter le stock de plusieurs entitées à la fois.
+La liste des entitées dépend de vos droits d'accès.
+
+<img width="860" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.16.0/stock-entity-filter.webp"/>
 
 ## Améliorations diverses
 
