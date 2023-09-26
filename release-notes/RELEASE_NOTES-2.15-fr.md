@@ -1,3 +1,8 @@
+# Aout 2023 - Version 2.15.8
+
+- Correction de la vue `Magasin > Configurer > Prix remplacés`
+- Correction de la configuration de l'impression étiquette, comme l'utilisation du _code-barre plutôt que la référence_, qui n'était pas toujours appliquée.
+
 # Aout 2023 - Version 2.15.0
 
 ## Espaces de travail
