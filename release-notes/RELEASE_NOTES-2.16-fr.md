@@ -1,3 +1,10 @@
+# Octobre 2023 - Version 2.16.3
+
+## Corrections
+
+- Le mapping de catégories fournisseurs dans le cadre des règles d'enrichissement de produits catalogues n'était pas correctement enregistré dans le cas de mapping conditionnel.
+- Les catégories fournisseurs et catégories de tarification fournisseurs n'étaient pas mise à jour à l'édition d'un produit dans un catalogue local.
+
 # September 2023 - Version 2.16.0
 
 ## Produits sur dossier
