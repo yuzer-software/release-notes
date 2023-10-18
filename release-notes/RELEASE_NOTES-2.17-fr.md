@@ -31,7 +31,7 @@ Vous pouvez maintenant sélectionner plusieurs entités sur l'export de contacts
 
 ## Prise d'un paiement global sur contact
 
-Nous avons revus la boite de dialogue de paiement: le contenu reste globalement le même mais l'affichage en étape simplifie la compréhenssion de la fonctionalité.
+Nous avons revu la boite de dialogue de paiement: le contenu reste globalement le même mais l'affichage en étape simplifie la compréhension de la fonctionnalité.
 
 ## Amélioration des recherches
 
@@ -39,7 +39,7 @@ L'ensemble des recherches par dates peut désormais utiliser une recherche rapid
 
 Les champs suivants ont été ajoutés à la recherche de paniers:
 
-- Date du statut: Date à laquelle le panier a changé de statut (en général la date d'un document si c'est celui-ci qui a entrainté le changement - commande, proposition commerciale, facture etc).
+- Date du statut: Date à laquelle le panier a changé de statut (en général la date d'un document si c'est celui-ci qui a entrainé le changement - commande, proposition commerciale, facture etc).
 - Date d'expiration: Pour les paniers dont le statut est en proposition commerciale, c'est la date à laquelle celle-ci expire.
 
 ## Opérations entre différents comptes
@@ -74,6 +74,25 @@ Notez que ce contact doit être de type **organisation** ou **fournisseur**. Il 
 ### Transfert inter-compte
 
 Maintenant que vous êtes fournisseur d'une entité Yuzer qui est liée à un de vos contacts, vous pouvez aller sur sa fiche contact et gérer votre panier comme vous avez l'habitude, avec la possibilité de l'envoyer par transfert.
+
+## Suppression de produit
+
+Il n'est désormais plus possible de supprimer un produit lorsque celui est en stock dans une entité du groupe. Il faudra donc vous assurer d'avoir un stock à zéro dans toutes vos entités.
+
+Aussi, lorsque vous supprimez un produit, il sera désormais possible de continuer à accéder à sa page de détail à partir des liens sur les lignes de panier ou de commande par exemple. Il sera même possible d'annuler la suppression.
+Cependant, vous ne pourrez effectuer de commande en utilisant la référence supprimée.
+
+<img width="780" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.17.0/product-garbage-undo.webp"/>
+
+## Fusion de catalogue
+
+- Nous avons ajouté des boutons sur l'entête de la table _Résoudre les références manquantes_ afin de pouvoir appliquer l'action de d'_Ignorer_ ou de _Créer_ sur toutes les lignes filtrées. Ces boutons sont actifs seulement si vous appliquez un filtre sur les marques.
+  <img width="1024" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.17.0/catalog-merge-header-buttons.webp"/>
+
+- Sur la dernière étape de la fusion. Nous vous proposons désormais de supprimer les références qui ont été fusionnées du catalogue source.
+  <img width="1024" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.17.0/catalog-merge-delete-button.webp"/>
+  Lorsque vous avez activé un filtre sur les marques, nous vous proposons également de supprimer les produits correspondants aux marques sélectionnées qui ont été ignorés lors de la fusion et qui ne sont pas en stock.
+  <img width="1024" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.17.0/catalog-marge-delete-ignored.webp"/>
 
 ## Corrections
 
