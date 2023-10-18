@@ -1,4 +1,46 @@
-# Septembre 2023 - Version 2.17.0
+# Octobre 2023 - Version 2.17.0
+
+## Produits sur dossier (véhicules, vélos, etc.)
+
+### Ordre des onglets
+
+Nous avons changé l'ordre des onglets de la liste de dossiers pour avoir l'onglet _Tout le stock_ en première position.
+
+<img width="384"  src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.17.0/dealer-file-list-tabs.webp"/>
+
+Aussi, Yuzer affichera le dernier onglet sélectionné lorsque vous revenez sur le menu.
+
+<img width="384"  src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.17.0/dealer-files-back-to-last-tab.gif"/>
+
+### Ajouts de nouveaux champs
+
+Nous avons ajouté 2 nouveaux champs:
+
+- La date de limite de paiement
+- Le numéro de livre de police
+
+Comme pour la _date de livraison estimée_ en version _2.16.x_, ces champs peuvent être afficher la vue _liste des dossiers_.
+
+<img width="384"  src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.17.0/dealer-file-list-column-filter.webp"/>
+
+## Export de contacts
+
+Vous pouvez maintenant sélectionner plusieurs entités sur l'export de contacts.
+
+<img width="480"  src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.17.0/contacts-export.webp"/>
+
+## Prise d'un paiement global sur contact
+
+Nous avons revus la boite de dialogue de paiement: le contenu reste globalement le même mais l'affichage en étape simplifie la compréhenssion de la fonctionalité.
+
+## Amélioration des recherches
+
+L'ensemble des recherches par dates peut désormais utiliser une recherche rapide par périodes. Lorsque sauvées dans un filtre rapide ces périodes sont réactualisées au chargement de l'écran pour être mise à jour à la date courante.
+
+Les champs suivants ont été ajoutés à la recherche de paniers:
+
+- Date du statut: Date à laquelle le panier a changé de statut (en général la date d'un document si c'est celui-ci qui a entrainté le changement - commande, proposition commerciale, facture etc).
+- Date d'expiration: Pour les paniers dont le statut est en proposition commerciale, c'est la date à laquelle celle-ci expire.
 
 ## Opérations entre différents comptes
 
@@ -33,43 +75,8 @@ Notez que ce contact doit être de type **organisation** ou **fournisseur**. Il 
 
 Maintenant que vous êtes fournisseur d'une entité Yuzer qui est liée à un de vos contacts, vous pouvez aller sur sa fiche contact et gérer votre panier comme vous avez l'habitude, avec la possibilité de l'envoyer par transfert.
 
-## Produits sur dossier
-
-### Ajouts de nouveaux champs
-
-Nous avons ajouté 2 nouveaux champs:
-
-- Le numéro de livre de police
-- La date de limite de paiement
-
-Comme pour la _date de livraison estimée_ en version _2.16.x_, ces champs peuvent être afficher la vue _liste des dossiers_.
-
-<img width="384"  src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.17.0/dealer-file-list-column-filter.webp"/>
-
-### L'ordre des onglets
-
-Nous avons changé l'ordre des onglets de la liste de dossiers pour avoir l'onglet _Tout le stock_ en première position.
-
-<img width="384"  src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.17.0/dealer-file-list-tabs.webp"/>
-
-Aussi, Yuzer affichera le dernier onglet sélectionné lorsque vous revenez sur le menu.
-
-<img width="384"  src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.17.0/dealer-files-back-to-last-tab.gif"/>
-
-### Export de stock
-
-Vous pouvez maintenant sélectionner plusieurs entités sur l'export de dossiers.
-Nous avons également ajouté la colonne _Entité_ dans la sélection du _Dossier produit_ d'avoir l'information du propriétaire du dossier dans le fichier export.
-
-<img width="480"  src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.17.0/dealer-file-export.webp"/>
-
-## Export de contacts
-
-Vous pouvez maintenant sélectionner plusieurs entités sur l'export de contacts.
-
-<img width="480"  src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.17.0/contacts-export.webp"/>
-
 ## Corrections
 
 - Correction de l'annulation de crédit client qui était en erreur lors de l'annulation d'une facture.
 - Il n'est plus possible de changer la catégorie d'un produit dans une catégorie "non-stockable" si le produit est en stock dans une entité. Il vous faudra d'abord corriger le stock existant de l'entité en question avant de pouvoir effectuer le changement.
+- Correction d'un bug dans le changement des couleurs de fond des tâches atelier sur base d'une règle de tag.
