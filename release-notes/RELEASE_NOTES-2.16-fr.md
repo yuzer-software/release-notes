@@ -1,3 +1,10 @@
+# Octobre 2023 - Version 2.16.4
+
+## Corrections
+
+- Correction des totaux dans la vue de commandes
+- Lors de la suppression d'une ligne de panier de type _produit identifié_, les informations du client et panier sont désormais supprimées du dossier si ce dernier était lié au panier.
+
 # Octobre 2023 - Version 2.16.3
 
 ## Corrections
