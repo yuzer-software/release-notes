@@ -45,7 +45,7 @@ Les champs suivants ont été ajoutés à la recherche de paniers:
 ## Opérations entre différents comptes
 
 Auparavant vous pouviez déjà effectuer des opérations de commandes, facturations et livraisons à une autre entité de votre groupe (ou compte Yuzer).
-Dorénavant vous pouvez effectuer ces opérations avec une entité Yuzer qui n'est pas de votre groupe, à la condition que les deux entités aient préalablement autoriser cette collaboration.
+Dorénavant vous pouvez effectuer ces opérations avec une entité Yuzer qui n'est pas de votre groupe, à la condition que les deux entités aient préalablement autorisé cette collaboration.
 
 ### Inviter une entité externe à collaborer
 
