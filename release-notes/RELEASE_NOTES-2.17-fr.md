@@ -94,6 +94,10 @@ Cependant, vous ne pourrez effectuer de commande en utilisant la référence sup
   Lorsque vous avez activé un filtre sur les marques, nous vous proposons également de supprimer les produits correspondants aux marques sélectionnées qui ont été ignorés lors de la fusion et qui ne sont pas en stock.
   <img width="1024" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.17.0/catalog-marge-delete-ignored.webp"/>
 
+## Améliorations diverses
+
+- Vous pouvez désormais exporter la liste des balances clients.
+
 ## Corrections
 
 - Correction de l'annulation de crédit client qui était en erreur lors de l'annulation d'une facture.
