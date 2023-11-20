@@ -1,3 +1,13 @@
+# Novembre 2023 - Version 2.17.8
+
+## Inventaires
+
+Voilà qui est résolu :
+
+- Lors de très gros inventaires, le temps de création de l'inventaire pouvait devenir trop important et aller jusqu'à annuler la création de l'inventaire.
+
+- Lors de la suppression d'un inventaire, la redirection vers la liste des inventaires ne se faisait pas et la barre de progression ne progressait pas (mais la suppression fonctionnait correctement).
+
 # Octobre 2023 - Version 2.17.0
 
 ## Produits sur dossier (véhicules, vélos, etc.)
