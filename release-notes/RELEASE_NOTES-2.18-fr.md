@@ -2,13 +2,33 @@
 
 ## Commandes
 
-Si des produits de plusieurs fournisseurs sont commandés, la pré-visualisation vous affiche chaque commande qui sera générée.
+- Si des produits de plusieurs fournisseurs sont commandés, la pré-visualisation vous affiche chaque commande qui sera générée.
 
 De plus, il est désormais possible de nommer chaque commande. Cela permet de mieux les identifier dans la liste des commandes par la suite.
 
 <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.18.0/order-modal.png"/>
 
-Note: Un nom de commande par défaut est indiqué afin de conserver la capacité à commander sans nécessité de modifier celui-ci.
+<div class="alert alert-info">Note: Un nom de commande par défaut est indiqué afin de conserver la capacité à commander sans nécessité de modifier celui-ci.</div>
+
+- Il est désormais possible de rechercher et filtrer les commandes fournisseur:
+
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.18.0/supplier-order-list.png"/>
+
+## Affichage des niveaux de stock pour les produits identifiés
+
+- Les produits identifiés affichent désormais leur niveau de stock dans la liste des produits de la même manière qu'un produit classique.
+
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.18.0/idps-stock-on-product-list.png"/>
+
+<div class="alert alert-info">Note: L'écran de détail n'a pas encore été mis à jour pour afficher les niveaux de stock. Une prochaine version alignera les informations sur cet écran.</div>
+
+- Par ailleurs l'écran de catalogue d'une catégorie identifiée a été renommé en _Dossiers par produits_
+
+En plus du niveau de stock, il permet désormais de visualiser les dossiers ouverts pour un produit donné.
+
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.18.0/dealer-file-stock-by-product.png"/>
+
+Il est possible de visualiser les dossiers qui ne sont pas liés à une fiche produit à l'aide du bouton _Afficher les IDPs sans modèles_. Une nouvelle ligne est alors ajouté en tête de la liste des résultats pour consulter ces dossiers.
 
 ## Inventaires
 
@@ -43,4 +63,20 @@ Attention donc à bien lire la description ainsi que les messages d'avertissemen
 
 ## Améliorations diverses
 
+- Il est possible de filtrer les dossiers dans les écrans de liste par:
+  - dates de facture d'achat
+  - date de facture
+  - date limite de paiement.
+  - Modèle
+  - Année du modèle
+- La recherche de contacts par numéros de téléphone a été simplifiée et n'impose plus d'utiliser un format international strict.
+- Il est désormais impossible de changer la catégorie d'un produit en produit non stockable si celui-ci est en stock dans n'importe quelle concession.
+- Lors d'une vente produit depuis un dossier, la boite de sélection d'un panier du client n'est plus affichée si aucun panier correspondant n'est trouvé.
+- Il est désormais possible en analytique de filtrer les forfaits vendus. Ceux-ci ont un prix à zero étant donné que celui-ci est déjà réparti sur le contenu du forfait pour une meilleure ventilation.
+
 ## Corrections
+
+- La boite de dialogue de paiement est désormais correctement remise à jour lorsque le montant du paiement est modifié à l'aide des flèches. Elle était mise à jour correctement uniquement sur une modification clavier.
+- Yuzer empêche désormais d'utiliser un id de parent de variant égal à un l'identifiant du produit.
+- Correction de la désélection des email/téléphone dans la boite de dialogue de début de prêt, ainsi que l'edition du contact.
+- Correction du paramétrage des configurations de prêts qui n'était plus fonctionnelle.
