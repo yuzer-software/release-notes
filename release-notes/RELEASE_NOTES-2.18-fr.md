@@ -1,3 +1,9 @@
+# Décembre 2023 - Version 2.18.9
+
+## Corrections
+
+- Correction de l'affichage du formulaire dans la fenêtre de paiement.
+
 # Décembre 2023 - Version 2.18.8
 
 ## Corrections
