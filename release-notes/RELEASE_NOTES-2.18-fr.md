@@ -1,3 +1,12 @@
+# Décembre 2023 - Version 2.18.8
+
+## Corrections
+
+- Correction de la sélection de l'imprimante dans la configuration POS.
+- Correction de la boite de dialogue de commentaires dans le panier.
+- Correction de l'impossibilité de réordonner les lignes de panier.
+- Limitation de la taille des options de sélection qui nuisait à la sélection des emplacements de stock.
+
 # Décembre 2023 - Version 2.18.6
 
 ## Commandes
