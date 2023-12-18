@@ -1,3 +1,22 @@
+# December 2023 - Version 2.18.10
+
+Ajout de la possibilité de rapidement déplacer le stock d'un produit depuis l'application bureau.
+
+Depuis le détail de stock de la fiche d'un produit vous pouvez désormais cliquer sur un nouveau bouton:
+
+<img width="384" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.18.0/move-stock-1.webp"/>
+
+Celui-ci ouvre une boite de dialogue vous permettant de sélectionner un emplacement cible ainsi qu'une quantité à déplacer.
+
+<img width="384" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.18.0/move-stock-2.webp"/>
+
+A la validation un inventaire de déplacement de stock est automatiquemenet créé et clôturé.
+
+## Corrections
+
+- Correction d'une bordure rouge sur la boite de dialogue de paiement autour du premier groupe de facturation lorsque celui-ci était sélectionné.
+- Correction d'un problème d'affichage sur la sélection du journal dans l'écran des écritures comptables (la taille était trop petite).
+
 # Décembre 2023 - Version 2.18.9
 
 ## Corrections
@@ -21,19 +40,19 @@
 
 De plus, il est désormais possible de nommer chaque commande. Cela permet de mieux les identifier dans la liste des commandes par la suite.
 
-<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.18.0/order-modal.png"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.18.0/order-modal.webp"/>
 
 <div class="alert alert-info">Note: Un nom de commande par défaut est indiqué afin de conserver la capacité à commander sans nécessité de modifier celui-ci.</div>
 
 - Il est désormais possible de rechercher et filtrer les commandes fournisseur:
 
-<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.18.0/supplier-order-list.png"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.18.0/supplier-order-list.webp"/>
 
 ## Affichage des niveaux de stock pour les produits identifiés
 
 - Les produits identifiés affichent désormais leur niveau de stock dans la liste des produits de la même manière qu'un produit classique.
 
-<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.18.0/idps-stock-on-product-list.png"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.18.0/idps-stock-on-product-list.webp"/>
 
 <div class="alert alert-info">Note: L'écran de détail n'a pas encore été mis à jour pour afficher les niveaux de stock. Une prochaine version alignera les informations sur cet écran.</div>
 
@@ -41,7 +60,7 @@ De plus, il est désormais possible de nommer chaque commande. Cela permet de mi
 
 En plus du niveau de stock, il permet désormais de visualiser les dossiers ouverts pour un produit donné.
 
-<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.18.0/dealer-file-stock-by-product.png"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.18.0/dealer-file-stock-by-product.webp"/>
 
 Il est possible de visualiser les dossiers qui ne sont pas liés à une fiche produit à l'aide du bouton _Afficher les IDPs sans modèles_. Une nouvelle ligne est alors ajoutée en tête de la liste des résultats pour consulter ces dossiers.
 
@@ -53,11 +72,11 @@ Afin de vous aider à résoudre vos inventaires négatifs, une nouvelle fonction
 
 Pour y accéder vous pouvez cliquer sur le nouveau bouton à côté de "Nouvel inventaire":
 
-<img width="384"  src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.18.0/negative-stock-inventory/new-inventory-button.png"/>
+<img width="384"  src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.18.0/negative-stock-inventory/new-inventory-button.webp"/>
 
 Vous accéderez ensuite la boite de dialogue de création d'inventaire légèrement modifiée dans le cadre de cette fonctionnalité.
 
-<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.18.0/negative-stock-inventory/new-modal-options.png"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.18.0/negative-stock-inventory/new-modal-options.webp"/>
 
 Notez tout d'abord que cette boite de dialogue est à présent figée sur "Inventaire partiel" avec l'option de filtre sur les emplacements avec du stock négatif.
 
