@@ -1,3 +1,25 @@
+# December 2023 - Version 2.18.12
+
+Ajout de nouveaux filtres par défauts sur les paniers:
+
+- Paniers facturés / pièces réservées non livrées
+- Panier sans documents avec réservations
+
+## Corrections
+
+- L'affichage des zones de stock véhicule n'était plus affiché dans l'écran de stock.
+
+<img width="384" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.18.0/stock-browser-vehicles.webp"/>
+
+- Correction d'un problème d'affichage du détail d'une commande lorsque l'utilisateur l'ayant effectué n'était plus affecté au magasin en question.
+- Correction des filtres de panier par défaut _Vente de produits sur dossier_ et _Paniers ouverts il y a deux mois et plus_
+
+# December 2023 - Version 2.18.11
+
+Ajout du support du protocole Concert V2 complet sur IP. (Envoi les messages équivalents au protocole Série sur IP.):
+
+- Testé sur un Pax A920 équipé de la surcouche Nepting
+
 # December 2023 - Version 2.18.10
 
 Ajout de la possibilité de rapidement déplacer le stock d'un produit depuis l'application bureau.
