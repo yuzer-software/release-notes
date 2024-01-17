@@ -1,3 +1,8 @@
+# January 2024 - Version 2.18.13
+
+- Lors de l'édition d'un reçu depuis la modale de paiement, les documents attachés au panier n'étaient pas toujours rafraîchis : un message faux apparaissait alors pour dire que la quantité délivrée dans les documents ne correspondait pas à la quantité délivrée dans les réservations. Un utilisateur pouvait alors ouvrir la fenêtre de gestion de stock, ne pas prêter attention aux quantités affichées et faire l'erreur de cliquer sur "corriger les réservations" ce qui annulait le stock qui, lui, était correct.
+- Un bug qui empêchait de supprimer de vielles réservations (avant 2021) a été trouvé et résolu.
+
 # December 2023 - Version 2.18.12
 
 Ajout de nouveaux filtres par défauts sur les paniers:
@@ -32,7 +37,7 @@ Celui-ci ouvre une boite de dialogue vous permettant de sélectionner un emplace
 
 <img width="384" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/2.18.0/move-stock-2.webp"/>
 
-A la validation un inventaire de déplacement de stock est automatiquemenet créé et clôturé.
+À la validation un inventaire de déplacement de stock est automatiquement créé et clôturé.
 
 ## Corrections
 
@@ -133,6 +138,6 @@ Attention donc à bien lire la description ainsi que les messages d'avertissemen
 ## Corrections
 
 - La boite de dialogue de paiement est désormais correctement remise à jour lorsque le montant du paiement est modifié à l'aide des flèches. Elle était mise à jour correctement uniquement sur une modification clavier.
-- Yuzer empêche désormais d'utiliser un id de parent de variant égal à un l'identifiant du produit.
+- Yuzer empêche désormais d'utiliser un ID de parent de variant égal à un l'identifiant du produit.
 - Correction de la désélection des email/téléphone dans la boite de dialogue de début de prêt, ainsi que l'édition du contact.
 - Correction du paramétrage des configurations de prêts qui n'était plus fonctionnelle.
