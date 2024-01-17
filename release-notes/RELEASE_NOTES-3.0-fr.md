@@ -16,17 +16,17 @@ Sur l'écran des réservations client il est désormais possible de filtrer sur 
 ### Import de dossier à l'aide de la référence de dossier
 
 Il est maintenant possible lors de l'import de dossier, d'utiliser la "Référence de dossier"
-pour retrouver et mettre à jour vos dossiers qui par exemple n'aura pas encore de VIN ou d'immatriculation.
+pour retrouver et mettre à jour vos dossiers qui par exemple n'auraient pas encore de VIN ou d'immatriculation.
 
-<img width="384" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/import.png"/>
+<img width="384" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/import.webp"/>
 
 Pour retrouver cette référence, vous pouvez l'afficher dans le listing de vos dossiers.
 
-<img width="384" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/listing.png"/>
+<img width="384" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/listing.webp"/>
 
 Ou encore l'exporter en cochant le champs "Référence de dossier".
 
-<img width="384" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/export.png"/>
+<img width="384" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/export.webp"/>
 
 ### Synchronisation d'un dossier
 
@@ -86,6 +86,9 @@ Nous avons apporté de nombreuses améliorations à l'application mobile, notamm
 - une meilleure accessibilité à vos derniers travaux et tâches
 - un assistant pour le picking de vos paniers
 
+<div class="d-flex">
+  <div>
+
 ## Entrepôt courant
 
 L'emplacement de votre entrepôt est maintenant défini globalement pour toute l'application. Il peut être changé depuis le panneau latéral.
@@ -99,8 +102,14 @@ Le panneau latéral a été enrichi:
 - Les derniers travaux faits sur l'application mobile ont été ajoutés
 - Les boutons de navigation ont été réorganisés pour être plus accessibles
 
+  </div>
+  <div><img width="300" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/mobile-app/side-menu.webp"/></div>
+</div>
+
 ## Écran d'accueil
 
+<div class="d-flex">
+  <div>
 La page d'accueil a été enrichie pour une navigation plus fluide:
 
 - Le nom de l'entrepôt courant est clairement affiché tout en haut
@@ -114,23 +123,38 @@ La page d'accueil a été enrichie pour une navigation plus fluide:
   - la prochaine tâche "à faire" qui vous est assigné
 - Les boutons de navigation ont été réorganisés pour être plus accessibles
 
+  </div>
+  <div><img width="610" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/mobile-app/home.webp"/></div>
+</div>
+
 ## Panier
 
+<div class="d-flex">
+  <div>
 La vue du panier a été améliorée.
 
 - Nous avons changé les icônes pour qu'ils soient plus compréhensibles:
 
-  - <fa-icon [icon]="['far', 'person-carry']"></fa-icon> : initialiser le picking manuel (du panier ou de la ligne choisie)
-  - <fa-icon [icon]="['far', 'hand-holding-box']"></fa-icon> : prélever
-  - <fa-icon [icon]="['far', 'people-carry']"></fa-icon> : utiliser l'assistant de picking (_nouveau_, voir ci-dessous)
+  - <img width="20" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/mobile-app/person-carry.webp"/> : initialiser le picking manuel (du panier ou de la ligne choisie)
+  - <img width="20" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/mobile-app/hand-holding-box.webp"/> : prélever
+  - <img width="20" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/mobile-app/people-carry.webp"/> : utiliser l'assistant de picking (_nouveau_, voir ci-dessous)
 
 - Une barre de navigation rapide a été ajoutée en bas:
-  - Retour au panier
-  - Afficher les tâches du panier (avec possibilité d'y aller)
-  - Initialiser le picking manuel (même action que le bouton "manuel" en haut)
-  - Faire le picking assisté (même action que le bouton "assisté" en haut)
+
+  1. Retour à la vue de base du panier
+  1. Afficher les tâches du panier (avec possibilité d'y aller)
+  1. Initialiser le picking manuel (même action que le bouton "manuel" en haut)
+  1. Faire le picking assisté (même action que le bouton "assisté" en haut)
+
+    </div>
+    <div><img width="300" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/mobile-app/basket.webp"/></div>
+    <div><img width="300" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/mobile-app/basket-tasks.webp"/></div>
+  </div>
 
 ## Assistant de picking
+
+<div class="d-flex">
+  <div>
 
 Avec l'assistant de picking, ce n'est plus vous mais l'assistant qui vous dit où prendre le stock pour chaque produit. Il est bien sûr nécessaire d'avoir un stock bien à jour pour avoir de bons résultats.
 
@@ -142,17 +166,22 @@ Comme nous n'avons pas le plan des entrepôts, nous trions les emplacements par 
 
 ### Prélèvement et comptage
 
-Si vous voulez ignorer une instruction de l'algorithme, vous pouvez cliquer sur le bouton "passer". Vous devrez alors faire le picking manuel à la fin de l'algorithme.
+Si vous voulez ignorer une instruction de l'algorithme, vous pouvez cliquer sur le bouton "passer" [1]. Vous devrez alors faire le picking manuel à la fin de l'algorithme.
 
-Autrement, allez à l'emplacement proposé, vous avez 2 options de comptage : compter vous-même la quantité ou utiliser le scanner. Utiliser le scanner a l'avantage qu'il vérifiera si le produit a bien la bonne référence.
+Autrement, allez à l'emplacement proposé, vous avez 2 options de comptage : compter vous-même la quantité ou utiliser le scanner [2]. Utiliser le scanner a l'avantage qu'il vérifiera si le produit a bien la bonne référence.
 
 Notez que vous avez 3 valeurs indiquées:
 
-- la quantité que vous allez effectivement prélever en cliquant sur "Prélever"
-- le nombre de produits que vous devez prendre à l'emplacement proposé
-- le nombre de produits total à prélever pour le panier
+- [3] la quantité que vous allez effectivement prélever en cliquant sur "Prélever"
+- [4] le nombre de produits que vous devez prendre à l'emplacement proposé
+- [5] le nombre de produits total à prélever pour le panier
 
-Une fois la quantité ajustée, cliquez sur "Prélever".
+Une fois la quantité ajustée, cliquez sur "Prélever" [6].
+
+  </div>
+  <div><img width="300" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/mobile-app/basket-picking-assistant.webp"/></div>
+  <div><img width="300" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/mobile-app/basket-picking-assistant-scanner.webp"/></div>
+</div>
 
 ## Améliorations diverses
 
@@ -160,4 +189,4 @@ Une fois la quantité ajustée, cliquez sur "Prélever".
 
 ## Sécurité
 
-Nous avons amélioré la sécurisation du stockage local, nottament du token de connexion afin d'éviter qu'un appareil volé et corrompu puisse être utilisé par un attaquant pour se connecter à votre compte.
+Nous avons amélioré la sécurisation du stockage local, notamment du token de connexion afin d'éviter qu'un appareil volé et corrompu puisse être utilisé par un attaquant pour se connecter à votre compte.
