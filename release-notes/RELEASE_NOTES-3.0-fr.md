@@ -5,11 +5,16 @@ Bonne année 2024 à tous de la part de l'équipe Yuzer !
 ## Comptabilité
 
 Les numéros de factures ne sont plus remis à zéro chaque mois. Ils sont désormais remis à zéro au premier janvier uniquement.
-Si les deux fonctionnement sont légaux, l'administration fiscale a une préférence pour une numéro annuelle et nous avons décidé de lui faire plaisir.
+Si les deux fonctionnement sont légaux, l'administration fiscale a une préférence pour une numérotation annuelle et nous avons décidé de lui faire plaisir.
+
+Note: le numéro sera toujours préfixé par le numéro du mois. Par exemple, si la dernière facture de janvier a pour numéro "Yuz-202401000234", alors la première facture de février aura pour numéro "Yuz-202402000235".
 
 ## Filtrer les réservations client sur la date de livraison souhaitée
 
 Sur l'écran des réservations client il est désormais possible de filtrer sur la date de livraison souhaitée.
+
+- La date de livraison est fixée par la date de rendez-vous de livraison au moment où la réservation est créée. Elle n'est pas (encore) mise à jour si la date de livraison change.
+- Il est possible de cocher plusieurs lignes (ou toutes les lignes) et d'annuler plusieurs réservations en même temps (menu [⋮]).
 
 ## Dossiers produits
 
@@ -31,7 +36,7 @@ Ou encore l'exporter en cochant le champs "Référence de dossier".
 ### Synchronisation d'un dossier
 
 La synchronisation d'un dossier vous permet désormais de choisir quelles valeurs conserver suite à la synchronisation.
-Attention : les données sont bien synchronisées par défaut et il vous faudra bien spécifier celles que vous souhaiteriez conserver.
+Attention : les données importées des fournisseurs sont immédiatement sauvegardées, il vous faudra donc bien spécifier quelles valeurs vous voulez conserver pour les réécrire.
 
 ## Paniers
 
@@ -51,7 +56,13 @@ Attention : les données sont bien synchronisées par défaut et il vous faudra
 
 ### Remboursements simplifiés dans le cadre d'un achat de véhicule
 
+TODO
+
 ### Visibilité des documents
+
+// XXX: impactant au support
+
+- Les "Documents édités" sont ceux du groupe de facturation en cours, et non ceux de tous les groupes comme c'était le cas avant.
 
 ## Support des paniers permettant la vente de plusieurs dossiers
 
@@ -65,7 +76,37 @@ Notre design interne et les évolutions à venir permettront de définir les cat
 
 La vente multi-produits peut entraîner la création de paniers comportant plus de 5 groupes de facturation. Ces paniers disposent d'une vue révisée et de quelques fonctionnement spécifiques qui sont détaillés ci-dessous.
 
+Cette vue liste des groupes: cliquer sur une ligne fera apparaître seulement ce groupe, et un bouton "retour" permet de revenir sur la liste des groupes.
+
 #### Déplacer une ligne entre deux groupes de facturation
+
+À moins de 5 groupes, il est toujours possible de glisser/déposer une ligne d'un groupe vers l'autre.
+
+À plus de 5 groupes, il vous faut cliquer sur le bouton d'action de la ligne ([⋮]) et sélectionner "Déplacer vers un autre groupe". (Cette option est disponible aussi pour les paniers de moins de 5 groupes.)
+
+### Reprises
+
+Chaque groupe de facturation a maintenant sa liste de reprises. En effet, les reprises sont considérés comme des moyens de paiement. Pour utiliser l'argent d'une reprise sur plusieurs groupes de facturation, il sera nécessaire de passer par la balance client: soit faire une reprise sèche puis utiliser la balance, soit utiliser le crédit du client disponible du fait de la reprise.
+
+### Auto-synchronisations des produits montés sur le dossier
+
+Cette fonctionnalité est en cours de finalisation et sera prochainement disponible. Il n'y aura qu'un seul groupe de session de démontage pour tous les autres groupes et tous les autres produits.
+
+### Envoi à l'atelier
+
+La manière dont les lignes de panier sont liées aux différentes tâches a légèrement changé pour s'adapter à la présence de plusieurs IDPs.
+
+#### Avant.
+
+| n°  | groupe   | ligne        | Tâche associée | Lignes associées à la tâche |
+| --- | -------- | ------------ | -------------- | --------------------------- |
+|     | Client 1 |              |
+| 1   |          | main d'œuvre | Tâche 1        | Ligne 2                     |
+| 2   |          | produit      |
+
+#### Aujourd'hui.
+
+Attention: un produit au dessus du produit identifié ne sera donc pas dans la tâche liée à l'IDP.
 
 ## Nouveaux catalogues produits
 
@@ -151,7 +192,7 @@ La vue du panier a été améliorée.
     <div><img width="300" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/mobile-app/basket-tasks.webp"/></div>
   </div>
 
-## Assistant de picking
+### Assistant de picking
 
 <div class="d-flex">
   <div>
@@ -160,11 +201,11 @@ Avec l'assistant de picking, ce n'est plus vous mais l'assistant qui vous dit o�
 
 L'assistant considère toutes les lignes du panier et tous les emplacements de stock de votre entrepôt, puis vous proposera un chemin qui vous fera faire le moins de déplacement possible.
 
-### Plan de l'entrepôt
+#### Plan de l'entrepôt
 
 Comme nous n'avons pas le plan des entrepôts, nous trions les emplacements par ordre alphabétique et considérons qu'ils sont tous comme alignés dans un grand couloir.
 
-### Prélèvement et comptage
+#### Prélèvement et comptage
 
 Si vous voulez ignorer une instruction de l'algorithme, vous pouvez cliquer sur le bouton "passer" [1]. Vous devrez alors faire le picking manuel à la fin de l'algorithme.
 
@@ -190,3 +231,11 @@ Une fois la quantité ajustée, cliquez sur "Prélever" [6].
 ## Sécurité
 
 Nous avons amélioré la sécurisation du stockage local, notamment du token de connexion afin d'éviter qu'un appareil volé et corrompu puisse être utilisé par un attaquant pour se connecter à votre compte.
+
+# Notes de la démo — Desktop
+
+## Ergonomie
+
+- Simplification du menu de navigation gauche (le menu à gauche)
+  - Le bouton pour choisir le type d'affichage est déplacé le bouton "utilisateur"
+  - la configration POS a été déplacée dans Administration
