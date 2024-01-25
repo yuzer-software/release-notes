@@ -18,15 +18,15 @@ Note: le numéro sera toujours préfixé par le numéro du mois. Par exemple, si
 Il est maintenant possible lors de l'import de dossier, d'utiliser la "Référence de dossier"
 pour retrouver et mettre à jour vos dossiers qui par exemple n'auraient pas encore de VIN ou d'immatriculation.
 
-<img width="384" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/import.webp"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/import.webp"/>
 
 Pour retrouver cette référence, vous pouvez l'afficher dans le listing de vos dossiers.
 
-<img width="384" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/listing.webp"/>
+<img width="600" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/listing.webp"/>
 
 Ou encore l'exporter en cochant le champs "Référence de dossier".
 
-<img width="384" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/export.webp"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/export.webp"/>
 
 ### Synchronisation d'un dossier
 
@@ -58,6 +58,21 @@ TODO
 // XXX: impactant au support
 
 - Les "Documents édités" sont ceux du groupe de facturation en cours, et non ceux de tous les groupes comme c'était le cas avant.
+
+### Annulation automatisée des anciens paniers
+
+Il est maintenant possible d'annuler automatiquement les anciens paniers.
+
+Pour ce faire, vous pouvez aller sur les 3 points à droite de l'écran des paniers et cliquer sur "Annuler les anciens paniers".
+
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-baskets/cancel-baskets_button.webp"/>
+
+Puis sélectionnez une date et lancez le processus. Tout les panier plus vieux que la date sélectionnée seront alors annulés.
+
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-baskets/cancel-baskets_modal.webp"/>
+
+Vous pouvez alors suivre le déroulement du traitement dans un écran accessible via les 3 points vu plus haut en sélectionnant "Résultat des annulations d'anciens paniers".
+
 
 ## Support des paniers permettant la vente de plusieurs dossiers
 
@@ -102,6 +117,21 @@ La manière dont les lignes de panier sont liées aux différentes tâches a lé
 #### Aujourd'hui.
 
 Attention: un produit au dessus du produit identifié ne sera donc pas dans la tâche liée à l'IDP.
+
+## Annulation automatisée des anciennes réservations
+
+Il est maintenant possible d'annuler automatiquement les anciennes réservations.
+
+Pour ce faire, vous pouvez aller sur les 3 points à droite de l'écran des réservations et cliquer sur "Annuler les anciennes réservations".
+
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-reservations/cancel-reservations_button.webp"/>
+
+Puis sélectionnez une date et lancez le processus. Toutes les réservations liées à des paniers plus anciens que la date sélectionnée seront alors annulées.
+
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-reservations/cancel-reservations_modal.webp"/>
+
+Vous pouvez alors suivre le déroulement du traitement dans un écran accessible via les 3 points vu plus haut en sélectionnant "Résultat des annulations d'anciennes réservations".
+
 
 ## Nouveaux catalogues produits
 
