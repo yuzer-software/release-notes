@@ -1,6 +1,8 @@
 Bonne année 2024 à tous de la part de l'équipe Yuzer !
 
-# Janvier 2024 - Version 3.0.0
+# Janvier 2024 - Version 3.0.x
+
+## Fonctions de nettoyage pour repartir sur de bonnes bases
 
 ## Comptabilité
 
@@ -8,13 +10,6 @@ Les numéros de factures ne sont plus remis à zéro chaque mois. Ils sont déso
 Si les deux fonctionnement sont légaux, l'administration fiscale a une préférence pour une numérotation annuelle et nous avons décidé de lui faire plaisir.
 
 Note: le numéro sera toujours préfixé par le numéro du mois. Par exemple, si la dernière facture de janvier a pour numéro "Yuz-202401000234", alors la première facture de février aura pour numéro "Yuz-202402000235".
-
-## Filtrer les réservations client sur la date de livraison souhaitée
-
-Sur l'écran des réservations client il est désormais possible de filtrer sur la date de livraison souhaitée.
-
-- La date de livraison est fixée par la date de rendez-vous de livraison au moment où la réservation est créée. Elle n'est pas (encore) mise à jour si la date de livraison change.
-- Il est possible de cocher plusieurs lignes (ou toutes les lignes) et d'annuler plusieurs réservations en même temps (menu [⋮]).
 
 ## Dossiers produits
 
@@ -109,6 +104,12 @@ La manière dont les lignes de panier sont liées aux différentes tâches a lé
 Attention: un produit au dessus du produit identifié ne sera donc pas dans la tâche liée à l'IDP.
 
 ## Nouveaux catalogues produits
+
+## Améliortions diverses
+
+## Filtrer les réservations client sur la date de livraison souhaitée
+
+Sur l'écran des réservations client il est désormais possible de filtrer sur la date de livraison souhaitée.
 
 ## Corrections
 
