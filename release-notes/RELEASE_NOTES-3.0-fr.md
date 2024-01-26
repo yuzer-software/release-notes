@@ -89,9 +89,7 @@ Vous pouvez désormais enregistrer un paiement négatif dans un panier de rachat
 
 ### Visibilité des documents
 
-// XXX: impactant au support
-
-- Les "Documents édités" sont ceux du groupe de facturation en cours, et non ceux de tous les groupes comme c'était le cas avant.
+||| Les "Documents édités" sont ceux du groupe de facturation en cours, et non ceux de tous les groupes comme c'était le cas avant
 
 ## Support des paniers permettant la vente de plusieurs dossiers
 
