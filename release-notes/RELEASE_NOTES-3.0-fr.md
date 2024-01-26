@@ -21,11 +21,11 @@ Cela vous permettra de repartir sur de bonnes bases pour un meilleur suivi de vo
 
 Pour lancer un traidement d'annulation des anciens paniers, rendez vous sur l'écran Client / Paniers; Cliquez sur le bouton _3 petits points_ et choisissez _Annuler les anciens paniers_.
 
-![Annuler les anciens paniers](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-baskets/cancel-baskets_button.webp=400)
+![Annuler les anciens paniers](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-baskets/cancel-baskets_button.webp=100%)
 
 Sélectionnez une date et lancez le processus: Tous les panier créés avant la date sélectionnée seront alors annulés.
 
-![Annuler paniers modale](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-baskets/cancel-baskets_modal.webp=400)
+![Annuler paniers modale](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-baskets/cancel-baskets_modal.webp=420)
 
 Vous pouvez suivre le déroulement du traitement dans un écran accessible via les 3 points vu plus haut en sélectionnant _Résultat des annulations d'anciens paniers_.
 
@@ -33,11 +33,11 @@ Vous pouvez suivre le déroulement du traitement dans un écran accessible via l
 
 Pour lancer un traitement d'annulation des anciennes réservations client, vous pouvez aller sur les 3 points à droite de l'écran des réservations et cliquer sur "Annuler les anciennes réservations".
 
-<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-reservations/cancel-reservations_button.webp"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-reservations/cancel-reservations_button.webp=100%"/>
 
 Puis sélectionnez une date et lancez le processus. Toutes les réservations liées à des paniers plus anciens que la date sélectionnée seront alors annulées.
 
-<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-reservations/cancel-reservations_modal.webp"/>
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-reservations/cancel-reservations_modal.webp=420"/>
 
 Vous pouvez alors suivre le déroulement du traitement dans un écran accessible via les 3 points vu plus haut en sélectionnant "Résultat des annulations d'anciennes réservations".
 
@@ -50,7 +50,7 @@ yuzSection Dossiers produits
 Il est maintenant possible lors de l'import de dossier, d'utiliser la "Référence de dossier"
 pour retrouver et mettre à jour vos dossiers qui par exemple n'auraient pas encore de VIN ou d'immatriculation.
 
-![Configuration import](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/import.webp=400)
+![Configuration import](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/import.webp=700)
 
 Pour retrouver cette référence, vous pouvez l'afficher dans le listing de vos dossiers.
 
@@ -58,7 +58,7 @@ Pour retrouver cette référence, vous pouvez l'afficher dans le listing de vos 
 
 Ou encore l'exporter en cochant le champs "Référence de dossier".
 
-![Référence de dossier](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/export.webp=400)
+![Référence de dossier](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/export.webp=100%)
 
 ### Synchronisation d'un dossier
 
@@ -83,9 +83,9 @@ yuzSection Paniers
 
 - Lors de l'application d'une TVA globale sur un panier il n'est désormais possible que de choisir les taux de TVA spécifiés dans les paramètres d'administration comptable.
 
-### Remboursements simplifiés dans le cadre d'un achat de véhicule
+### Remboursements simplifiés dans le cadre d'un achat de produit sur dossier
 
-TODO
+Vous pouvez désormais enregistrer un paiement négatif dans un panier de rachat de produit sur dossier (véhicule, vélo etc.)
 
 ### Visibilité des documents
 
