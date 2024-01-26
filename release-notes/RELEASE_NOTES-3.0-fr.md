@@ -9,38 +9,6 @@ Si les deux fonctionnement sont légaux, l'administration fiscale a une préfér
 
 Note: le numéro sera toujours préfixé par le numéro du mois. Par exemple, si la dernière facture de janvier a pour numéro "Yuz-202401000234", alors la première facture de février aura pour numéro "Yuz-202402000235".
 
-yuzSection Nettoyage paniers et réservations
-
-## Fonctions de nettoyage pour repartir sur de bonnes bases
-
-Nous avons ajouté des fonctionalités d'annulation des anciens paniers et réservations clients. Les prochaines versions de Yuzer ajouteront la possibilité d'annuler les commandes fournisseurs de manière similaire.
-
-Cela vous permettra de repartir sur de bonnes bases pour un meilleur suivi de vos réservations, commandes et stocks.
-
-### Annulation automatisée des anciens paniers
-
-Pour lancer un traidement d'annulation des anciens paniers, rendez vous sur l'écran Client / Paniers; Cliquez sur le bouton _3 petits points_ et choisissez _Annuler les anciens paniers_.
-
-![Annuler les anciens paniers](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-baskets/cancel-baskets_button.webp=100%)
-
-Sélectionnez une date et lancez le processus: Tous les panier créés avant la date sélectionnée seront alors annulés.
-
-![Annuler paniers modale](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-baskets/cancel-baskets_modal.webp=420)
-
-Vous pouvez suivre le déroulement du traitement dans un écran accessible via les 3 points vu plus haut en sélectionnant _Résultat des annulations d'anciens paniers_.
-
-### Annulation automatisée des anciennes réservations client
-
-Pour lancer un traitement d'annulation des anciennes réservations client, vous pouvez aller sur les 3 points à droite de l'écran des réservations et cliquer sur "Annuler les anciennes réservations".
-
-<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-reservations/cancel-reservations_button.webp=100%"/>
-
-Puis sélectionnez une date et lancez le processus. Toutes les réservations liées à des paniers plus anciens que la date sélectionnée seront alors annulées.
-
-<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-reservations/cancel-reservations_modal.webp=420"/>
-
-Vous pouvez alors suivre le déroulement du traitement dans un écran accessible via les 3 points vu plus haut en sélectionnant "Résultat des annulations d'anciennes réservations".
-
 yuzSection Dossiers produits
 
 ## Dossiers produits
@@ -50,15 +18,15 @@ yuzSection Dossiers produits
 Il est maintenant possible lors de l'import de dossier, d'utiliser la "Référence de dossier"
 pour retrouver et mettre à jour vos dossiers qui par exemple n'auraient pas encore de VIN ou d'immatriculation.
 
-![Configuration import](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/import.webp=700)
+![Configuration import](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/import.webp?w=700)
 
 Pour retrouver cette référence, vous pouvez l'afficher dans le listing de vos dossiers.
 
-![Configuration import](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/listing.webp=600)
+![Configuration import](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/listing.webp?w=600)
 
 Ou encore l'exporter en cochant le champs "Référence de dossier".
 
-![Référence de dossier](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/export.webp=100%)
+![Référence de dossier](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/export.webp?w=100%)
 
 ### Synchronisation d'un dossier
 
@@ -71,11 +39,13 @@ yuzSection Paniers
 
 ### Evolutions ergonomiques
 
-- Sous-totaux :
+- Sous-totaux (1):
   Les sous-totaux main d'œuvre et produits dans le cadre d'un ordre de réparation sont désormais cachés par défaut.
 
-- Paiements rapides :
+- Paiements rapides (2):
   Des boutons de paiement rapide ont été ajoutés au panier. Ceux-ci permettent de payer intégralement, avec un moyen de paiement unique, et facturer rapidement un panier.
+
+![Panier](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/basket-sub-total-payments.webp?w=100%)
 
 - Ajout de produits à tarif *dynamiques* :
   Il est désormais possible d'éditer le prix d'achat d'un produit dans le panier si celui-ci a un prix d'achat à zéro dans le catalogue.
@@ -83,13 +53,17 @@ yuzSection Paniers
 
 - Lors de l'application d'une TVA globale sur un panier il n'est désormais possible que de choisir les taux de TVA spécifiés dans les paramètres d'administration comptable.
 
-### Remboursements simplifiés dans le cadre d'un achat de produit sur dossier
-
-Vous pouvez désormais enregistrer un paiement négatif dans un panier de rachat de produit sur dossier (véhicule, vélo etc.)
-
 ### Visibilité des documents
 
-||| Les "Documents édités" sont ceux du groupe de facturation en cours, et non ceux de tous les groupes comme c'était le cas avant
+||| Attention changement impactant
+
+Les "Documents édités" sont ceux du groupe de facturation en cours, et non ceux de tous les groupes comme c'était le cas avant.
+
+### Remboursements simplifiés dans le cadre d'un achat de produit sur dossier
+
+Dans le cadre d'un panier de reprise, une fois le bon d'achat édité et dans le cas ou vous n'avez pas transféré le montant dans le crédit de l'utilisateur, vous pouvez désormais enregistrer un paiement négatif.
+
+![Stock options](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/trade_in_payment.webp?w=100%)
 
 ## Support des paniers permettant la vente de plusieurs dossiers
 
@@ -97,7 +71,7 @@ Changement majeur de Yuzer 3 : il est désormais possible de vendre plusieurs d
 
 Dans cette première itération de Yuzer 3 il est pour l'instant nécessaire d'effectuer des factures (donc des groupes de facturation) différents pour chaque produit. Cette limitation est une contrainte légale pour certains types de produits (les véhicules immatriculables).
 
-Notre design interne et les évolutions à venir permettront de définir les catégories pour lesquelles il est possible de facturer plusieurs produits sur une même facture (les vélos par exemple).
+|| Des évolutions à venir permettront de définir les catégories pour lesquelles il est possible de facturer plusieurs produits sur une même facture (les vélos par exemple). Ce qui permettra d'ajouter plusieurs dossiers à un même groupe de facturation.
 
 ### Paniers de plus de 5 groupes de facturation
 
@@ -115,10 +89,6 @@ Cette vue liste des groupes: cliquer sur une ligne fera apparaître seulement ce
 
 Chaque groupe de facturation a maintenant sa liste de reprises. En effet, les reprises sont considérés comme des moyens de paiement. Pour utiliser l'argent d'une reprise sur plusieurs groupes de facturation, il sera nécessaire de passer par la balance client: soit faire une reprise sèche puis utiliser la balance, soit utiliser le crédit du client disponible du fait de la reprise.
 
-### Auto-synchronisations des produits montés sur le dossier
-
-Cette fonctionnalité est en cours de finalisation et sera prochainement disponible. Il n'y aura qu'un seul groupe de session de démontage pour tous les autres groupes et tous les autres produits.
-
 ### Envoi à l'atelier
 
 La manière dont les lignes de panier sont liées aux différentes tâches a légèrement changé pour s'adapter à la présence de plusieurs IDPs.
@@ -135,13 +105,61 @@ La manière dont les lignes de panier sont liées aux différentes tâches a lé
 
 Attention: un produit au dessus du produit identifié ne sera donc pas dans la tâche liée à l'IDP.
 
-yuzSection Améliortions et corrections
+yuzSection Nettoyage paniers/réservations
+
+## Fonctions de nettoyage pour repartir sur de bonnes bases
+
+Nous avons ajouté des fonctionalités d'annulation des anciens paniers et réservations clients. Les prochaines versions de Yuzer ajouteront la possibilité d'annuler les commandes fournisseurs de manière similaire.
+
+Cela vous permettra de repartir sur de bonnes bases pour un meilleur suivi de vos réservations, commandes et stocks.
+
+### Annulation automatisée des anciens paniers
+
+Pour lancer un traidement d'annulation des anciens paniers, rendez vous sur l'écran _Client > Paniers_; Cliquez sur le bouton [⋮] et choisissez _Annuler les anciens paniers_.
+
+![Annuler les anciens paniers](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-baskets/cancel-baskets_button.webp?w=100%)
+
+Sélectionnez une date et lancez le processus: Tous les panier créés avant la date sélectionnée seront alors annulés.
+
+![Annuler paniers modale](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-baskets/cancel-baskets_modal.webp?w=420)
+
+Vous pouvez suivre le déroulement du traitement dans un écran accessible via les 3 points vu plus haut en sélectionnant _Résultat des annulations d'anciens paniers_.
+
+### Annulation automatisée des anciennes réservations client
+
+Pour lancer un traitement d'annulation des anciennes réservations client, rendez vous sur l'écran _Stocks > Réservations client > En cours_; Cliquez sur le bouton [⋮] et choisissez _Annuler les anciennes réservations_.
+
+![Annuler les anciennes réservations](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-reservations/cancel-reservations_button.webp?w=100%)
+
+Puis sélectionnez une date et lancez le processus. Toutes les réservations liées à des paniers plus anciens que la date sélectionnée seront alors annulées.
+
+![Annuler réservations modale](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-reservations/cancel-reservations_modal.webp?w=420)
+
+Vous pouvez alors suivre le déroulement du traitement dans un écran accessible via les 3 points vu plus haut en sélectionnant "Résultat des annulations d'anciennes réservations".
+
+yuzSection Stock panier
+
+De nouvelles options ont été ajoutées pour modifier le comportement de la boite de dialogue de stock affichée lors de la facturation d'un panier.
+
+Rendez vous dans _Administration > Gestion commerciale > Configurer > Configuration commerciale_:
+
+![Stock options](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/basket_stock_options.webp?w=100%)
+
+- Prélever d'un emplacement inconnu plutôt que ne pas livrer lorsqu'il n'y a pas de stock.
+  Principalement dédié aux magasins d'accessoires, cette option change le comportement de Yuzer afin qu'un produit ne se trouvant pas en stock soit prélevé en négatif sur l'emplacement inconnu au lieu de n'être pas livré avec la facture.
+  Vous pouvez toujours modifier l'option à la main si vous affichez la boite de configuration.
+- Ne pas demander confirmation lors du prélèvement depuis une zone inconnue à la livraison de stock.
+  Si cette option est activée la validation de prélèvement en zone inconnue sera sur oui par défaut.
+- Ne pas afficher la gestion du stock lors d'un paiement et facturation rapide si tout peut-être livré.
+  Si cette option est activée et que le nouveau bouton de paiement et facturation rapide (voire l'onglet panier) est utilisé, alors si tout le stock peut bien être traité la boite de dialogue présentant les options de prélèvement et livraison du stock ne sera plus affichée.
+
+yuzSection Divers
 
 ## Améliortions diverses
 
-## Filtrer les réservations client sur la date de livraison souhaitée
-
-Sur l'écran des réservations client il est désormais possible de filtrer sur la date de livraison souhaitée.
+- La sélection du mode d'affichage du menu de gauche se fait désormais depuis un click sur l'avatar de l'utilisateur connecté.
+- La configuration POS a été déplacée tout en bas du sous menu de la section _Administration_.
+- Sur l'écran des réservations client il est désormais possible de filtrer sur la date de livraison souhaitée.
 
 ## Corrections
 
@@ -151,14 +169,6 @@ Sur l'écran des réservations client il est désormais possible de filtrer sur 
 ## Sécurité
 
 Nous avons amélioré la sécurisation du stockage local, notamment du token de connexion afin d'éviter qu'un appareil volé et corrompu puisse être utilisé par un attaquant pour se connecter à votre compte.
-
-# Notes de la démo — Desktop
-
-## Ergonomie
-
-- Simplification du menu de navigation gauche (le menu à gauche)
-  - Le bouton pour choisir le type d'affichage est déplacé le bouton "utilisateur"
-  - la configration POS a été déplacée dans Administration
 
 yuzSection Application Mobile
 
@@ -266,6 +276,8 @@ Une fois la quantité ajustée, cliquez sur "Prélever" [6].
   <div><img width="300" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/mobile-app/basket-picking-assistant.webp"/></div>
   <div><img width="300" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/mobile-app/basket-picking-assistant-scanner.webp"/></div>
 </div>
+
+## Panier
 
 ## Améliorations diverses
 
