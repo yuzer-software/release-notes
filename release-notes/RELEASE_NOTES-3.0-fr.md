@@ -2,7 +2,7 @@ Bonne année 2024 à tous de la part de l'équipe Yuzer !
 
 # Janvier 2024 - Version 3.0.x
 
-## Fonctions de nettoyage pour repartir sur de bonnes bases
+yuzSection Comptabilité
 
 ## Comptabilité
 
@@ -10,6 +10,40 @@ Les numéros de factures ne sont plus remis à zéro chaque mois. Ils sont déso
 Si les deux fonctionnement sont légaux, l'administration fiscale a une préférence pour une numérotation annuelle et nous avons décidé de lui faire plaisir.
 
 Note: le numéro sera toujours préfixé par le numéro du mois. Par exemple, si la dernière facture de janvier a pour numéro "Yuz-202401000234", alors la première facture de février aura pour numéro "Yuz-202402000235".
+
+yuzSection Nettoyage paniers et réservations
+
+## Fonctions de nettoyage pour repartir sur de bonnes bases
+
+Nous avons ajouté des fonctionalités d'annulation des anciens paniers et réservations clients. Les prochaines versions de Yuzer ajouteront la possibilité d'annuler les commandes fournisseurs de manière similaire.
+
+Cela vous permettra de repartir sur de bonnes bases pour un meilleur suivi de vos réservations, commandes et stocks.
+
+### Annulation automatisée des anciens paniers
+
+Pour lancer un traidement d'annulation des anciens paniers, rendez vous sur l'écran Client / Paniers; Cliquez sur le bouton _3 petits points_ et choisissez _Annuler les anciens paniers_.
+
+![Annuler les anciens paniers](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-baskets/cancel-baskets_button.webp=400)
+
+Sélectionnez une date et lancez le processus: Tous les panier créés avant la date sélectionnée seront alors annulés.
+
+![Annuler paniers modale](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-baskets/cancel-baskets_modal.webp=400)
+
+Vous pouvez suivre le déroulement du traitement dans un écran accessible via les 3 points vu plus haut en sélectionnant _Résultat des annulations d'anciens paniers_.
+
+### Annulation automatisée des anciennes réservations client
+
+Pour lancer un traitement d'annulation des anciennes réservations client, vous pouvez aller sur les 3 points à droite de l'écran des réservations et cliquer sur "Annuler les anciennes réservations".
+
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-reservations/cancel-reservations_button.webp"/>
+
+Puis sélectionnez une date et lancez le processus. Toutes les réservations liées à des paniers plus anciens que la date sélectionnée seront alors annulées.
+
+<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-reservations/cancel-reservations_modal.webp"/>
+
+Vous pouvez alors suivre le déroulement du traitement dans un écran accessible via les 3 points vu plus haut en sélectionnant "Résultat des annulations d'anciennes réservations".
+
+yuzSection Dossiers produits
 
 ## Dossiers produits
 
@@ -32,6 +66,8 @@ Ou encore l'exporter en cochant le champs "Référence de dossier".
 
 La synchronisation d'un dossier vous permet désormais de choisir quelles valeurs conserver suite à la synchronisation.
 Attention : les données importées des fournisseurs sont immédiatement sauvegardées, il vous faudra donc bien spécifier quelles valeurs vous voulez conserver pour les réécrire.
+
+yuzSection Paniers
 
 ## Paniers
 
@@ -58,21 +94,6 @@ TODO
 // XXX: impactant au support
 
 - Les "Documents édités" sont ceux du groupe de facturation en cours, et non ceux de tous les groupes comme c'était le cas avant.
-
-### Annulation automatisée des anciens paniers
-
-Il est maintenant possible d'annuler automatiquement les anciens paniers.
-
-Pour ce faire, vous pouvez aller sur les 3 points à droite de l'écran des paniers et cliquer sur "Annuler les anciens paniers".
-
-<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-baskets/cancel-baskets_button.webp"/>
-
-Puis sélectionnez une date et lancez le processus. Tout les panier plus vieux que la date sélectionnée seront alors annulés.
-
-<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-baskets/cancel-baskets_modal.webp"/>
-
-Vous pouvez alors suivre le déroulement du traitement dans un écran accessible via les 3 points vu plus haut en sélectionnant "Résultat des annulations d'anciens paniers".
-
 
 ## Support des paniers permettant la vente de plusieurs dossiers
 
@@ -118,22 +139,11 @@ La manière dont les lignes de panier sont liées aux différentes tâches a lé
 
 Attention: un produit au dessus du produit identifié ne sera donc pas dans la tâche liée à l'IDP.
 
-## Annulation automatisée des anciennes réservations
-
-Il est maintenant possible d'annuler automatiquement les anciennes réservations.
-
-Pour ce faire, vous pouvez aller sur les 3 points à droite de l'écran des réservations et cliquer sur "Annuler les anciennes réservations".
-
-<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-reservations/cancel-reservations_button.webp"/>
-
-Puis sélectionnez une date et lancez le processus. Toutes les réservations liées à des paniers plus anciens que la date sélectionnée seront alors annulées.
-
-<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-reservations/cancel-reservations_modal.webp"/>
-
-Vous pouvez alors suivre le déroulement du traitement dans un écran accessible via les 3 points vu plus haut en sélectionnant "Résultat des annulations d'anciennes réservations".
-
+yuzSection Nouveaux catalogues
 
 ## Nouveaux catalogues produits
+
+yuzSection Améliortions et corrections
 
 ## Améliortions diverses
 
@@ -149,6 +159,16 @@ Sur l'écran des réservations client il est désormais possible de filtrer sur 
 ## Sécurité
 
 Nous avons amélioré la sécurisation du stockage local, notamment du token de connexion afin d'éviter qu'un appareil volé et corrompu puisse être utilisé par un attaquant pour se connecter à votre compte.
+
+# Notes de la démo — Desktop
+
+## Ergonomie
+
+- Simplification du menu de navigation gauche (le menu à gauche)
+  - Le bouton pour choisir le type d'affichage est déplacé le bouton "utilisateur"
+  - la configration POS a été déplacée dans Administration
+
+yuzSection Application Mobile
 
 # Application Mobile 3.0.0
 
@@ -262,11 +282,3 @@ Une fois la quantité ajustée, cliquez sur "Prélever" [6].
 ## Sécurité
 
 Nous avons amélioré la sécurisation du stockage local, notamment du token de connexion afin d'éviter qu'un appareil volé et corrompu puisse être utilisé par un attaquant pour se connecter à votre compte.
-
-# Notes de la démo — Desktop
-
-## Ergonomie
-
-- Simplification du menu de navigation gauche (le menu à gauche)
-  - Le bouton pour choisir le type d'affichage est déplacé le bouton "utilisateur"
-  - la configration POS a été déplacée dans Administration
