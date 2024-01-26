@@ -50,15 +50,15 @@ yuzSection Dossiers produits
 Il est maintenant possible lors de l'import de dossier, d'utiliser la "Référence de dossier"
 pour retrouver et mettre à jour vos dossiers qui par exemple n'auraient pas encore de VIN ou d'immatriculation.
 
-<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/import.webp"/>
+![Configuration import](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/import.webp=400)
 
 Pour retrouver cette référence, vous pouvez l'afficher dans le listing de vos dossiers.
 
-<img width="600" src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/listing.webp"/>
+![Configuration import](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/listing.webp=600)
 
 Ou encore l'exporter en cochant le champs "Référence de dossier".
 
-<img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/export.webp"/>
+![Référence de dossier](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/export.webp=400)
 
 ### Synchronisation d'un dossier
 
@@ -136,10 +136,6 @@ La manière dont les lignes de panier sont liées aux différentes tâches a lé
 #### Aujourd'hui.
 
 Attention: un produit au dessus du produit identifié ne sera donc pas dans la tâche liée à l'IDP.
-
-yuzSection Nouveaux catalogues
-
-## Nouveaux catalogues produits
 
 yuzSection Améliortions et corrections
 
@@ -280,3 +276,14 @@ Une fois la quantité ajustée, cliquez sur "Prélever" [6].
 ## Sécurité
 
 Nous avons amélioré la sécurisation du stockage local, notamment du token de connexion afin d'éviter qu'un appareil volé et corrompu puisse être utilisé par un attaquant pour se connecter à votre compte.
+
+yuzSection Nouveaux catalogues
+
+## Nouveaux catalogues produits
+
+Les nouveaux catalogues ont été ajoutés depuis la dernière version:
+
+- Shad
+- Hocoparts
+- Sherco (PG&A uniquement)
+- 50 Factory
