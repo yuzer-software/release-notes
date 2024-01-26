@@ -1,5 +1,3 @@
-Bonne année 2024 à tous de la part de l'équipe Yuzer !
-
 # Janvier 2024 - Version 3.0.x
 
 yuzSection Comptabilité
