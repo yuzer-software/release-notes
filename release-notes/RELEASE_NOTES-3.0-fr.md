@@ -5,7 +5,7 @@ yuzSection Comptabilité
 ## Comptabilité
 
 Les numéros de factures ne sont plus remis à zéro chaque mois. Ils sont désormais remis à zéro au premier janvier uniquement.
-Si les deux fonctionnement sont légaux, l'administration fiscale a une préférence pour une numérotation annuelle et nous avons décidé de lui faire plaisir.
+Si les deux fonctionnements sont légaux, l'administration fiscale a une préférence pour une numérotation annuelle et nous avons décidé de lui faire plaisir.
 
 Note: le numéro sera toujours préfixé par le numéro du mois. Par exemple, si la dernière facture de janvier a pour numéro "Yuz-202401000234", alors la première facture de février aura pour numéro "Yuz-202402000235".
 
@@ -15,8 +15,7 @@ yuzSection Dossiers produits
 
 ### Import de dossier à l'aide de la référence de dossier
 
-Il est maintenant possible lors de l'import de dossier, d'utiliser la "Référence de dossier"
-pour retrouver et mettre à jour vos dossiers qui par exemple n'auraient pas encore de VIN ou d'immatriculation.
+Il est maintenant possible lors de l'import de dossier, d'utiliser la "Référence de dossier" pour retrouver et mettre à jour vos dossiers qui par exemple n'auraient pas encore de VIN ou d'immatriculation.
 
 ![Configuration import](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/dealer-file-ref/import.webp?w=700)
 
@@ -75,7 +74,7 @@ Dans cette première itération de Yuzer 3 il est pour l'instant nécessaire d'e
 
 ### Paniers de plus de 5 groupes de facturation
 
-La vente multi-produits peut entraîner la création de paniers comportant plus de 5 groupes de facturation. Ces paniers disposent d'une vue révisée et de quelques fonctionnement spécifiques qui sont détaillés ci-dessous.
+La vente multi-produits peut entraîner la création de paniers comportant plus de 5 groupes de facturation. Ces paniers disposent d'une vue révisée et de quelques fonctionnements spécifiques qui sont détaillés ci-dessous.
 
 Cette vue liste des groupes: cliquer sur une ligne fera apparaître seulement ce groupe, et un bouton "retour" permet de revenir sur la liste des groupes.
 
@@ -83,11 +82,16 @@ Cette vue liste des groupes: cliquer sur une ligne fera apparaître seulement ce
 
 À moins de 5 groupes, il est toujours possible de glisser/déposer une ligne d'un groupe vers l'autre.
 
+![Panier multi IDP nav](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/basket-multi-idp-nav.webp?w=1024)
+
 À plus de 5 groupes, il vous faut cliquer sur le bouton d'action de la ligne ([⋮]) et sélectionner "Déplacer vers un autre groupe". (Cette option est disponible aussi pour les paniers de moins de 5 groupes.)
+
+![Action déplacer](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/basket-move-line-action.webp?w=1024)
+![Panier multi IDP table](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/basket-multi-idp-table.webp?w=1024)
 
 ### Reprises
 
-Chaque groupe de facturation a maintenant sa liste de reprises. En effet, les reprises sont considérés comme des moyens de paiement. Pour utiliser l'argent d'une reprise sur plusieurs groupes de facturation, il sera nécessaire de passer par la balance client: soit faire une reprise sèche puis utiliser la balance, soit utiliser le crédit du client disponible du fait de la reprise.
+Chaque groupe de facturation a maintenant sa liste de reprises. En effet, les reprises sont considérées comme des moyens de paiement. Pour utiliser l'argent d'une reprise sur plusieurs groupes de facturation, il sera nécessaire de passer par la balance client: soit faire une reprise sèche puis utiliser la balance, soit utiliser le crédit du client disponible du fait de la reprise.
 
 ### Envoi à l'atelier
 
@@ -103,7 +107,7 @@ La manière dont les lignes de panier sont liées aux différentes tâches a lé
 
 #### Aujourd'hui.
 
-Attention: un produit au dessus du produit identifié ne sera donc pas dans la tâche liée à l'IDP.
+||| Attention: un produit au-dessus du produit identifié ne sera donc pas dans la tâche liée à l'IDP.
 
 yuzSection Nettoyage paniers/réservations
 
@@ -115,7 +119,7 @@ Cela vous permettra de repartir sur de bonnes bases pour un meilleur suivi de vo
 
 ### Annulation automatisée des anciens paniers
 
-Pour lancer un traitement d'annulation des anciens paniers, rendez vous sur l'écran _Client > Paniers_; Cliquez sur le bouton [⋮] et choisissez _Annuler les anciens paniers_.
+Pour lancer un traitement d'annulation des anciens paniers, rendez-vous sur l'écran _Client > Paniers_; Cliquez sur le bouton [⋮] et choisissez _Annuler les anciens paniers_.
 
 ![Annuler les anciens paniers](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-baskets/cancel-baskets_button.webp?w=100%)
 
@@ -127,7 +131,7 @@ Vous pouvez suivre le déroulement du traitement dans un écran accessible via l
 
 ### Annulation automatisée des anciennes réservations client
 
-Pour lancer un traitement d'annulation des anciennes réservations client, rendez vous sur l'écran _Stocks > Réservations client > En cours_; Cliquez sur le bouton [⋮] et choisissez _Annuler les anciennes réservations_.
+Pour lancer un traitement d'annulation des anciennes réservations client, rendez-vous sur l'écran _Stocks > Réservations client > En cours_; Cliquez sur le bouton [⋮] et choisissez _Annuler les anciennes réservations_.
 
 ![Annuler les anciennes réservations](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-reservations/cancel-reservations_button.webp?w=100%)
 
@@ -141,7 +145,7 @@ yuzSection Stock panier
 
 De nouvelles options ont été ajoutées pour modifier le comportement de la boite de dialogue de stock affichée lors de la facturation d'un panier.
 
-Rendez vous dans _Administration > Gestion commerciale > Configurer > Configuration commerciale_:
+Rendez-vous dans _Administration > Gestion commerciale > Configurer > Configuration commerciale_:
 
 ![Stock options](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/basket_stock_options.webp?w=100%)
 
@@ -150,14 +154,14 @@ Rendez vous dans _Administration > Gestion commerciale > Configurer > Configurat
   Vous pouvez toujours modifier l'option à la main si vous affichez la boite de configuration.
 - Ne pas demander confirmation lors du prélèvement depuis une zone inconnue à la livraison de stock.
   Si cette option est activée la validation de prélèvement en zone inconnue sera sur oui par défaut.
-- Ne pas afficher la gestion du stock lors d'un paiement et facturation rapide si tout peut-être livré.
+- Ne pas afficher la gestion du stock lors d'un paiement et facturation rapide si tout peut être livré.
   Si cette option est activée et que le nouveau bouton de paiement et facturation rapide (voire l'onglet panier) est utilisé, alors si tout le stock peut bien être traité la boite de dialogue présentant les options de prélèvement et livraison du stock ne sera plus affichée.
 
 yuzSection Divers
 
 ## Améliortions diverses
 
-- La sélection du mode d'affichage du menu de gauche se fait désormais depuis un click sur l'avatar de l'utilisateur connecté.
+- La sélection du mode d'affichage du menu de gauche se fait désormais depuis un clique sur l'avatar de l'utilisateur connecté.
 - La configuration POS a été déplacée tout en bas du sous menu de la section _Administration_.
 - Sur l'écran des réservations client il est désormais possible de filtrer sur la date de livraison souhaitée.
 
