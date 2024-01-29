@@ -109,13 +109,13 @@ yuzSection Nettoyage paniers/réservations
 
 ## Fonctions de nettoyage pour repartir sur de bonnes bases
 
-Nous avons ajouté des fonctionalités d'annulation des anciens paniers et réservations clients. Les prochaines versions de Yuzer ajouteront la possibilité d'annuler les commandes fournisseurs de manière similaire.
+Nous avons ajouté des fonctionnalités d'annulation des anciens paniers et réservations clients. Les prochaines versions de Yuzer ajouteront la possibilité d'annuler les commandes fournisseurs de manière similaire.
 
 Cela vous permettra de repartir sur de bonnes bases pour un meilleur suivi de vos réservations, commandes et stocks.
 
 ### Annulation automatisée des anciens paniers
 
-Pour lancer un traidement d'annulation des anciens paniers, rendez vous sur l'écran _Client > Paniers_; Cliquez sur le bouton [⋮] et choisissez _Annuler les anciens paniers_.
+Pour lancer un traitement d'annulation des anciens paniers, rendez vous sur l'écran _Client > Paniers_; Cliquez sur le bouton [⋮] et choisissez _Annuler les anciens paniers_.
 
 ![Annuler les anciens paniers](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/cancel-old-baskets/cancel-baskets_button.webp?w=100%)
 
