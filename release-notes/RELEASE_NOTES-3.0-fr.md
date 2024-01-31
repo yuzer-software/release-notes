@@ -310,3 +310,7 @@ Les nouveaux catalogues ont été ajoutés depuis la dernière version:
   - Bering
 - Segura
 - Alpinestar
+- Powersport
+  - TCX
+  - AGV
+  - Dainese
