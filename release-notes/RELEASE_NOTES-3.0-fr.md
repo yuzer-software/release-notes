@@ -169,6 +169,7 @@ yuzSection Divers
 
 - Le filtre de contacts sur la dernière vente ne se comportait plus correctement.
 - Les numéros de comptes alphanumériques sont désormais correctement affichés dans l'écran de ventilation comptable.
+- Correction de la mise à jour des statuts des tâches atelier lors de la préparation d'un panier hors réception.
 
 ## Sécurité
 
