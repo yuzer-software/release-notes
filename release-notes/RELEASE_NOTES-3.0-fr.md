@@ -302,3 +302,11 @@ Les nouveaux catalogues ont été ajoutés depuis la dernière version:
 - Hocoparts
 - Sherco (PG&A uniquement)
 - 50 Factory
+- Kenny
+- Continental
+- Moraco
+- Prorima
+  - Trophy
+  - Bering
+- Segura
+- Alpinestar
