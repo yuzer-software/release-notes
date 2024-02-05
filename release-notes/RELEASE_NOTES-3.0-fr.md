@@ -1,14 +1,5 @@
 # Janvier 2024 - Version 3.0.x
 
-yuzSection Comptabilité
-
-## Comptabilité
-
-Les numéros de factures ne sont plus remis à zéro chaque mois. Ils sont désormais remis à zéro au premier janvier uniquement.
-Si les deux fonctionnements sont légaux, l'administration fiscale a une préférence pour une numérotation annuelle et nous avons décidé de lui faire plaisir.
-
-Note: le numéro sera toujours préfixé par le numéro du mois. Par exemple, si la dernière facture de janvier a pour numéro "Yuz-202401000234", alors la première facture de février aura pour numéro "Yuz-202402000235".
-
 yuzSection Dossiers produits
 
 ## Dossiers produits
@@ -157,9 +148,11 @@ Rendez-vous dans _Administration > Gestion commerciale > Configurer > Configurat
 - Ne pas afficher la gestion du stock lors d'un paiement et facturation rapide si tout peut être livré.
   Si cette option est activée et que le nouveau bouton de paiement et facturation rapide (voire l'onglet panier) est utilisé, alors si tout le stock peut bien être traité la boite de dialogue présentant les options de prélèvement et livraison du stock ne sera plus affichée.
 
-yuzSection Divers
+yuzSection Général
 
-## Améliortions diverses
+||| Attention La mise à jour que nous avons du effectuer sur notre composant electron semble pouvoir poser un problème avec l'impression silencieuse sous Windows. Vous pouvez désactiver celle-ci dans le cas ou vos étiquettes ne s'imprimeraient pas correctement.
+
+## Améliorations diverses
 
 - La sélection du mode d'affichage du menu de gauche se fait désormais depuis un clique sur l'avatar de l'utilisateur connecté.
 - La configuration POS a été déplacée tout en bas du sous menu de la section _Administration_.
@@ -174,6 +167,15 @@ yuzSection Divers
 ## Sécurité
 
 Nous avons amélioré la sécurisation du stockage local, notamment du token de connexion afin d'éviter qu'un appareil volé et corrompu puisse être utilisé par un attaquant pour se connecter à votre compte.
+
+yuzSection Comptabilité
+
+## Comptabilité
+
+Les numéros de factures ne sont plus remis à zéro chaque mois. Ils sont désormais remis à zéro au premier janvier uniquement.
+Si les deux fonctionnements sont légaux, l'administration fiscale a une préférence pour une numérotation annuelle et nous avons décidé de lui faire plaisir.
+
+Note: le numéro sera toujours préfixé par le numéro du mois. Par exemple, si la dernière facture de janvier a pour numéro "Yuz-202401000234", alors la première facture de février aura pour numéro "Yuz-202402000235".
 
 yuzSection Application Mobile
 
@@ -306,9 +308,9 @@ Les nouveaux catalogues ont été ajoutés depuis la dernière version:
 - Continental
 - Moraco
 - Prorima
-  - Trophy
+- Trophy
   - Bering
-- Segura
+  - Segura
 - Alpinestar
 - Powersport
   - TCX
