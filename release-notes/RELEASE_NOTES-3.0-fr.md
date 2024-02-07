@@ -12,6 +12,8 @@ Les paramètres par défaut devraient être bons, mais faites des essais et vér
 
 ### Configuration de l'impression d'étiquettes
 
+yuzLeft
+
 Pour vous aider à configurer les tailles : vous pouvez considérer que 1mm font 4pts:
 
 - 2.5mm -> 10pts
@@ -19,7 +21,11 @@ Pour vous aider à configurer les tailles : vous pouvez considérer que 1mm fon
 - 4.25mm -> 15pts
 - …
 
-![Configuration d'imprimante](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/print/print-config.webp?w=800)
+yuzRight
+
+![Configuration d'imprimante](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/print/print-label.webp?w=200)
+
+yuzEnd
 
 ## Sécurité
 
