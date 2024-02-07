@@ -1,5 +1,38 @@
 # Janvier 2024 - Version 3.0.x
 
+yuzSection 3.0.10
+
+## Impression d'étiquettes
+
+L'impression d'étiquettes est réparée ! Un nouveau paramètre de DPI a été ajouté et doit être configuré.
+
+Les paramètres par défaut devraient être bons, mais faites des essais et vérifiez que tout fonctionne bien chez vous aussi !
+
+![Configuration d'imprimante](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/print/print-config.webp?w=800)
+
+### Configuration de l'impression d'étiquettes
+
+Pour vous aider à configurer les tailles : vous pouvez considérer que 1mm font 4pts:
+
+- 2.5mm -> 10pts
+- 2mm -> 8pts
+- 4.25mm -> 15pts
+- …
+
+![Configuration d'imprimante](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/print/print-config.webp?w=800)
+
+## Sécurité
+
+Pour renforcer la sécurité, si vous échouez plus de trois fois à vous connecter, vous ne pourrez plus vous connecter pendant une heure. Toutefois, un administrateur (ou administrateur du compte) peut déverrouiller un utilisateur.
+
+![Déverrouillage d'identifiants](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.0.0/user-lock/unlock.webp?w=200)
+
+## Corrections diverses
+
+- Correction du montant des paiements qui n'étaient pas correctement mis à jour lors de l'utilisation des boutons "payer et facturer".
+- Les dossiers de reprise en attente sont désormais correctement créés lors de l'édition d'un bon de commande.
+- La synchronisation des produits montés sur le véhicule prend bien en compte les produits déjà livrés, ne bloquant plus l'accès au panier.
+
 yuzSection Dossiers produits
 
 ## Dossiers produits
@@ -150,7 +183,7 @@ Rendez-vous dans _Administration > Gestion commerciale > Configurer > Configurat
 
 yuzSection Général
 
-||| Attention La mise à jour que nous avons du effectuer sur notre composant electron semble pouvoir poser un problème avec l'impression silencieuse sous Windows. Vous pouvez désactiver celle-ci dans le cas ou vos étiquettes ne s'imprimeraient pas correctement.
+||| Attention La mise à jour que nous avons dû effectuer sur notre composant electron semble pouvoir poser un problème avec l'impression silencieuse sous Windows. Vous pouvez désactiver celle-ci dans le cas où vos étiquettes ne s'imprimeraient pas correctement.
 
 ## Améliorations diverses
 
@@ -298,7 +331,7 @@ yuzSection Nouveaux catalogues
 
 ## Nouveaux catalogues produits
 
-Les nouveaux catalogues ont été ajoutés depuis la dernière version:
+De nouveaux catalogues ont été ajoutés depuis la dernière version:
 
 - Shad
 - Hocoparts
