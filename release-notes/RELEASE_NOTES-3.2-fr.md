@@ -130,3 +130,43 @@ Vous pouvez configurer les actions possibles pour vos transferts: Livrer et envo
 | Emballer et envoyer        | ![Emballer et envoyer](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/general/transfer-send.webp?w=330px) |
 | Emballer                   | ![Emballer](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/general/transfer-deliver.webp?w=330px)         |
 | Toujours poser la question | ![Au choix](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/general/transfer-choose.webp?w=330px)          |
+
+yuzSection Abonnement Yuzer et licenses
+
+Nous nous rapprochons de la mise en place de la facturation et prélèvement mensuel automatiques pour la souscription à votre abonnement Yuzer.
+
+Afin que cette mise en place se passe le plus simplement possible nous avons mis à jour la page de gestion de contact afin de vous permettre de configurer les licenses actives pour vos différents utilisateurs.
+
+Seul un administrateur peut ajouter ou supprimer une license pour un utilisateur.
+
+Les licenses disponibles sur votre compte seront configurées par un de nos commerciaux qui ajoutera les différents éléments d'engagement.
+
+- Votre engagement de licenses compte comme un nombre minimal de licenses.
+- Vous pouvez à tout moment ajouter une license à un nouvel utilisateur sans limite maximale.
+- Toute license ajoutée à un utilisateur sur un mois donnée est configurée sans limite de temps.
+- Vous pouvez à tout moment supprimer la license d'un utilisateur. Celle-ci reste alors active jusqu'à la fin du mois commencé.
+
+## Visualiser les licenses d'un utilisateur
+
+Depuis la page de détail d'un utilisateur vous pouvez visualiser ses licenses:
+
+![Licenses](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/licenses/licenses-user-page.webp?w=100%)
+
+Cliquez sur Editer pour ouvrir la page de configuration des licenses:
+
+![Licenses update](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/licenses/licenses-update.webp?w=100%)
+
+||| Attention sauvegarder mettra a jour les licenses et entrainera une modification de la facturation à tout ajout de license.
+
+## Départ d'un employé
+
+Au départ d'un employé vous devez toujours désactiver l'utilisateur afin que celui-ci ne puisse plus se connecter. Désactiver les licenses de celui-ci ne l'empêcheront pas de se connecter avant la fin du mois.
+
+## Mise en place de la validation de license et facturation automatique
+
+La mise en place de l'automatisation de facturation de votre abonnement ainsi que les vérifications de licenses à la connexion d'un utilisateur seront activées à partir du 22 avril. Pensez à bien valider que chacun de vos utilisateur a ses licenses correctements configurées avant cette date.
+
+La facture d'abonnement sera établie à chaque début de mois et portera sur le mois précédent elle incluera:
+
+- Les facturation de licenses actives sur le mois précédent (une license désactivée en cours de mois sera donc facturée)
+- Les éventuelles consommations au click (SMS, SIV)
