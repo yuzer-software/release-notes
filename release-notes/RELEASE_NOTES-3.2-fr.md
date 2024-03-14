@@ -119,6 +119,28 @@ yuzSection Réseaux
 
 Nous avons ajouté une nouvelle fonctionalité de _réseaux_ afin de permettre un partage des disponibilités produits dans un réseau donné en temps réel.
 
+yuzSection Commandes véhicules intra-Yuzer
+
+Lorsque votre fournisseur utilise le réseau Yuzer afin de gérer ses prises de commandes de véhicules, ou pour passer vos commandes par le biais d'une de votre réseau Yuzer (interne ou de distribution), vous pouvez désormais utiliser l'outil de synchronization des dossiers et commandes.
+
+![Déplacer un tableau de bord](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/dealer-file-order/waiting-order.webp?w=100%)
+_Sélectionnez un fournisseur utilisant Yuzer afin de pouvoir accéder à la fonctionalité._
+
+Une fois ouvert, l'outil vous permet de
+
+- valider que chaque dossier _A commander_ ou _Commandé_ a bien une ligne de commande correspondante dans le système de gestion de commande.
+- créer de nouvelles commandes, soit déjà placées par un autre biais que Yuzer _Sans commande fournisseur_. Soit en créant un panier de commande directement chez votre fournisseur _Nouvelle commande au fournisseur_.
+
+![Déplacer un tableau de bord](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/dealer-file-order/sync.webp?w=680px)
+
+Des dossiers pourront alors être automatiquement mis à jour (leur statut passé de _A commander_ à _Commandé_) ou créés.
+
+Une fois validé, un écran de résumé des actions est alors affiché.
+
+![Déplacer un tableau de bord](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/dealer-file-order/summary.webp?w=680px)
+
+Vous pouvez ensuite consulter vos commandes puis, une fois le véhicule transféré par votre fournisseur, le réceptionner directement par le module de transfer et réception. Cela vous permettra de bénéficier des galleries partagées si votre fournisseur en a attaché à la vente!
+
 yuzSection Général
 
 ## Action par défaut pour les transferts
@@ -131,7 +153,36 @@ Vous pouvez configurer les actions possibles pour vos transferts: Livrer et envo
 | Emballer                   | ![Emballer](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/general/transfer-deliver.webp?w=330px)         |
 | Toujours poser la question | ![Au choix](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/general/transfer-choose.webp?w=330px)          |
 
-yuzSection Abonnement Yuzer et licenses
+## Améliorations diverses
+
+- Durant les trois jours précédentant l'anniversaire d'un contact, un icône de gâteau d'anniversaire sera affiché sur le détail d'un contact.
+- Sur la page de détail d'un contact, les dates de création et modification sont désormais affichées à côté de la personne ayant effectué la création / dernière modification
+- Sur l'historique des paiements d'un panier le moyen de paiement exact est désormais affiché.
+- A la création d'un produit qui existe déjà, Yuzer vous redirige vers la page du produit existant.
+- Amélioration de la fusion de catalogue concernant les produits qui ne sont plus en stock mais qui ont été en stock. Il est désormais plus simple de les ignorer.
+
+## Corrections diverses
+
+- Les marges sur l'impression d'un arrêté de caisse sont désormais corrigées.
+- Correction des libellés de planche et étagère qui étaient inversés sur la page d'export du stock.
+
+yuzSection Export facturation
+
+L'automate d'export des données de facturation a été amélioré afin de permettre la configuration:
+
+- L'aggrégation des données par produit (total des quantités et CA au lieu du détail de facturation)
+
+![Aggrégation](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/invoice-export/aggregate.webp?w=330px)
+
+- La planification d'execution
+
+![Planification](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/invoice-export/plan.webp?w=330px)
+
+- Le format d'export (Il est désormais possible d'ajouter un export au format xlsx)
+
+![Format](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/invoice-export/format.webp?w=330px)
+
+yuzSection Abonnement Yuzer
 
 Nous nous rapprochons de la mise en place de la facturation et prélèvement mensuel automatiques pour la souscription à votre abonnement Yuzer.
 
