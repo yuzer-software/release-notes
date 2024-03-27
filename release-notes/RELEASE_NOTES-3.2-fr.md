@@ -1,5 +1,15 @@
 # Mars 2024 - Version 3.2.x
 
+yuzSection Application mobile
+
+Il est maintenant possible d'utiliser un scanner externe pour scanner des QR-codes de navigation (depuis la page principale ou le menu latéral).
+
+Corrections :
+
+- du choix de produit de même référence sur la page des paniers
+- du choix d'assigné à une tâche (lorsqu'il y a beaucoup d'utilisateurs)
+- de l'affichage des tâches en retard
+
 yuzSection Produits
 
 ## Recherche de produits
