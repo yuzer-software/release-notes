@@ -6,7 +6,7 @@ yuzSection Produits
 
 La recherche de produits a été améliorée afin d'afficher dans l'ordre:
 
-- Les produits correspondant le mieux à la requête et parmis ceux-ci:
+- Les produits correspondant le mieux à la requête et parmi ceux-ci:
   - Les produits en stock et indiqués comme obsolètes (1)
   - Les produits en stock
   - Les produits qui ne sont pas en stock mais indiqués comme disponible par le fournisseur
@@ -51,24 +51,24 @@ yuzSection Dossiers
 
 ## Galeries de documents des dossiers
 
-Nous avons ajouté la notion de gallerie partagée sur un dossier.
+Nous avons ajouté la notion de galerie partagée sur un dossier.
 
-Une gallerie partagée est une gallerie dont les documents seront accessibles à l'acheteur du véhicule. Cette fonctionalité est aujourd'hui réservée aux clients utilisateurs de Yuzer (via la fonctionalité de transfert).
+Une galerie partagée est une galerie dont les documents seront accessibles à l'acheteur du véhicule. Cette fonctionnalité est aujourd'hui réservée aux clients utilisateurs de Yuzer (via la fonctionnalité de transfert).
 
-- Votre gallerie privée, reste toujours à la même place et tous les documents qui sont insérés dedans sont bien visible par votre entité uniquement.
+- Votre galerie privée, reste toujours à la même place et tous les documents qui sont insérés dedans sont bien visible par votre entité uniquement.
 
-![Gallerie dossier](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/gallery/gallery_private.webp?w=480px)
+![Galerie dossier](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/gallery/gallery_private.webp?w=480px)
 
-- Une nouvelle gallerie est ajoutée dans l'encadré de vente du véhicule. Celle-ci sera, dans le cas d'un transfert de véhicule par Yuzer, partagée avec l'entité à qui le véhicule sera transféré.
+- Une nouvelle galerie est ajoutée dans l'encadré de vente du véhicule. Celle-ci sera, dans le cas d'un transfert de véhicule par Yuzer, partagée avec l'entité à qui le véhicule sera transféré.
 
-![Gallerie de vente](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/gallery/gallery_sale.webp?w=480px)
+![Galerie de vente](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/gallery/gallery_sale.webp?w=480px)
 
-- Finalement, si vous avez acheté un véhicule transféré via Yuzer, vous pouvez retrouver la gallerie partagée par le vendeur dans l'onglet d'achat.
+- Finalement, si vous avez acheté un véhicule transféré via Yuzer, vous pouvez retrouver la galerie partagée par le vendeur dans l'onglet d'achat.
 
-![Gallerie d'achat](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/gallery/gallery_purchase.webp?w=480px)
+![Galerie d'achat](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/gallery/gallery_purchase.webp?w=480px)
 
 Cette dernière est en lecture seule. Votre fournisseur peut supprimer ou modifier les documents qu'il y a mis, vous ne pouvez pas en ajouter ni en supprimer.
-Il est cependant possible de copier les documents de la gallerie d'origine dans votre propre gallerie de dossier.
+Il est cependant possible de copier les documents de la galerie d'origine dans votre propre galerie de dossier.
 
 yuzSection Analytiques
 
@@ -117,14 +117,14 @@ Vous pouvez alors naviguer dans le dossier de destination puis glisser/déposer 
 
 yuzSection Réseaux
 
-Nous avons ajouté une nouvelle fonctionalité de _réseaux_ afin de permettre un partage des disponibilités produits dans un réseau donné en temps réel.
+Nous avons ajouté une nouvelle fonctionnalité de _réseaux_ afin de permettre un partage des disponibilités produits dans un réseau donné en temps réel.
 
 yuzSection Commandes véhicules intra-Yuzer
 
-Lorsque votre fournisseur utilise le réseau Yuzer afin de gérer ses prises de commandes de véhicules, ou pour passer vos commandes par le biais de votre réseau Yuzer (interne ou de distribution), vous pouvez désormais utiliser l'outil de synchronization des dossiers et commandes.
+Lorsque votre fournisseur utilise le réseau Yuzer afin de gérer ses prises de commandes de véhicules, ou pour passer vos commandes par le biais de votre réseau Yuzer (interne ou de distribution), vous pouvez désormais utiliser l'outil de synchronisation des dossiers et commandes.
 
 ![Déplacer un tableau de bord](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/dealer-file-order/waiting-order.webp?w=100%)
-_Sélectionnez un fournisseur utilisant Yuzer afin de pouvoir accéder à la fonctionalité._
+_Sélectionnez un fournisseur utilisant Yuzer afin de pouvoir accéder à la fonctionnalité._
 
 Une fois ouvert, l'outil vous permet de
 
@@ -139,7 +139,7 @@ Une fois validé, un écran de résumé des actions est alors affiché.
 
 ![Déplacer un tableau de bord](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/dealer-file-order/summary.webp?w=680px)
 
-Vous pouvez ensuite consulter vos commandes puis, une fois le véhicule transféré par votre fournisseur, le réceptionner directement par le module de transfert et réception. Cela vous permettra de bénéficier des galleries partagées si votre fournisseur en a attaché à la vente!
+Vous pouvez ensuite consulter vos commandes puis, une fois le véhicule transféré par votre fournisseur, le réceptionner directement par le module de transfert et réception. Cela vous permettra de bénéficier des galeries partagées si votre fournisseur en a attaché à la vente!
 
 yuzSection Général
 
@@ -170,11 +170,11 @@ yuzSection Export facturation
 
 L'automate d'export des données de facturation a été amélioré afin de permettre la configuration:
 
-- L'aggrégation des données par produit (total des quantités et CA au lieu du détail de facturation)
+- L'agrégation des données par produit (total des quantités et CA au lieu du détail de facturation)
 
-![Aggrégation](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/invoice-export/aggregate.webp?w=330px)
+![Agrégation](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/invoice-export/aggregate.webp?w=330px)
 
-- La planification d'execution
+- La planification d'exécution
 
 ![Planification](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/invoice-export/plan.webp?w=330px)
 
@@ -201,11 +201,11 @@ Les licences disponibles sur votre compte seront configurées par un de nos comm
 
 Depuis la page de détail d'un utilisateur vous pouvez visualiser ses licences:
 
-![licences](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/licences/licences-user-page.webp?w=100%)
+![licences](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/licenses/licenses-user-page.webp?w=100%)
 
 Cliquez sur Editer pour ouvrir la page de configuration des licences:
 
-![licences update](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/licences/licences-update.webp?w=100%)
+![licences update](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/licenses/licenses-update.webp?w=100%)
 
 ||| Attention sauvegarder mettra a jour les licences et entrainera une modification de la facturation à tout ajout de licence.
 
@@ -215,9 +215,9 @@ Au départ d'un employé vous devez toujours désactiver l'utilisateur afin que 
 
 ## Mise en place de la validation de licence et facturation automatique
 
-La mise en place de l'automatisation de facturation de votre abonnement ainsi que les vérifications de licences à la connexion d'un utilisateur seront activées à partir du 22 avril. Pensez à bien valider que chacun de vos utilisateur a ses licences correctements configurées avant cette date.
+La mise en place de l'automatisation de facturation de votre abonnement ainsi que les vérifications de licences à la connexion d'un utilisateur seront activées à partir du 22 avril. Pensez à bien valider que chacun de vos utilisateur a ses licences correctement configurées avant cette date.
 
-La facture d'abonnement sera établie à chaque début de mois et portera sur le mois précédent elle incluera:
+La facture d'abonnement sera établie à chaque début de mois et portera sur le mois précédent elle inclura:
 
 - Les facturation de licences actives sur le mois précédent (une licence désactivée en cours de mois sera donc facturée)
 - Les éventuelles consommations au click (SMS, SIV)
