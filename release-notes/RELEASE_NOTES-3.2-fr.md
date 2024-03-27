@@ -14,9 +14,9 @@ yuzSection Produits
 
 ## Recherche de produits
 
-La recherche de produits a été améliorée afin d'afficher dans l'ordre:
+La recherche de produits a été améliorée afin d'afficher dans l'ordre :
 
-- Les produits correspondant le mieux à la requête et parmi ceux-ci:
+- Les produits correspondant le mieux à la requête et parmi ceux-ci :
   - Les produits en stock et indiqués comme obsolètes (1)
   - Les produits en stock
   - Les produits qui ne sont pas en stock mais indiqués comme disponible par le fournisseur
@@ -31,9 +31,9 @@ La recherche de produits a été améliorée afin d'afficher dans l'ordre:
 
 ## Disponibilité réseau
 
-Vous pouvez consulter la disponibilité réseau d'un produit directement depuis la recherche produit:
+Vous pouvez consulter la disponibilité réseau d'un produit directement depuis la recherche produit :
 
-- Icône vert: le produit est disponible dans une autre entité de votre groupe (réseau interne)
+- Icône vert : le produit est disponible dans une autre entité de votre groupe (réseau interne)
 
 ![Icône vert](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/products/icon-green.webp?w=100%)
 
@@ -41,19 +41,19 @@ En cliquant sur le détail, vous pouvez consulter quelle entité de votre groupe
 
 ![Dispo interne](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/products/avail-internal.webp?w=480px)
 
-- Icône jaune: le produit est disponible dans une entité de votre réseau de redistribution (fournisseur interne Yuzer)
+- Icône jaune : le produit est disponible dans une entité de votre réseau de redistribution (fournisseur interne Yuzer)
 
 ![Icône jaune](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/products/icon-yellow.webp?w=100%)
 
-En cliquant sur le détail, vous pouvez consulter quelle entité de votre réseau de redistribution possède du stock. L'indicateur ne fourni pas de valeur précise dans ce cas.
+En cliquant sur le détail, vous pouvez consulter quelle entité de votre réseau de redistribution possède du stock. L'indicateur ne fournit pas de valeur précise dans ce cas.
 
 ![Dispo distribution](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/products/avail-distri.webp?w=480px)
 
-- Icône orange: le produit est disponible dans une entité d'un de vos réseaux globaux (voir l'onglet Réseaux)
+- Icône orange : le produit est disponible dans une entité d'un de vos réseaux globaux (voir l'onglet Réseaux)
 
 ![Icône orange](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/products/icon-orange.webp?w=100%)
 
-En cliquant sur le détail, vous pouvez consulter quelle entité de votre réseau de redistribution possède du stock. L'indicateur ne fourni pas de valeur précise dans ce cas.
+En cliquant sur le détail, vous pouvez consulter quelle entité de votre réseau de redistribution possède du stock. L'indicateur ne fournit pas de valeur précise dans ce cas.
 
 ![Dispo globale](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/products/avail-global.webp?w=480px)
 
@@ -65,7 +65,7 @@ Nous avons ajouté la notion de galerie partagée sur un dossier.
 
 Une galerie partagée est une galerie dont les documents seront accessibles à l'acheteur du véhicule. Cette fonctionnalité est aujourd'hui réservée aux clients utilisateurs de Yuzer (via la fonctionnalité de transfert).
 
-- Votre galerie privée, reste toujours à la même place et tous les documents qui sont insérés dedans sont bien visible par votre entité uniquement.
+- Votre galerie privée reste toujours à la même place et tous les documents qui sont insérés dedans sont bien visible par votre entité uniquement.
 
 ![Galerie dossier](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/gallery/gallery_private.webp?w=480px)
 
@@ -82,10 +82,10 @@ Il est cependant possible de copier les documents de la galerie d'origine dans v
 
 yuzSection Analytiques
 
-L'accueil et la gestion des différents tableaux de bord en analytique a été revue afin de
+L'accueil et la gestion des différents tableaux de bord en analytique a été revue afin
 
-- vous permettre d'organiser ceux-ci dans une arborescence.
-- augmenter le nombre de configurations à votre disposition.
+- de vous permettre d'organiser ceux-ci dans une arborescence.
+- d'augmenter le nombre de configurations à votre disposition.
 
 ![Analytiques configurations](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/analytics/dashboards-list.webp?w=100%)
 
@@ -138,12 +138,12 @@ _Sélectionnez un fournisseur utilisant Yuzer afin de pouvoir accéder à la fon
 
 Une fois ouvert, l'outil vous permet de
 
-- valider que chaque dossier _A commander_ ou _Commandé_ a bien une ligne de commande correspondante dans le système de gestion de commande.
+- valider que chaque dossier _À commander_ ou _Commandé_ a bien une ligne de commande correspondante dans le système de gestion de commande.
 - créer de nouvelles commandes, soit déjà placées par un autre biais que Yuzer _Sans commande fournisseur_. Soit en créant un panier de commande directement chez votre fournisseur _Nouvelle commande au fournisseur_.
 
 ![Déplacer un tableau de bord](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/dealer-file-order/sync.webp?w=680px)
 
-Des dossiers pourront alors être automatiquement mis à jour (leur statut passé de _A commander_ à _Commandé_) ou créés.
+Des dossiers pourront alors être automatiquement mis à jour (leur statut passe de _À commander_ à _Commandé_) ou créés.
 
 Une fois validé, un écran de résumé des actions est alors affiché.
 
@@ -155,7 +155,7 @@ yuzSection Général
 
 ## Action par défaut pour les transferts
 
-Vous pouvez configurer les actions possibles pour vos transferts: Livrer et envoyer, Livrer, ou avoir le choix. Dans `Administration > Gestion commerciale > Configurer > Configuration Commerciale`, configurez "Action lors de la livraison d'un transfert" :
+Vous pouvez configurer les actions possibles pour vos transferts : Livrer et envoyer, Livrer, ou avoir le choix. Dans `Administration > Gestion commerciale > Configurer > Configuration Commerciale`, configurez "Action lors de la livraison d'un transfert" :
 
 | Action                     | Conséquence sur la fenêtre de stock                                                                                                                  |
 | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -165,7 +165,7 @@ Vous pouvez configurer les actions possibles pour vos transferts: Livrer et envo
 
 ## Améliorations diverses
 
-- Durant les trois jours précédents l'anniversaire d'un contact, un icône de gâteau d'anniversaire sera affiché sur le détail d'un contact.
+- Durant les trois jours précédant l'anniversaire d'un contact, un icône de gâteau d'anniversaire sera affiché sur le détail d'un contact.
 - Sur la page de détail d'un contact, les dates de création et modification sont désormais affichées à côté de la personne ayant effectué la création / dernière modification
 - Sur l'historique des paiements d'un panier le moyen de paiement exact est désormais affiché.
 - A la création d'un produit qui existe déjà, Yuzer vous redirige vers la page du produit existant.
@@ -178,7 +178,7 @@ Vous pouvez configurer les actions possibles pour vos transferts: Livrer et envo
 
 yuzSection Export facturation
 
-L'automate d'export des données de facturation a été amélioré afin de permettre la configuration:
+L'automate d'export des données de facturation a été amélioré afin de permettre la configuration :
 
 - L'agrégation des données par produit (total des quantités et CA au lieu du détail de facturation)
 
@@ -204,12 +204,12 @@ Les licences disponibles sur votre compte seront configurées par un de nos comm
 
 - Votre engagement de licences compte comme un nombre minimal de licences.
 - Vous pouvez à tout moment ajouter une licence à un nouvel utilisateur sans limite maximale.
-- Toute licence ajoutée à un utilisateur sur un mois donnée est configurée sans limite de temps.
+- Toute licence ajoutée à un utilisateur sur un mois donné est configurée sans limite de temps.
 - Vous pouvez à tout moment supprimer la licence d'un utilisateur. Celle-ci reste alors active jusqu'à la fin du mois commencé.
 
 ## Visualiser les licences d'un utilisateur
 
-Depuis la page de détail d'un utilisateur vous pouvez visualiser ses licences:
+Depuis la page de détail d'un utilisateur vous pouvez visualiser ses licences :
 
 ![licences](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/licenses/licenses-user-page.webp?w=100%)
 
@@ -217,7 +217,7 @@ Cliquez sur Editer pour ouvrir la page de configuration des licences:
 
 ![licences update](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.2.0/licenses/licenses-update.webp?w=100%)
 
-||| Attention sauvegarder mettra a jour les licences et entrainera une modification de la facturation à tout ajout de licence.
+||| Attention : sauvegarder mettra à jour les licences et entrainera une modification de la facturation à tout ajout de licence.
 
 ## Départ d'un employé
 
@@ -227,7 +227,7 @@ Au départ d'un employé vous devez toujours désactiver l'utilisateur afin que 
 
 La mise en place de l'automatisation de facturation de votre abonnement ainsi que les vérifications de licences à la connexion d'un utilisateur seront activées à partir du 22 avril. Pensez à bien valider que chacun de vos utilisateur a ses licences correctement configurées avant cette date.
 
-La facture d'abonnement sera établie à chaque début de mois et portera sur le mois précédent elle inclura:
+La facture d'abonnement sera établie à chaque début de mois et portera sur le mois précédent. Elle inclura :
 
 - Les facturation de licences actives sur le mois précédent (une licence désactivée en cours de mois sera donc facturée)
 - Les éventuelles consommations au click (SMS, SIV)
