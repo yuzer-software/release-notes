@@ -2,6 +2,8 @@
 
 yuzSection Contacts
 
+## Filtres clients
+
 Deux filtres ont été ajoutés :
 
 - État du contact (Client, Employé, Prospect, Fournisseur)
@@ -26,6 +28,10 @@ Les réseaux sont maintenant restreints aux catalogues sélectionnés. Après un
 ![Catalogues partagés avec un réseau](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.3.0/catalog-network.webp?w=600px)
 
 yuzSection Dossiers
+
+## Cerfa 13749 — Immatriculation d'un véhicule neuf
+
+Le nouveau Cerfa pour l'immatriculation des véhicules (13749) est disponible (vente de véhicule neuf) !
 
 ## Disponibilité réseau
 
@@ -68,9 +74,32 @@ yuzSection Analytiques de stock
 
 Une nouvelle fonctionnalité très attendue de Yuzer. Le menu _analytiques_ se voit doté de deux nouveaux onglets après "Analyse des ventes" : "Analyse du stock" et "Analyse des stock et ventes".
 
+- L'analyse des stock vous permet de construire des tables et des graphiques représentant l'état ou l'évolution de votre stock.
+
+- L'analyse des stock et ventes va chercher toutes les données de facturation et l'état du stock du dernier mois (@Luc: dernier mois ou mois courant?) de la période spécifiée. Elle peut être utilisée pour réévaluer la valeur actuelle de votre stock en fonction de votre chiffre d'affaires d'une période donnée.
+
 La configuration des tableaux de bords, filtres, source de données, tables et graphiques est similaire à celle des "Analyse des ventes".
 
 ![Menu analytiques](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.3.0/analytics/analytics-header.webp?w=600px)
+
+## Analyse ABC
+
+L'analyse ABC propose de trier en trois catégories l'ensemble des produits. Elle se base sur le principe que 20% des produits représente en réalité 80% de la valeur de stock (ou du chiffre d'affaire). L'idée est donc de grouper en 3 catégories vos produits en trois catégories :
+
+- A: les x% (par exemple 15%) de produits représentant le plus de valeur
+- B: les y% (par exemple 40%) de produits représentant le plus de valeur qui ne sont pas dans A
+- C: tous les autres produits.
+
+Yuzer vous permet de définir les seuils pour les valeurs de `x` et `y` sus-mentionnés.
+
+Yuzer définit plusieurs colonnes basées sur ABC pour l'analyse du stock.
+
+- PP ABC: utiliser la méthode ABC en se basant sur le prix d'achat (PP: purchase price)
+- CP ABC: utiliser la méthode ABC en se basant sur le prix catalogue (CP: catalog price)
+
+## Analyse des stocks
+
+Attention, les données sur chargées par mois : un produit apparaîtra (potentiellement) une fois par mois, il conviendra donc de grouper vos données par mois, sans quoi certaines opérations risquent de ne pas avoir de sens. Par exemple, si un produit reste en stock avec une quantité de 1 toute l'année, la somme des quantités sur l'année sera de 12.
 
 yuzSection Général
 
