@@ -13,11 +13,11 @@ Deux filtres ont été ajoutés :
 
 yuzSection Produits
 
-## Import des modèles Kawazaki
+## Import des modèles Kawasaki
 
-Les _dealers_ Kawazaki ont maintenant accès à l'import des modèles (ou forfaits) Kawazaki.
+Les _dealers_ Kawasaki ont maintenant accès à l'import des modèles (ou forfaits) Kawasaki.
 
-![Kawazaki import](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.3.0/kawazaki-model-import.webp?w=300px)
+![Kawasaki import](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.3.0/kawasaki-model-import.webp?w=300px)
 
 ## Réseaux
 
