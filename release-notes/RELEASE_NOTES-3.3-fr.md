@@ -114,3 +114,13 @@ yuzSection Général
 - Correction de traductions
 - Rétablissement du comportement à la facturation d'une carte fidélité déjà activée (il est possible de la ré-activer plutôt que d'échouer).
 - Correction d'arrondis à la configuration de taux de la TVA
+
+yuzSection Nouveaux catalogues
+
+## Nouveaux catalogues produits
+
+De nouveaux catalogues ont été ajoutés depuis la dernière version:
+
+- Eovolt
+- Hutchinson
+- Delta Mics
