@@ -9,7 +9,7 @@ Deux filtres ont été ajoutés :
 - État du contact (Client, Employé, Prospect, Fournisseur)
 - Commercial (dernier utilisateur à avoir travaillé pour ce contact)
 
-![Kawazaki import](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.3.0/contact-filter.webp?w=300px)
+![Kawasaki import](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.3.0/contact-filter.webp?w=300px)
 
 yuzSection Produits
 
@@ -47,7 +47,7 @@ Pour rappel, dans la précédente version, nous avions ajouté deux galeries de 
 
 - une galerie partagée liée aux informations d'achat (en lecture seule)
 - une galerie privée
-- une galerie pargagée liée à la vente
+- une galerie partagée liée à la vente
 
 Le propriétaire de la galerie d'achat est votre fournisseur, et il peut supprimer des documents. Vous pouvez, si vous le voulez, copier
 tous les documents de la galerie d'achat dans votre galerie privée en un seul click à l'aide d'un nouveau bouton.
@@ -72,11 +72,13 @@ yuzEnd
 
 yuzSection Analytiques de stock
 
+|| Cette fonctionnalité est encore en bêta. Elle sera finalisée en 3.4. N'hésitez pas à nous rapporter toute instabilité.
+
 Une nouvelle fonctionnalité très attendue de Yuzer. Le menu _analytiques_ se voit doté de deux nouveaux onglets après "Analyse des ventes" : "Analyse du stock" et "Analyse des stock et ventes".
 
 - L'analyse des stock vous permet de construire des tables et des graphiques représentant l'état ou l'évolution de votre stock.
 
-- L'analyse des stock et ventes va chercher toutes les données de facturation et l'état du stock du dernier mois (@Luc: dernier mois ou mois courant?) de la période spécifiée. Elle peut être utilisée pour réévaluer la valeur actuelle de votre stock en fonction de votre chiffre d'affaires d'une période donnée.
+- L'analyse des stock et ventes va chercher toutes les données de facturation et l'état du stock du mois courant. Elle peut être utilisée pour réévaluer la valeur actuelle de votre stock en fonction de votre chiffre d'affaires d'une période donnée.
 
 La configuration des tableaux de bords, filtres, source de données, tables et graphiques est similaire à celle des "Analyse des ventes".
 
@@ -84,22 +86,22 @@ La configuration des tableaux de bords, filtres, source de données, tables et g
 
 ## Analyse ABC
 
-L'analyse ABC propose de trier en trois catégories l'ensemble des produits. Elle se base sur le principe que 20% des produits représente en réalité 80% de la valeur de stock (ou du chiffre d'affaire). L'idée est donc de grouper en 3 catégories vos produits en trois catégories :
+L'analyse ABC propose de trier en trois catégories l'ensemble des produits. Elle se base sur le principe que 20% des produits représente en réalité 80% de la valeur de stock (ou du chiffre d'affaire). L'idée est donc de grouper vos produits en trois catégories :
 
 - A: les x% (par exemple 15%) de produits représentant le plus de valeur
 - B: les y% (par exemple 40%) de produits représentant le plus de valeur qui ne sont pas dans A
-- C: tous les autres produits.
+- C: tous les autres produits (dans notre exemple: 45%).
 
 Yuzer vous permet de définir les seuils pour les valeurs de `x` et `y` sus-mentionnés.
 
-Yuzer définit plusieurs colonnes basées sur ABC pour l'analyse du stock.
+Yuzer définit plusieurs colonnes basées sur ABC pour l'analyse du stock:
 
 - PP ABC: utiliser la méthode ABC en se basant sur le prix d'achat (PP: purchase price)
 - CP ABC: utiliser la méthode ABC en se basant sur le prix catalogue (CP: catalog price)
 
 ## Analyse des stocks
 
-Attention, les données sur chargées par mois : un produit apparaîtra (potentiellement) une fois par mois, il conviendra donc de grouper vos données par mois, sans quoi certaines opérations risquent de ne pas avoir de sens. Par exemple, si un produit reste en stock avec une quantité de 1 toute l'année, la somme des quantités sur l'année sera de 12.
+Attention, les données sont chargées par mois : un produit apparaissant (potentiellement) une fois par mois, il conviendra donc de grouper vos données par mois, sans quoi certaines opérations risquent de ne pas avoir de sens. Par exemple, si un produit reste en stock avec une quantité de 1 toute l'année, la somme des quantités sur l'année sera de 12.
 
 yuzSection Général
 
