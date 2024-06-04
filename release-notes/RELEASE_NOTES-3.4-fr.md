@@ -1,4 +1,4 @@
-# Mai 2024 - Version 3.4.x
+# June 2024 - Version 3.4.x
 
 yuzSection Dossiers et ventes produits identifiés
 
