@@ -2,6 +2,12 @@
 
 || Attention, n'oubliez pas de consulter la release note de la version 3.4.x. Celle-ci a en effet été livrée à travers la 3.5.x et comporte de nombreux éléments important.
 
+yuzSection Recherche de produit par référence exacte
+
+Les composants d'ajout de références disposent d'un nouveau bouton: s'il est activé, nous irons chercher le produit (unique) correspondant au préfixe catalogue et à l'identifiant renseigné.
+
+![dealer file brand](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.5.0/fetch-product-by-exact-reference.webp?w=100%)
+
 yuzSection Dossiers et ventes produits identifiés
 
 - Nous validons désormais que la marque est bien définie lors de la création d'un dossier. Vous pouvez de plus éditer celle-ci directement à la création si celle-ci est incorrecte.
