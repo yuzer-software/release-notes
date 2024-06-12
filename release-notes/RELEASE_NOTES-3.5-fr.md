@@ -33,7 +33,7 @@ Afin d'activer l'écran client, rendez-vous dans la _configuration POS_ et coche
 
 Celle-ci affiche le contenu du panier de manière simplifiée ainsi que les coordonnées du client, lui permettant de rapidement valider celles-ci.
 
-||| Si vous pouvez utiliser n'importe quel second écran pour l'afficher nous vous recommandons d'attendre nos recommandations techniques avant d'investir dans un quelconque matériel. Les fonctionnalités interactives à venir nécessiterons un matériel compatible.
+||| Si vous pouvez utiliser n'importe quel second écran pour l'afficher nous vous recommandons d'attendre nos recommandations techniques avant d'investir dans un quelconque matériel. Les fonctionnalités interactives à venir nécessiterons un matériel compatible.
 
 yuzSection Administration et APIs
 
