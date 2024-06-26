@@ -1,3 +1,9 @@
+# June 2024 - Version 3.5.11
+
+- Correction du support des filtres personalisés sur l'analytique de _stock_ et _stock et ventes_.
+- Correction de la fermeture d'un panier sur l'écran client déporté.
+- Correction de l'affichage des forfaits sur l'écran client déporté.
+
 # June 2024 - Version 3.5.x
 
 || Attention, n'oubliez pas de consulter la release note de la version 3.4.x. Celle-ci a en effet été livrée à travers la 3.5.x et comporte de nombreux éléments importants.
