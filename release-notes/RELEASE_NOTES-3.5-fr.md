@@ -1,3 +1,17 @@
+# June 2024 - Version 3.5.14
+
+- Amélioration de la mise à jour des rôles utilisateurs et de leur prise en compte sur le poste concerné.
+- Amélioration de la clôture d'un prêt lorsque la valeur d'utilisation est incorrecte
+- Correction de la gestion des références équivalentes de produits non disponibles (catalogues supprimés etc.)
+
+# June 2024 - Version 3.5.13
+
+- Correction de l'affichage de la section garantie d'un véhicule lorsque celle-ci est remontée par le contstructeur.
+
+# June 2024 - Version 3.5.12
+
+- Correction du choix de certains endpoints dans la configuration des clés d'APIs
+
 # June 2024 - Version 3.5.11
 
 - Correction du support des filtres personalisés sur l'analytique de _stock_ et _stock et ventes_.
