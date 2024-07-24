@@ -1,26 +1,28 @@
-# June 2024 - Version 3.5.14
+# June 2024 - Version 3.5.x
+
+|| Attention, n'oubliez pas de consulter la release note de la version 3.4.x. Celle-ci a en effet été livrée à travers la 3.5.x et comporte de nombreux éléments importants.
+
+yuzSection Version 3.5.11 et suivantes
+
+# July 2024 - Version 3.5.14
 
 - Amélioration de la mise à jour des rôles utilisateurs et de leur prise en compte sur le poste concerné.
 - Amélioration de la clôture d'un prêt lorsque la valeur d'utilisation est incorrecte
 - Correction de la gestion des références équivalentes de produits non disponibles (catalogues supprimés etc.)
 
-# June 2024 - Version 3.5.13
+# July 2024 - Version 3.5.13
 
 - Correction de l'affichage de la section garantie d'un véhicule lorsque celle-ci est remontée par le contstructeur.
 
-# June 2024 - Version 3.5.12
+# July 2024 - Version 3.5.12
 
 - Correction du choix de certains endpoints dans la configuration des clés d'APIs
 
-# June 2024 - Version 3.5.11
+# July 2024 - Version 3.5.11
 
 - Correction du support des filtres personalisés sur l'analytique de _stock_ et _stock et ventes_.
 - Correction de la fermeture d'un panier sur l'écran client déporté.
 - Correction de l'affichage des forfaits sur l'écran client déporté.
-
-# June 2024 - Version 3.5.x
-
-|| Attention, n'oubliez pas de consulter la release note de la version 3.4.x. Celle-ci a en effet été livrée à travers la 3.5.x et comporte de nombreux éléments importants.
 
 yuzSection Recherche de produit par référence exacte
 
