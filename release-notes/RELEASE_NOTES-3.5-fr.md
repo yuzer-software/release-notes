@@ -4,6 +4,13 @@
 
 yuzSection Version 3.5.11 et suivantes
 
+# July 2024 - Version 3.5.15
+
+- Correction de la sélection de catégories dans le cadre de la configuration des règles TVA
+- Correction, lors de l'export des dossiers produits, des données de facture lorsque plusieurs IDPs étaient facturés lors du même panier (la première facture trouvée était utilisée pour tous les dossiers)
+- Possibilité d'exporter (avec les dossiers produits) le numéro de facture formaté
+- Possibilité d'importer (avec les dossiers produits) la TVA d'achat et le prix de vente TTC.
+
 # July 2024 - Version 3.5.14
 
 - Amélioration de la mise à jour des rôles utilisateurs et de leur prise en compte sur le poste concerné.
@@ -12,7 +19,7 @@ yuzSection Version 3.5.11 et suivantes
 
 # July 2024 - Version 3.5.13
 
-- Correction de l'affichage de la section garantie d'un véhicule lorsque celle-ci est remontée par le contstructeur.
+- Correction de l'affichage de la section garantie d'un véhicule lorsque celle-ci est remontée par le constructeur.
 
 # July 2024 - Version 3.5.12
 
@@ -20,7 +27,7 @@ yuzSection Version 3.5.11 et suivantes
 
 # July 2024 - Version 3.5.11
 
-- Correction du support des filtres personalisés sur l'analytique de _stock_ et _stock et ventes_.
+- Correction du support des filtres personnalisés sur l'analytique de _stock_ et _stock et ventes_.
 - Correction de la fermeture d'un panier sur l'écran client déporté.
 - Correction de l'affichage des forfaits sur l'écran client déporté.
 
@@ -39,7 +46,7 @@ yuzSection Dossiers et ventes produits identifiés
 yuzSection Tâches, atelier et prêts
 
 - Amélioration de la vue _Timeline_ permettant d'afficher de longues périodes. Les évènements trop petits sont agrégés. Cliquer dessus permet d'effectuer un zoom sur la période.
-- Améliorations des headers de la vue _Timeline_ pour que leur positionnement soit correct (les semaines ne sont plus alignées avec les mois mais avec leur positionnement temporel réel)
+- Améliorations des en-têtes de la vue _Timeline_ pour que leur positionnement soit correct (les semaines ne sont plus alignées avec les mois mais avec leur positionnement temporel réel)
 
 ![Timeline](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.5.0/timeline.webp?w=100%)
 
