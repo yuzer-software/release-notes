@@ -4,6 +4,11 @@
 
 yuzSection Version 3.5.11 et suivantes
 
+# July 2024 - Version 3.5.16
+
+- Calculateur des frais de carte grise : mise à jour des frais régionaux pour la bourgogne
+- Analytiques : correction du prix d'achat des lignes de forfait qui n'était pas toujours à 0 (pour rappel, les lignes de forfait ont un prix à zéro étant donné que celui-ci est réparti sur le contenu du forfait pour une meilleure ventilation).
+
 # July 2024 - Version 3.5.15
 
 - Correction de la sélection de catégories dans le cadre de la configuration des règles TVA
