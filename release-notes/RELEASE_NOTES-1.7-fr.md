@@ -81,16 +81,16 @@ Une fois que les information sont complétées vous pouvez:
 Il est désormais possible d'activer l'analyse automatique de vos mails. Cette option requiert votre consentement et n'est pas activée par défaut. Vous devez l'activer sur la page de configuration du mail de votre entité.
 
 <div class="alert alert-info">
-Cette fonctionalité est disponible en beta elle peut-être utilisée dès maintenant et sera améliorée dans les versions futures. N'hésitez pas à nous apporter vos retours.
+Cette fonctionnalité est disponible en beta elle peut-être utilisée dès maintenant et sera améliorée dans les versions futures. N'hésitez pas à nous apporter vos retours.
 </div>
 
 <div class="alert alert-warning">
-Attention, en bêta, la désactivation de la fonctionalité peut mettre du temps à être effective. Merci de contacter notre support si vous l'avez activé puis souhaitez que Yuzer stoppe la récupération des emails.
+Attention, en bêta, la désactivation de la fonctionnalité peut mettre du temps à être effective. Merci de contacter notre support si vous l'avez activé puis souhaitez que Yuzer stoppe la récupération des emails.
 </div>
 
 Vous pouvez désormais créer automatiquement des tâches sur réception de certains emails pré-formattés.
 
-Pour cela rendez-vous dans la configuration des emails pour activer la fonctionalité en cochant la case _Souscrire à l'analyse automatique des emails_.
+Pour cela rendez-vous dans la configuration des emails pour activer la fonctionnalité en cochant la case _Souscrire à l'analyse automatique des emails_.
 Notez que vous devez entrer vos mots de passes à nouveau afin de sauvegarder la configuration.
 
 <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.7.0/emailfetch-setup.gif" width="100%"/>

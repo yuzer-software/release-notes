@@ -20,7 +20,7 @@ Vous pouvez alors configurer des coloris en fonction de l'age des dossiers.
 
 L'âge peut-être calculé depuis la date de facturation du fournisseur ou d'entrée dans votre stock du véhicule (nombre de jour depuis cette date), ou en fonction de la date limite de paiement au fournisseur (nombre de jours restants avant cette date).
 
-| Nous avons choisi des couleurs mettant bien en valeur le sens de la fonctionalité. Si vous ne souhaitez pas que vos clients, en regardant votre écran puissent visualisez des couleurs rouges ou jaunes par exemple vous pouvez librement modifier le code couleur.
+| Nous avons choisi des couleurs mettant bien en valeur le sens de la fonctionnalité. Si vous ne souhaitez pas que vos clients, en regardant votre écran puissent visualisez des couleurs rouges ou jaunes par exemple vous pouvez librement modifier le code couleur.
 
 Une fois configurés vous pourrez visualisez les indicateurs directement sur la liste de véhicules:
 
@@ -30,9 +30,9 @@ Ainsi que dans le détail d'une fiche dossier:
 
 ![age display settings](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.4.0/df-age-detail.webp?w=400px)
 
-## Expertises et galleries
+## Expertises et galeries
 
-Nous avons effectué une migration des photo-expertises vers le système de gallerie de documents déjà utilisé entre autre sur la fiche de contact et sur la fiche dossier.
+Nous avons effectué une migration des photo-expertises vers le système de galerie de documents déjà utilisé entre autre sur la fiche de contact et sur la fiche dossier.
 
 L'expérience utilisateur se retrouve unifiée et cela permet de bénéficier de temps de chargements améliorés à la lecture.
 

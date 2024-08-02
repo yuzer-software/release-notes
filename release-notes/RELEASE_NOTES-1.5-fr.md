@@ -33,5 +33,5 @@ A noter qu'il est toujours possible de forcer la quantité à réserver pour une
 ## Correction de bugs
 
 - Corrige un problème empêchant de fermer une réception avec une ligne pour préparer 2 lignes différentes sur un panier pour le même produit.
-- La modification d'une fiche contact pouvait supprimer l'association avec sa gallerie de documents. C'est désormais corrigé.
+- La modification d'une fiche contact pouvait supprimer l'association avec sa galerie de documents. C'est désormais corrigé.
 - Corrige un problème de comptabilité lorsqu'une quantité avait un nombre de décimales très important (0.333333333 par exemple)

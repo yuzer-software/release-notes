@@ -46,7 +46,7 @@ Il est également possible de configurer un export journalier des données compt
 
 Le fichier sera généré chaque nuit avec le contenu des nouvelles lignes de journal depuis le dernier export.
 
-## Nouvelles fonctionalités sur la réception
+## Nouvelles fonctionnalités sur la réception
 
 ### Ré-ouverture
 

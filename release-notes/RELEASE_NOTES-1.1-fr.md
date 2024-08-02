@@ -18,7 +18,7 @@ Yuzer arbore désormais son logo définitif. Nous espérons que vous l'aimerez a
 
 # Nouveautés
 
-Lorsqu'une nouvelle version de l'application démarre, la page nouveauté s'ouvre et vous permet de visualiser immédiatement les nouvelles fonctionalités et améliorations de la version.
+Lorsqu'une nouvelle version de l'application démarre, la page nouveauté s'ouvre et vous permet de visualiser immédiatement les nouvelles fonctionnalités et améliorations de la version.
 
 Vous pouvez également ré-ouvrir cette page à tout moment en cliquant sur le numéro de version de Yuzer dans le coin en bas à gauche de l'application.
 
@@ -53,7 +53,7 @@ Comme vous pouvez le constater la gestion de la réservation a été simplifiée
 
 #### Préparation du stock du panier
 
-La préparation du stock du panier est une nouvelle fonctionalité qui permet de placer certains éléments du stock dans un emplacement spécifique dédié au panier. Ceci permet de s'assurer que, en sus d'avoir _réservé_ le produit "théoriquement" pour un client, celui-ci a bien été _préparé_ et mis de côté dans un emplacement spécifique.
+La préparation du stock du panier est une nouvelle fonctionnalité qui permet de placer certains éléments du stock dans un emplacement spécifique dédié au panier. Ceci permet de s'assurer que, en sus d'avoir _réservé_ le produit "théoriquement" pour un client, celui-ci a bien été _préparé_ et mis de côté dans un emplacement spécifique.
 
 Notre recommandation est que vous gardiez un emplacement spécifique dans votre entrepôt pour les paniers _préparés_ et que vous y gardiez les cartons sur lesquels vous pourrez imprimer les étiquettes correspondant au panier.
 

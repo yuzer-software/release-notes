@@ -11,7 +11,7 @@
 
 ## Identité visuelle
 
-Vous pouvez désormais configurer de multiples identités visuelles en plus du logo standard de la société à l'aide d'une gallerie d'images sur la configuration des informations de la concession.
+Vous pouvez désormais configurer de multiples identités visuelles en plus du logo standard de la société à l'aide d'une galerie d'images sur la configuration des informations de la concession.
 
 <img src="https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/1.3.0/identity-cfg.png" width="100%" class="mb-3"/>
 

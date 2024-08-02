@@ -131,6 +131,6 @@ Côté panier, il est possible d'accéder aux transferts correspondant aux diff�
 - Correction du total des paniers véhicules sur l'écran de liste des paniers
 - Correction du rafraichissement des statuts de paiement des paniers
 - Il n'est plus possible de supprimer l'emplacement entrepôt d'un dossier
-- Correction d'un bug qui empêchait les événements de mouvement de stock de se charger
+- Correction d'un bug qui empêchait les évènements de mouvement de stock de se charger
 - Correction d'un bug pouvant fausser la valeur du mois de la date d'échéance lors de l'export d'un journal.
 - Il est à nouveau possible de rembourser un client à partir de la fenêtre de paiement de la fiche d'un contact

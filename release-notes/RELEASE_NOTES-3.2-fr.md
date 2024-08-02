@@ -127,7 +127,7 @@ Vous pouvez alors naviguer dans le dossier de destination puis glisser/déposer 
 
 yuzSection Réseaux
 
-||| Attention si l'accès à un réseau est gratuit, sa création est une fonctionalité payante. Merci de vous rapprocher de notre équipe commerciale pour plus d'information.
+||| Attention si l'accès à un réseau est gratuit, sa création est une fonctionnalité payante. Merci de vous rapprocher de notre équipe commerciale pour plus d'information.
 
 Nous avons ajouté une nouvelle fonctionnalité de _réseaux_ afin de permettre un partage des disponibilités produits dans un réseau donné en temps réel.
 

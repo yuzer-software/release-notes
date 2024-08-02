@@ -10,7 +10,7 @@
 
 - Correction d'une régression ayant pour conséquence l'absence de quantité automatique lors de la sélection d'un emplacement.
 
-Amélioration de la fonctionalité de sélection rapide d'emplacements. Désormais le stock est placé:
+Amélioration de la fonctionnalité de sélection rapide d'emplacements. Désormais le stock est placé:
 
 - En priorité dans un emplacement ou celui-ci est déjà présent.
 - A défaut dans un emplacement configuré.
