@@ -1,3 +1,5 @@
+# Août 2024 - Version 3.6.x
+
 yuzSection Licenses
 
 # Validation des licences
@@ -32,7 +34,7 @@ Cela est particulièrement utile lorsque votre contact ne dispose pas d'adresse 
 
 De plus, vous pouvez désormais éditer les informations d'un contact directement depuis cette même modale.
 
-![license check](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.6.0/doc-edit-contact-select.webp?w=80%)
+![license check](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.6.0/doc-edit-contact-update.webp?w=80%)
 
 || Attention : l'édition met à jour la fiche du contact et une modification d'une adresse (email ou postale) existante remplacera de manière effective celle-ci sur la fiche du contact.
 
@@ -40,21 +42,29 @@ yuzSection Dossiers produits
 
 Nous avons amélioré l'affichage d'un dossier produit ainsi que des informations d'une fiche véhicule.
 
-![licences update](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.6.0/licenses-update.webp?w=100%)
+![licences update](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.6.0/dealer-file.webp?w=100%)
 
 Cet affichage permet d'accéder plus rapidement aux actions importantes, O.R. ou expertises diverses.
 
-![licences update](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.6.0/licenses-update.webp?w=100%)
+![licences update](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.6.0/idp.webp?w=100%)
 
 yuzSection Yuzer Pour les franchisés (LINK)
 
 | Cette section s'adresse aux utilisateurs franchisés détenteurs d'une licence YUZER LINK
 
+|| Cette documentation sera étoffée !
+
 # Commandes de véhicules
+
+Vous pouvez utiliser les fonctions de commandes habituelles pour commandez vos véhicules chez vos fournisseurs hébergés par Yuzer.
 
 # Garantie et vente
 
 ## Démarrage de garantie d'un véhicule de démo ou de courtoisie
+
+Vous pouvez démarrer la garantie depuis les actions de la fiche produit.
+
+![start warranty](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.6.0/start-warranty.webp?w=60%)
 
 ## Enregistrement de la vente et démarrage de la garantie d'un véhicule
 
