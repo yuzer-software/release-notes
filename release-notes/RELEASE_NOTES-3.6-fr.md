@@ -1,5 +1,15 @@
 # Août 2024 - Version 3.6.x
 
+yuzSection Version 3.6.4 et suivantes
+
+# 6 Août 2024 - Versions 3.6.4 et 3.6.5
+
+- Correction du chargement des données analytiques
+- Correction du lien vers le panier depuis un transfert
+- Correction du lien vers une commande depuis une ligne de réception
+- Amélioration de la sélection de nouvelles adresses à l'édition d'un document
+- Amélioration du filtrage des contacts depuis la liste des paniers
+
 yuzSection Licences
 
 # Validation des licences
