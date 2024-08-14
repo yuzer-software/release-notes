@@ -2,6 +2,16 @@
 
 yuzSection Version 3.6.4 et suivantes
 
+# 14 Août 2024 - Versions 3.6.7
+
+- Correction de la visualisation et de l'impression de certains codes-barres.
+- Correction de la remontée de certains messages d'erreurs.
+- Correction de la mise à jour des lignes de paniers associées à un dossier produit (notamment le prix dans le cadre de la TVA sur marge).
+
+# 9 Août 2024 - Versions 3.6.6
+
+- Correction du chargement de la page d'un dossier produit lorsque le produit catalogue associé à celui-ci n'est pas (ou plus) accessible (suppression de catalogue local, etc.).
+
 # 6 Août 2024 - Versions 3.6.4 et 3.6.5
 
 - Correction du chargement des données analytiques
@@ -66,7 +76,7 @@ yuzSection Yuzer Pour les franchisés (LINK)
 
 # Commandes de véhicules
 
-Vous pouvez utiliser les fonctions de commandes habituelles pour commandez vos véhicules chez vos fournisseurs hébergés par Yuzer.
+Vous pouvez utiliser les fonctions de commandes habituelles pour commander vos véhicules chez vos fournisseurs hébergés par Yuzer.
 
 - Soit via la section `En attente de commande`
   - Sélectionnez votre fournisseur
@@ -91,6 +101,26 @@ Vous pouvez démarrer la garantie depuis les actions de la fiche produit.
 ## Enregistrement de la vente et démarrage de la garantie d'un véhicule
 
 Vous pouvez désormais clôturer un dossier véhicule et ainsi transmettre l'information de livraison ainsi que le démarrage de garantie.
+
+Afin d'enregistrer les informations de facture (et de contact), allez sur la fiche produit et cliquez sur `Enregistrer la facture et fermer le dossier`.
+
+![link register invoice button](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.6.0/link-register-invoice-1-button.webp?w=100%)
+
+Renseignez les informations de facture et d'achat. Une fois validé, vous pourrez immédiatement choisir une extension de garantie.
+
+yuzLeft
+![link register invoice menu](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.6.0/link-register-invoice-2-menu.webp?w=500px)
+yuzRight
+![link register warranty menu](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.6.0/link-register-warranty-1-menu.webp?w=500px)
+yuzEnd
+
+Les informations ainsi sauvegardées seront affichées sur la fiche produit.
+
+yuzLeft
+![link register invoice result](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.6.0/link-register-invoice-3-result.webp?w=333px)
+yuzRight
+![link register warranty result](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.6.0/link-register-warranty-2-result.webp?w=353px)
+yuzEnd
 
 yuzSection Yuzer pour les importateurs
 
