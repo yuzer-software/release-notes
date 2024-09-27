@@ -1,5 +1,11 @@
 # Septembre 2024 - Version 3.7.x
 
+yuzSection Version 3.7.8 et suivantes
+
+- Correction de l'affichage des disponibilités réseau des produits ayant des variants. Note : actuellement, la disponibilité est portée par le produit parent, il est donc possible qu'un produit soit marqué "disponible" mais que le détail révèle qu'un produit particulier ne soit pas disponible: un autre variant sera disponible, et sa disponibilité sera bien rapportée dans le détail.
+- Correction d'arrondis sur la fenêtre de gestion de stock d'un panier
+- Correction d'un possible décalage lors de l'impression de plusieurs étiquettes
+
 yuzSection Documents
 
 ## Envoi par email
