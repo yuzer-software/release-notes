@@ -21,3 +21,16 @@ Un code apparait alors sur votre téléphone: recopiez-le sur l'application de b
 ![OTP mobile](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.8.0/otp-mobile.webp?w=300px)
 
 yuzEnd
+
+yuzSection Général
+
+## Améliorations
+
+- Amélioration des messages d'erreurs techniques.
+- Amélioration du time tracking des tâches.
+- Possibilité d'ouvrir l'écran de release notes dans une nouvelle fenêtre.
+- Ajout d'un menu pour que chaque utilisateur puisse changer son mot de passe, à partir du menu `Information du comptes`.
+- Amélioration du workflow sur l'édition du bon d'achat d'une reprise. Aussi, le terme 'Occasion' est maintenant imprimé à la place de 'Occasion à réceptionner'.
+- Ré-organisation du menu d'administration.
+- Amélioration pour se rendre compte d'une éventuelle erreur lorsque l'on quitte le mode `édition` sur une réception.
+- Fonctionnalité pour créer des templates de SMS: `Administration > Communication Hub > Téléphonie Modèles`.
