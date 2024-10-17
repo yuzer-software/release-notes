@@ -29,7 +29,7 @@ Il est désormais possible de se connecter avec un PIN plutôt qu'avec votre mot
 
 yuzLeft
 
-![OTP popup](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.8.0/otp-2.webp?w=500px)
+![OTP popup](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.8.0/otp-2.webp?w=300px)
 
 yuzRight
 
@@ -37,7 +37,7 @@ Depuis l'application de bureau, sélectionnez "Connexion sans mot de passe" et s
 
 Un code apparait alors sur votre téléphone: recopiez-le sur l'application de bureau: vous êtes connecté !
 
-![OTP mobile](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.8.0/otp-mobile.webp?w=300px)
+![OTP mobile](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.8.0/otp-mobile.webp?w=200px)
 
 yuzEnd
 
