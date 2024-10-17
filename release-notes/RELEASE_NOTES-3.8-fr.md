@@ -1,8 +1,27 @@
 # Octobre 2024 - Version 3.8.x
 
+yuzSection Version 3.8.8 et suivantes
+
+## Stocks dossiers (véhicules) à date
+
+Vous pouvez désormais afficher, et exporter, vos listes de dossiers à date:
+
+![Stock at date](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.8.0/stock_at_date.webp?w=300px)
+
+Le stock à date peut-être établi sur base de:
+
+- la date de création du dossier
+- la date de facture d'achat du dossier
+- la date de réception du dossier
+
+## Améliorations
+
+- Caching et Amélioration du chargement dossiers produits dans l'analytique (pour les tableaux de bords utilisant des colonnes d'identifiants). Visible sur le second chargement et les suivants.
+- Correction des icones de téléphonie sur la fiche client suite à la mise à jour de la librairie d'icones.
+
 yuzSection Application mobile
 
-# Connexion OTP (sans votre mot de passe)
+## Connexion OTP (sans votre mot de passe)
 
 Il est désormais possible de se connecter avec un PIN plutôt qu'avec votre mot de passe utilisateur.
 
