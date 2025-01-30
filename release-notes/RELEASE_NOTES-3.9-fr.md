@@ -31,7 +31,7 @@ Un indicateur dans la liste (coche verte) vous indique que le modèle est publi�
 
 Vous pouvez dé-publier un modèle publié.
 Si vous faîtes des modifications au brouillon, celle-ci ne seront prises en compte que lorsque vous publiez celles-ci.
-Pour annuler les modification effecuées au brouillon et revenir à la dernière version publiée vous pouvez utiliser le bouton _Revenir_
+Pour annuler les modification effectuées au brouillon et revenir à la dernière version publiée vous pouvez utiliser le bouton _Revenir_
 
 ![SMS template view published](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.9.0/sms-tpl-6.webp?w=968px)
 
@@ -61,7 +61,7 @@ Vous devez ensuite sélectionner un modèle de message (voir ci-dessus).
 Finalement vous devez configurer une, ou plusieurs planification pour le rappel du message. Sélectionnez en premier l'heure d'envoi du message. Celle-ci peut-être soit à heure fixe (par exemple à 19h environ) soit basée sur l'heure du rendez-vous.
 
 Si l'heure d'envoi du message est à heure fixe, vous pouvez configurer un rappel un nombre de jours avant la tâche. Ce nombre de jour doit-être 1 jour au minimum.
-Si l'heure d'envoi du message est à l'heure du rendez-vous vous configurez également un rappel un nombre de jours avant la tâche mais nous permettons alors de configurer un rappel le jour même (0 jorus avant le rendez-vous), vous devrez alors sélectionner un nombre d'heures avant le rendez-vous pour le rappel.
+Si l'heure d'envoi du message est à l'heure du rendez-vous vous configurez également un rappel un nombre de jours avant la tâche mais nous permettons alors de configurer un rappel le jour même (0 jours avant le rendez-vous), vous devrez alors sélectionner un nombre d'heures avant le rendez-vous pour le rappel.
 
 yuzEnd
 
@@ -69,5 +69,5 @@ yuzSection Général
 
 ## Améliorations
 
-- Amélioration de l'écran de licenses qui affiche désormais le nom de l'employé et la possibilité de modifier les licenses directement depuis cette page lorsque le mois sélectionné est le mois courrant.
+- Amélioration de l'écran de licences qui affiche désormais le nom de l'employé et la possibilité de modifier les licences directement depuis cette page lorsque le mois sélectionné est le mois courant.
 - Améliorations de stabilité et performance

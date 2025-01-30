@@ -19,7 +19,7 @@ yuzSection Inventaires
 
 ## Fusion des décomptes
 
-||| Attention cette fonctionalité est dangereuse et correspond à un cas d'utilisation très particulier. Elle doit-être utilisée avec attention.
+||| Attention cette fonctionnalité est dangereuse et correspond à un cas d'utilisation très particulier. Elle doit-être utilisée avec attention.
 
 || Cette fonctionalité n'est active que sur les comptes en ayant effecuté la demande, suite à formation spécifique et validation de la compréhenssion de ses impacts.
 
@@ -28,7 +28,7 @@ Cas d'utilisation:
 - Votre entrepôt n'est pas segmenté en plusieurs emplacements pour simplifier des mouvements très fréquents d'emplacements de vos produits dans celui-ci.
 - Vos produits peuvent-être situés à plusieurs emplacements dans celui-ci (rayon et tête de gondole par exemple)
 
-|| Avoir des produits dans plusieurs 'endroits' non représentés dans YUZER n'est pas une pratique idéale car ils complexifiend l'inventaire et la localisation des produits.
+|| Avoir des produits dans plusieurs 'endroits' non représentés dans YUZER n'est pas une pratique idéale car ils complexifient l'inventaire et la localisation des produits.
 
 - Plusieurs personnes effectuent des décomptes sur cet emplacement unique alors que le même produit dans le même emplacement.
   Par exemple Luc compte 3 (en rayon) puis Matthieu 2 (en tête de gondole). Yuzer afficher alors une quantité inventoriée de 2.

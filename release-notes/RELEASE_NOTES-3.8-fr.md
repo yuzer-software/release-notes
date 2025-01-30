@@ -17,7 +17,7 @@ Le stock à date peut-être établi sur base de:
 ## Améliorations
 
 - Caching et Amélioration du chargement dossiers produits dans l'analytique (pour les tableaux de bords utilisant des colonnes d'identifiants). Visible sur le second chargement et les suivants.
-- Correction des icones de téléphonie sur la fiche client suite à la mise à jour de la librairie d'icones.
+- Correction des icônes de téléphonie sur la fiche client suite à la mise à jour de la librairie d'icônes.
 
 yuzSection Application mobile
 
@@ -46,10 +46,10 @@ yuzSection Général
 ## Améliorations
 
 - Amélioration des messages d'erreurs techniques.
-- Amélioration du time tracking des tâches.
-- Possibilité d'ouvrir l'écran de release notes dans une nouvelle fenêtre.
+- Amélioration du chronométrage des tâches.
+- Possibilité d'ouvrir l'écran de _release notes_ dans une nouvelle fenêtre.
 - Ajout d'un menu pour que chaque utilisateur puisse changer son mot de passe, à partir du menu `Information du comptes`.
-- Amélioration du workflow sur l'édition du bon d'achat d'une reprise. Aussi, le terme 'Occasion' est maintenant imprimé à la place de 'Occasion à réceptionner'.
+- Amélioration du flux d'édition du bon d'achat d'une reprise. Aussi, le terme 'Occasion' est maintenant imprimé à la place de 'Occasion à réceptionner'.
 - Ré-organisation du menu d'administration.
 - Amélioration pour se rendre compte d'une éventuelle erreur lorsque l'on quitte le mode `édition` sur une réception.
 - Fonctionnalité pour créer des templates de SMS: `Administration > Communication Hub > Téléphonie Modèles`.
