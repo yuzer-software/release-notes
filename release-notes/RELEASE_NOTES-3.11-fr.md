@@ -14,9 +14,17 @@ Vous pouvez configurer des correspondances de produits qui seront à remplacer l
   Par exemple si vous utilisez dans vos forfaits de l'huile mais n'imposez pas le choix de la marque, vous pouvez créer un produit d'huile générique au litre dans le catalogue, l'utiliser dans vos forfaits puis configurer un remplacement depuis les correspondances catalogue.
   Ce remplacement sera automatiquement proposé (et non complété) à vos utilisateurs lors de leur configuration.
 
+![Editor replacement configuration](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.11.0/editor-replacement.webp?w=100%)
+
 - En tant qu'utilisateur vous pouvez configurer vos correspondances. Cela vous permet:
   - de remplacer les références génériques que l'éditeur aurait spécifié.
   - de configurer d'autres remplacements à votre guise.
+
+![Consumer replacement configuration](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.11.0/consumer-replacement.webp?w=100%)
+
+Pour éditer une valeur cliquez sur le bouton d'édition puis remplissez les valeurs dans le champ qui s'affiche:
+
+![Replacement edit](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.11.0/add-replacement.webp?w=368px)
 
 Très important, pensez également à configurer le remplacement de la M.O. car les identifiants ne correspondent pas.
 
@@ -25,6 +33,16 @@ Très important, pensez également à configurer le remplacement de la M.O. car 
 yuzSection Général
 
 # Améliorations
+
+## Liste des contacts
+
+La liste des contacts est devenue plus compacte pour une meilleure utilisabilité:
+
+- Le pays de l'addresse n'est plus affichée sur cet écran. L'information est en général inutile et peut-être déduite du contexte.
+- Seule une addresse, deux numéros de téléphonne, deux emails et deux entités chez qui le contact est client sont désormais affichés pour éviter que cela nuise à la lisibilité globale de la liste.
+  Dans le cas ou certaines de ces données sont cachées vous pouvez visualiser des points de suspension "...". Passez alors votre souris sur la colonne en question pour afficher les informations masquées.
+
+![Contact list](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.11.0/contact-list.webp?w=100%)
 
 ## Listes
 
@@ -42,3 +60,5 @@ Ce qui est visible aujourd'hui n'est qu'une partie des évolutions sur ce compos
 ## Divers
 
 - Nombreuses mises à jour techniques sur cette version pour garantir une sécurité et performance optimale ainsi que préparer les évolutions à venir.
+
+Comme toujours n'hésitez pas à exprimer auprès de nos équipes support, en toute courtoisie
