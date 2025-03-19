@@ -10,11 +10,11 @@ Les factures d'achat intra-groupe sont désormais passées automatiquement en co
 
 - Vous pouvez désactiver l'affichage du panier client sur l'écran client depuis la barre principale de YUZER.
 
-![Prevent Customer Screen basket display](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.12.0/cust-screen-ad-setting.webp?w=200px)
+![Prevent Customer Screen basket display](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.12.0/cust-screen-ad-setting.webp?w=400px)
 
 - Vos clients peuvent désormais directement depuis l'écran client modifier leur préférence publicitaire.
 
-![Prevent Customer Screen basket display](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.12.0/cust-screen-display-basket.webp?w=200px)
+![Prevent Customer Screen basket display](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.12.0/cust-screen-display-basket.webp?w=400px)
 
 - Lorsqu'un media est configuré pour l'affichage hors panier, le logo de la concession est placé en haut à gauche.
 - L'image marketing affichée lors de l'affichage du panier n'est désormais plus tronquée.
