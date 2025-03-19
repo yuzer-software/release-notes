@@ -2,6 +2,10 @@
 
 yuzSection 3.12.7
 
+## Comptabilité des factures d'achat intra-groupe
+
+Les factures d'achat intra-groupe sont désormais passées automatiquement en comptabilité si vous avez activé le passage automatique en comptabilité des facturations.
+
 ## Ecran client
 
 - Vous pouvez désactiver l'affichage du panier client sur l'écran client depuis la barre principale de YUZER.
