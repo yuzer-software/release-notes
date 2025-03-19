@@ -1,5 +1,21 @@
 # Mars 2025 - Version 3.12.x
 
+yuzSection 3.12.7
+
+## Ecran client
+
+- Vous pouvez désactiver l'affichage du panier client sur l'écran client depuis la barre principale de YUZER.
+
+![Prevent Customer Screen basket display](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.12.0/cust-screen-ad-setting.webp?w=200px)
+
+- Vos clients peuvent désormais directement depuis l'écran client modifier leur préférence publicitaire.
+
+![Prevent Customer Screen basket display](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.12.0/cust-screen-display-basket.webp?w=200px)
+
+- Lorsqu'un media est configuré pour l'affichage hors panier, le logo de la concession est placé en haut à gauche.
+- L'image marketing affichée lors de l'affichage du panier n'est désormais plus tronquée.
+- La stabilité de l'affichage a été améliorée (il arrivait qu'un message d'erreur s'affiche sur l'écran client alors que la fenêtre princiaple est bien active et connectée).
+
 yuzSection Export de catalogues
 
 Yuzer permet aux éditeurs de catalogues (sous réserve d'activation de la fonctionnalité par le support) d'exporter ceux-ci automatiquement. Les catalogues exportés peuvent alors être téléchargés par les autres utilisateurs abonnés à celui-ci.
@@ -101,7 +117,7 @@ Voici les paramètres pour une URL youtube intégrée qui pourraient vous être 
 
 yuzSection Général
 
-# Tâches commerciales
+## Tâches commerciales
 
 Vous pouvez désormais facilement créer une tâche de suivi depuis une tâche existante à J+2/4/7.
 
