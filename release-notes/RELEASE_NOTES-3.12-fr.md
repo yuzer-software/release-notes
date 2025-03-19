@@ -2,7 +2,7 @@
 
 yuzSection Export de catalogues
 
-Yuzer permet aux éditeurs de catalogues d'exporter ceux-ci automatiquement. Les catalogues exportés peuvent alors être téléchargés par les autres utilisateurs abonnés à celui-ci.
+Yuzer permet aux éditeurs de catalogues (sous réserve d'activation de la fonctionnalité par le support) d'exporter ceux-ci automatiquement. Les catalogues exportés peuvent alors être téléchargés par les autres utilisateurs abonnés à celui-ci.
 
 Depuis un catalogue dont vous êtes l'éditeur, rendez-vous dans l'onglet _Exportation_
 
@@ -26,11 +26,11 @@ L'export est exécuté chaque nuit et vous pouvez alors lancer le téléchargeme
 
 ||| Les exports de catalogues peuvent également être retrouvés depuis la section `Automates`.
 
-![Catalog export filter](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.12.0/catalog-export-automation.webp?w=100%)
+![Catalog export automation list](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.12.0/catalog-export-automation.webp?w=100%)
 
 Vous retrouverez les résultats de votre export dans l'onglet `Résultats d'exécution`.
 
-![Catalog export filter](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.12.0/catalog-export-results.webp?w=100%)
+![Catalog export results](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.12.0/catalog-export-results.webp?w=100%)
 
 yuzSection Écran client et marketing
 
@@ -114,6 +114,7 @@ Vous pouvez désormais facilement créer une tâche de suivi depuis une tâche e
 - Correction de la connexion lors de certains cas d'expiration de token aux limites.
 - Correction de comportements de pré-sélection dans un panier multi-groupes (écran de paiement etc.).
 - Correction de la configuration d'une catégorie de tarification dans une règle d'enrichissement de catalogue.
+- Correction de la mise à jour des CGV sur 1 colonne.
 - Les réservations de stock affichent désormais la référence produit et son label par défaut sur tous les écrans.
 
 Comme toujours n'hésitez pas à exprimer vos demandes, en toute courtoisie, auprès de nos équipes support !
