@@ -51,6 +51,7 @@ yuzLeft
 Pour configurer une vidéo youtube, vous devez utiliser leur API d'intégration (https://support.google.com/youtube/answer/171780).
 
 Voici les étapes recommandées :
+
 - Aller sur la vidéo que vous voulez partager
 - Clic droit puis `Copier le code d'intégration` (voir ci-contre)
 - Coller le texte copié dans un éditeur de texte (bloc notes, mail, word, etc.)
@@ -65,10 +66,13 @@ Voici les étapes recommandées :
   ```
 
 - Extraire l'URL source: `https://www.youtube.com/embed/Dagrn_9V4jE` (effacer le reste)
+- Attention si la source est suivie d'un `?` ne considérez que la partie le précédent.
+- Notez que dans l'exemple ci-dessus `Dagrn_9V4jE` est l'identifiant de la vidéo.
 - Paramétrer la source:
   - ajouter, avant les paramètres: `?`
   - ajouter les paramètres (voir ci-dessous les paramètres possibles) — paramètres recommandés:
-    - `?&autoplay=1&loop=1&controls=0&mute=1&rel=0&modestbranding=1`
+    - `?&autoplay=1&loop=1&controls=0&mute=1&rel=0&modestbranding=1&playlist=Dagrn_9V4jE`
+    - Attention à remplacer `Dagrn_9V4jE` suite à playlist par l'id de votre vidéo.
 - Ce qui donne l'URL suivante:
   `https://www.youtube.com/embed/Dagrn_9V4jE?&autoplay=1&loop=1&controls=0&mute=1&cc_load_policy=1&rel=0&modestbranding=1`
 - Utilisez cette URL dans Yuzer avec le type `iFrame`:
@@ -81,11 +85,11 @@ yuzEnd
 
 ![Copy integration link](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/3.12.0/marketing-youtube-in-yuzer.webp?w=800px)
 
-
 Voici les paramètres pour une URL youtube intégrée qui pourraient vous être utiles:
 
 - `&autoplay=1` : La vidéo démarrera automatiquement dès le chargement de la page.
 - `&loop=1` : La vidéo se mettra en boucle une fois qu'elle aura terminé.
+- `&playlist=VIDEO_ID` : Nécessaire pour que la vidéo se mette bien en boucle. Remplacez `VIDEO_ID` par l'id de votre vidéo.
 - `&start=xx` : La vidéo commencera à partir d'un point spécifique, en secondes (par exemple, start=60 commencera à 1 minute).
 - `&end=xx` : La vidéo s'arrêtera à un point spécifique, en secondes.
 - `&controls=0` : Les contrôles du lecteur (play, pause, volume) seront masqués.
@@ -94,7 +98,6 @@ Voici les paramètres pour une URL youtube intégrée qui pourraient vous être 
 - `&modestbranding=1` : Réduit l'image de marque de YouTube (le logo YouTube est plus discret).
 - `&cc_load_policy=1` : Affiche les sous-titres par défaut.
 - `&iv_load_policy=3` : Masque les annotations sur la vidéo.
-
 
 yuzSection Général
 
