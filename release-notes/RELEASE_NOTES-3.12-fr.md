@@ -94,7 +94,7 @@ Voici les étapes recommandées :
     - `?&autoplay=1&loop=1&controls=0&mute=1&rel=0&modestbranding=1&playlist=Dagrn_9V4jE`
     - Attention à remplacer `Dagrn_9V4jE` suite à playlist par l'id de votre vidéo.
 - Ce qui donne l'URL suivante:
-  `https://www.youtube.com/embed/Dagrn_9V4jE?&autoplay=1&loop=1&controls=0&mute=1&cc_load_policy=1&rel=0&modestbranding=1`
+  `https://www.youtube.com/embed/Dagrn_9V4jE?&autoplay=1&loop=1&controls=0&mute=1&rel=0&modestbranding=1&playlist=Dagrn_9V4jE`
 - Utilisez cette URL dans Yuzer avec le type `iFrame`:
 
 yuzRight
