@@ -58,7 +58,7 @@ Note : dans le cas où vous voudriez créer (et non modifier) des horaires, le 
 
 Pour définir un horaire exceptionnel, vous pouvez directement cliquer sur la vue pour sélectionner le début de la période. Vous pouvez aussi cliquer sur une définition d'horaires exceptionnels existante pour l'éditer.
 
-![New exceptional schedules](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.0/working-times-exceptional-view.webp?w=100%)
+![New exceptional schedules](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.0/working-times-exceptionnal-view.webp?w=100%)
 
 Dans les deux cas, le menu d'édition s'ouvre. Vous aurez à configurer la date de fin et les horaires à appliquer pour cette période. La sélection des horaires est la même que pour une période d'horaires standard.
 
