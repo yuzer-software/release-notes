@@ -1,6 +1,6 @@
 # Mai 2025 - Version 4
 
-yuzSection Horaires de travail
+yuzSection Horaires d'ouverture / travail
 
 Yuzer 4 vous permet de définir vos horaires de travail et d'ouverture de manière plus précise.
 
@@ -79,8 +79,88 @@ Concrètement:
 - L'annulation d'une avance lorsqu'une facture a été édité n'annule pas de TVA.
 - L'annulation d'une facture, l'annulation d'un paiement ou un remboursement entraîne l'annulation de la TVA correspondante dans la limite du montant des paiements restants.
 
-Les reçus comportant une avance sur TVA possèdent un statut de passage en comptabilité. Ils doivent être traités individuellement afin d'enregistrer les écritures relatives à la TVA pré-collectée.
-A noter que la validation peut être automatisée en activant la validation automatique des écritures dans vos paramètres de comptabilité.
+Pour rappel, les reçus comportant une avance sur TVA possèdent un statut de passage en comptabilité. En effet si la partie paiement est traitée et passée en comptabilité à travers l'arrêté de caisse, la partie de déclaration de TVA est traitée par flux classique (comme les factures). Si vous n'avez pas configuré la validation automatique des écritures dans vos paramètres de comptabilité vous devez valider les écritures liées à ces enregistrements.
+
+yuzSection Liste véhicules
+
+L'écran de liste de véhicules évolue pour plus de simplicité d'utilisation et une meilleure performance d'affichage.
+
+![Dealer file list](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.0/df-list.webp?w=100%)
+
+# Filtres
+
+Première évolution majeure, les filtres ne sont désormais plus liés aux colonnes. Il devient donc possible de filtrer les données sans que la colonne liée soit obligatoirement affichée.
+Cela est d'autant plus logique lorsque la vue 'fiches' est utilisée (en lieu et place de la vue 'table').
+
+![Filter button](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.0/df-list-filter-1.webp?w=400px)
+
+Une fois activé, l'ensemble des filtres disponibles s'affiche à gauche de la liste:
+
+![Filter list](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.0/df-list-filter-2.webp?w=400px)
+
+# Edition de la vue
+
+L'affichage est désormais fixe. Pour modifier la liste des colonnes, les ré-arranger, ou grouper/dégrouper vous devez désormais utiliser le bouton éditer.
+
+## Regroupement
+
+Afin de rendre l'interface plus simple pour l'ensemble des utilisateurs et quelque soit les colonnes affichées le regroupement n'est plus activé par drag and drop mais par sélection de colonnes dans la zone _Grouper par_.
+
+![Filter list](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.0/df-list-edit-group.webp?w=400px)
+
+|| Vous pouvez toujours cependant réorganiser les colonnes de groupement par drag and drop.
+
+## Ajout de colonnes
+
+Pour ajouter une colonne déplacez le curseur de la souris à l'extrémité gauche de la colonne après laquelle vous souhaitez ajouter la nouvelle colonne, juste après l'icône de tri. Un nouveau bouton avec l'icône oeil apparait alors.
+
+# Replier / Développer
+
+Vous pouvez désormais facilement replier / développer l'ensemble des éléments de la liste.
+
+|| Cette option n'est disponible que lorsque l'ensemble des données peut-être affichée. Pour les concessions disposant d'un stock imposant de véhicules il faudra au préalable affiner la requête.
+
+yuzSection Fournisseurs / Accès et services
+
+La gestion des fournisseurs a été revue afin de bien dissocier les notions de fournisseurs et "d'accès / intégration".
+
+- Les fournisseurs sont désormais uniquement dédiés à votre gestion des fournisseurs et restent liés à vos achats divers.
+- La gestion de l'accès à des services tiers ou complémentaires est désormais externalisée.
+
+Chaque accès correspond à une authorisation vous permettant d'exploiter un ou plusieurs services.
+
+Par exemple, si un catalogue vous interesse, il vous faut désormais une validation que vous y avez effectivement accès. En effet les catalogues sont édités par des tiers et l'accès aux informations de ceux-ci sont donc liés à vos contrats avec ces tiers.
+De même pour accéder au service de commande de pièces que certains fournisseurs offrent, vous devez valider un accès à ce service, qui devra ensuite être lié à un fournisseur donné.
+D'autres accès vous permettent de valider votre capacité à effectuer des enregistrements de données dans des services externes (constructeurs, APIC pour le vélo etc.)
+
+La séparation des deux concepts permet d'ajouter à un fournisseur existant un nouveau service de commande par exemple, cela vous évite de devoir désactiver le fournisseur existant et recréer un nouveau fournisseur avec tous les problèmes liés aux numéros de fournisseurs dans ce cas.
+
+# Evolutions fournisseurs
+
+Pour gérer vos fournisseurs rendez-vous comme avant dans le menu _fournisseurs_ de Yuzer.
+
+Les fournisseurs sont désormais définis au niveau compte, ils peuvent ensuite être ajoutés sur chaque entité. Cela permet de mieux gérer leur numéro en comptabilité.
+Ces information peut être surchargée par entité.
+
+## Ajouter un fournisseurs
+
+Nous avons simplifié l'ajout de fournisseur, permettant de réutiliser rapidement un fournisseur déjà défini au niveau groupe, de créer rapidement un nouveau fournisseur, d'ajouter un autre compte YUZER comme fournisseur (réseau de redistribution) ou d'en créer à partir d'un accès tout cela depuis la même interface pour plus de clarté.
+
+| La création depuis un accès permet le cas échéant de connecter le fournisseur à l'accès de gestion de commande. Si l'accès choisi ne propose pas de gestion de commande la sélection permet uniquement de pré-remplir un ensemble de champs automatiquement.
+
+## Gestion des modalités de paiements
+
+Les modalités de paiements des fournisseurs sont désormais gérées directement au niveau du fournisseur et non dans un menu externalisé.
+
+Vous devez re-spécifier actuellement ces modalités pour chaque entité. Cela est du au lien effectué avec les moyens de paiements qui sont définis au niveau de l'entité.
+
+yuzSection Yuzer PAY
+
+YUZER 4 c'est surtout l'arrivée de YUZER PAY, notre solution de paiements intégrée.
+
+Cette solution sera mise en place progressivement, tout d'abord chez quelques beta-testeurs sélectionnés, puis progressivement à l'ensemble d'entre vous.
+
+Nous vous tiendrons au courant des modalités d'accès lorsque celles-ci seront précisées.
 
 yuzSection Général
 
@@ -88,3 +168,8 @@ yuzSection Général
 
 Les tâches de réception et livraison ont maintenant les tags respectifs `Réception` et `Livraison` lorsqu'ils sont créés à partir d'un panier. Il est également possible configurer ces tags à partir du planning de réception.
 Ces tags peuvent être utilisés pour configurer les rappels afin de n'envoyer des messages que pour un certain type de rendez-vous.
+
+## Intégrations
+
+- Le marquage vélo APIC avec Auvray a été mise en place. Nous contactons les autres opérateurs afin de proposer d'autres fournisseurs.
+- Une intégraiton Pennylane facilite votre synchronisation comptable avec l'outil mentionné. Celle-ci est disponible en alpha et sera ouverte à tous bientôt.
