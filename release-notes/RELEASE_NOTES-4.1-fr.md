@@ -14,19 +14,18 @@ L'arrondi de la somme ou la somme des arrondis.
 
 YUZER fonctionne suivant la logique de somme des arrondis. Cela permet en effet de collecter la même TVA quelle que soit la manière de vendre une quantité donnée de produit.
 
-Exemple:
-Prenons un produit donc le prix HT est 7,22 avec une TVA de 20%.
+Par exemple, prenons un produit donc le prix HT est 7,22 avec une TVA de 20%.
 
 - Le montant de TVA sur ce produit est _1,444_, ce montant doit bien entendu être arrondi au centime ce qui donne _1,44_.
 - Le prix unitaire TTC du produit est donc _8,66_
 
 Si nous vendons une quantité de 2 le prix HT total devient _14,44_.
 Suivant la stratégie de somme des arrondis nous allons calculer le PV TTC en faisant la somme des arrondis donc _8,66 \* 2_ ce qui donne _17,32_.
-Si l'on utilise l'arrondi de la somme, nous le PV TTC est re-calculé en appliquant le taux de TVA à la somme des PV HT. Si l'on applique une TVA de 20% à _14,44_ le prix total du produit est alors _2,888_ ce qui une fois arrondi au centime donne _2,89_. Le prix TTC dans ce cas est alors _17,33_.
+Si l'on utilise l'arrondi de la somme, le PV TTC est re-calculé en appliquant le taux de TVA à la somme des PV HT. Si l'on applique une TVA de 20% à _14,44_ le prix total du produit est alors _2,888_ ce qui une fois arrondi au centime donne _2,89_. Le prix TTC dans ce cas est alors _17,33_.
 
-YUZER applique la stratégie de la somme des arrondis. Elle est cependant utilisée dans YUZER de manière totale, tant au niveau d'une ligne en appliquant sa quantité, que sur la somme des lignes.
+Comme nous l'avons dit, YUZER applique la stratégie de la somme des arrondis, mais notez qu'elle est utilisée dans YUZER de manière totale, tant au niveau d'une ligne en appliquant sa quantité, que sur la somme des lignes.
 
-Cela permet une garantie que la TVA collectée reste la même quelle que soit la manière dont la vente est construite. En effet avec la stratégie ci-dessus la TVA collectée est identique dans le cas:
+Cela garantit que la TVA collectée reste la même quelle que soit la manière dont la vente est construite. En effet, avec la stratégie ci-dessus la TVA collectée est identique dans les cas :
 
 - Le produit est vendu dans deux factures différentes avec une quantité de 1
 - Le produit est vendu dans une facture unique sous deux lignes différentes avec une quantité de 1
@@ -34,7 +33,7 @@ Cela permet une garantie que la TVA collectée reste la même quelle que soit la
 
 Si la stratégie de la somme des arrondis est communément appliquée, il est beaucoup plus rare qu'elle soit utilisée sur une ligne unique. Ainsi il est beaucoup plus commun de voir les différents logiciels appliquer la TVA sur le prix total HT d'une ligne puis la somme des arrondis sur l'ensemble des différentes lignes.
 
-Cette différence de comportement peut complexifier la compréhenssion du traitement des arrondis par certains consomateurs peu habitués à un tel fonctionnement.
+Cette différence de comportement peut complexifier la compréhension du traitement des arrondis par certains consommateurs peu habitués à un tel fonctionnement.
 
 Nous avons donc introduit un nouveau paramètre permettant de modifier le comportement de YUZER au niveau d'une ligne unique.
 
@@ -42,7 +41,7 @@ Attention actuellement la somme des arrondis reste la stratégie utilisée pour 
 
 ### Modification du paramètre
 
-Afin de modifier le paramètre rendez-vous dans vos paramètres de comptabilité:
+Afin de modifier le paramètre rendez-vous dans vos paramètres de comptabilité :
 
 ![Lines Vat Policy](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/lines-vat-policy.webp?w=100%)
 
@@ -50,7 +49,7 @@ Afin de modifier le paramètre rendez-vous dans vos paramètres de comptabilité
 
 #### Factures établies
 
-Les factures établies ne changent bien évidamment pas. Leur annulation est totalement consistante et utilise la même stratégie que la facture d'origine afin de garantir une annulation égale de la TVA collectée.
+Les factures établies ne changent bien évidemment pas. Leur annulation est totalement consistante et utilise la même stratégie que la facture d'origine afin de garantir une annulation égale de la TVA collectée.
 
 #### Nouvelle factures
 
@@ -58,7 +57,7 @@ Toutes les nouvelles factures doivent-être établies avec la stratégie configu
 
 Si un groupe de facturation a été créé avec une stratégie différente, YUZER vous oblige de mettre celle-ci à jour au niveau du panier avant de pouvoir éditer de nouveaux documents.
 
-L'erreur suivante est alors affichée avant l'édition d'un document:
+L'erreur suivante est alors affichée avant l'édition d'un document :
 
 ![Lines Vat Policy error](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/lines-vat-policy-error.webp?w=450px)
 
@@ -88,12 +87,12 @@ yuzSection Remises et affichage du panier
 YUZER vous permet désormais d'appliquer une remise non sur le prix unitaire du produit (la remise était alors multipliée par la quantité) mais bien sur le prix total de la ligne.
 Si cela n'a que très peu d'impacts dans le cadre de remises en pourcentages (cela peut-être le cas dans de rare cas d'arrondis) cela est particulièrement important dans le cadre de remises en montant.
 
-Il existe désormais 6 options de remises qui se composent de deux éléments:
+Il existe désormais 6 options de remises qui se composent de deux éléments :
 
 - Type de remise (Pourcentage du prix, Montant HT, Montant TTC)
 - Prix sur lequel la remise est appliquée (Prix Unitaire, Prix Total)
 
-Le changement de type de remise s'effectue depuis le panier en cliquant sur les symboles permettant d'identifier le type de remise:
+Le changement de type de remise s'effectue depuis le panier en cliquant sur les symboles permettant d'identifier le type de remise :
 
 ![Discount type selector](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/discount-select.webp?w=450px)
 
@@ -101,9 +100,9 @@ Le changement de type de remise s'effectue depuis le panier en cliquant sur les 
 
 ## Affichage du panier
 
-Vous pouvez désormais cacher certaines colonnes dans le vue panier. Cela peut-être particulièrement utile pour les magasins d'accessoires qui souhaitent une vue plus épurée.
+Vous pouvez désormais cacher certaines colonnes dans la vue panier. Cela peut-être particulièrement utile pour les magasins d'accessoires qui souhaitent une vue plus épurée.
 
-Rendez-vous dans la configuration POS (_Administration_/_Configuration POS_) et dé-cochez les colonnes que vous ne souhaitez plus voir apparaitre dans la vue de panier:
+Rendez-vous dans la configuration POS (_Administration_/_Configuration POS_) et dé-cochez les colonnes que vous ne souhaitez plus voir apparaitre dans la vue de panier :
 
 ![Lines Vat Policy](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/basket-display.webp?w=100%)
 
@@ -111,11 +110,11 @@ yuzSection Intégrations
 
 ## Eldowallet
 
-vous pouvez désormais créer une wallet pour votre client directement depuis sa fiche client.
+Vous pouvez désormais créer une wallet pour votre client directement depuis sa fiche client.
 
 ## Pennylane
 
-Pennylane: vous pouvez désormais activer l'intégration de vos écritures comptables dans pennylane.
+Pennylane : vous pouvez désormais activer l'intégration de vos écritures comptables dans Pennylane.
 
 yuzSection Général
 
@@ -128,5 +127,5 @@ yuzSection Général
 ## Corrections
 
 - Les montants d'ouverture précédente sur une clôture de caisse ont été rajoutés, ils avaient disparus en version 4.
-- La visualisation des accès de redistribution yuzer affiche désormais le nom du partenaire associé.
+- La visualisation des accès de redistribution YUZER affiche désormais le nom du partenaire associé.
 - Lorsqu'un accès peut-être enregistré plusieurs fois, comme le connecteur e-commerce par exemple, vous pouvez le renommer.
