@@ -116,6 +116,38 @@ Vous pouvez désormais créer une wallet pour votre client directement depuis sa
 
 Pennylane : vous pouvez désormais activer l'intégration de vos écritures comptables dans Pennylane.
 
+yuzSection Affiliés
+
+## Enregistrement des commandes
+
+Si vous appartenez à un réseau qui prend en charge l'enregistrement de vos commandes client, vous pouvez désormais les déclarer dans Yuzer.
+
+### Yuzer full
+
+Si vous avez une license Yuzer complète, l'enregistrement de la commande client auprès de votre fournisseur vous sera automatiquement proposée après l'édition du bon de commande du panier client.
+
+![Register order with Yuzer full](](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/register-order-yuzer-full.webp?w=600px)
+
+Pour rappel, vous pouvez de la même manière enregistrer vos ventes et vos démarrages de garanties au moment où vous éditez une facture. Petite amélioration de ce côté : le choix de remise déclaré à la vente ou à la garantie sera pré-rempli si une commande client a été enregistrée.
+
+### Yuzer link
+
+L'enregistrement de la commande client se fait au choix:
+- depuis un dossier véhicule
+![Register customer order from dealer file detail](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/register-order-link-df-button.webp?w=400px)
+- ou depuis la liste des dossiers véhicules
+![Register customer order from dealer file list](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/register-order-link-list-button.webp?w=400px)
+
+Dans le second cas, vous devrez commencé par choisir un dossier existant ou par créer un nouveau dossier (à commander).
+
+![Select dealer file](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/register-order-link-1-select-df.webp?w=500px)
+
+Puis, vous devrez remplir le formulaire. En particulier, vous devez attacher le document justificatif à la galerie de documents du dossier véhicule et le sélectionner.
+
+![Select dealer file](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/register-order-link-2-modal.webp?w=500px)
+
+Une fois les données remplies, vous pouvez, avant d'enregistrer, choisir de passer effectivement la commande à votre fournisseur, en quel cas la modale de commande s'affichera. La coche est sélectionnée par défaut si le dossier est _à commander_.
+
 yuzSection Général
 
 ## Améliorations
