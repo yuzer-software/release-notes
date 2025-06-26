@@ -14,7 +14,7 @@ L'arrondi de la somme ou la somme des arrondis.
 
 YUZER fonctionne suivant la logique de somme des arrondis. Cela permet en effet de collecter la même TVA quelle que soit la manière de vendre une quantité donnée de produit.
 
-Par exemple, prenons un produit donc le prix HT est 7,22 avec une TVA de 20%.
+Par exemple, prenons un produit dont le prix HT est 7,22 avec une TVA de 20%.
 
 - Le montant de TVA sur ce produit est _1,444_, ce montant doit bien entendu être arrondi au centime ce qui donne _1,44_.
 - Le prix unitaire TTC du produit est donc _8,66_
@@ -43,7 +43,7 @@ Attention actuellement la somme des arrondis reste la stratégie utilisée pour 
 
 Afin de modifier le paramètre rendez-vous dans vos paramètres de comptabilité :
 
-![Lines Vat Policy](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/lines-vat-policy.webp?w=100%)
+![Lines Vat Policy](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/lines-vat-policy.webp?w=800px)
 
 ### Impacts
 
@@ -55,7 +55,7 @@ Les factures établies ne changent bien évidemment pas. Leur annulation est tot
 
 Toutes les nouvelles factures doivent-être établies avec la stratégie configurée.
 
-Si un groupe de facturation a été créé avec une stratégie différente, YUZER vous oblige de mettre celle-ci à jour au niveau du panier avant de pouvoir éditer de nouveaux documents.
+Si un groupe de facturation a été créé avec une stratégie différente, YUZER vous oblige à mettre celle-ci à jour au niveau du panier avant de pouvoir éditer de nouveaux documents.
 
 L'erreur suivante est alors affichée avant l'édition d'un document :
 
@@ -65,18 +65,18 @@ L'opérateur doit alors appliquer le changement de stratégie au panier (seuls l
 
 ![Lines Vat Policy update](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/lines-vat-policy-update.webp?w=450px)
 
-|| Dans certains cas le changement de stratégie peut impacter de quelques centimes le prix total de votre panier.
+|| Dans certains cas, le changement de stratégie peut impacter de quelques centimes le prix total de votre panier.
 
 #### Affichage du panier
 
-La position de la colonne TVA dans le panier est fonction du paramètre d'application de la TVA afin bien refléter son application.
+La position de la colonne TVA dans le panier est fonction du paramètre d'application de la TVA afin de bien refléter son application.
 Ainsi
 
-- lorsque l'arrondi est appliqué sur le prix unitaire puis multiplié par la quantité la colonne TVA apparait après le prix unitaire et avant la quantité.
+- lorsque l'arrondi est appliqué sur le prix unitaire puis multiplié par la quantité la colonne TVA apparaît après le prix unitaire et avant la quantité.
 
 ![Lines Vat Policy basket unit](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/lines-vat-policy-vat-unit.webp?w=450px)
 
-- lorsque l'arrondi est appliqué sur le prix total la colonne de TVA apparait après les colonnes de quantité et remises et juste avant la colonne indiquant le prix total TTC
+- lorsque l'arrondi est appliqué sur le prix total la colonne de TVA apparaît après les colonnes de quantité et remises et juste avant la colonne indiquant le prix total TTC
 
 ![Lines Vat Policy basket total](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/lines-vat-policy-vat-total.webp?w=450px)
 
@@ -94,7 +94,7 @@ Il existe désormais 6 options de remises qui se composent de deux éléments :
 
 Le changement de type de remise s'effectue depuis le panier en cliquant sur les symboles permettant d'identifier le type de remise :
 
-![Discount type selector](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/discount-select.webp?w=450px)
+![Discount type selector](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/discount-select.webp?w=400px)
 
 | En cas de remises le prix total hors remises est désormais affiché barré en dessous du prix total appliqué.
 
@@ -102,15 +102,15 @@ Le changement de type de remise s'effectue depuis le panier en cliquant sur les 
 
 Vous pouvez désormais cacher certaines colonnes dans la vue panier. Cela peut-être particulièrement utile pour les magasins d'accessoires qui souhaitent une vue plus épurée.
 
-Rendez-vous dans la configuration POS (_Administration_/_Configuration POS_) et dé-cochez les colonnes que vous ne souhaitez plus voir apparaitre dans la vue de panier :
+Rendez-vous dans la configuration POS (_Administration_/_Configuration POS_) et dé-cochez les colonnes que vous ne souhaitez plus voir apparaître dans la vue de panier :
 
-![Lines Vat Policy](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/basket-display.webp?w=100%)
+![Lines Vat Policy](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/basket-display.webp?w=600px)
 
 yuzSection Intégrations
 
 ## Eldowallet
 
-Vous pouvez désormais créer une wallet pour votre client directement depuis sa fiche client.
+Vous pouvez désormais créer un wallet pour votre client directement depuis sa fiche client.
 
 ## Pennylane
 
@@ -124,21 +124,25 @@ Si vous appartenez à un réseau qui prend en charge l'enregistrement de vos com
 
 ### Yuzer full
 
-Si vous avez une license Yuzer complète, l'enregistrement de la commande client auprès de votre fournisseur vous sera automatiquement proposée après l'édition du bon de commande du panier client.
+Si vous avez une licence Yuzer complète, l'enregistrement de la commande client auprès de votre fournisseur vous sera automatiquement proposée après l'édition du bon de commande du panier client.
 
-![Register order with Yuzer full](](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/register-order-yuzer-full.webp?w=600px)
+![Register order with Yuzer full](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/register-order-yuzer-full.webp?w=500px)
 
 Pour rappel, vous pouvez de la même manière enregistrer vos ventes et vos démarrages de garanties au moment où vous éditez une facture. Petite amélioration de ce côté : le choix de remise déclaré à la vente ou à la garantie sera pré-rempli si une commande client a été enregistrée.
 
 ### Yuzer link
 
 L'enregistrement de la commande client se fait au choix:
-- depuis un dossier véhicule
-![Register customer order from dealer file detail](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/register-order-link-df-button.webp?w=400px)
-- ou depuis la liste des dossiers véhicules
-![Register customer order from dealer file list](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/register-order-link-list-button.webp?w=400px)
 
-Dans le second cas, vous devrez commencé par choisir un dossier existant ou par créer un nouveau dossier (à commander).
+- depuis un dossier véhicule
+
+  ![Register customer order from dealer file detail](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/register-order-link-df-button.webp?w=400px)
+
+- ou depuis la liste des dossiers véhicules
+
+  ![Register customer order from dealer file list](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/register-order-link-list-button.webp?w=400px)
+
+Dans le second cas, vous devrez commencer par choisir un dossier existant ou par créer un nouveau dossier (à commander).
 
 ![Select dealer file](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/register-order-link-1-select-df.webp?w=500px)
 
@@ -146,7 +150,27 @@ Puis, vous devrez remplir le formulaire. En particulier, vous devez attacher le 
 
 ![Select dealer file](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/register-order-link-2-modal.webp?w=500px)
 
-Une fois les données remplies, vous pouvez, avant d'enregistrer, choisir de passer effectivement la commande à votre fournisseur, en quel cas la modale de commande s'affichera. La coche est sélectionnée par défaut si le dossier est _à commander_.
+Une fois les données remplies, vous pouvez, avant d'enregistrer, choisir de passer effectivement la commande à votre fournisseur, auquel cas la modale de commande s'affichera. La coche est sélectionnée par défaut si le dossier est _à commander_.
+
+yuzSection Produits
+
+## Récupérer un produit supprimé
+
+Il était auparavant difficile d'annuler la suppression d'un produit faute d'accès direct à sa fiche. C'est désormais plus simple: deux options s'offrent à vous pour le restaurer facilement.
+
+### Depuis l'écran de création de produit
+
+Lors de la création d'un produit, si la référence existe déjà pour un catalogue donné, un message s'affiche avec un lien permettant d'accéder à la fiche produit concerné.
+
+![Product already exist](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/product-already-exist.webp?w=480px)
+
+### Depuis la liste des produits
+
+Vous pouvez accéder à la fiche d'un produit spécifique depuis la liste des produits.
+
+![Open product by ref button](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/product-open-product-by-ref-btn.webp?w=480px)
+
+![Open product by ref modal](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/product-open-product-by-ref-modal.webp?w=400px)
 
 yuzSection Général
 
@@ -154,10 +178,12 @@ yuzSection Général
 
 - La clôture de caisse vous permet désormais de charger plus de paiements en attente. Cela vous permet de valider des paiements à venir directement depuis cet écran.
 - L'amélioration précédente est automatiquement utilisée lorsqu'un paiement en attente (caution) YUZER pay a eu lieu dans la journée afin que nous n'oubliez pas si besoin de la restituer au client.
-- Les vues de paiement et transactions de YUZER pay sont désormais paginées pour supporter une charge accrue.
+- Les vues de paiement et transactions de YUZER Pay sont désormais paginées pour supporter une charge accrue.
+- Les nouvelles factures d'achats générées par YUZER auront désormais un lien vers le PDF du document.
+  ![Purchase invoice pdf](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.1/purchase-invoice-pdf-url.webp?w=450px)
 
 ## Corrections
 
-- Les montants d'ouverture précédente sur une clôture de caisse ont été rajoutés, ils avaient disparus en version 4.
+- Les montants d'ouverture précédente sur une clôture de caisse ont été rajoutés, ils avaient disparu en version 4.
 - La visualisation des accès de redistribution YUZER affiche désormais le nom du partenaire associé.
 - Lorsqu'un accès peut-être enregistré plusieurs fois, comme le connecteur e-commerce par exemple, vous pouvez le renommer.
