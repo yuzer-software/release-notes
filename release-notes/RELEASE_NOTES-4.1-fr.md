@@ -4,7 +4,7 @@ yuzSection Arrondis de TVA
 
 ## Arrondis de TVA
 
-||| ATTENTION, merci de bien lire cette section et de bien informer vos collaborateurs en cas de changements de paramétrage. Nous vous recommandons d'effectuer le changement en dehors des horaires d'ouverture et de valider que tous vos collaborateurs relancent bien YUZER pour éviter tout effet de bord lié à au cache.
+||| ATTENTION, merci de bien lire cette section et de bien informer vos collaborateurs en cas de changements de paramétrage. Nous vous recommandons d'effectuer le changement en dehors des horaires d'ouverture et de valider que tous vos collaborateurs relancent bien YUZER pour éviter tout effet de bord lié au cache.
 
 ### Contexte
 
