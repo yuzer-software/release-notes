@@ -2,6 +2,16 @@
 
 yuzSection
 
+yuzSection 4.2.3
+
+## Améliorations
+
+- Lorsqu'un panier est séléctionné, et qu'un prêt non-lié est démarré l'écran client affiche les informations du client du prêt en lieu et place de celui du panier. La fermeture de la modale de démarrage de prêt a pour conséquence le retour des informations du panier sur l'affichage client.
+
+## Corrections
+
+- La non-complétion de l'état du véhicule avant le démarrage d'un prêt ne bloque plus l'édition du document.
+
 yuzSection Ecran client
 
 - Les documents de démarrage de prêt sont désormais affichés pour signature sur l'écran client.
