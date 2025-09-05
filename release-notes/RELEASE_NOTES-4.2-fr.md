@@ -2,7 +2,18 @@
 
 yuzSection
 
-yuzSection 4.2.3
+yuzSection 4.2.3 et suivantes
+
+# 5 septembre - Version 4.2.4
+
+## Corrections et améliorations
+
+- Correction du calcul du temps de travail journalier (%) sur la vue "semaine"
+- Correction de l'affectation à un fournisseur d'un numéro fournisseur sans associer de contact
+- Il est à nouveau possible d'associer un fournisseur existant à un code de redistribution
+- Sur la fiche d'un contact associé à un service de redistribution : affichage du nom de l'entité associée.
+
+# 4 septembre - Version 4.2.3
 
 ## Améliorations
 
