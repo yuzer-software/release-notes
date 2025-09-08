@@ -17,7 +17,7 @@ yuzSection 4.2.3 et suivantes
 
 ## Améliorations
 
-- Lorsqu'un panier est séléctionné, et qu'un prêt non-lié est démarré l'écran client affiche les informations du client du prêt en lieu et place de celui du panier. La fermeture de la modale de démarrage de prêt a pour conséquence le retour des informations du panier sur l'affichage client.
+- Lorsqu'un panier est sélectionné, et qu'un prêt non-lié est démarré l'écran client affiche les informations du client du prêt en lieu et place de celui du panier. La fermeture de la modale de démarrage de prêt a pour conséquence le retour des informations du panier sur l'affichage client.
 
 ## Corrections
 
@@ -26,7 +26,7 @@ yuzSection 4.2.3 et suivantes
 yuzSection Ecran client
 
 - Les documents de démarrage de prêt sont désormais affichés pour signature sur l'écran client.
-- Le client peut aggrandir la zone de signature en cliquant tu le titre de la section.
+- Le client peut agrandir la zone de signature en cliquant tu le titre de la section.
 - Le client peut lui-même réinitialiser sa signature en cas d'erreur
 
 ## Marketing réseau
@@ -38,7 +38,7 @@ Ainsi si le réseau a défini une vidéo sur l'écran "sans panier" mais aucune 
 
 yuzSection Analyses stock réseau
 
-Si vous êtes un fournisseur utilisant les fonctionalités YUZER pour gérer votre réseau de distribution, vous pouvez désormais effectuer une analyse du stock de votre réseau.
+Si vous êtes un fournisseur utilisant les fonctionnalités YUZER pour gérer votre réseau de distribution, vous pouvez désormais effectuer une analyse du stock de votre réseau.
 
 yuzSection Général
 
