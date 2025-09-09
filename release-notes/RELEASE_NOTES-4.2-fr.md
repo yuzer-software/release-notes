@@ -4,7 +4,26 @@ yuzSection
 
 yuzSection 4.2.3 et suivantes
 
-# 5 septembre - Version 4.2.4
+# 9 septembre - Version 4.2.6
+
+- Sur la page des réceptions, il est désormais possible de remplir automatiquement tous les emplacements non définis aux emplacements par défaut de l'entité.
+  1. Cliquez sur le bouton `⠇` au dessus de l'`Entrée en stock`
+  1. Sélectionnez `Emplacements automatiques`
+  1. Validez. Si un emplacement pour un produit est non défini, nous choisirons un emplacement déjà existant ou un emplacement par défaut.
+
+yuzLeft
+  
+![auto-fill menu](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.2/reception-autofill.webp?w=300px)
+
+yuzRight
+
+![auto-fill confirmation](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.2/reception-autofill-modal.webp?w=400px)
+
+yuzEnd
+
+Attention: si le produit en question n'est pas déjà en stock et ne satisfait à aucun emplacement par défaut, nous ne choisirons évidemment pas au hasard un emplacement et il restera donc non assigné.
+
+# 5 septembre - Version 4.2.4 & 4.2.5
 
 ## Corrections et améliorations
 
