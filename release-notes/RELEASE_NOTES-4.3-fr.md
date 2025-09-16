@@ -87,6 +87,20 @@ yuzSection Analytiques
 
 yuzSection Intégrations
 
+## Ringover
+
+Un connecteur Ringover premium est désormais disponible. Lorsque celui-ci est activé vous pouvez afficher les transcriptions et écouter les appels directement depuis YUZER.
+
+Sur une fiche contact, les activités liées à Ringover disposent désormais de boutons pour lire l'enregistrement de l'appel et charger la transcription.
+
+La transcription du premier appel est automatiquement chargée.
+
+![Ringover Premium](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/ringover_premium.webp.webp?w=400px)
+
+Une fois la lecture lancée vous pouvez controller celle-ci depuis YUZER.
+
+![Ringover Premium 2](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/ringover_premium_2.webp.webp?w=400px)
+
 ## Suzuki
 
 - Le catalogue suzuki est désormais synchronisé avec une source officielle chaque jour.
@@ -110,7 +124,6 @@ yuzSection Général
 
 Les catalogues accessibles dans la recherche de catalogues à ajouter prennent en compte le marché du catalogue et celui auquel vous avez accès pour ne proposer que les éléments qui vous intéressent.
 
-- Un connecteur Ringover premium est désormais disponible afin de vous permettre de réécouter les appels directement depuis YUZER.
 - Un nouveau marché _Energie du batiment_ proposant de nouvelles catégories spécifiques est désormais disponible pour les vendeurs de cheminées et poelles à bois.
 
 ## Corrections
