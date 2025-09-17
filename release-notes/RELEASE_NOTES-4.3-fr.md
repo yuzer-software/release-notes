@@ -4,20 +4,22 @@ yuzSection Gestion des contacts
 
 ## Distinction des organisations gouvernementales
 
-Les organisations gouvernementatles (mairies etc.) ont désormais un type de contact spécifique.
+Les organisations gouvernementales (mairies etc.) ont désormais un type de contact spécifique.
 
 ## Champs spécifiques par pays
 
 yuzLeft
 
-De nouveaux champs spécfiques par pays sont désormais disponibles. Cela permet de mieux remplir les informations d'entreprises qui sont spécifiques pour chaque pays.
+De nouveaux champs spécifiques par pays sont désormais disponibles. Cela permet de mieux remplir les informations d'entreprises qui sont spécifiques pour chaque pays.
 
-Nous avons également continué à améliorer la lisibilité de la fiche contact, les données de pièces d'identité sont désormais plus lisibles, la gallerie est désormais par défaut minifiée.
+Nous avons également continué à améliorer la lisibilité de la fiche contact, les données de pièces d'identité sont désormais plus lisibles, la galerie est désormais par défaut minimisée.
 N'hésitez pas à revenir vers nous pour nous faire part de vos retours.
 
 yuzRight
 
 ![Contact specific fields](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/country_fields.webp?w=400px)
+
+yuzEnd
 
 ## Recherche de contacts
 
@@ -35,19 +37,19 @@ Il est désormais possible d'indiquer une raison à l'exonération de TVA qui se
 
 YUZER vous assiste pour définir l'exonération ainsi que la mention légale dans le cas d'une vente intra-communautaire ou internationale.
 
-- A la création d'un contact
-- A l'édition de celui-ci
-- A l'ouverture de tout panier
+- À la création d'un contact
+- À l'édition de celui-ci
+- À l'ouverture de tout panier
 
-Si le contact n'est pas exonéré alors que l'addresse de la société et celle du contact indiquent clairement une vente soumise à exonération une fenêtre est proposée permettant de mettre à jour directement et rapidement le contact.
+Si le contact n'est pas exonéré alors que l'adresse de votre société et celle du contact indiquent clairement une vente soumise à exonération, une fenêtre est proposée permettant de mettre à jour directement et rapidement le contact.
 
-![Exoneration suggestion](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/exonerated_1.webp.webp?w=400px)
+![Exoneration suggestion](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/exonerated_1.webp?w=400px)
 
-|| Pour les contacts qui ne sont déjà spécifié comme exonérés YUZER n'ayant pas moyen de contrôler si une raison tierce pousse à la non-exonération ce procédé n'est pas appliqué.
+|| Ce procédé n'est pas appliqué pour les contacts qui sont déjà spécifiés comme exonérés car YUZER n'a pas moyen de contrôler si une raison tierce pousse à la non-exonération.
 
 La raison d'exonération est affichée sur les documents générés.
 
-![Exoneration reason](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/exonerated_2.webp.webp?w=400px)
+![Exoneration reason](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/exonerated_2.webp?w=400px)
 
 yuzSection Import de Panier
 
@@ -56,24 +58,24 @@ yuzSection Import de Panier
 Les améliorations permettent d'apporter plus de fluidité dans l'import des fichiers de type _EPC Honda_ et propose un format spécifique pour les fichiers _EPC Kawazaki_ qui ne respectent aucun format proposé.
 
 - Le format de fichier sélectionné est conservé même lorsque celui-ci n'est pas cohérent avec l'extension du fichier (Honda EPC expose en effet des csv avec une extension txt).
-- Il est désormais possible d'entrer facilement un séparateur "Tab"
+- Il est désormais possible d'entrer facilement un séparateur `Tab`
 - Les colonnes affichées pour la configuration du mapping des fichiers csv prennent désormais en compte la ligne ayant le plus de colonnes parmi les 10 premières lignes du fichier.
 
-Vous pouvez aussi désormais configurer des références comme main d'oeuvre dans ce type d'imports:
+Vous pouvez aussi désormais configurer des références comme main d'œuvre dans ce type d'imports:
 
 - Entrez la référence de la M.O. et appuyez sur +
 
-![Import paniers Ajout M.O.](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/basket-content-import.webp.webp?w=400px)
+![Import paniers Ajout M.O.](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/basket-content-import.webp?w=400px)
 
 - Configurez la correspondance sur la M.O. YUZER
 
-![Import paniers Correspondance M.O.](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/basket-content-import-2.webp.webp?w=400px)
+![Import paniers Correspondance M.O.](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/basket-content-import-2.webp?w=400px)
 
 ## Import multiple de paniers
 
 ||| Attention cette fonctionalité ne propose aujourd'hui qu'un format spécifique.
 
-Vous pouvez désormais importer un fichier excel contenant le contenu d'un ou plusieurs paniers qui seront créés automatiquement.
+Vous pouvez désormais importer un fichier excel contenant le contenu d'un ou de plusieurs paniers qui seront créés automatiquement.
 
 ### Format
 
@@ -89,26 +91,26 @@ yuzSection Intégrations
 
 ## Ringover
 
-Un connecteur Ringover premium est désormais disponible. Lorsque celui-ci est activé vous pouvez afficher les transcriptions et écouter les appels directement depuis YUZER.
+Un connecteur Ringover premium est désormais disponible. Lorsque celui-ci est activé, vous pouvez afficher les transcriptions et écouter les appels directement depuis YUZER.
 
 Sur une fiche contact, les activités liées à Ringover disposent désormais de boutons pour lire l'enregistrement de l'appel et charger la transcription.
 
 La transcription du premier appel est automatiquement chargée.
 
-![Ringover Premium](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/ringover_premium.webp.webp?w=400px)
+![Ringover Premium](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/ringover_premium.webp?w=400px)
 
 Une fois la lecture lancée vous pouvez controller celle-ci depuis YUZER.
 
-![Ringover Premium 2](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/ringover_premium_2.webp.webp?w=400px)
+![Ringover Premium 2](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/ringover_premium_2.webp?w=400px)
 
 ## Suzuki
 
 - Le catalogue suzuki est désormais synchronisé avec une source officielle chaque jour.
-- Le placement automatique de commandes est implémenté et attends la mise en place du service en production par les équipes informatiques Suzuki.
+- Le placement automatique de commandes est implémenté et attend la mise en place du service en production par les équipes informatiques Suzuki.
 
 ## CUBE
 
-Le catalogue CUBE actuel devient déprécié. En effet les références CUBE ne sont pas unique dans le temps. Pour éviter qu'un produit de votre "vieux" stock ne change de désignation dans YUZER au gré d'un recyclage de référence par le constructeur nous avons introduit une nouvelle référence affichée en plus de la référence réelle.
+Le catalogue CUBE actuel devient déprécié. En effet les références CUBE ne sont pas unique dans le temps. Pour éviter qu'un produit de votre "vieux" stock ne change de désignation dans YUZER au gré d'un recyclage de référence par le constructeur nous avons introduit une nouvelle référence, affichée en plus de la référence réelle.
 
 Un nouveau catalogue est disponible, utilisant cette nouvelle fonctionalité afin de garantir une utilisation et un affichage sur base de la référence usuelle tout en garantissant l'unicité d'une référence interne fournie par Planet'Fun.
 
@@ -124,6 +126,6 @@ yuzSection Général
 
 Les catalogues accessibles dans la recherche de catalogues à ajouter prennent en compte le marché du catalogue et celui auquel vous avez accès pour ne proposer que les éléments qui vous intéressent.
 
-- Un nouveau marché _Energie du batiment_ proposant de nouvelles catégories spécifiques est désormais disponible pour les vendeurs de cheminées et poelles à bois.
+- Un nouveau marché _Énergie du bâtiment_, proposant de nouvelles catégories spécifiques, est désormais disponible pour les vendeurs de cheminées et poêles à bois.
 
 ## Corrections
