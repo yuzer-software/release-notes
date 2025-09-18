@@ -17,7 +17,7 @@ N'hésitez pas à revenir vers nous pour nous faire part de vos retours.
 
 yuzRight
 
-![Contact specific fields](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/country_fields.webp?w=400px)
+![Contact specific fields](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/country_fields.webp?w=320px)
 
 yuzEnd
 
@@ -25,11 +25,11 @@ yuzEnd
 
 Un service de recherche et auto-complétion des informations d'un contact est désormais proposé pour les entreprises et organisations gouvernementales Françaises.
 
-![Enterprise search 1](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/enterprise_search_1.webp?w=400px)
+![Enterprise search 1](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/enterprise_search_1.webp?w=600px)
 
-||| Attention, comme indiqué ce service implique un coût au click de _0,08_ euros (au 1er octobre 2025) par recherche.
+||| Attention, comme indiqué ce service implique un coût au clic de _0,08_ euros (au 1er octobre 2025) par recherche.
 
-![Enterprise search 2](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/enterprise_search_2.webp?w=400px)
+![Enterprise search 2](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/enterprise_search_2.webp?w=500px)
 
 ## Exonérations de TVA
 
@@ -43,13 +43,13 @@ YUZER vous assiste pour définir l'exonération ainsi que la mention légale dan
 
 Si le contact n'est pas exonéré alors que l'adresse de votre société et celle du contact indiquent clairement une vente soumise à exonération, une fenêtre est proposée permettant de mettre à jour directement et rapidement le contact.
 
-![Exoneration suggestion](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/exonerated_1.webp?w=400px)
+![Exoneration suggestion](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/exonerated_1.webp?w=450px)
 
 || Ce procédé n'est pas appliqué pour les contacts qui sont déjà spécifiés comme exonérés car YUZER n'a pas moyen de contrôler si une raison tierce pousse à la non-exonération.
 
 La raison d'exonération est affichée sur les documents générés.
 
-![Exoneration reason](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/exonerated_2.webp?w=400px)
+![Exoneration reason](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/exonerated_2.webp?w=800px)
 
 yuzSection Import de Panier
 
@@ -65,11 +65,11 @@ Vous pouvez aussi désormais configurer des références comme main d'œuvre dan
 
 - Entrez la référence de la M.O. et appuyez sur +
 
-![Import paniers Ajout M.O.](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/basket-content-import.webp?w=400px)
+![Import paniers Ajout M.O.](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/basket-content-import.webp?w=600px)
 
 - Configurez la correspondance sur la M.O. YUZER
 
-![Import paniers Correspondance M.O.](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/basket-content-import-2.webp?w=400px)
+![Import paniers Correspondance M.O.](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/basket-content-import-2.webp?w=600px)
 
 ## Import multiple de paniers
 
@@ -101,7 +101,7 @@ Les nouveaux modes d'affichages vous permettent, lorsque vous descendez d'un niv
 
 yuzLeft
 
-![Table Level 1](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/analytics-grouped-in-headers-L1.webp?w=200px)
+![Table Level 1](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/analytics-grouped-in-headers-L1.webp?w=240px)
 
 yuzRight
 
@@ -115,7 +115,7 @@ Yuzer vous offre donc ces trois modes :
 
 yuzLeft
 
-![available options](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/analytics-grouped-in-headers-options.webp?w=200px)
+![available options](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/analytics-grouped-in-headers-options.webp?w=50px)
 
 yuzRight
 
@@ -129,13 +129,13 @@ yuzLeft
 
 Mode `B` appliqué au niveau 2.
 
-![Keep empty columns](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/analytics-grouped-in-headers-L3-existing-only.webp?w=200px)
+![Keep empty columns](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/analytics-grouped-in-headers-L3-existing-only.webp?w=553px)
 
 yuzRight
 
 Mode `C` appliqué au niveau 2.
 
-![Drop empty columns](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/analytics-grouped-in-headers-L3-all.webp?w=200px)
+![Drop empty columns](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/analytics-grouped-in-headers-L3-all.webp?w=500px)
 
 yuzEnd
 
@@ -148,7 +148,7 @@ Il est possible d'ajouter un style conditionnel aux colonnes.
 - Choisissez le style à appliquer si cette formule est vraie : au choix, la couleur du texte, la couleur de fond, ou les deux.
 - Vous pouvez appliquer plusieurs conditions successives. Seule la première est appliquée. Terminer par une condition vide vous permet de définir un cas "par défaut".
 
-![Analytics styling](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/analytics-styling.webp?w=200px)
+![Analytics styling](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/analytics-styling.webp?w=450px)
 
 ### Formules
 
@@ -156,46 +156,46 @@ Vous pouvez utiliser des formules pour définir les styles de colonnes personnal
 
 Vous disposez des opérateurs unaires suivants :
 
-- `+`: plus unaire
-- `-`: négation arithmétique
-- `!`: négation logique
+- `+` plus unaire
+- `-` négation arithmétique
+- `!` négation logique
 
 Vous disposez des opérateurs binaires suivants (classés par ordre de priorité décroissante — le plus prioritaire d'abord) :
 
-- `%`: modulo (reste de la division entière)
-- `/`: division
-- `*`: multiplication
-- `-`: soustraction
-- `+`: addition
-- `==`: égalité (vrai si les deux opérandes sont égales)
-- `!=`: différence (vrai si les deux opérandes sont différentes)
-- `>=`: supériorité large
-- `<=`: infériorité large
-- `>`: supériorité stricte
-- `<`: infériorité stricte
-- `&&`: conjonction (vrai si les deux opérandes sont vraies)
-- `||`: disjonction (vrai si l'une des deux opérandes sont vraies)
+- `%` modulo (reste de la division entière)
+- `/` division
+- `*` multiplication
+- `-` soustraction
+- `+` addition
+- `==` égalité (vrai si les deux opérandes sont égales)
+- `!=` différence (vrai si les deux opérandes sont différentes)
+- `>=` supériorité large
+- `<=` infériorité large
+- `>` supériorité stricte
+- `<` infériorité stricte
+- `&&` conjonction (vrai si les deux opérandes sont vraies)
+- `||` disjonction (vrai si l'une des deux opérandes sont vraies)
 
 Vous disposez des fonctions mathématiques suivantes :
 
-- `abs`: valeur absolue d'un nombre
-- `ceil`: arrondi supérieur - plus petit entier supérieur ou égal au nombre
-- `floor`: arrondi inférieur - plus grand entier inférieur ou égal au nombre
-- `round`: arrondi au nombre entier le plus proche. Si la partie fractionnaire est `.5`, arrondit toujours vers le haut. Exemples :
+- `abs` valeur absolue d'un nombre
+- `ceil` arrondi supérieur - plus petit entier supérieur ou égal au nombre
+- `floor` arrondi inférieur - plus grand entier inférieur ou égal au nombre
+- `round` arrondi au nombre entier le plus proche. Si la partie fractionnaire est `.5`, arrondit toujours vers le haut. Exemples :
   - `-1.5` → `-1`
   - `-0.5` → `0`
   - `0.5` → `1`
   - `1.5` → `2`
   - `2.5` → `3`
-- `sqrt`: racine carrée
-- `pow`: puissance - `pow(base, exposant)`
-- `min`: minimum entre plusieurs valeurs - `min(val1, val2, ...)`
-- `max`: maximum entre plusieurs valeurs - `max(val1, val2, ...)`
-- `log`: logarithme naturel (base e)
-- `exp`: exponentielle (e^x)
-- `sin`: sinus (radians)
-- `cos`: cosinus (radians)
-- `tan`: tangente (radians)
+- `sqrt` racine carrée
+- `pow` puissance - `pow(base, exposant)`
+- `min` minimum entre plusieurs valeurs - `min(val1, val2, ...)`
+- `max` maximum entre plusieurs valeurs - `max(val1, val2, ...)`
+- `log` logarithme naturel (base e)
+- `exp` exponentielle (e^x)
+- `sin` sinus (radians)
+- `cos` cosinus (radians)
+- `tan` tangente (radians)
 
 Notes :
 
@@ -203,8 +203,6 @@ Notes :
 - Les opérateurs unaires ont la priorité la plus élevée
 - Les parenthèses peuvent être utilisées pour modifier l'ordre d'évaluation
 
-
-yuzSection Intégrations
 
 ## Analytiques de Réseaux
 
@@ -216,7 +214,7 @@ Vous pouvez choisir les dossiers à charger pour une période déterminée (comm
 
 Au state du chargement des données, il faut et il suffit qu'une des conditions soit satisfaites pour que le dossier soit chargé.
 
-![Data source configuration](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/analytics-network-config.webp?w=400px)
+![Data source configuration](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/analytics-network-config.webp?w=100%)
 
 Voici la liste des conditions possibles, applicables aux dossiers des adhérents ou à vos dossiers. Vous retrouverez les informations sur la fiche du dossier, comme illustré ci-après.
 
@@ -238,7 +236,7 @@ Voici la liste des conditions possibles, applicables aux dossiers des adhérents
   - Avec la facture actuelle : si la date de la facture (`H`) est avant la fin de la période sélectionnée
   - Sans facture (actuelle) : si la date de la facture (`H`) est après le début de la période sélectionnée
 
-![Dealer file dates](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/analytics-network-dealer-file-dates.webp?w=1000px)
+![Dealer file dates](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/analytics-network-dealer-file-dates.webp?w=100%)
 
 ### Données
 
@@ -279,6 +277,8 @@ Ces colonnes servent à compter les dossiers. Ce sont des sous-colonnes de "Doss
   - Couverture de stock (Mois) : nombre de mois pendant lesquelles le stock actuel peut satisfaire la demande moyenne des 6 derniers mois (nécessite de charger au moins 6 mois).
   - Écart (6m) : différentiel entre la somme stock et commandes en fin de période et le stock vendu ces 6 derniers mois (nécessite de charger au moins 6 mois)
 
+yuzSection Intégrations
+
 ## Ringover
 
 Un connecteur Ringover premium est désormais disponible. Lorsque celui-ci est activé, vous pouvez afficher les transcriptions et écouter les appels directement depuis YUZER.
@@ -312,9 +312,9 @@ yuzSection Général
 
 ## Améliorations
 
-- Vous pouvez désormais sélectionner les domaines sur lesquels vos entités sont affectés. Ainsi si votre licenses vous donne accès aux marchés vélo et moto mais qu'une de vos boutique travaille sur le marché vélo uniquement et une autre sur le marché moto uniquement cela peut-être configuré.
+- Vous pouvez désormais sélectionner les domaines sur lesquels vos entités sont affectées. Ainsi, si votre license vous donne accès aux marchés vélo et moto mais qu'une de vos boutiques travaille sur le marché vélo uniquement et une autre sur le marché moto uniquement, cela peut-être configuré.
 
-Les catalogues accessibles dans la recherche de catalogues à ajouter prennent en compte le marché du catalogue et celui auquel vous avez accès pour ne proposer que les éléments qui vous intéressent.
+Les catalogues accessibles dans la recherche de catalogues à ajouter prennent en compte le marché du catalogue d'une part et celui auquel vous avez accès d'autre part pour ne proposer que les éléments qui vous intéressent.
 
 - Un nouveau marché _Énergie du bâtiment_, proposant de nouvelles catégories spécifiques, est désormais disponible pour les vendeurs de cheminées et poêles à bois.
 
