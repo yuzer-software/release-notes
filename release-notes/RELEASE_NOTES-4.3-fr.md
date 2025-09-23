@@ -55,7 +55,7 @@ yuzSection Import de Panier
 
 ## Import de contenu dans un panier
 
-Les améliorations permettent d'apporter plus de fluidité dans l'import des fichiers de type _EPC Honda_ et propose un format spécifique pour les fichiers _EPC Kawazaki_ qui ne respectent aucun format proposé.
+Les améliorations permettent d'apporter plus de fluidité dans l'import des fichiers de type _EPC Honda_.
 
 - Le format de fichier sélectionné est conservé même lorsque celui-ci n'est pas cohérent avec l'extension du fichier (Honda EPC expose en effet des csv avec une extension txt).
 - Il est désormais possible d'entrer facilement un séparateur `Tab`
