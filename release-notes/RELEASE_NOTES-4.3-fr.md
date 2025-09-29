@@ -1,5 +1,17 @@
 # October 2025 - Version 4.3
 
+yuzSection 4.3.3 et suivantes
+
+# 29 septembre — Version 4.3.5
+
+Améliorations :
+  - Possibilité de réparer l'état de stock d'un panier "client de passage" après une désynchronisation
+  - L'utilisateur ne peut plus faire l'erreur d'annuler un panier avec du stock livré
+
+Corrections :
+  - Problème de rafraîchissement lors d'un re-placement de commande
+  - Corrections de chargement et de synchronisation des données sur l'analyse des dossiers du réseau
+
 yuzSection Gestion des contacts
 
 ## Distinction des organisations gouvernementales
