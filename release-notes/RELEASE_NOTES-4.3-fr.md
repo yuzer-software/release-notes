@@ -2,6 +2,18 @@
 
 yuzSection 4.3.3 et suivantes
 
+# 29 septembre — Version 4.3.7
+
+Améliorations :
+  - Ajout de vérifications côté UI pour vous éviter des erreurs avec Yuzer Pay
+  - Possibilité de choisir la TVA pour la main d'œuvre
+
+Corrections :
+  - Les catégories sont bien ré-ordonnées (préservant l'ordre d'avant la 4.3)
+  - Correction du sélecteur de pays (on ne pouvait plus choisir que la France)
+  - Les commentaires peuvent à nouveau être agrandis !
+  - Possibilité de détacher un dossier de produit identifié lié à un panier qui n'existerait plus.
+
 # 29 septembre — Version 4.3.5
 
 Améliorations :
