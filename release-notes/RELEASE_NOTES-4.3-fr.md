@@ -2,6 +2,14 @@
 
 yuzSection 4.3.3 et suivantes
 
+# 30 septembre — Version 4.3.8
+
+Améliorations :
+  - Vous pouvez supprimer vos CGV, ce qui permet à une entité d'hériter des CGV de l'entité parente. (Faites attention à ne pas supprimer les CGV de l'entité parente !)
+
+Corrections :
+  - La valeur "exonéré de TVA" d'un contact s'affiche correctement lors de la ré-édition de ce contact.
+
 # 29 septembre — Version 4.3.7
 
 Améliorations :
