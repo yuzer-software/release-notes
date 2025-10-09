@@ -1,6 +1,74 @@
 # October 2025 - Version 4.3
 
-yuzSection 4.3.3 et suivantes
+yuzSection 4.3.9
+
+## Tables
+
+Nous avons fait des améliorations ergonomiques et de performances sur les tables.
+
+  - Le nombre de sous-lignes sur les lignes d'agrégations sont affichées en petit à côté du bouton d'expansion.
+
+![Contact specific fields](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/4_3_9-pinned-row.webp?w=520px)
+
+  - La suppression d'une colonne peut se faire directement depuis le header
+
+![Contact specific fields](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/4_3_9-remove-button.webp?w=200px)
+
+## Dossiers véhicules
+
+### Liste
+
+La liste des véhicules devrait être parfaitement fluide et s'afficher instantanément.
+
+Vous pouvez paramétrer la vue "liste" pour afficher certaines propriétés.
+
+![Contact specific fields](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/4_3_9-dealer-file-list-properties.webp?w=900px)
+
+### Détail
+
+Petite amélioration ergonomique.
+
+## Réceptions
+
+À la clôture d'une réception, vous êtes redirigé vers l'écran de rangement plutôt que vers la liste des réceptions.
+
+## Détail produits
+
+Dans Yuzer, les kits ne sont pas directement stockable, mais c'est leur contenu qui est en stock. Nous avons donc supprimé l'affichage de la "disponibilité" dans le cas des kits pour éviter toute confusion.
+
+Nous avons ajouté le préfixe catalogue aux références produits sur la liste des réservations. Dans le cas du détail produit, si certaines réservations sont pour une référence équivalente, nous le soulignons.
+
+![Contact specific fields](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/4_3_9-reservations-with-prefix.webp?w=520px)
+
+
+## Améliorations diverses
+
+Contacts
+  - Le numéro client est affiché avec une taille normale (elle était petite)
+
+Exports
+  - Les colonnes des export en xlsx ont une largeur mieux adaptée au contenu.
+
+Analytiques
+  - Une formule vide pour la colorisation personnalisée est toujours remplie. Pour mieux le faire comprendre, nous affichons "Sinon" dans ce cas là.
+
+![Contact specific fields](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.3/4_3_9-else.webp?w=220px)
+
+## Corrections
+
+Contacts
+  - Le `mailto` utilise l'adresse du contact!
+
+Analytiques
+  - Correction du calcul du prix total lors d'une réduction appliquée sur le total
+  - La colorisation personnalisée prend le dessus sur les couleurs existantes (cf. marges)
+
+Administration
+  - Possibilité de modifier le service de commande d'un fournisseur
+  - Correction de l'accès aux boutons de désactivation ou réactivation d'un utilisateur
+  - Correction du chargement des détails de votre entité (qui pouvait échouer dans certains cas)
+
+yuzSection 4.3.3 à 4.3.8
 
 # 30 septembre — Version 4.3.8
 
