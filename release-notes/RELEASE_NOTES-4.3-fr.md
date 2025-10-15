@@ -1,5 +1,13 @@
 # October 2025 - Version 4.3
 
+yuzSection 4.3.10 et suiv.
+
+Corrections :
+- Sélecteur de la catégorie de produits dans les règles de tarifications
+- Ouverture du menu pour les garanties de dossiers produits
+- Bugs sur certains historiques de dossiers produits
+- Édition de la marque d'un dossier produit
+
 yuzSection 4.3.9
 
 ## Tables
