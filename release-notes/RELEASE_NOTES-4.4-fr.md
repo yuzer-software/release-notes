@@ -8,13 +8,13 @@ A partir de l'écran `Administration > Gestion du stock`, vous pouvez désormais
 
 ![Default reception configuration](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.4/default-reception-configuration.webp?w=640px)
 
-## Annulation de réservations
+## Annulation de préparations
 
-Nous avons ajouté la possibilité d'annuler des réservations client directement depuis l'écran `Stock > Réservation client`.
+Nous avons ajouté la possibilité d'annuler des préparations clients depuis l'écran `Stock > Réservation client`.
 
-![Cancel reservations](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.4/cancel-reservation-modal.webp?w=480px)
+![Cancel reservations](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.4/cancel-reservations.webp?w=640px)
 
-![Cancel reservations modal](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.4/cancel-reservations.webp?w=640px)
+![Cancel reservations modal](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.4/cancel-reservation-modal.webp?w=480px)
 
 yuzSection Catalogue
 
