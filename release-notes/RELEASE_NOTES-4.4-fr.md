@@ -77,15 +77,17 @@ Concrètement, vous retrouverez vos dossiers vélo ouverts dans le système CUBE
 
 ### Configuration de l'accès
 
-![Cube acess](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.4/catalog-margin-rules.webp?w=640px)
+![Cube acess](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/4.4/cube-access.webp?w=480px)
 
 Nous avons ajouté la possibilité de renseigner votre ID de point de vente.
-Dans le cas où vous auriez plusieurs point de vente, l'ID renseigné définit est utilisé:
+Si vous gérez plusieurs points de vente, l'ID définit:
 
-- sur le placement de commande. L'ID de point de vente définit l'adresse de livraison.
-- lors de la synchronisation des stocks de vélo.
+- l'adresse de livraison utilisée lors du passage de commandes.
+- le point de vente cible pour la synchronisation des stocks de vélos.
 
-Si aucun ID de point de vente n'est défini, c'est le point de vente défini par défaut chez CUBE qui sera utilisé.
+Si aucun ID de point de vente n'est renseigné, celui défini par défaut chez CUBE sera utilisé pour les commandes.
+
+|| Ce champs est touefois obligatoire pour activer la synchronisation des stocks.
 
 yuzSection Général
 
