@@ -1,5 +1,11 @@
 # October 2025 - Version 4.4
 
+yuzSection 4.4.6
+
+## Améliorations
+
+- Vous pouvez désormais filtrer par entités sur le tableau des balances de clients.
+
 yuzSection Stock
 
 ## Définir l'action de préparation client par défaut pour les réceptions
