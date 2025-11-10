@@ -1,10 +1,26 @@
 # October 2025 - Version 4.4
 
-yuzSection 4.4.6
+yuzSection 4.4.6 et suivantes
+
+# 4.4.6
 
 ## Améliorations
 
 - Vous pouvez désormais filtrer par entités sur le tableau des balances de clients.
+
+# 4.4.7 (6 novembre) et 4.4.8 (10 novembre)
+
+- Amélioration de la taille de la colonne "mois" (analytiques)
+- Tables :
+  - correction du rendu lorsque la table a une barre de défilement horizontale
+  - correction du rendu lorsque la table a une hauteur plus grande que celle de l'écran (ce qui peut typiquement se produire si vous définissez un tableau de bord analytiques sur un certain écran puis que vous le consultez sur un autre écran).
+- Purchase invoice :
+  - correction du bouton pour "Corriger le prix d'achat" de *toutes* les réceptions
+ 
+
+## Corrections
+
+
 
 yuzSection Stock
 
