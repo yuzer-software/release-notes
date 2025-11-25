@@ -1,5 +1,14 @@
 # Novembre 2025 - Version 4.5
 
+yuzSection 4.5.4 et suivantes
+
+# 4.5.4
+
+- Correction d'export de table (édition de stock) où la ligne d'en-tête était décalée d'un vers la droite et où une ligne vide pouvait apparaître après les en-têtes.
+- Il est possible d'accéder aux Cerfas des reprises même si l'entité n'a pas le catalogue du produit associé au véhicule.
+- Correction d'un problème de rafraichissement du détail d'un produit (notamment le nom du catalogue) lorsqu'on passait directement d'un produit à l'autre (par exemple avec les "derniers travaux").
+
+
 yuzSection Catalogue
 
 Les catalogues contiennent à la fois des produits et des modèles de paniers.
