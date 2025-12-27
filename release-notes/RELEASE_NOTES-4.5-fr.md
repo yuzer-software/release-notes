@@ -2,6 +2,17 @@
 
 yuzSection 4.5.4 et suivantes
 
+# Application mobile 4.3.2 (Android)
+
+Les scanners externes (type eyoyo) ne fonctionnaient pas toujours bien : il manquait parfois quelques caractères lorsque celui-ci émettait trop rapidement les lettres. Nous avons travaillé dur à l'optimisation des performances dans ces scénarios à travers une nouvelle option.
+
+Nous avons modifié le bouton "changement de mode" pour ouvrir une modale avec les options suivantes :
+  * mode: `caméra` ou `scanner` (ce que faisait le bouton auparavant)
+  * un toggle "Optimisation du scanner externe" exclusivement réservé aux scanners qui émettent le résultat du scan comme s'il s'agissait d'un clavier.
+
+Aussi, comme seulement le caractère "retour à la ligne" ne passait pas, empêchant de valider le texte, nous avons ajouté un bouton "valider quand même" (check vert) : lorsque le scanner affiche le warning "inactif", relisez le code, et s'il est correct, cliquez sur ce bouton pour valider le scan. Sinon, il vous faudra re-scanner comme auparavant.
+
+
 # 4.5.4
 
 - Correction d'export de table (édition de stock) où la ligne d'en-tête était décalée d'un vers la droite et où une ligne vide pouvait apparaître après les en-têtes.
