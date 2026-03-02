@@ -113,11 +113,32 @@ Il en existe deux types:
 - Biométriques: En plus d'un accès physique, une validation biométrique protège la clé. C'est les plus sécurisés puisque leur accès (perte, vol, accès temporaire discret) ne suffit pas à l'attaquant de l'utiliser. C'est le cas des clés de sécurité du trousseau de sécurité macOs ou de Windows Hello par exemple.
 - Physiques: Elles fonctionnent comme les clés de votre maison. Elles sont particulièrement sécurisées (et ne peuvent pas être copiées) mais leur perte ou vol permet à l'attaquant de l'utiliser, un tel scenario doit conduire à la révocation immédiate de la clé par vous même ou l'un de vos administrateurs si vous ne pouvez pas récupérer votre clé.
 
-yuzSection Comptabilité
+yuzSection Audit
 
-Nous avons revu et amélioré notre service de comptabilité.
+Une nouvelle section vous permet de visualiser un historique d'évènements
 
-##
+- Sur les modifications des entités / utilisateurs / licences
+- Sur les connexions.
+
+yuzSection Facturation et Comptabilité
+
+Le service a été fortement amélioré, apportant plus de transparence dans la gestion documentaire et un meilleure alignement avec les meilleure pratique.
+
+# Changements principaux
+
+- Meilleure distinction entre arrhes et acomptes et meilleure gestion de la TVA sur acomptes, avec un support du document de _Facture d'acompte_.
+
+|| Si vous avez des règles d'acompte vous devez les mettre à jour.
+
+- Facture d'avoir partiel pour le retour d'une partie des produits uniquement.
+- Distinction de la séquence de numérotation pour les tickets de caisses et les justificatifs de paiements.
+- Passage immédiat des paiements dans les écritures comptables et non à la clôture de caisse. Celle-ci est utilisée à des fins de validations et pour justifier les encaissements/décaissements sur justificatifs externes.
+- Améliorations des mentions sur les documents édités et sur le suivi de l'historique des documents
+- Améliorations techniques (robustesse, performance et fiabilité)
+
+## Arrhes, acomptes
+
+Pour plus d'informations sur les principes et différences entre Arrhes et acomptes rendez vous [ici](https://support.yuzer.com/fr/article/principes-de-comptabilite-1g2z4ma/#3-avances-arrhes-et-acomptes).
 
 ## Analytiques
 
