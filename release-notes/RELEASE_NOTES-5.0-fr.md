@@ -1,5 +1,11 @@
 # Novembre 2025 - Version 5.0
 
+yuzSection CLIENTS PRO FR
+
+||| ATTENTION: la réforme de la facturation électronique impose que le SIREN soit renseigné pour vos clients pro.
+
+Vous ne pourrez plus facturer ni enregistrer de paiements pour ceux-ci sans que le SIREN soit bien défini dans la fiche client.
+
 yuzSection Authentification
 
 # Principes
@@ -139,6 +145,10 @@ Le service a été fortement amélioré, apportant plus de transparence dans la 
 ## Arrhes, acomptes
 
 Pour plus d'informations sur les principes et différences entre Arrhes et acomptes rendez vous [ici](https://support.yuzer.com/fr/article/principes-de-comptabilite-1g2z4ma/#3-avances-arrhes-et-acomptes).
+
+### Configuration des montants par défaut
+
+YUZER permet de suggérer automatiquement les montants d'Arrhes ou Acomptes en fonction de règles qui peuvent être configurées dans vos configurations de comptabilité:
 
 ## Analytiques
 
