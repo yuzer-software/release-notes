@@ -154,6 +154,35 @@ YUZER permet de suggérer automatiquement les montants d'Arrhes ou Acomptes en f
 
 Nous avons amélioré la redescente du _type de panier_ dans le cas des cessions, qui étaient auparavant toujours catégorisées en "Vente de pièces" ou "Ordre de réparation". Le type de cession n'a pas changé.
 
+yuzSection Yuzer Pay
+
+## Paiement enregistré sans document justificatif
+
+Le flux de génération des documents a été retravaillé afin de garantir une meilleure fiabilité, une meilleure intégrité des données et une plus grande robustesse face aux pannes techniques.
+Désormais, les paiements effectués via terminal sont enregistrés avant la génération du document justificatif associé.
+Il est donc possible qu'un paiement soit enregistré sans que son justificatif ait été généré.
+
+Dans ce cas, un message d'avertissement s'affichera sur l'écran du panier.
+![yp-missing-doc-01-basket-warning](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/5.0/yp-missing-doc-01-basket-warning.webp?w=644px)
+
+Vous devrez alors rouvrir la fenêtre de paiement afin de générer le document correspondant.
+![yp-missing-doc-02-payment-modal](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/5.0/yp-missing-doc-02-payment-modal.webp?w=570px)
+
+Dans l'exemple ci-dessus, vous pouvez choisir d'éditer une facture d'avoir ou une facture standard.
+En effet, le paiement doit obligatoirement être associé à un justificatif, mais à ce stade, vous avez encore le choix du type de document.
+
+A noter que le terminal doit être connecté au poste de paiement. À défaut, le message suivant s'affiche:
+
+![yp-missing-doc-03-other-pos-warning](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/5.0/yp-missing-doc-03-other-pos-warning.webp?w=399px)
+
+||| Vous devez éditer un document justificatif pour le paiement en cours avant de pouvoir en enregistrer un nouveau.
+
+### Exemple
+
+Lorsque vous enregistrez une facture d'avoir, vous validez le paiement sur terminal avant d'arriver sur l'aperçu.
+A ce stade, le paiement est déjà validé mais la facture d'avoir n'a pas encore été générée.
+Si vous quittez la page sans procéder à l'édition du document, vous devrez revenir sur la fenêtre de paiement afin d'éditer la facture d'avoir.
+
 yuzSection Général
 
 ## Améliorations
