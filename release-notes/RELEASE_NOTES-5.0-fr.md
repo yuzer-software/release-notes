@@ -6,7 +6,7 @@ yuzSection Authentification
 
 Vous pouvez désormais configurer des moyens de connexion sécurisés pour vous et vos collaborateurs, et, si vous le souhaitez, forcer ceux-ci afin de garantir que les accès à vos données et celles de vos clients sont protégées comme il se doit.
 
-## Modes de connextion
+## Modes de connexion
 
 En plus de la connexion historique par mot de passe vous pouvez activer une sécurité robuste pour vous et vos collaborateurs en activant les facteurs d'authentification suivants:
 
@@ -15,7 +15,7 @@ En plus de la connexion historique par mot de passe vous pouvez activer une séc
 
 ## Les stratégies de connexion
 
-- Mot de passse uniquement: mode de connexion historique, ce mode de connexion a une sécurité faible. Trop d'utilisateurs enregistrent des mots de passes peu sécurisés, voir connus par différents membre d'équipes.
+- Mot de passe uniquement: mode de connexion historique, ce mode de connexion à une sécurité faible. Trop d'utilisateurs enregistrent des mots de passe peu sécurisés, voire connus par différents membres d'équipes.
 - WebAuthn: Permet une connexion basée sur une clé de sécurité stockée physiquement sur un matériel donné (ordinateur, clé externe, etc.).
 - Mot de passe + TOTP: mode de connexion multifacteur permettant d'ajouter une application d'authentification générant un code d'authentification.
 - Mot de passe + WebAuthn: mode de connexion multifacteur permettant d'ajouter une application clé de sécurité en plus du mot de passe.
@@ -23,7 +23,7 @@ En plus de la connexion historique par mot de passe vous pouvez activer une séc
 
 Seuls les modes activés peuvent-être utilisés par vos collaborateurs pour s'identifier, en fonction de ceux qu'ils ont configuré, et ce à l'exception des deux cas suivants:
 
-- L'utilisateur n'a que sont mot de passe configuré. C'est le **mode dégradé** (voir ci-dessous).
+- L'utilisateur n'a que son mot de passe configuré. C'est le **mode dégradé** (voir ci-dessous).
 - Vous n'avez configuré que la connexion par mot de passe mais un utilisateur a configuré un moyen de connexion plus sécurisé. C'est le **mode augmenté** (voir ci-dessous).
 
 Note: Certaines politiques comme celles basées sur des clés d'accès peuvent nécessiter du temps et des moyens pour être implémentées. C'est pour cela que nous permettons des politiques différentes en fonction de vos entités/magasins.
@@ -31,12 +31,12 @@ Cependant nous recommandons qu'un administrateur de compte, soit responsable de 
 
 ### Mode dégradé
 
-Un utilisateur qui n'a qu'un mot de passe alors qu'un mode plus avancé est obligatoire peut quand même se connecter à son compte mais uniquement si son mot de passe a été renouvellé dans les 15 minutes précédent la connexion. Cela est utile pour:
+Un utilisateur qui n'a qu'un mot de passe alors qu'un mode plus avancé est obligatoire peut quand même se connecter à son compte mais uniquement si son mot de passe a été renouvelé dans les 15 minutes précédant la connexion. Cela est utile pour:
 
 - Permettre à un nouvel utilisateur de se connecter.
 - Permettre à un utilisateur n'ayant pas encore configuré de nouveau moyen d'authentification de se connecter.
 
-Si le mot de passe n'a pas été renouvellé dans les 15 minutes précédentes la connexion échouera. Rendez-vous ci-dessous à la section _Comment Récupérer mon compte_ pour plus d'informations.
+Si le mot de passe n'a pas été renouvelé dans les 15 minutes précédentes la connexion échouera. Rendez-vous ci-dessous à la section _Comment Récupérer mon compte_ pour plus d'informations.
 
 ### Mode augmenté
 
@@ -46,14 +46,14 @@ Si une entité n'a configuré qu'une connexion par mot de passe mais qu'un utili
 
 ## Configurer les modes de connexion de l'entité:
 
-|| Vous devez être administrateur ou administrateur du compte afin de configurer les modes de connexion. Nous recommandons qu'un administratuer de compte effectue ces configurations.
+|| Vous devez être administrateur ou administrateur du compte afin de configurer les modes de connexion. Nous recommandons qu'un administrateur de compte effectue ces configurations.
 
 Rendez-vous dans **administration / utilisateurs**.
 
 Le bouton _Authentification_ vous permet de visualiser la configuration actuelle de la sécurité de l'entité.
 
 - Si le bouton est _jaune_ c'est que l'authentification par mot de passe est configurée et que vos utilisateurs peuvent éventuellement se connecter de manière non-sécurisée s'ils n'ont pas activé d'autres moyens sur leurs comptes.
-- Si le bouton affiche le message _(Configuration héritée de)_ c'est que l'entité ne défini aucun moyen de configuration spécifique et que la configuration est alors récupérée depuis une entitée parente.
+- Si le bouton affiche le message _(Configuration héritée de)_ c'est que l'entité ne définit aucun moyen de configuration spécifique et que la configuration est alors récupérée depuis une entité parente.
 
 En cliquant sur le bouton vous pouvez visualiser et modifier les schémas d'authentifications autorisés pour l'entité:
 
@@ -62,7 +62,7 @@ En cliquant sur le bouton vous pouvez visualiser et modifier les schémas d'auth
 
 ![auth_schemes](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/5.0/auth_schemes.webp?w=415px)
 
-Sur ce même écran, vous pouvez visualiser pour chacun de vos utilisateurs un icone indiquant:
+Sur ce même écran, vous pouvez visualiser pour chacun de vos utilisateurs un icône indiquant:
 
 - ![user-secured](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/5.0/user-secured.webp?w=23px): L'utilisateur a configuré une authentification 2 facteur ou une clé de sécurité
 - ![user-weak](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/5.0/user-weak.webp?w=22px): L'entité autorise la connexion par mot de passe et l'utilisateur n'a qu'un mot de passe configuré
@@ -71,7 +71,7 @@ Sur ce même écran, vous pouvez visualiser pour chacun de vos utilisateurs un i
 
 ## Configurer la connexion à mon compte
 
-Clickez sur votre photo de profil puis _Informations du compte_ dans le menu déroulant.
+Cliquez sur votre photo de profil puis _Informations du compte_ dans le menu déroulant.
 
 ![account_info_btn](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/5.0/account_info_btn.webp?w=231px)
 
@@ -83,11 +83,11 @@ Vous pouvez ici ajouter une sécurité par TOTP à l'aide de votre application d
 
 Si vous devez toujours conserver un mot de passe, vous pouvez également depuis cet écran révoquer votre application de sécurité ou vos clés de sécurité.
 
-**Note**: La mise en place et la connexion par clé de sécurité se fait à travers une redirection vers une page web. Cette méthode nous permet d'accéder de manière sécurisée à votre trousseau d'accès à travers les fonctionalités de votre système d'exploitation.
+**Note**: La mise en place et la connexion par clé de sécurité se fait à travers une redirection vers une page web. Cette méthode nous permet d'accéder de manière sécurisée à votre trousseau d'accès à travers les fonctionnalités de votre système d'exploitation.
 
 ## Comment Récupérer mon compte
 
-||| Les agents support YUZER ne peuvent pas vous aider à la récupération de votre compte. Cela est en effet le seul moyen d'éviter une attaque par ingénérie sociale. En tant qu'administrateur vous devez faire preuve de la même vigilence lorsque vous reconfiguez un mot de passe. Cela ne doit-être effectué qu'en présence physique du collaborateur.
+||| Les agents support YUZER ne peuvent pas vous aider à la récupération de votre compte. Cela est en effet le seul moyen d'éviter une attaque par ingénierie sociale. En tant qu'administrateur vous devez faire preuve de la même vigilance lorsque vous reconfigurez un mot de passe. Cela ne doit-être effectué qu'en présence physique du collaborateur.
 
 ### Si vous avez défini des moyens de connexion sécurisés
 
@@ -100,18 +100,18 @@ Si malgré ces précautions vous perdez l'accès à votre compte, vous pouvez de
 ### Enregistrer un nouveau mot de passe
 
 - Depuis la page de connexion, utilisez _Mot de passe oublié ?_ (celle-ci nécessite que vous ayez un email personnel configuré sur votre compte).
-- Soit lui demander de mettre à jour votre mot de passe si vous n'avez pas d'email personel associé à votre compte.
+- Soit lui demander de mettre à jour votre mot de passe si vous n'avez pas d'email personnel associé à votre compte.
 
 Si votre entité ne permet pas la connexion par mot de passe, vous devez vous connecter dans les **15 minutes** suite à la configuration du nouveau mot de passe pour vous connecter et re-configurer vos moyens de connexion sécurisés.
 
 ## Comment mettre en place une authentification par clé de sécurité
 
-Les clés de sécurité proposent un mode de sécurité basé sur l'accès physique à un objet et son, en ce sens un des moyens de sécurité les plus avancés, similaires au clés de votre maison.
+Les clés de sécurité proposent un mode de sécurité basé sur l'accès physique à un objet et son, en ce sens un des moyens de sécurité les plus avancés, similaires aux clés de votre maison.
 
 Il en existe deux types:
 
 - Biométriques: En plus d'un accès physique, une validation biométrique protège la clé. C'est les plus sécurisés puisque leur accès (perte, vol, accès temporaire discret) ne suffit pas à l'attaquant de l'utiliser. C'est le cas des clés de sécurité du trousseau de sécurité macOs ou de Windows Hello par exemple.
-- Physiques: Elles fonctionnent comme les clés de votre maison. Elles sont particulièrement sécurisées (et ne peuvent pas être copiées) mais leur perte ou vol permet à l'attaquant de l'utiliser, un tel scenario doit conduire à la révocation immédiate de la clé par vous même ou l'un de vos administrateurs si vous ne pouvez pas récupérer votre clé.
+- Physiques: Elles fonctionnent comme les clés de votre maison. Elles sont particulièrement sécurisées (et ne peuvent pas être copiées) mais leur perte ou vol permet à l'attaquant de l'utiliser, un tel scénario doit conduire à la révocation immédiate de la clé par vous-même ou l'un de vos administrateurs si vous ne pouvez pas récupérer votre clé.
 
 yuzSection Audit
 
@@ -122,7 +122,7 @@ Une nouvelle section vous permet de visualiser un historique d'évènements
 
 yuzSection Facturation et Comptabilité
 
-Le service a été fortement amélioré, apportant plus de transparence dans la gestion documentaire et un meilleure alignement avec les meilleure pratique.
+Le service a été fortement amélioré, apportant plus de transparence dans la gestion documentaire et un meilleur alignement avec les meilleures pratiques.
 
 # Changements principaux
 
@@ -142,7 +142,7 @@ Pour plus d'informations sur les principes et différences entre Arrhes et acomp
 
 ## Analytiques
 
-Nous avons amélioré la redescente du _type de panier_ dans le cas des cessions, qui étaient auparavant toujours catégorisés en "Vente de pièces" ou "Ordre de réparation". Le type de cession n'a pas changé.
+Nous avons amélioré la redescente du _type de panier_ dans le cas des cessions, qui étaient auparavant toujours catégorisées en "Vente de pièces" ou "Ordre de réparation". Le type de cession n'a pas changé.
 
 yuzSection Général
 
