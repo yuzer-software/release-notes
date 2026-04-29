@@ -81,7 +81,7 @@ Cliquez sur votre photo de profil puis _Informations du compte_ dans le menu dé
 
 ![account_info_btn](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/5.0/account_info_btn.webp?w=231px)
 
-Rendez vous alors dans l'onglet _Sécurtié et connexion_
+Rendez vous alors dans l'onglet _Sécurité et connexion_
 
 ![account_info_sec](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/5.0/account_info_sec.webp?w=1098px)
 
