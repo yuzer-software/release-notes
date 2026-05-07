@@ -43,6 +43,13 @@ yuzSection Général
 - Amélioration de la recherche des dossiers véhicules : les résultats n'étaient pas toujours triés par pertinence mais par date de création du dossier.
 - Sur l'écran de paiement des paniers par la fiche contact, le total TTC des paniers tient compte des reprises.
 
+### Export de documents comptables
+
+Vous pouviez paramétrer le nom du fichier en fonction de variables horaires, comme le numéro de la semaine. La date utilisée pour formatter le nom du fichier était le jour de l'export, c'est-à-dire le jour _suivant_ la période exportée. Si vous exportiez une semaine donnée, le nom du fichier avait donc le n° de la semaine _suivant_ la semaine exportée. Vous pouvez désormais choisir d'utiliser la date du début de la période exportée.
+
+![billing-export-date](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/5.1/billing-export-date.webp?w=839px)
+
+
 ## Corrections
 
 - Possibilité de retirer un dossier _annulé_ d'un panier
