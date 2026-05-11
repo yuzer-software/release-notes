@@ -1,5 +1,11 @@
 # Novembre 2025 - Version 5.0
 
+yuzSection 5.0.39 et suivants
+
+Corrections
+
+- Correction des données analytiques sur les annulations de cession pré v5 (mars 2026). Les données ont été révoquées automatiquement par la mise à jour. Vous constaterez donc un ralentissement à la première consultation des données analytiques, mais vous n'avez pas besoin de révoquer votre machine.
+
 yuzSection CLIENTS PRO FR
 
 ||| ATTENTION: la réforme de la facturation électronique impose que le SIREN soit renseigné pour vos clients pro.
