@@ -55,6 +55,13 @@ Vous pouviez paramétrer le nom du fichier en fonction de variables horaires, co
 
 ![billing-export-date](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/5.1/billing-export-date.webp?w=839px)
 
+## Facture d'achat
+
+Il est désormais possible de corriger le liens de dossiers alors que la facture d'achat a été validé.
+A noter que seul les liens entre la facture et les dossiers sont mis à jour. Cette opération n'a aucun impact sur les montants de la facture.
+
+![patch-dealer-file-link-with-purchase-invoice](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/5.1/patch-dealer-file-link-with-purchase-invoice.webp?w=1098px)
+
 ## Diverses améliorations
 
 - Sur l'écran de paiement des paniers par la fiche contact, le total TTC des paniers tient compte des reprises.
@@ -71,6 +78,8 @@ yuzSection Général
 - Ajout d'une aide à la saisie du type de code-barres supporté dans l'édition de produit.
 - Ajout de la possibilité de trier les lignes de réception par référence de produit.
 - Il est maintenant possible d'annuler une réception **RÉ-OUVERTE** quand toutes ses lignes sont annulées.
+- L'entrepôt d'une réception peut désormais être modifié. Lors du changement d'entrepôt, les emplacements de stockage renseignés sur les lignes de réception sont automatiquement supprimés afin de garantir la cohérence des données.
+- Les lignes de réceptions sont désormais affichées par ordre chronologique de création.
 
 ### Paniers
 
@@ -100,3 +109,4 @@ yuzSection Général
 
 - Correction du masquage du prix d'achat des équivalences dans la fiche produit.
 - Correction des bugs avec la configuration de filtres rapides dans la recherche de dossier de produits identifiés.
+- Les erreurs provenant l'API de Pennylane sont maintenant affichées de manière plus détaillée.
