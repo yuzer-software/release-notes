@@ -24,13 +24,15 @@ yuzSection Général
 ## Administration
 
 - Il est maintenant possible d'assigner un même numéro comptable pour différents fournisseurs
-- Ajout de la possibilité de configurer l'export comptabilité pour Honda et Suzuki.
+- Ajout de la possibilité de configurer l'export de comptabilité pour Honda et Suzuki.
+- Améliorations et corrections de la configuration des règles de modèles de catalogues afin de la rendre plus ergonomique.
+- Correction de la liste des utilisateurs afin de garantir l'affichage de tous les utilisateurs.
 
 ## Comptabilité
 
 - Affichage de la marque sur les lignes du dossier de produit identifié de la facture d'achat.
 - Amélioration de la configuration des journaux. La configuration des journaux peuvent désormais hériter de l'entité parent. Il est également possible de supprimer un journal.
-- Correction du filtre min-max pour la liste des soldes clients
+- Correction du filtre min-max pour la liste des soldes clients.
 - Amélioration sur les filtres pour le rapprochement de réceptions sur la facture d'achat.
 - Il est désormais possible de mettre à jour la référence d'un numéro de dossier sur une facture d'achat ayant été validée.
 
@@ -42,10 +44,13 @@ yuzSection Général
 
 ## Produits
 
-- Ajout de la catégorie airbag pour les motocycles
-- Correction des conflits lors de la synchronisation de dossiers de produits identifiés
+- Ajout de la catégorie airbag pour les motocycles.
+- Correction des conflits lors de la synchronisation de dossiers de produits identifiés.
 
 ## Divers
 
-- Correction de l'affichage de l'icône de l'utilisateur dans les cellules de tableaux
+- Il est désormais possible de supprimer les réservations de produits inconnus associées à des paniers supprimés (`Stock > Commandes > En attente de commande > Réservations sans produit`).
+- Correction de l'affichage de l'icône de l'utilisateur dans les cellules de tableaux.
 - Correction de certains filtres de prix qui interprétaient les montants exprimés en centimes (valeur × 100).
+- Correction de l'affichage des commentaires longs dans la fenêtre des tâches afin de préserver la mise en page.
+- Correction de l'analytique de stock pour inclure les produits en quantité nulle.
