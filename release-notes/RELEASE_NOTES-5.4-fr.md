@@ -1,5 +1,14 @@
 # Septembre 2026 - Version 5.4
 
+yuzSection Version 5.3
+
+|| La version 5.3 n'ayant pas fait l'objet d'un déploiement distinct, voici les évolutions qu'elle contient
+
+- Amélioration la gestion des codes-barres des produits avec notamment l'ajout d'un système de validation, permettant la création d'équivalences à partir de codes-barres officiels.
+- Améliorations techniques internes visant à renforcer la stabilité, les performances et la maintenabilité de l'application.
+- Ajout d'un message d'erreur plus explicite lors de l'import de produits lorsque des identifiants ou des codes-barres sont au format scientifique.
+- Correction des imports de comptes pour les classes et sous-classes
+
 yuzSection Cartes de fidélité Adelya
 
 Nous avons développé l'intégration pour les cartes de fidélités Adelya.
@@ -14,6 +23,7 @@ yuzSection Général
 ### Catalogue produits
 
 - Il est maintenant possible de faire un import de produits à blanc.
+- Il est désormais possible définir les colonnes de code barres dans l'import de catalogue.
 
 ### Comptabilité
 

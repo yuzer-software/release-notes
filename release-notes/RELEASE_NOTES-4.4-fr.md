@@ -15,12 +15,9 @@ yuzSection 4.4.6 et suivantes
   - correction du rendu lorsque la table a une barre de défilement horizontale
   - correction du rendu lorsque la table a une hauteur plus grande que celle de l'écran (ce qui peut typiquement se produire si vous définissez un tableau de bord analytiques sur un certain écran puis que vous le consultez sur un autre écran).
 - Purchase invoice :
-  - correction du bouton pour "Corriger le prix d'achat" de *toutes* les réceptions
- 
+  - correction du bouton pour "Corriger le prix d'achat" de _toutes_ les réceptions
 
 ## Corrections
-
-
 
 yuzSection Stock
 
@@ -109,7 +106,7 @@ Si vous gérez plusieurs points de vente, l'ID définit:
 
 Si aucun ID de point de vente n'est renseigné, celui défini par défaut chez CUBE sera utilisé pour les commandes.
 
-|| Ce champs est touefois obligatoire pour activer la synchronisation des stocks.
+|| Ce champs est toutefois obligatoire pour activer la synchronisation des stocks.
 
 yuzSection Général
 
