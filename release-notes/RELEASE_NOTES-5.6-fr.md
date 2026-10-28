@@ -1,5 +1,14 @@
 # Octobre 2026 - Version 5.6
 
+yuzSection Version 5.6.10 et suiv.
+
+## Dossiers
+
+Suite à une annulation de facture ou de bon livraison, et dans le cas où le dossier ne serait pas réouvert, il est possible de le faire manuellement depuis la ligne de panier.
+
+![reopen-dealer-file](https://raw.githubusercontent.com/yuzer-software/release-notes/master/release-notes/5.6/reopen-dealer-file.webp?w=139px)
+
+
 yuzSection API
 
 ## Intégration e-commerce
